@@ -1,0 +1,33 @@
+{
+  "title": "&#9700e4Royal Spy",
+  "description": [
+    "§5We must know what they are up to. §lPickpocket a Prospitian Pawn."
+  ],
+  "icon": "kubejs:prospit_plans",
+  "x": 1,
+  "y": 5.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/9700e4_dark_invitation"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:prospit_plans",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

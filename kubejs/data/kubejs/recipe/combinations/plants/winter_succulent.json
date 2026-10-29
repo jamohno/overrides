@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "biomeswevegone:shrub"
+  },
+  "input2": {
+    "item": "minecraft:snow_block"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:winter_succulent"
+}

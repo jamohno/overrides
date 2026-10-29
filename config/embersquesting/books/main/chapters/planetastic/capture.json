@@ -1,0 +1,33 @@
+{
+  "title": "§7>§r Capture",
+  "description": [
+    "§7SPRITE:§r A §5Captcharoid Camera§r takes a ghost image of something.... spooky!",
+    "",
+    "§7SPRITE:§r The alchemiter treats the photo like the real thing, so you can alchemize what's in it without ever owning it!!!"
+  ],
+  "icon": "minestuck:captcharoid_camera",
+  "x": 10.6,
+  "y": 5.2,
+  "deps": {
+    "all": [
+      "planetastic/connect",
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:captcharoid_camera",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:purple_sage"
+  },
+  "sources": [
+    "minecraft:purple_dye",
+    "biomeswevegone:shrub"
+  ]
+}

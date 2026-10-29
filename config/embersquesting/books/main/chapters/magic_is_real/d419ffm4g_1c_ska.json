@@ -1,0 +1,36 @@
+{
+  "title": "&#D419FFM4G-1C.ska",
+  "description": [
+    "&#D419FF§lMagic is real. §rTherefore, a healthy &zGenesis Frog§r should contain a good amount of §dmagic§r. Genetically modifying it's code using &#D419FFM4G-1C.ska§r should work."
+  ],
+  "icon": "kubejs:magicusb",
+  "x": 9.600000000000001,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:magicusb",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 3.0,
+  "shape": "hexagon"
+}

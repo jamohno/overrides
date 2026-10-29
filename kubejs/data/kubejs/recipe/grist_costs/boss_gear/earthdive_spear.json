@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 22000,
+    "minestuck:tar": 8000,
+    "minestuck:amethyst": 1500,
+    "minestuck:diamond": 1000,
+    "minestuck:cobalt": 1000
+  },
+  "ingredient": {
+    "item": "bosses_of_mass_destruction:earthdive_spear"
+  }
+}

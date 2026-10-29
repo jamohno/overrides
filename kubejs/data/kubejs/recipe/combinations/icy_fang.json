@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:packed_ice"
+  },
+  "input2": {
+    "item": "minecraft:bone"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:icy_fang"
+}

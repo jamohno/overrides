@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {
+    "minestuck:zillium": 50
+  },
+  "ingredient": {
+    "item": "minestuck:cutlass_of_zillywair"
+  },
+  "sources": [
+    "minecraft:iron_sword"
+  ]
+}

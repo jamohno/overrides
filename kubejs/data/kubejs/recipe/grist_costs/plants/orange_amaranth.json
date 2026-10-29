@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:orange_amaranth"
+  },
+  "sources": [
+    "biomeswevegone:amaranth",
+    "minecraft:orange_dye"
+  ]
+}

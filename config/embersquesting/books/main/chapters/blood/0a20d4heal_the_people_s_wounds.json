@@ -1,0 +1,50 @@
+{
+  "title": "&#0a20d4HEAL THE PEOPLE'S WOUNDS",
+  "description": [
+    "&#0a20d4GS: ONE THING US BLOOD PLAYERS ARE REALLY GOOD AT IS HELPING PEOPLE OUT.",
+    "",
+    "&#0a20d4GS: LIFE ON YOUR PLANET IS ROUGH. BREW A SPLASH POTION OF HEALING FOR THEIR SICK AND INJURED AND THEY'LL APPRECIATE IT A TON.",
+    "",
+    "&#0a20d4GS: GOOD DEEDS ARE GOOD CONTENT. TRUST ME ON THIS ONE."
+  ],
+  "icon": "minecraft:splash_potion{\"minecraft:potion_contents\":{potion:\"minecraft:healing\"}}",
+  "x": 2.499999999999999,
+  "y": 0.4999999999999998,
+  "deps": {
+    "all": [
+      "blood/0a20d4beginning_your_quest"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:splash_potion",
+      "components": "{\"minecraft:potion_contents\":{potion:\"minecraft:healing\"}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

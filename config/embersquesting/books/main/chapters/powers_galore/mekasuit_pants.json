@@ -1,0 +1,19 @@
+{
+  "title": "Mekasuit Pants",
+  "icon": "mekanism:mekasuit_pants",
+  "x": 23.5,
+  "y": 8.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:mekasuit_pants",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

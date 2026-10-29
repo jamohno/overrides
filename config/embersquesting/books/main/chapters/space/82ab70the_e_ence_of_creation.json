@@ -1,0 +1,46 @@
+{
+  "title": "&#82ab70the eθθence of creation!",
+  "icon": "minecraft:crafter",
+  "x": 2.4499999999999993,
+  "y": 0.7250000000000001,
+  "deps": {
+    "all": [
+      "space/82ab70beginning_your_que_t"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:crafter",
+      "type": "item"
+    },
+    {
+      "item": "create:mechanical_crafter",
+      "count": 10,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

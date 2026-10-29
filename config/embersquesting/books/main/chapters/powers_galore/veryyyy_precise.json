@@ -1,0 +1,21 @@
+{
+  "title": "§3veryyyy precise",
+  "icon": "create:precision_mechanism",
+  "x": 13,
+  "y": 7.4,
+  "deps": {
+    "all": [
+      "powers_galore/deployer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:precision_mechanism",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "lines_out": "hover",
+  "size": 2.0,
+  "shape": "square"
+}

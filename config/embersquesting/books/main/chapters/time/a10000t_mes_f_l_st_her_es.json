@@ -1,0 +1,92 @@
+{
+  "title": "&#a10000T☠mes ☠f L☠st Her☠es",
+  "description": [
+    "june time players can get lore tomes in Time Dungeons and as rare loot from killing underlings"
+  ],
+  "icon": "kubejs:lore_tome_1",
+  "x": 2.0999999999999996,
+  "y": 1.1,
+  "deps": {
+    "all": [
+      "time/a10000shattering_time"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:lore_tome_1",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_2",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_3",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_4",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_5",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_6",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_7",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_8",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_9",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_10",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_11",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:lore_tome_12",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:time_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

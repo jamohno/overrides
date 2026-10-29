@@ -1,0 +1,121 @@
+#Server configuration settings
+[common]
+
+	#General configuration options
+	[common.general]
+		#If true, vehicles will require fuel for them to be driven.
+		fuelEnabled = true
+		#If true, vehicles will take damage.
+		vehicleDamage = true
+		#Allows players to pick up vehicles by crouching and right clicking
+		pickUpVehicles = true
+		#Change the amount of fuel vehicles consumes by multiplying the consumption rate by this factor
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		fuelConsumptionModifier = 1.0
+		#A list of vehicles that are prevented from being crafted in the workstation
+		disabledVehicles = []
+		#A list of fluids that can be used as fuel for vehicles
+		validFuels = ["vehicle:fuelium", "immersiveengineering:biodiesel", "immersivepetroleum:diesel"]
+
+	#Configuration options for trailers
+	[common.trailer]
+		#The distance threshold before the trailer detaches from a vehicle
+		# Default: 6.0
+		# Range: 1.0 ~ 10.0
+		trailerDetachThreshold = 6.0
+		#The amount of ticks to wait before syncing data to clients about the trailer connection. This is important for smooth trailer movement on client side.
+		# Default: 100
+		# Range: > 1
+		trailerSyncCooldown = 100
+		#The amount of ticks to wait before syncing trailer inventory to tracking clients. If the value is set to 0 or less, the inventory will not sync and will save on network usage.
+		# Default: 20
+		# Range: > 1
+		trailerInventorySyncCooldown = 20
+
+	#Configuration options for blocks
+	[common.blocks]
+
+		#Configuration options for Gas Pumps
+		[common.blocks.gas_pump]
+			#The maximum distance before the hose from the gas pump or fluid hose breaks
+			# Default: 10.0
+			# Range: 1.0 ~ 100.0
+			maxHoseDistance = 10.0
+			#The fluid capacity of the gas pump in millibuckets
+			# Default: 50000
+			# Range: > 1
+			gasPumpCapacity = 50000
+
+		#Configuration options for fluid pumps
+		[common.blocks.fluid_pump]
+			#The amount of fluid a pump will transfer each tick
+			# Default: 50
+			# Range: > 1
+			pumpTransferAmount = 50
+			#The fluid capacity of the fluid pump in millibuckets
+			# Default: 500
+			# Range: > 1
+			pumpCapacity = 500
+
+		#Configuration options for fluid extractors
+		[common.blocks.fluid_extractor]
+			#The amount of ticks before fluid is extracted from an item
+			# Default: 600
+			# Range: > 1
+			extractorExtractTime = 600
+			#The fluid capacity of the fluid extractor in millibuckets
+			# Default: 5000
+			# Range: > 1
+			extractorCapacity = 5000
+
+		#Configuration options for fluid mixers
+		[common.blocks.fluid_mixer]
+			#The amount of ticks to mix fluids together
+			# Default: 100
+			# Range: > 1
+			mixerMixTime = 100
+			#The input fluid capacity of the fluid mixer in millibuckets
+			# Default: 5000
+			# Range: > 1
+			mixerInputCapacity = 5000
+			#The output fluid capacity of the fluid mixer in millibuckets
+			# Default: 10000
+			# Range: > 1
+			mixerOutputCapacity = 10000
+
+		#Configuration options for fuel drums
+		[common.blocks.fuel_drum]
+			#The fluid capacity of the fuel drum in millibuckets
+			# Default: 40000
+			# Range: > 1
+			fuelDrumCapacity = 40000
+			#The fluid capacity of the industrial fuel drum in millibuckets
+			# Default: 75000
+			# Range: > 1
+			industrialFuelDrumCapacity = 75000
+
+	#Configuration options for items
+	[common.items]
+
+		#Configuration options for jerry cans
+		[common.items.jerry_can]
+			#The fluid capacity of the jerry can in millibuckets
+			# Default: 5000
+			# Range: > 1
+			jerryCanCapacity = 5000
+			#The fluid capacity of the industrial jerry can in millibuckets
+			# Default: 15000
+			# Range: > 1
+			industrialJerryCanCapacity = 15000
+			#The amount of fluid transferred when pouring or filling a jerry can
+			# Default: 500
+			# Range: > 1
+			fillRate = 500
+
+		#Configuration options for spray cans
+		[common.items.spray_can]
+			#The amount of sprays before a spray can becomes empty
+			# Default: 20
+			# Range: > 1
+			sprayCanCapacity = 20

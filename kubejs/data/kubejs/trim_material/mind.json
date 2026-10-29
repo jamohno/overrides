@@ -1,0 +1,6 @@
+{
+  "asset_name": "mind",
+  "description": {"text": "Mind", "color": "#3ba359"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.08
+}

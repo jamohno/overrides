@@ -1,0 +1,60 @@
+{
+  "title": "&z♫ Lichy Road ♫",
+  "description": [
+    "by The Liches",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/lich.png",
+      "type": "image"
+    },
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "&#8675FF1. Come Be Liches Together",
+    "&#8675FF2. Somelich",
+    "&#8675FF3. Maxwell's Evil Laughter",
+    "&#8675FF4. Oh! Death",
+    "&#8675FF5. Lich's Garden",
+    "&#8675FF6. I Want You (She's So Decrepit)",
+    "&#8675FF7. Here Comes The Will",
+    "&#8675FF8. Because I'm A Lich",
+    "&#8675FF9. You Never Give Me Your Life Force",
+    "&#8675FF10. Death King",
+    "&#8675FF11. Mean Mr Mortuary",
+    "&#8675FF12. Passing Away Pam",
+    "&#8675FF13. She Came Out Through The Burial Site",
+    "&#8675FF14. Unwaking Slumbers",
+    "&#8675FF15. Carry That Coffin",
+    "&#8675FF16. The End For Real",
+    "&#8675FF17. Her Royal Majesty (Is Dead)"
+  ],
+  "icon": "kubejs:textures/item/lich.png",
+  "x": 17.5,
+  "y": 3.25,
+  "deps": {
+    "all": [
+      "godtok/zwhat_are_you_listening_to"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:lich",
+      "count": 20,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "repeat": {},
+  "lines_in": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

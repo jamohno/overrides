@@ -1,0 +1,50 @@
+{
+  "title": "&#a64d9awraTh",
+  "description": [
+    "&#a64d9aRG: brew a poTion of sTrengTh. you'll need some blaze powder.",
+    "",
+    "&#a64d9aRG: noT ThaT you need The poTion. well. you mighT",
+    "",
+    "&#a64d9aRG: i never used one in The ring. never had To —B)"
+  ],
+  "icon": "minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:strength\"}}",
+  "x": 3.1999999999999993,
+  "y": 0.6000000000000001,
+  "deps": {
+    "all": [
+      "rage/a64d9agrounding_yourself"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:potion",
+      "components": "{\"minecraft:potion_contents\":{potion:\"minecraft:strength\"}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ruthlessGanef\",\"color\":\"#A64D9A\"},{\"text\":\" [\"},{\"text\":\"RG\",\"color\":\"#A64D9A\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

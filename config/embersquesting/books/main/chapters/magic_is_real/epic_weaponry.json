@@ -1,0 +1,31 @@
+{
+  "title": "§dEpic Weaponry",
+  "x": 13.4,
+  "y": 3.8,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(item_tag(minecraft:enchantable/weapon) mod(hazennstuff))",
+      "type": "item",
+      "title": "Epic Weapon"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

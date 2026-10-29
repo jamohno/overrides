@@ -1,0 +1,33 @@
+{
+  "title": "&#bf9000ascension~!!♪",
+  "icon": "kubejs:hope3",
+  "x": 1.2249999999999996,
+  "y": 1.5499999999999998,
+  "deps": {
+    "all": [
+      "hope/bf9000inspiring_the_masses"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:eye_of_ascension",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "complete": "any",
+  "size": 0.75,
+  "shape": "square"
+}

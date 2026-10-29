@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:japanese_orchid"
+  },
+  "sources": [
+    "minecraft:poppy",
+    "minecraft:pink_wool"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:iris"
+  },
+  "sources": [
+    "minecraft:poppy",
+    "minecraft:purple_carpet"
+  ]
+}

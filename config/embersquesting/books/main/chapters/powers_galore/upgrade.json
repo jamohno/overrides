@@ -1,0 +1,19 @@
+{
+  "title": "Upgrade",
+  "x": 10.4,
+  "y": 6.9,
+  "deps": {
+    "all": [
+      "powers_galore/plane"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "immersive_aircraft:upgrades",
+      "type": "item",
+      "title": "Upgrade"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

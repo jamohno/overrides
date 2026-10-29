@@ -1,0 +1,46 @@
+{
+  "title": "&#b4eb54feeling the air~",
+  "description": [
+    "&#b4eb54FR: a glider, an elytra-lite... an e-lite-tra! ah, i am not good at these.. how do you say.. punnes",
+    "",
+    "&#b4eb54FR: be free, mon petit pain!"
+  ],
+  "icon": "vc_gliders:paraglider_diamond",
+  "x": 2.6000000000000014,
+  "y": 0.13749999999999996,
+  "deps": {
+    "all": [
+      "breath/b4eb54commence_your_quest"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "vc_gliders:paraglider_diamond",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"flippantRockstarring\",\"color\":\"#B4EB54\"},{\"text\":\" [\"},{\"text\":\"FR\",\"color\":\"#B4EB54\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

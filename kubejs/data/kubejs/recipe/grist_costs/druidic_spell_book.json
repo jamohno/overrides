@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 160,
+    "minestuck:iodine": 100,
+    "minestuck:caulk": 80,
+    "minestuck:cobalt": 60,
+    "minestuck:chalk": 60,
+    "minestuck:amber": 40
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:druidic_spell_book"
+  }
+}

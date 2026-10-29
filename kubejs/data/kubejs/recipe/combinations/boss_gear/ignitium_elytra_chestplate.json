@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "cataclysm:ignitium_chestplate"
+  },
+  "input2": {
+    "item": "minecraft:elytra"
+  },
+  "mode": "or",
+  "output": "cataclysm:ignitium_elytra_chestplate"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 28000,
+    "minestuck:tar": 10000,
+    "minestuck:uranium": 2500,
+    "minestuck:rust": 2000,
+    "minestuck:mercury": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:laser_gatling"
+  }
+}

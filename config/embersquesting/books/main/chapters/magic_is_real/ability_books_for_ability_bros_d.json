@@ -1,0 +1,30 @@
+{
+  "title": "§dABILITY BOOKS FOR ABILITY BROS :D",
+  "x": 4.4,
+  "y": 5.4,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "irons_spellbooks:add_to_lectern_and_bookshelf",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

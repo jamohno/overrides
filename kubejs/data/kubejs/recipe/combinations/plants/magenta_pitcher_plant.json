@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:pitcher_plant"
+  },
+  "input2": {
+    "item": "minecraft:magenta_dye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:magenta_pitcher_plant"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "&zGenesis",
+  "description": [
+    "§7>§f BREED A HEALTHY FROG PLEASE",
+    "§7> §rUsing items gained as a testament to your personal development in playing §aSburb§r, you should be able to encode this development to genetically modify the §aParadox Slime§r of your &zGenesis Frog§r.",
+    "",
+    "§7> §rPress the button on top of the Sequencer once all 4 are placed inside."
+  ],
+  "icon": "verseworks:hyper_dust",
+  "x": 5.5,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "the_veil/can_you_spell_dna"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:alchemizeusb",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:explorationusb",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:techusb",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:magicusb",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:hyper_dust",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

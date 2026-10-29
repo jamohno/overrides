@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:grass_block"
+  },
+  "input2": {
+    "item": "biomeswevegone:white_dacite"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:white_overgrown_dacite"
+}

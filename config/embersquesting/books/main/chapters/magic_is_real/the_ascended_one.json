@@ -1,0 +1,32 @@
+{
+  "title": "§dThe Ascended One",
+  "icon": "discerning_the_eldritch:ascended_key",
+  "x": 14.700000000000001,
+  "y": 9.600000000000001,
+  "deps": {
+    "all": [
+      "magic_is_real/cultists",
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "discerning_the_eldritch:ascended_key",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 3.0,
+  "shape": "hexagon"
+}

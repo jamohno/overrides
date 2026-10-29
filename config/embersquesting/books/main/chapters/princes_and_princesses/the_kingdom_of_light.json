@@ -1,0 +1,50 @@
+{
+  "title": "§6The Kingdom of Light",
+  "description": [
+    "§7Crouch + Interacting§r with a Bed prompts you to select your Lunar Sway and begin §6DREAMING§r.",
+    "",
+    "While dreaming, you can not break or place blocks directly, but can interact with the world around you.",
+    "",
+    "To stop dreaming, you can §7Crouch for 5 seconds§r, or §7Crouch + Interact§r with a Bed.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "§6Prospit§r, also known as the §6Kingdom of Light§r, is one of the two kingdoms in the Incipisphere. Prospit wages an unending battle against the §5Dark Kingdom§r, §5Derse§r, protecting Skaia from the Dersite army, which seeks to activate §8The Reckoning§r and destroy it. This battle is one that Prospit is always destined to lose.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "Lunar Sway: §6Prospit§r ",
+    "",
+    "Marked by a flexible optimism, the personalities of Prospit Dreamers are reactive and intuitive. They naturally exist in the present, rather than look to the future or obsess over the past. When making decisions Prospit Dreamers tend to rely on gut instinct and whatever emotions they are experiencing at the moment. This makes them quick to act and reliable in a crisis, but it also can make them capricious. They have trouble thinking things through, and their feelings toward specific situations and decisions can change from day to day. They solve problems with creativity rather than cold logic, often seeing multiple options with ease and clarity. Because they generally take things as they come, Prospit Dreamers are less rebellious than they are adaptable-instead of struggling against authority, they will find a way to coexist with it. Possibly because they are so instinctual and flexible, they like having a defined set of rules-a safety net for their passionate lives. Naturally trusting, they have trouble with deception or hiding their true selves, and will often worry about what others think of them. The self they project into the world is often not under their control."
+  ],
+  "icon": "minestuck:textures/environment/prospit.png",
+  "x": 12.25,
+  "y": 0.75,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "minestuck:prospit",
+      "type": "location",
+      "title": "§7>§r Sleep",
+      "icon": "minestuck:prospit_shirt"
+    }
+  ],
+  "rewards": [
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

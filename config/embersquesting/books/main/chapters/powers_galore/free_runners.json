@@ -1,0 +1,19 @@
+{
+  "title": "Free Runners",
+  "icon": "mekanism:free_runners",
+  "x": 22.5,
+  "y": 7.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:free_runners",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "&#b4eb54Liberté Above All",
+  "description": [
+    "-- &#b4eb54flippantRockstarring [FR]§r has created the memo LIBERTÉ_POUR_TOI --",
+    "&#b4eb54FR: well well well, enchanté, or have we spoquen before? alors, i forgette! life moves so fast, like grains of sand bouncing along a desertte...",
+    "",
+    "&#b4eb54FR: our aspeques are aligned, hero of breath, so i will be your guide~ allez!",
+    "-- &#b4eb54FR§r Closed Memo --"
+  ],
+  "icon": "kubejs:fr_chat",
+  "x": 0.75,
+  "y": 0.125,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"breath\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"flippantRockstarring\",\"color\":\"#B4EB54\"},{\"text\":\" [\"},{\"text\":\"FR\",\"color\":\"#B4EB54\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

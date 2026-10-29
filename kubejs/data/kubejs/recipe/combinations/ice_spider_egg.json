@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:sniffer_egg"
+  },
+  "input2": {
+    "item": "minecraft:spider_eye"
+  },
+  "mode": "or",
+  "output": "irons_spellbooks:ice_spider_egg"
+}

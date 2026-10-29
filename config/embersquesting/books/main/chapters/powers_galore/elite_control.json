@@ -1,0 +1,30 @@
+{
+  "title": "Elite Control",
+  "x": 16.9,
+  "y": 3.9,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family",
+      "powers_galore/advanced_control"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:elite_control_circuit",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

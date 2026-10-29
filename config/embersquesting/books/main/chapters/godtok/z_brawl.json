@@ -1,0 +1,60 @@
+{
+  "title": "&z♬ brawl ♬",
+  "description": [
+    "by Frank Ogre",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/ogre.png",
+      "type": "image"
+    },
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "&#8675FF1. Ogre Shoes",
+    "&#8675FF2. Moss",
+    "&#8675FF3. Green + Gray",
+    "&#8675FF4. Be Big",
+    "&#8675FF5. Sologre",
+    "&#8675FF6. Skaialine To",
+    "&#8675FF7. Self Control (I Have None)",
+    "&#8675FF8. Good Ogre",
+    "&#8675FF9. Sburban Nights",
+    "&#8675FF10. Sologre (Reprise)",
+    "&#8675FF11. Pretty Gristy",
+    "&#8675FF12. Medium Story",
+    "&#8675FF13. Close to Your House",
+    "&#8675FF14. White Tusks",
+    "&#8675FF15. Ogrefried",
+    "&#8675FF16. Gatespeed",
+    "&#8675FF17. Skaia Free"
+  ],
+  "icon": "kubejs:textures/item/ogre.png",
+  "x": 12,
+  "y": 6.75,
+  "deps": {
+    "all": [
+      "godtok/zwhat_are_you_listening_to"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:ogre",
+      "count": 60,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "repeat": {},
+  "lines_in": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

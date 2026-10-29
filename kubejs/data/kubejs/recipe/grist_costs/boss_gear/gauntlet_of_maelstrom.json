@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 40000,
+    "minestuck:caulk": 12000,
+    "minestuck:amber": 10000,
+    "minestuck:amethyst": 2500,
+    "minestuck:quartz": 2000,
+    "minestuck:marble": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:gauntlet_of_maelstrom"
+  }
+}

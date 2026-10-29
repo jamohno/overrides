@@ -1,0 +1,30 @@
+{
+  "title": "Polished Rose Quartz",
+  "icon": "create:polished_rose_quartz",
+  "x": 13.4,
+  "y": 2.9,
+  "deps": {
+    "all": [
+      "powers_galore/1_warned_y0u_about_that_escalator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:polished_rose_quartz",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

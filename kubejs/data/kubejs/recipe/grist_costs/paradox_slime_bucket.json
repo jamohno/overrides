@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "kubejs:paradox_slime_bucket"
+  },
+  "sources": [
+    "minecraft:bucket",
+    "minecraft:slime_block"
+  ]
+}

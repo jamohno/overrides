@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 26000,
+    "minestuck:tar": 10000,
+    "minestuck:rust": 2500,
+    "minestuck:mercury": 1500,
+    "minestuck:garnet": 800
+  },
+  "ingredient": {
+    "item": "cataclysm:meat_shredder"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "&#7700ffDestroying Your Enemies :)",
+  "description": [
+    "&#7700ffBJ: an ultimate laser turret. so things stay away from wherever you are :)",
+    "",
+    "&#7700ffBJ: i like knowing whats coming before it gets there :)",
+    "",
+    "&#7700ffBJ: most people dont look :)"
+  ],
+  "icon": "mekanism_turrets:ultimate_laser_turret",
+  "x": 2.7749999999999995,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "mind/7700ffdata_computing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism_turrets:ultimate_laser_turret",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"backsideJotter\",\"color\":\"#7700FF\"},{\"text\":\" [\"},{\"text\":\"BJ\",\"color\":\"#7700FF\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

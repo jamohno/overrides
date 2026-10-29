@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 12000,
+    "minestuck:tar": 5000,
+    "minestuck:sulfur": 1000,
+    "minestuck:garnet": 600
+  },
+  "ingredient": {
+    "item": "cataclysm:blazing_grips"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Filing Cabinet",
+  "icon": "toms_storage:filing_cabinet",
+  "x": 2.75,
+  "y": 7,
+  "deps": {
+    "all": [
+      "powers_galore/2_inventory_2_furious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:filing_cabinet",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

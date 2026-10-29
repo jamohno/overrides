@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:pink_anemone"
+  },
+  "sources": [
+    "minecraft:pink_dye",
+    "minecraft:cornflower"
+  ]
+}

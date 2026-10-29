@@ -1,0 +1,19 @@
+{
+  "title": "Camera Stand",
+  "icon": "exposure:camera_stand",
+  "x": 0.6999999999999993,
+  "y": 8,
+  "deps": {
+    "all": [
+      "powers_galore/developed_color_film"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "exposure:camera_stand",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

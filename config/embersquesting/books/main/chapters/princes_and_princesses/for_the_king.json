@@ -1,0 +1,37 @@
+{
+  "title": "§6For The King!",
+  "description": [
+    "§6§oYou must be hungry. I've left a cake in your kitchen for you to enjoy when you can.",
+    "",
+    "§6§oNow, there are dangerous times ahead, Your Highness. The Kingdom of Light requires your assistance. Please enjoy your food if you wish, and respond hastily to my subsequent correspondence."
+  ],
+  "icon": "minestuck:moon_cake{\"minecraft:custom_name\":'\"FMF\\'s Treat\"'}",
+  "x": 1,
+  "y": 2.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/your_highness"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minestuck:moon_cake",
+      "components": "{\"minecraft:custom_name\":'\"FMF\\'s Treat\"'}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

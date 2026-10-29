@@ -1,0 +1,41 @@
+{
+  "title": "&#43587dNothing to Worry About",
+  "description": [
+    "-- &#43587ddredgedHermit [DH]§r has created the memo SORRY_IF_THIS_IS_A_BAD_TIME --",
+    "&#43587dDH: oh... hello.",
+    "",
+    "&#43587dDH: i was watching you on my screen before... and now i have been told to message you...",
+    "",
+    "&#43587dDH: we share an aspect... the aspect of void. it is not one of the good ones i fear.",
+    "",
+    "&#43587dDH: you may be in for a bad time",
+    "-- &#43587dDH§r Closed Memo --"
+  ],
+  "icon": "kubejs:dh_chat",
+  "x": 0.25,
+  "y": 1,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"void\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

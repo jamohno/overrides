@@ -1,0 +1,55 @@
+{
+  "title": "&#a64d9athe hiT lisT",
+  "description": [
+    "&#a64d9aRG: heres The lisT. in order. an imp, a consorT, a priesT, a pyromancer, an apoThecarisT, an elecTromancer, an archevoker",
+    "",
+    "&#a64d9aRG: kill Them in ThaT order or iT doesnT counT. you geT a noTe each Time",
+    "",
+    "&#a64d9aRG: seven. donT Think abouT iT Too hard",
+    "",
+    "&#a64d9aRG: ThaTs how i goT Through our session. didnT Think abouT iT. didnT end greaT. probably shouldnT Tell you thaT."
+  ],
+  "icon": "kubejs:completed_hit",
+  "x": 2.375,
+  "y": 1.425,
+  "deps": {
+    "all": [
+      "rage/a64d9athe_beast_within_you"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:completed_hit",
+      "count": 7,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ruthlessGanef\",\"color\":\"#A64D9A\"},{\"text\":\" [\"},{\"text\":\"RG\",\"color\":\"#A64D9A\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:rage_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "cataclysm:gauntlet_of_guard"
+  },
+  "input2": {
+    "item": "cataclysm:sandstorm_in_a_bottle"
+  },
+  "mode": "or",
+  "output": "cataclysm:gauntlet_of_maelstrom"
+}

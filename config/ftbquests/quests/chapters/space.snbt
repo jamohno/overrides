@@ -1,0 +1,508 @@
+{
+	autofocus_id: "4085F5992470344A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 0.75d
+	filename: "space"
+	group: "299E7FAB59E52A5B"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/deamatrona"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "35931C3DF4BF915B"
+	images: [
+		{
+			height: 20.76923076923077d
+			id: "1E4F7DEC95341193"
+			image: "kubejs:item/deamatronabrowser"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.456896551724138d
+			id: "4F500F6877DCA2B3"
+			image: "kubejs:item/stpester"
+			rotation: 0.0d
+			width: 5.0d
+			x: -9.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:st_chat"
+			}
+			icon_scale: 1.75d
+			id: "532FEB7789B1D84A"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1086895CBE058B44"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "325F0B7CC351911D"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "none"
+			size: 0.9d
+			tasks: [{
+				id: "703C5D2BDD46CCC5"
+				item: { components: { "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"space\"}"] }, count: 1, id: "kubejs:inventory_upgrade" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -10.40625d
+			y: 1.6875d
+		}
+		{
+			dependencies: ["532FEB7789B1D84A"]
+			id: "7501C829A46A8915"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "355C1E4DCD5B8385"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "316F557CA280CFF5"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "432FA51B51801ADE"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "139DD7CC2700133E"
+				item: { count: 1, id: "minestuck:space_aspect_sapling" }
+				type: "item"
+			}]
+			x: -9.450000000000001d
+			y: 1.725d
+		}
+		{
+			dependencies: ["7501C829A46A8915"]
+			id: "4085F5992470344A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C91F30081B66B38"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "62D6F576AE5292FF"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7EB7AE51B6A02871"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "409EB1981BD83F5E"
+					item: { count: 1, id: "minecraft:crafter" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "30FDD389B829B445"
+					item: { count: 1, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+			]
+			x: -8.55d
+			y: 1.725d
+		}
+		{
+			dependencies: ["4085F5992470344A"]
+			icon: {
+				id: "minestuck:frog"
+			}
+			id: "37B646A65537DADC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "165F52B0DB8FDDAB"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4151E19AC3C01C61"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "044CCA3516C0157A"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "42B82346AEC3176B"
+					item: { count: 1, id: "minestuck:bug_net" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "62BC60EBF133A18C"
+					item: { count: 1, id: "minestuck:frog" }
+					type: "item"
+				}
+			]
+			x: -7.575000000000001d
+			y: 1.725d
+		}
+		{
+			dependencies: ["37B646A65537DADC"]
+			id: "0639DB5C8202061C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20D1928AA4519350"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4F487942C05D0F63"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1BF3E304A1407892"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				advancement: "create:portable_storage_interface"
+				criterion: ""
+				id: "1EEC5A0B47F23C27"
+				type: "advancement"
+			}]
+			x: -7.575000000000001d
+			y: 2.5500000000000003d
+		}
+		{
+			dependencies: ["0639DB5C8202061C"]
+			id: "7DD63E991CEE6EA2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13BE537475C8837B"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5C640FA908B9CC57"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1E421F6193728C8B"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "6EA4445B8142404D"
+					item: {
+						count: 1
+						id: "kubejs:space_scroll"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 5"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "051031C5D9128B1C"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "21A2178B31DC461D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minestuck:cutlass_of_zillywair)item(minestuck:thistle_of_zillywich)item(minestuck:zillyhoo_hammer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.55d
+			y: 2.5500000000000003d
+		}
+		{
+			dependencies: ["7DD63E991CEE6EA2"]
+			icon: {
+				id: "kubejs:space5"
+			}
+			id: "5648B2A0051F8D51"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33670C7BDFF76D17"
+				table_id: 9204769792351976345L
+				type: "random"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "702F5499E4868981"
+					item: { count: 1, id: "kubejs:eye_of_ascension" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28C730015C5AE7AF"
+					item: { count: 1, id: "kubejs:divine_note" }
+					type: "item"
+				}
+			]
+			x: -9.450000000000001d
+			y: 2.5500000000000003d
+		}
+		{
+			dependencies: ["7DD63E991CEE6EA2"]
+			id: "7775CDFF698A3CD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F71A46A6BF8A848"
+				table_id: 9204769792351976345L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "54DC512884577935"
+				item: { count: 1, id: "kubejs:space_choice" }
+				type: "item"
+			}]
+			x: -10.425d
+			y: 2.5500000000000003d
+		}
+		{
+			dependencies: ["7775CDFF698A3CD8"]
+			id: "5FFA4471251A0BEF"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "27075AB8FEB074CD"
+					table_id: 6979422625815503069L
+					type: "choice"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "7F99FCD0A393F84B"
+					table_id: 6979422625815503069L
+					type: "choice"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "2F4D4AFAEFC8A2E2"
+					table_id: 6979422625815503069L
+					type: "choice"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "618621086640AA83"
+					table_id: 6979422625815503069L
+					type: "choice"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "61AEFFED755AF37B"
+					table_id: 6979422625815503069L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "4234CA03EB0E3C57"
+				item: { components: { "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"Verse Chooser\"}"] }, count: 1, id: "verseworks:blank_verse" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -10.7d
+			y: 2.85d
+		}
+	]
+}

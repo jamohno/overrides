@@ -1,0 +1,30 @@
+{
+  "title": "Basic Inventory Hopper",
+  "icon": "toms_storage:basic_inventory_hopper",
+  "x": 3.75,
+  "y": 6,
+  "deps": {
+    "all": [
+      "powers_galore/2_inventory_2_furious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:basic_inventory_hopper",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

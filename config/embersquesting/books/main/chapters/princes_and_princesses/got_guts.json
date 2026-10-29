@@ -1,0 +1,33 @@
+{
+  "title": "§5Got Guts?",
+  "description": [
+    "§5§oWe got some worthless pawns in the prisons here. I don't need 'em anymore. Take 'em out. &#FF03FE32, 85, 275§5."
+  ],
+  "x": 3,
+  "y": 7.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/shady_transaction"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:prospitian_pawn",
+      "count": 20,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

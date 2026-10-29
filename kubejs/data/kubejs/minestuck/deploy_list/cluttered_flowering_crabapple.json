@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "cost": [ { "grist": { "minestuck:build": 4 } } ],
+      "item": { "count": 1, "id": "cluttered:flowering_crabapple_log" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "cluttered:flowering_crabapple_planks" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:flowering_crabapple_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "cluttered:flowering_crabapple_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:flowering_crabapple_fence" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:flowering_crabapple_door" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:flowering_crabapple_trapdoor" }
+    }
+  ],
+  "priority": 5
+}

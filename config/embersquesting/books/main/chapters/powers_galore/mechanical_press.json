@@ -1,0 +1,30 @@
+{
+  "title": "Mechanical Press",
+  "icon": "create:mechanical_press",
+  "x": 11.4,
+  "y": 2.9,
+  "deps": {
+    "all": [
+      "powers_galore/andesite_casing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:mechanical_press",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

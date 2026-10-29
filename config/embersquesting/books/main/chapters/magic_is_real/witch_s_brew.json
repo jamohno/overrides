@@ -1,0 +1,31 @@
+{
+  "title": "§dWITCH'S BREW",
+  "icon": "irons_spellbooks:alchemist_cauldron",
+  "x": 7.2,
+  "y": 10.8,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:alchemist_cauldron",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

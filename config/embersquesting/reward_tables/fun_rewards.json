@@ -1,0 +1,55 @@
+{
+  "title": "Fun Rewards",
+  "options": [
+    {
+      "item": "a_man_with_plushies:plush_box",
+      "type": "item",
+      "weight": 40
+    },
+    {
+      "item": "a_man_with_plushies:golden_plush_box",
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "simplehats:hatbag_common",
+      "type": "item",
+      "weight": 40
+    },
+    {
+      "item": "simplehats:hatbag_uncommon",
+      "type": "item",
+      "weight": 30
+    },
+    {
+      "item": "simplehats:hatbag_rare",
+      "type": "item",
+      "weight": 20
+    },
+    {
+      "item": "simplehats:hatbag_epic",
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "simplehats:hatbag_easter",
+      "type": "item",
+      "weight": 5
+    },
+    {
+      "item": "simplehats:hatbag_summer",
+      "type": "item",
+      "weight": 5
+    },
+    {
+      "item": "simplehats:hatbag_halloween",
+      "type": "item",
+      "weight": 5
+    },
+    {
+      "item": "simplehats:hatbag_festive",
+      "type": "item",
+      "weight": 5
+    }
+  ]
+}

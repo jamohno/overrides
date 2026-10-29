@@ -1,0 +1,45 @@
+{
+  "title": "&#069a97¶ Fortune's Favor",
+  "description": [
+    "-- &#069a97tortfeasorsKatabasis [TK]§r has created the memo DELTA_XI_DELTA_INITIATION --",
+    "&#069a97TK: ¶ Wow.",
+    "",
+    "&#069a97TK: ¶ Just wow.",
+    "",
+    "&#069a97TK: ¶ Watching you fumble of those last few machines maδe me retch, and I δon't even δo that δuδe.",
+    "",
+    "&#069a97TK: ¶ Whatever. We'll work on your timing and clearly wiggler level understanδing of the game soon enough.",
+    "",
+    "&#069a97TK: ¶ You're a light player. As am I. Anδ that means fortune is always on our siδe.",
+    "",
+    "&#069a97TK: ¶ Training begins now.",
+    "-- &#069a97TK§r Closed Memo --"
+  ],
+  "icon": "kubejs:tk_chat",
+  "x": 0.625,
+  "y": 0.375,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"light\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"tortfeasorsKatabasis\",\"color\":\"#069A97\"},{\"text\":\" [\"},{\"text\":\"TK\",\"color\":\"#069A97\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "&#824d18Fate's Chosen Sufferer",
+  "description": [
+    "-- &#824d18unctuousUndertaking [UU]§r has created the memo CAN_WE_GET_THIS_OVER_WITH_I_WAS_BUSY --",
+    "&#824d18UU: so ↺h, looks like yo↺ve finally entered. took yo↺ long eno↺gh ★_★ now we can finally get this over with",
+    "",
+    "&#824d18UU: as yo↺ can probably tell, your land is all kind of messed ↺p. this is typical for Doom Players, mine was m↺ch of the same.",
+    "",
+    "&#824d18UU: ill be yo↺r g↺ide or whatever for the d↺ration of this. or atleast thats what shes telling me to do.",
+    "--  Closed Memo --"
+  ],
+  "icon": "kubejs:uu_chat",
+  "x": 0.75,
+  "y": 0.625,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"doom\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"unctuousUndertaking\",\"color\":\"#824D18\"},{\"text\":\" [\"},{\"text\":\"UU\",\"color\":\"#824D18\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

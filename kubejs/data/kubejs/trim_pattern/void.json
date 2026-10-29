@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:void",
+  "description": {"text": "Void"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

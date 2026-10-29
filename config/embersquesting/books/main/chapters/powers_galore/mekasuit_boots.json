@@ -1,0 +1,19 @@
+{
+  "title": "Mekasuit Boots",
+  "icon": "mekanism:mekasuit_boots",
+  "x": 23.5,
+  "y": 9.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:mekasuit_boots",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

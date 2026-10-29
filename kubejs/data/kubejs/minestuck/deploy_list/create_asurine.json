@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:asurine" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:asurine_pillar" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine_brick_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine_brick_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine_brick_wall" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine_bricks" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:cut_asurine_wall" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:layered_asurine" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:polished_cut_asurine" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:polished_cut_asurine_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:polished_cut_asurine_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:polished_cut_asurine_wall" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:small_asurine_brick_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:small_asurine_brick_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "create:small_asurine_brick_wall" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "create:small_asurine_bricks" }
+    }
+  ],
+  "priority": 4
+}

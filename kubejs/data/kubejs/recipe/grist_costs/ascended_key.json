@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 500,
+    "minestuck:amethyst": 500,
+    "minestuck:garnet": 300,
+    "minestuck:diamond": 200
+  },
+  "ingredient": {
+    "item": "discerning_the_eldritch:ascended_key"
+  }
+}

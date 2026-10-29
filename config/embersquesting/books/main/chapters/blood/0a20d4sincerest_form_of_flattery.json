@@ -1,0 +1,62 @@
+{
+  "title": "&#0a20d4SINCEREST FORM OF FLATTERY",
+  "description": [
+    "&#0a20d4GS: WHAT'S UP GRUBTUBE!! WE ARE BACK WITH ANOTHER EPISODE OF HELPING THE PLAYER THROUGH THEIR LAND QUE-",
+    "",
+    "&#0a20d4GS: OH SHOOT. YOU WEREN'T SUPPOSED TO HEAR THE INTRO.",
+    "",
+    "&#0a20d4GS: YEAH,, I'VE BEEN RECORDING ALL OUR CONVOS. GRUBTUBE DOESN'T REALLY EXIST FOR ME ANYMORE BUT RECORDING HELPS ME THINK. OLD HABITS.",
+    "",
+    "&#0a20d4GS: ANYWAY!! IF YOU'RE GONNA BE THE ONE MEDIATING BETWEEN THE CONSORTS, THEY HAVE TO LIKE YOU FIRST. MAKE A PLUSHIE OF EACH SPECIES. NOTHING SAYS I APPRECIATE YOU LIKE MERCH :D"
+  ],
+  "icon": "minestuck:plush_salamander",
+  "x": 3.3999999999999995,
+  "y": 0.4999999999999998,
+  "deps": {
+    "all": [
+      "blood/0a20d4heal_the_people_s_wounds"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:plush_salamander",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:plush_nakagator",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:plush_iguana",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:plush_turtle",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

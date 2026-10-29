@@ -1,0 +1,64 @@
+{
+  "title": "&#069a97¶ Beginning Your Quest",
+  "description": [
+    "&#069a97TK: ¶ As a player of Light, it's your job to guiδe your session members into success and fortune. ",
+    "",
+    "&#069a97TK: ¶ Now pay attention, I'm only saying this once. Gates. Your first gate takes you out to some corner of your lanδ.",
+    "",
+    "&#069a97TK: ¶ The seconδ gate leaδs straight to §ayour server player's house&#069a97. Try not to embarrass yourself.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/gates.png",
+      "type": "image"
+    },
+    "",
+    "&#069a97TK: ¶ Return noδes take you back home. They're everywhere on your planet. Even you shoulδ manage to finδ one.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/return_node.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:light_aspect_sapling",
+  "x": 1.549999999999999,
+  "y": 0.37500000000000006,
+  "deps": {
+    "all": [
+      "light/069a97_fortune_s_favor"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:light_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"tortfeasorsKatabasis\",\"color\":\"#069A97\"},{\"text\":\" [\"},{\"text\":\"TK\",\"color\":\"#069A97\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

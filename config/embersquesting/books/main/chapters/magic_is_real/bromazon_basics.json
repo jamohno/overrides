@@ -1,0 +1,30 @@
+{
+  "title": "§dBromazon Basics",
+  "x": 15.75,
+  "y": 2.2499999999999996,
+  "deps": {
+    "all": [
+      "magic_is_real/magebro_fit_ideas"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item_tag(hazentouvelib:armors/school/school_boots) item_tag(hazentouvelib:armors/school/school_chestplate) item_tag(hazentouvelib:armors/school/school_helmet) item_tag(hazentouvelib:armors/school/school_leggings))",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

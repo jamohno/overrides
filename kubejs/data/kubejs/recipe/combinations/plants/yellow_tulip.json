@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:white_tulip"
+  },
+  "input2": {
+    "item": "minecraft:yellow_dye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:yellow_tulip"
+}

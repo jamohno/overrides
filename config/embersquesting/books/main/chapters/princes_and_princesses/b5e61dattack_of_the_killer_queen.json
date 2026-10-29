@@ -1,0 +1,47 @@
+{
+  "title": "&#b5e61dAttack of the Killer Queen!",
+  "description": [
+    "Sudden developments on Skaia...",
+    "Avenging her husband, or does she have her own goals in mind? It's the §8Black Queen§r!",
+    "",
+    "It seems she managed to get both §6rings§r. Must have been a mixup in the mail.",
+    "",
+    "§7[Interact holding §cStrife! §6x2 Combo§7 on Skaia to start the battle.]§r"
+  ],
+  "icon": "minestuck:black_queens_ring",
+  "x": 13.25,
+  "y": 5.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/the_reckoning"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:black_queens_ring",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:white_queens_ring",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

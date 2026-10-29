@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 1400,
+    "minestuck:amber": 700,
+    "minestuck:iodine": 525,
+    "minestuck:cobalt": 175
+  },
+  "ingredient": {
+    "item": "kubejs:edible_modus"
+  }
+}

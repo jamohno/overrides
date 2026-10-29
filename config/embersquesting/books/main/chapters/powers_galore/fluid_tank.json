@@ -1,0 +1,30 @@
+{
+  "title": "Fluid Tank",
+  "icon": "create:fluid_tank",
+  "x": 9.4,
+  "y": 2.9,
+  "deps": {
+    "all": [
+      "powers_galore/mechanical_press"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:fluid_tank",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "§5Another coffin clogger bites the dust.",
+  "description": [
+    "§5§oThe name's &#FF03FEJack Noir§5. No time for idle chit-chat, let's get down to business. Put your garb on from the &#FF03FEPajama Box§5 and head outside when you're ready to play."
+  ],
+  "icon": "minestuck:derse_shirt",
+  "y": 7.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/the_kingdom_of_darkness"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:derse_circlet",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:derse_shirt",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:derse_pants",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:derse_shoes",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

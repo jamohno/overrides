@@ -1,0 +1,62 @@
+{
+  "title": "&#7700ffBeginning Your Quest :)",
+  "description": [
+    "&#7700ffBJ: gates :) your first one opens up somewhere on your land you havent been yet. i already know whats there :)",
+    "",
+    "&#7700ffBJ: your second one goes to §ayour server players house&#7700ff :) i know where that is too :)",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/gates.png",
+      "type": "image"
+    },
+    "",
+    "&#7700ffBJ: return nodes take you home :) theyre all over your planet :)",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/return_node.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:mind_aspect_sapling",
+  "x": 0.9749999999999996,
+  "y": 0.37500000000000006,
+  "deps": {
+    "all": [
+      "mind/7700fftherefore_i_am"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:mind_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"backsideJotter\",\"color\":\"#7700FF\"},{\"text\":\" [\"},{\"text\":\"BJ\",\"color\":\"#7700FF\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

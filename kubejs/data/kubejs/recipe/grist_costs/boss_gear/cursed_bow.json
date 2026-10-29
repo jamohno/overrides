@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 22000,
+    "minestuck:iodine": 9000,
+    "minestuck:cobalt": 1800,
+    "minestuck:mercury": 1200,
+    "minestuck:amethyst": 800
+  },
+  "ingredient": {
+    "item": "cataclysm:cursed_bow"
+  }
+}

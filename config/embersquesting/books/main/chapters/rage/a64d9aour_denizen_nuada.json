@@ -1,0 +1,32 @@
+{
+  "title": "&#a64d9aour denizen: NUADA",
+  "description": [
+    "&#a64d9aRG: nuadas waiTing. big guy. cold. youre gonna love iT",
+    "",
+    "&#a64d9aRG: hes gonna give you a choice. go wiTh your guT. ThaTs where rage lives anyway"
+  ],
+  "icon": "kubejs:rage_choice",
+  "x": 0.4999999999999982,
+  "y": 1.425,
+  "deps": {
+    "all": [
+      "rage/a64d9athe_hit_list"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:rage_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

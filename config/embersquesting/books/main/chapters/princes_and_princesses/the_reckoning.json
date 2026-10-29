@@ -1,0 +1,39 @@
+{
+  "title": "§cThe Reckoning!",
+  "description": [
+    "a Chaos King looms over the Battlefield...",
+    "§8The Reckoning has begun!§r Is it still too late for our Heroes?"
+  ],
+  "icon": "minestuck:black_kings_scepter",
+  "x": 11.2,
+  "y": 6.3,
+  "deps": {
+    "all": [
+      "princes_and_princesses/breaking_war_on_skaia_continues"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:black_kings_scepter",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

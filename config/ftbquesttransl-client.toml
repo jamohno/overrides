@@ -1,0 +1,44 @@
+#Target language for translation (ISO 639-1 code).
+#Set to 'auto' to use Minecraft's language setting.
+#Examples: uk, ru, de, fr, es, ja, zh, ko, pl, pt
+targetLanguage = "auto"
+#Enable translation caching to avoid re-translating the same text.
+#Cached translations are stored in memory for the current session.
+enableCaching = true
+#Translation API provider.
+#AUTO - Automatic fallback: Google -> DoH bypass -> Lingva -> MyMemory (recommended)
+#GOOGLE - Google Translate (unofficial, free, no key needed)
+#MYMEMORY - MyMemory API (free, 5000 chars/day limit)
+#DEEPL - DeepL API (requires deepLApiKey)
+#Allowed Values: AUTO, GOOGLE, MYMEMORY, DEEPL
+translationProvider = "AUTO"
+#Enable the yellow wave animation while a quest is being translated.
+enableTranslatingAnimation = true
+#Enable the green wave animation when a quest has been translated.
+enableTranslatedAnimation = true
+#Warn before translating quests with very large text to prevent accidental API quota usage.
+enableLargeTextWarning = true
+#The character count threshold used to trigger the large text warning.
+largeTextThreshold = 2000
+#Enable the animated yellow rings while TTS is loading.
+enableTtsLoadingAnimation = true
+#Enable the animated reading rings while TTS is playing.
+enableTtsPlayingAnimation = true
+#Enable the quest translate button.
+enableTranslateButton = true
+#Enable the text-to-speech button.
+enableTtsButton = true
+#Duration of the translation animation for a single quest (in milliseconds).
+# Default: 5000
+# Range: 500 ~ 30000
+translationAnimationDuration = 5000
+#Pitch factor for TTS voice (e.g. 1.0 is normal). MIN: 0.1, MAX: 5.0
+# Default: 1.0
+# Range: 0.1 ~ 5.0
+ttsPitch = 1.0
+#Speed rate for TTS voice (e.g. 1.0 is normal). MIN: 0.1, MAX: 5.0
+# Default: 1.0
+# Range: 0.1 ~ 5.0
+ttsRate = 1.0
+#Remember batch translate state when rejoining world or restarting Minecraft.
+rememberBatchTranslationState = true

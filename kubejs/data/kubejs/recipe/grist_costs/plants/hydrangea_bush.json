@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:hydrangea_bush"
+  },
+  "sources": [
+    "minecraft:blue_dye",
+    "minecraft:short_grass"
+  ]
+}

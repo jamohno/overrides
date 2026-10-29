@@ -1,0 +1,10 @@
+{
+  "title": "!",
+  "options": [
+    {
+      "item": "kubejs:strife",
+      "type": "item"
+    }
+  ],
+  "hide_contents": true
+}

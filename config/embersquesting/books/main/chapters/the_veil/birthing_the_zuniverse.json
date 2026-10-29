@@ -1,0 +1,77 @@
+{
+  "title": "§aBirthing the &zUniverse",
+  "description": [
+    "§7> §rOnce you are completely satisfied with the &zVERSES§r you have, you can begin the process of birthing your &zGENESIS FROG§r and travelling to it via a LINKED HYPERBOOK.",
+    "",
+    "§7> §rYou can birth your universe using any cauldron, but one is available, as well as a lectern to place your linked hyperbook, at the §lVICTORY PLATFORM§r. Upon completing the process, the &zGENESIS TADPOLE§r will travel to the BA§8TT§rLE§8FI§rEL§8D§r to grow, so you can only enter your universe using the hyperbook.",
+    "",
+    "§7> §rThe cauldron must be §eHEATED§r and filled with §9WATER§r. Then, the following items must be placed inside:",
+    "",
+    "- All chosen &zVERSES§r to modify different aspects of your universe",
+    "- 32 §aGENETIC CODE§r",
+    "- a §2WRITTEN BOOK§r to complete the birthing process",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/frogassembly.png",
+      "type": "image"
+    }
+  ],
+  "icon": "verseworks:hyper_book{\"minecraft:custom_data\":{VerseWorksHyperBook:{Creator:[I;-1404992425,-2146941024,-1243301080,-384174967],DimensionId:\"minecraft:overworld\",DimensionName:\"Overworld\",TargetX:-31.723311839290087d,TargetXRot:54.599968f,TargetY:-57.99623109202509d,TargetYRot:-20.54956f,TargetZ:86.32845006059615d}},\"minecraft:custom_name\":'{\"color\":\"light_purple\",\"text\":\"Hyperbook - Overworld\"}',\"minecraft:written_book_content\":{author:\"VerseWorks\",pages:[{raw:'\"Bound to Overworld at -32, -58, 86\"'}],resolved:1b,title:{raw:\"Overworld\"}}}",
+  "x": 10,
+  "y": 10,
+  "deps": {
+    "all": [
+      "the_veil/appear_ify"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:water_bucket",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "type": "item",
+      "title": "Universal Frog Material (Verse)"
+    },
+    {
+      "item": "verseworks:hyper_dust",
+      "count": 32,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:writable_book",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:cauldron",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "title": "Click to Transportalize!",
+      "icon": "minestuck:transportalizer",
+      "command": "/execute in minestuck:veil run tp @p 0 4 3 180 -15",
+      "type": "command"
+    },
+    {
+      "item": "irons_spellbooks:scroll",
+      "components": "{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:recall\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "type": "item",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": {
+    "min": 4
+  },
+  "size": 2.0,
+  "shape": "none"
+}

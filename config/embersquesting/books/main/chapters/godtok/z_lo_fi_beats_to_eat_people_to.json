@@ -1,0 +1,53 @@
+{
+  "title": "&z♪ lo-fi beats to eat people to ♪",
+  "description": [
+    "by Lo-Fi Imp",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/imp.png",
+      "type": "image"
+    },
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "&#8675FF1. imps eye view",
+    "&#8675FF2. skaian lights",
+    "&#8675FF3. derseflower",
+    "&#8675FF4. blargh moments",
+    "&#8675FF5. lazy sunday (i'm still imping)",
+    "&#8675FF6. gnawed out world",
+    "&#8675FF7. life without imp",
+    "&#8675FF8. aspectless",
+    "&#8675FF9. is grist all i'm made for?",
+    "&#8675FF10. love me, prototype me§r"
+  ],
+  "icon": "kubejs:textures/item/imp.png",
+  "x": 3,
+  "y": 5.5,
+  "deps": {
+    "all": [
+      "godtok/zwhat_are_you_listening_to"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:imp",
+      "count": 120,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "repeat": {},
+  "lines_in": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

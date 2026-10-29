@@ -1,0 +1,32 @@
+{
+  "title": "Lugh",
+  "icon": "kubejs:textures/item/lugh.png",
+  "order": 10,
+  "scope": "team",
+  "group": "browser",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -8.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/lughbrowser.png",
+        "type": "image"
+      },
+      "x": -1.3571434
+    },
+    {
+      "y": -2.570813,
+      "width": 4.285714,
+      "height": 6.391626,
+      "content": {
+        "texture": "kubejs:textures/item/tkpester.png",
+        "type": "image"
+      },
+      "x": 0.35714293
+    }
+  ]
+}

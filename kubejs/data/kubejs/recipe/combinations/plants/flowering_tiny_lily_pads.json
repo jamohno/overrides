@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:lily_pad"
+  },
+  "input2": {
+    "item": "minecraft:gold_nugget"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:flowering_tiny_lily_pads"
+}

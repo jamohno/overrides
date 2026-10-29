@@ -1,0 +1,33 @@
+{
+  "title": "§cx3 Fight Combo?",
+  "description": [
+    "§7(If you want to fight the Black King and Queen again. Completely Optional.)"
+  ],
+  "icon": "minecraft:nether_star",
+  "x": 14.5,
+  "y": 8.4,
+  "deps": {
+    "all": [
+      "princes_and_princesses/end_it_for_good"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:nether_star",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:strife",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "repeat": {},
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "shape": "none"
+}

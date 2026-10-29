@@ -1,0 +1,54 @@
+{
+  "title": "&#069a97¶ Ka-Ching",
+  "description": [
+    "&#069a97TK: ¶ The machine takes δiamonδs. Holδ one anδ go to town.",
+    "",
+    "&#069a97TK: ¶ I never lost a spin in our session. Some people woulδ call that luck. I call it being me."
+  ],
+  "icon": "kubejs:light_coin",
+  "x": 2.4499999999999993,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "light/069a97_feeling_lucky"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:light_coin",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:super_light_coin",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"tortfeasorsKatabasis\",\"color\":\"#069A97\"},{\"text\":\" [\"},{\"text\":\"TK\",\"color\":\"#069A97\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:light_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:green_tulip"
+  },
+  "sources": [
+    "minecraft:white_tulip",
+    "minecraft:green_dye"
+  ]
+}

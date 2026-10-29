@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "tag": "kubejs:alchemicalicious/modus_cards"
+  },
+  "input2": {
+    "tag": "kubejs:alchemicalicious/foods"
+  },
+  "mode": "or",
+  "output": "kubejs:edible_modus"
+}

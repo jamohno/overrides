@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "cataclysm:cursed_bow"
+  },
+  "input2": {
+    "item": "cataclysm:sandstorm_in_a_bottle"
+  },
+  "mode": "or",
+  "output": "cataclysm:wrath_of_the_desert"
+}

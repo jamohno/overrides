@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "cost": [ { "grist": { "minestuck:build": 4 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:rainbow_eucalyptus_log" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:rainbow_eucalyptus_planks" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:rainbow_eucalyptus_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:rainbow_eucalyptus_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:rainbow_eucalyptus_fence" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:rainbow_eucalyptus_door" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:rainbow_eucalyptus_trapdoor" }
+    }
+  ],
+  "priority": 5
+}

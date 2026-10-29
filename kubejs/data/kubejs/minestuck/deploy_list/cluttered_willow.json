@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "cost": [ { "grist": { "minestuck:build": 4 } } ],
+      "item": { "count": 1, "id": "cluttered:willow_log" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "cluttered:willow_planks" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:willow_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "cluttered:willow_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:willow_fence" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:willow_door" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "cluttered:willow_trapdoor" }
+    }
+  ],
+  "priority": 5
+}

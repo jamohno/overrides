@@ -1,0 +1,39 @@
+{
+  "title": "§cEnd it, For Good",
+  "description": [
+    "Is it Over?",
+    "Throwing the Rings into the §8Forge§r (the large volcano in the middle of §bSkaia§r) stokes it. This heats up the planets core, making it hospitable for an eventual &zGenesis Frog§r to grow inside Skaia's core."
+  ],
+  "icon": "kubejs:obsidian_rings",
+  "x": 14.5,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "princes_and_princesses/b5e61dattack_of_the_killer_queen"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:obsidian_rings",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

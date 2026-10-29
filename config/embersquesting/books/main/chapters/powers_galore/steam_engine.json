@@ -1,0 +1,30 @@
+{
+  "title": "Steam Engine",
+  "icon": "create:steam_engine",
+  "x": 10.4,
+  "y": 2.9,
+  "deps": {
+    "all": [
+      "powers_galore/mechanical_press"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:steam_engine",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

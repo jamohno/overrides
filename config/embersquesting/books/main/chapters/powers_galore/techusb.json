@@ -1,0 +1,38 @@
+{
+  "title": "Techusb",
+  "description": [
+    "§bTechnology§r has allowed civilization to flourish across every universe; acting as a bridge between abstract physical laws and the survival of the people that abide by them. A healthy &zGenesis Frog§r should be equipped with the genetic code necessary to facilitate such innovation in it's inhabitants. Genetically modifying it's code using §bT3CHN-0.ska§r should work.",
+    {
+      "width": 100,
+      "height": 433,
+      "texture": "kubejs:textures/item/sbaht5.png",
+      "type": "image"
+    }
+  ],
+  "icon": "kubejs:techusb",
+  "x": 13,
+  "y": 9.4,
+  "deps": {
+    "all": [
+      "planetastic/s_enter",
+      "powers_galore/the_hamburger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:techusb",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "artifact",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "hide_text_until_complete": true,
+  "size": 2.0,
+  "shape": "square"
+}

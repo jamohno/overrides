@@ -1,0 +1,22 @@
+{
+  "title": "Ectocord",
+  "icon": "kubejs:paradox_slime_bucket",
+  "order": 5,
+  "scope": "team",
+  "group": "apps",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -2.4010992,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/ectocord.png",
+        "type": "image"
+      },
+      "x": -6.3571434
+    }
+  ]
+}

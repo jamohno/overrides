@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 1600,
+    "minestuck:rust": 1000,
+    "minestuck:garnet": 600,
+    "minestuck:quartz": 400
+  },
+  "ingredient": {
+    "item": "kubejs:captchalberd"
+  }
+}

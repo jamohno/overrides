@@ -1,0 +1,26 @@
+{
+  "title": "[017] (SOLVED) what's the name of that one show",
+  "description": [
+    "§7=================================§r",
+    "§7by §rharmfulGorgon",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:fresh_prince_plushie",
+  "x": 17,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/009_smithing_exploit_patched",
+      "alchemicalicious/010_ultimate_guide_to_plushes_in_sburb"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:fresh_prince_plushie",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

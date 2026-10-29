@@ -1,0 +1,21 @@
+{
+  "title": "Copper Backtank",
+  "icon": "create:copper_backtank{\"create:banktank_air\":900}",
+  "x": 7.4,
+  "y": 3.9,
+  "deps": {
+    "all": [
+      "powers_galore/1_warned_y0u_about_that_escalator"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "create:copper_backtank",
+      "components": "{\"create:banktank_air\":900}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

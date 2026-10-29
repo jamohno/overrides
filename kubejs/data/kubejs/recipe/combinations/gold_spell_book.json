@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:chained_book"
+  },
+  "input2": {
+    "item": "minecraft:gold_ingot"
+  },
+  "mode": "or",
+  "output": "irons_spellbooks:gold_spell_book"
+}

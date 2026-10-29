@@ -1,0 +1,34 @@
+{
+  "title": "§dULTIMATE RUNE",
+  "icon": "hazennstuff:divine_mold",
+  "x": 16.5,
+  "y": 5.4,
+  "deps": {
+    "all": [
+      "magic_is_real/roar",
+      "magic_is_real/imporetant_materials",
+      "magic_is_real/i_sharded",
+      "magic_is_real/the_citadel_is_pretty_metal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "hazennstuff:divine_mold",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 3.0,
+  "shape": "hexagon"
+}

@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:blood",
+  "description": {"text": "Blood"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

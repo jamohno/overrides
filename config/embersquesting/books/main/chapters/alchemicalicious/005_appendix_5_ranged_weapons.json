@@ -1,0 +1,25 @@
+{
+  "title": "[005] Appendix 5 -- Ranged Weapons",
+  "description": [
+    "§7=================================§r",
+    "§7by §rcultivatingTiller§7,§r forestWhittler",
+    "§7=================================§r"
+  ],
+  "x": 8,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) and(item_tag(c:tools/ranged_weapon)))",
+      "type": "item",
+      "title": "Any Ranged Weapon"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

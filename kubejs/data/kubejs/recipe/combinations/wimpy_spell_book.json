@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:chained_book"
+  },
+  "input2": {
+    "item": "minecraft:feather"
+  },
+  "mode": "or",
+  "output": "irons_spellbooks:wimpy_spell_book"
+}

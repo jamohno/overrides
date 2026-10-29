@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "discerning_the_eldritch:soul_ember"
+  },
+  "sources": [
+    "minecraft:soul_torch",
+    "mekanism:dust_coal"
+  ]
+}

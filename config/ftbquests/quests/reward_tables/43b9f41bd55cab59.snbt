@@ -1,0 +1,18 @@
+{
+	id: "43B9F41BD55CAB59"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ id: "4D02E0842173BFE8", item: { count: 1, id: "minestuck:sbahj_poster" } }
+		{ id: "6A4B780F23AD8943", item: { count: 1, id: "minestuck:sord" } }
+		{ id: "290D599EB57DB254", item: { count: 1, id: "minestuck_extended:sheeld" } }
+		{ id: "3B7E40C682186465", item: { count: 1, id: "minestuckdungeons:artifact_block" } }
+		{ id: "0C3640B49E25431E", item: { count: 1, id: "minestuck:artifact_warhead" } }
+		{ id: "1377E92C8F43E528", item: { count: 1, id: "minestuck:sbahjarang" } }
+		{ id: "5FF6FFC867BAB5BA", item: { count: 1, id: "minestuck:nife" } }
+		{ id: "755BAC84C7A53AA5", item: { count: 1, id: "minestuck:eeeeeeeeeeee" } }
+		{ id: "5AF3732DD51A5A12", item: { count: 1, id: "minestuck:lanec" } }
+		{ id: "1C06F7A01604A756", item: { count: 1, id: "minestuck_extended:rench" } }
+		{ id: "7B6A1D62FEBCCB13", item: { count: 1, id: "minestuck:ow_the_edge" } }
+	]
+}

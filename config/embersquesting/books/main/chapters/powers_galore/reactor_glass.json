@@ -1,0 +1,30 @@
+{
+  "title": "Reactor Glass",
+  "icon": "mekanismgenerators:reactor_glass",
+  "x": 15.8,
+  "y": 6.9,
+  "deps": {
+    "all": [
+      "powers_galore/heat_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanismgenerators:reactor_glass",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

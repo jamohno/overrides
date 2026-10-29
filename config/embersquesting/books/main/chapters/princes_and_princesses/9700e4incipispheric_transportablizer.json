@@ -1,0 +1,33 @@
+{
+  "title": "&#9700e4Incipispheric Transportablizer",
+  "description": [
+    "§5The war on Skaia is gearing up. Plenty of troops are on the Battlefield already. Head there."
+  ],
+  "icon": "kubejs:transportablizer2",
+  "x": 2,
+  "y": 5.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/9700e4royal_spy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:transportablizer2",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

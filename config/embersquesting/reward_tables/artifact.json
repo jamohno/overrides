@@ -1,0 +1,49 @@
+{
+  "title": "Artifact",
+  "options": [
+    {
+      "item": "minestuck:sbahj_poster",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:sord",
+      "type": "item"
+    },
+    {
+      "item": "minestuck_extended:sheeld",
+      "type": "item"
+    },
+    {
+      "item": "minestuckdungeons:artifact_block",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:artifact_warhead",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:sbahjarang",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:nife",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:eeeeeeeeeeee",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:lanec",
+      "type": "item"
+    },
+    {
+      "item": "minestuck_extended:rench",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:ow_the_edge",
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "§31 WARNED Y0U ABOUT THAT ESCALATOR?",
+  "description": [
+    "§3Create§r allows you to build interactive machinery to move and process items and interact with the world around you via technology. In order to craft §bT3CHN-0.ska§r, you must create a §3Precision Mechanism§r.",
+    "",
+    {
+      "width": 100,
+      "height": 500,
+      "texture": "kubejs:textures/item/sbaht2.png",
+      "type": "image"
+    }
+  ],
+  "icon": "create:mechanical_arm",
+  "x": 13,
+  "y": 1.4,
+  "deps": {
+    "all": [
+      "planetastic/mine",
+      "powers_galore/the_hamburger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:andesite",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "artifact",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "item": "escalated:metal_walkway_steps",
+      "count": 10,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "lines_out": "hover",
+  "size": 2.0,
+  "progression": "linear",
+  "shape": "square"
+}

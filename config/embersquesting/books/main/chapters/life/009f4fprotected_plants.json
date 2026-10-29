@@ -1,0 +1,56 @@
+{
+  "title": "&#009f4fProtected Plants",
+  "description": [
+    "&#009f4fPY: Now the fun part!! There are three seed stashes you must make to preserve life in this land. Wondrous, Prodigious and Sublime.~",
+    "",
+    "&#009f4fPY: Gather the seeds, alchemize them, I don't care.",
+    "",
+    "&#009f4fPY: Oh, and You can stop calling me PY. It's Abrill. Abrill Tricot. People usuallY remember it.~"
+  ],
+  "icon": "kubejs:wondrous_seed_stash",
+  "x": 3.624999999999999,
+  "y": 0.8250000000000002,
+  "deps": {
+    "all": [
+      "life/009f4fexpert_cultivator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:wondrous_seed_stash",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:prodigious_seed_stash",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:sublime_seed_stash",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"plasticineYpsiliform\",\"color\":\"#009F4F\"},{\"text\":\" [\"},{\"text\":\"PY\",\"color\":\"#009F4F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

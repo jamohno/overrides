@@ -1,0 +1,59 @@
+{
+  "title": "&#43587dhold your breath.",
+  "description": [
+    "&#43587dDH: oh. you got a sapling. good job",
+    "",
+    "&#43587dDH: unfortunately the rest of your quest isnt as easy. void players arent really seekers of anything. its more about diving in face first into the abyss and not caring about what happens to you or where you'll end up",
+    "",
+    "&#43587dDH: that sounds morbid. its less morbid than that . in a way",
+    "",
+    "&#43587dDH: anyways. the point is that what's hidden already is best hidden. remember that.",
+    "",
+    "&#43587dDH: in your dark and silent land, the consorts want answers. they keep going into dungeons, entering labyrinths, finding lost tomes. its all pointless. show them that.",
+    "",
+    "&#43587dDH: also. you're gonna need to breathe underwater for a while.. for reasons that might be clear later..",
+    "",
+    "&#43587dDH: water breathing... it needs a pufferfish.... what the hell is a pufferfish........"
+  ],
+  "icon": "minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:long_water_breathing\"}}",
+  "x": 2.124999999999999,
+  "y": 0.9500000000000002,
+  "deps": {
+    "all": [
+      "void/43587dbeginning_your_quest"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:potion",
+      "components": "{\"minecraft:potion_contents\":{potion:\"minecraft:long_water_breathing\"}}",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:clover_patch"
+  },
+  "sources": [
+    "minecraft:short_grass",
+    "minecraft:rabbit_foot"
+  ]
+}

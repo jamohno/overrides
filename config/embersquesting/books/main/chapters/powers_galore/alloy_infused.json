@@ -1,0 +1,30 @@
+{
+  "title": "Alloy Infused",
+  "icon": "mekanism:alloy_infused",
+  "x": 19,
+  "y": 0.8999999999999999,
+  "deps": {
+    "all": [
+      "powers_galore/metallurgic_infuser"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:alloy_infused",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

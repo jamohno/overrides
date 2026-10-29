@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "cost": [ { "grist": { "minestuck:build": 4 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:white_mangrove_log" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:white_mangrove_planks" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:white_mangrove_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:white_mangrove_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:white_mangrove_fence" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:white_mangrove_door" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:white_mangrove_trapdoor" }
+    }
+  ],
+  "priority": 5
+}

@@ -1,0 +1,32 @@
+{
+  "title": "&#b4eb54aos sí~",
+  "description": [
+    "&#b4eb54FR: aos sí is waiting for you. very... dramatique. like me~",
+    "",
+    "&#b4eb54FR: they will ask you a big question. answer from the heart. or the lungs, since we are breath :}"
+  ],
+  "icon": "kubejs:breath_choice",
+  "x": 0.7624999999999993,
+  "y": 0.9625,
+  "deps": {
+    "all": [
+      "breath/b4eb54les_lytres"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:breath_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

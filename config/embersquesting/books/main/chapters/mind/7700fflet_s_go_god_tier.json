@@ -1,0 +1,38 @@
+{
+  "title": "&#7700ffLet's go God Tier :)",
+  "description": [
+    "&#7700ffBJ: quest bed. divine delegate. then you die on it :)",
+    "",
+    "&#7700ffBJ: go on :)"
+  ],
+  "icon": "kubejs:mind3",
+  "x": 0.9749999999999996,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "mind/7700ffpuzzled_you_will_be"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:eye_of_ascension",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "complete": "any",
+  "size": 0.75,
+  "shape": "square"
+}

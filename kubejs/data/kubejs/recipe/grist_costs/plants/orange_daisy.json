@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:orange_daisy"
+  },
+  "sources": [
+    "minecraft:oxeye_daisy",
+    "minecraft:orange_dye"
+  ]
+}

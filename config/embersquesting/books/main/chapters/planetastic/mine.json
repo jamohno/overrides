@@ -1,0 +1,41 @@
+{
+  "title": "§7>§r Mine",
+  "description": [
+    "You have a variety of INTERESTS, including MINING and CRAFTING.",
+    "§bCruxite§r is a foundational material for the game of §aSBURB§r. It is needed for crafting many parts and machines, and to make more captchalogue cards.",
+    "",
+    "§aUranium§r powers most §aSburb§r machinery. It contains energy sufficient to last generations.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "§7P.S.§r Did you know you can roll in crawl, sit and roll?",
+    "",
+    "§aZ§r to crawl (hold)",
+    "§aSHIFT + Z§r to sit (toggle)",
+    "§aSHIFT + R to roll§r, giving 0.4 seconds of §ainvulnerability§r.",
+    "",
+    "You can add more emotes by pressing §aU§r and adding them to the Emote Wheel."
+  ],
+  "icon": "minestuck:raw_cruxite",
+  "x": 4.4,
+  "y": 0.6,
+  "tasks": [
+    {
+      "item": "minestuck:raw_cruxite",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:raw_uranium",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "size": 2.0,
+  "shape": "none"
+}

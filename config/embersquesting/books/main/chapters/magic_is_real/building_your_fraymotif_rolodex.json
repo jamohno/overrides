@@ -1,0 +1,34 @@
+{
+  "title": "§dBuilding Your Fraymotif Rolodex",
+  "description": [
+    "Using a §5FRAYMOTIF INSCRIPTION TABLE§r, you can add fraymotifs you've found throughout your journey to your §5ABILITY BOOK§r."
+  ],
+  "icon": "irons_spellbooks:inscription_table",
+  "x": 4.2,
+  "y": 3.4,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:inscription_table",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

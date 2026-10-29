@@ -1,0 +1,17 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "type": "neoforge:difference",
+    "base": {
+      "tag": "minecraft:flowers"
+    },
+    "subtracted": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "input2": {
+    "item": "minecraft:cocoa_beans"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:guzmania"
+}

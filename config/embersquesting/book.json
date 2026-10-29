@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "apps": {
+      "title": "Apps"
+    },
+    "browser": {
+      "title": "Browser"
+    }
+  }
+}

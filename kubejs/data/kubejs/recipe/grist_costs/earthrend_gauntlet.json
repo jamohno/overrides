@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "mowziesmobs:earthrend_gauntlet"
+  },
+  "sources": [
+    "minestuck_extended:metal_gauntlet",
+    "minecraft:polished_granite"
+  ]
+}

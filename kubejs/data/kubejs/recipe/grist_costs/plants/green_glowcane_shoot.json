@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:green_glowcane_shoot"
+  },
+  "sources": [
+    "minecraft:sugar_cane",
+    "minecraft:green_dye"
+  ]
+}

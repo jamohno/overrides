@@ -1,0 +1,31 @@
+{
+  "title": "§dMi Fa ♫",
+  "icon": "irons_spellbooks:rare_ink",
+  "x": 2.3999999999999995,
+  "y": 9,
+  "deps": {
+    "all": [
+      "magic_is_real/do_re"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:rare_ink",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

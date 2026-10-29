@@ -1,0 +1,642 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "none"
+	filename: "planetastic"
+	group: "22D4E158356BE0A6"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "minestuck:textures/gui/desktop_icon/sburb_server.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "506B24C64982664B"
+	images: [
+		{
+			alpha: 250
+			height: 20.76923076923077d
+			id: "081CF9C0FF7CC471"
+			image: "kubejs:item/mysburb"
+			order: -2
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			id: "546BA67C5316684C"
+			image: "kubejs:item/gate"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.4d
+			y: -0.4d
+		}
+		{
+			click_action: "none:"
+			dependency: "67C1C8399A33DDFA"
+			height: 2.0d
+			id: "0DBECEF1DD5126F6"
+			image: "kubejs:item/gate"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.6d
+			y: -0.3d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["67C1C8399A33DDFA"]
+			icon: {
+				id: "minestuck:mini_frog_statue"
+			}
+			id: "37D911A1B5B47617"
+			rewards: [
+				{
+					id: "4408248310B5EA05"
+					item: {
+						count: 1
+						id: "exposure:camera"
+					}
+					type: "item"
+				}
+				{
+					id: "5F16ED65617FE453"
+					item: {
+						count: 1
+						id: "exposure:color_film"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "36594B944C6AF5B8"
+					item: { count: 1, id: "minestuck:temple_scanner" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minestuck:mini_frog_statue"
+					}
+					id: "51EDCEFDA8039CB9"
+					optional_task: true
+					structure: "minestuck:frog_temple"
+					type: "structure"
+				}
+				{
+					id: "1908F104AE6E256C"
+					item: { count: 1, id: "minestuck:completed_sburb_code" }
+					type: "item"
+				}
+			]
+			x: 6.2d
+			y: -0.4d
+		}
+		{
+			dependencies: ["67C1C8399A33DDFA"]
+			id: "41F0817FECFB5587"
+			rewards: [
+				{
+					id: "50266163585438E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A5CCBB65EFFD3E8"
+					item: {
+						count: 1
+						id: "refurbished_furniture:post_box"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "62D9B5D04EA941F8"
+					item: { count: 1, id: "minestuck:raw_cruxite" }
+					type: "item"
+				}
+				{
+					id: "62C63E318E1D0E83"
+					item: { count: 1, id: "minestuck:raw_uranium" }
+					type: "item"
+				}
+			]
+			x: 4.4d
+			y: -0.4d
+		}
+		{
+			dependencies: ["67C1C8399A33DDFA"]
+			icon: {
+				id: "minestuck:queuestack_modus_card"
+			}
+			id: "3C04CBB80B046B98"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "7045498EDC2DD81B"
+					table_id: 2848439380442627621L
+					type: "choice"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "4A8A72B9D25739FB"
+					table_id: 6849232621985887832L
+					type: "choice"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+				id: "72BD30E5D265C99A"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -0.4d
+		}
+		{
+			dependencies: ["67C1C8399A33DDFA"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			icon: {
+				components: {
+					"ftbquests:icon": "minestuck:textures/gui/desktop_icon/sburb_client.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7013E9C78DEE3133"
+			rewards: [{
+				id: "34FBDA5A4116A1AC"
+				item: {
+					components: {
+						"minestuck:value": 10L
+					}
+					count: 1
+					id: "minestuck:boondollars"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				advancement: "minestuck:minestuck/connect"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "minestuck:textures/gui/desktop_icon/sburb_client.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "286204BEC7BC21DB"
+				type: "advancement"
+			}]
+			x: 9.6d
+			y: -0.4d
+		}
+		{
+			dependencies: ["67C1C8399A33DDFA"]
+			icon: {
+				id: "minestuck:client_disk"
+			}
+			id: "7E2458E13D350BB2"
+			rewards: [{
+				id: "78C36D7C37AC00EF"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1B79B325FE242E6A"
+					item: { count: 1, id: "minestuck:client_disk" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5620124BF62E5667"
+					item: { count: 1, id: "minestuck:server_disk" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.8d
+			y: -0.4d
+		}
+		{
+			dependencies: ["67C1C8399A33DDFA"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/gate"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "10CA2B2110E5EBDE"
+			rewards: [{
+				id: "357D0DB55E663D31"
+				type: "xp"
+				xp: 100
+			}]
+			size: 5.0d
+			tasks: [{
+				advancement: "minestuck:minestuck/entry"
+				criterion: ""
+				id: "555072DA0AE8A498"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			id: "67A8E4BDB118787F"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "7A408E6BBDF91534"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1AAD409B100EB906"
+				item: { count: 1, id: "minestuck:transportalizer" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 5.8d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			id: "2437319C96C5129B"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "16081EDC7F9BD6BC"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1FDFC7844F03D9AB"
+				item: { count: 1, id: "minestuck:grist_widget" }
+				type: "item"
+			}]
+			x: -0.4d
+			y: 1.2d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			id: "09C7ABFF957EEAB3"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "12DC00BDA47F7386"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "202AAFD3EF5127C3"
+				item: { count: 1, id: "minestuck:grist_collector" }
+				type: "item"
+			}]
+			x: -0.4d
+			y: 2.6d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			id: "0A3E6B6AA58CC534"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "1A339DA31CB50DC2"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "02760414D2924962"
+				item: { count: 1, id: "minestuck:anthvil" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 1.4d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			id: "77E9B9A1EA0AA578"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "12A03F778834EB29"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "76BECA703F6B249E"
+				item: { count: 1, id: "minestuck:uranium_cooker" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 2.8d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			id: "063C40CFF9EABD97"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "001276A3EB5BA0E8"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				advancement: "minestuck:minestuck/dungeon"
+				criterion: ""
+				id: "547782003925C0B2"
+				type: "advancement"
+			}]
+			x: -0.4d
+			y: 4.2d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/arrow"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "32CD77B8C78ACD4A"
+			rewards: [{
+				auto: "no_toast"
+				id: "09D17689DC8295D2"
+				table_id: 199065889501438929L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4573F9411F6B72EF"
+				type: "checkmark"
+			}]
+			x: -0.4d
+			y: -0.4d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			id: "116FAE48942F114C"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "59CD58181212D2EC"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5E4C4114C97ED32B"
+				item: { count: 1, id: "minestuck:captcharoid_camera" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 4.2d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			id: "15EFCDAE1325DB62"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "06948116E1CFACA2"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "110BB208F10614FF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(vc_gliders:gliders)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.4d
+			y: 5.8d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_dependency_lines: false
+			id: "3EBC68E52711C503"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "0E8B2BB28A8DDDEF"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "28705018BEE6F73B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(curios:back)mod(sophisticatedbackpacks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: 5.8d
+		}
+		{
+			dependencies: ["3EBC68E52711C503"]
+			hide_dependency_lines: false
+			id: "145F8EAD906F847D"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "1B2D622B14D5535B"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "66A4C1498C43B462"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedbackpacks:upgrade)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.8d
+			y: 5.8d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			id: "1836FD71453224C0"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3E18DF55F818F612"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 10L
+				id: "0CD5D31B2656F534"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(refurbished_furniture)mod(iden_decor)mod(whimsy_deco)mod(cluttered))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.8d
+		}
+		{
+			dependencies: ["1836FD71453224C0"]
+			id: "558A1A8D4D0EA340"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "0959BC1E51C4504B"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2978A4D72D3486DD"
+					item: { count: 1, id: "refurbished_furniture:light_electricity_generator" }
+					type: "item"
+				}
+				{
+					id: "166E4FA2D35C37D0"
+					item: { count: 1, id: "refurbished_furniture:wrench" }
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 5.8d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "minestuck:blank_disk"
+			}
+			id: "67C1C8399A33DDFA"
+			invisible: true
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"[\",{\"text\":\"mySBURB\",\"color\":\"green\"},\"] \",{\"text\":\"ERROR\",\"color\":\"red\"},\": \",{\"text\":\"SBURB.ska\",\"color\":\"green\"},\" not detected on disks! Running backup \",{\"text\":\"mySBURB\",\"color\":\"green\"},\" protocol '\",{\"text\":\"T3MPL3\",\"color\":\"dark_green\"},\"'\"]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "minestuck:textures/gui/desktop_icon/sburb_client.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4E63625A4619BBA0"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.error master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "minestuck:textures/gui/desktop_icon/sburb_server.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "142BAC720FE8010F"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				count: 2L
+				id: "45ABF00458573D39"
+				item: { count: 1, id: "minestuck:blank_disk" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: -0.4d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			id: "7248105082274902"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "1AF46534BC50E715"
+				item: {
+					count: 1
+					id: "minestuck:raw_uranium"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "521D18E28536E294"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 5.9d
+		}
+	]
+}

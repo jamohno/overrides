@@ -1,0 +1,29 @@
+{
+  "title": "Turrets",
+  "x": 23.5,
+  "y": 1.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(mekanism_turrets:basic_laser_turret) item(mekanism_turrets:advanced_laser_turret) item(mekanism_turrets:elite_laser_turret) item(mekanism_turrets:ultimate_laser_turret))",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

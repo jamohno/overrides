@@ -1,0 +1,60 @@
+{
+  "title": "&#7700ffPuzzled? You Will Be. :)",
+  "description": [
+    "&#7700ffBJ: theres a puzzle gate in the veil. hold your mind sapling and right click it :)",
+    "",
+    "&#7700ffBJ: wire it up so the lamp turns on, then press the button. you get a piece :)",
+    "",
+    "&#7700ffBJ: the first piece gets you to the second floor. you can guess the rest :)"
+  ],
+  "icon": "kubejs:puzzle_piece_1",
+  "x": 1.8749999999999991,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "mind/7700ffdestroying_your_enemies"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:puzzle_piece_1",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:puzzle_piece_2",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:puzzle_piece_3",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"backsideJotter\",\"color\":\"#7700FF\"},{\"text\":\" [\"},{\"text\":\"BJ\",\"color\":\"#7700FF\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:mind_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

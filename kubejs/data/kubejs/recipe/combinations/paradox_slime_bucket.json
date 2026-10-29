@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:bucket"
+  },
+  "input2": {
+    "item": "minecraft:slime_block"
+  },
+  "mode": "and",
+  "output": "kubejs:paradox_slime_bucket"
+}

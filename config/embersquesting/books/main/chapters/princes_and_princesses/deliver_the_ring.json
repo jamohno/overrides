@@ -1,0 +1,39 @@
+{
+  "title": "§eDeliver the Ring",
+  "description": [
+    "§eThe Queen keeps her ring in the Eastern Tower of the Royal Palace. She is in desperate need of it for the fight to come. Please take it from the spare bedroom in there and deliver it to her using a Parcel Pyxis."
+  ],
+  "icon": "minestuck:white_queens_ring",
+  "x": 4,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/the_war_rages_on"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "minecraft:paper",
+      "components": "{\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Mailing Receipt\"}'}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:prospit_key",
+      "type": "item"
+    },
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

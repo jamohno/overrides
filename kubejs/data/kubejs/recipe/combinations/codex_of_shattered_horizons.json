@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:ruined_book"
+  },
+  "input2": {
+    "item": "mowziesmobs:earthrend_gauntlet"
+  },
+  "mode": "or",
+  "output": "gtbcs_geomancy_plus:codex_of_shattered_horizons"
+}

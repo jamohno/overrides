@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:chained_book"
+  },
+  "input2": {
+    "item": "irons_spellbooks:divine_pearl"
+  },
+  "mode": "or",
+  "output": "hazennstuff:golden_shower_spellbook"
+}

@@ -1,0 +1,62 @@
+{
+  "title": "&#a64d9abeginning your quesT",
+  "description": [
+    "&#a64d9aRG: gaTes. firsT one Takes you somewhere new on your land. go find someThing To fighT!",
+    "",
+    "&#a64d9aRG: second one goes sTraighT To §ayour server players house&#a64d9a —B)",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/gates.png",
+      "type": "image"
+    },
+    "",
+    "&#a64d9aRG: if a fighT goes bad, jump in a reTurn node. Theyre all over your planeT. Takes you home. no shame in iT. lol.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/return_node.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:rage_aspect_sapling",
+  "x": 1.549999999999999,
+  "y": 0.6000000000000001,
+  "deps": {
+    "all": [
+      "rage/a64d9ascorched_earth"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:rage_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ruthlessGanef\",\"color\":\"#A64D9A\"},{\"text\":\" [\"},{\"text\":\"RG\",\"color\":\"#A64D9A\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

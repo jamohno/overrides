@@ -1,0 +1,52 @@
+{
+  "title": "§3factorial family",
+  "description": [
+    "§3Mekanism§r allows you to create complex machinery to increase ore yield, process items and make devices. In order to craft §bT3CHN-0.ska§r, you must create an §3Ultimate Tier Installer§r.",
+    "",
+    {
+      "width": 100,
+      "height": 364,
+      "texture": "kubejs:textures/item/sbaht4.png",
+      "type": "image"
+    }
+  ],
+  "icon": "mekanism:basic_smelting_factory",
+  "x": 15.2,
+  "y": 1.4,
+  "deps": {
+    "all": [
+      "planetastic/mine",
+      "powers_galore/the_hamburger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:raw_osmium",
+      "type": "item"
+    },
+    {
+      "item": "mekanism:raw_uranium",
+      "type": "item"
+    },
+    {
+      "item": "mekanism:raw_lead",
+      "type": "item"
+    },
+    {
+      "item": "mekanism:raw_tin",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "artifact",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "lines_out": "hover",
+  "size": 2.0,
+  "shape": "square"
+}

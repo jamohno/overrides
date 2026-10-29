@@ -1,0 +1,34 @@
+{
+  "title": "&#069a97¶ Lugh, Denizen of Light",
+  "description": [
+    "&#069a97TK: ¶ Lugh wants to see you. Bring the coins.",
+    "",
+    "&#069a97TK: ¶ He's going to offer you something. Think about it before you answer, or δon't, I never δiδ anδ look how I turneδ out.",
+    "",
+    "&#069a97TK: ¶ Actually that's terrible aδvice. We turneδ out horribly. Forget I saiδ it."
+  ],
+  "icon": "kubejs:light_choice",
+  "x": 0.6499999999999986,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "light/069a97_ka_ching"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:light_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

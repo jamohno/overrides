@@ -1,0 +1,31 @@
+{
+  "title": "§3now you can mine but not you mine the machine mine wow",
+  "icon": "quarry:quarry_block",
+  "x": 22.5,
+  "y": 0.7000000000000002,
+  "deps": {
+    "all": [
+      "planetastic/mine",
+      "powers_galore/the_hamburger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "quarry:quarry_block",
+      "type": "item"
+    },
+    {
+      "item": "quarry:area_card",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "artifact",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

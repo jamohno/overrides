@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:marble": 22000,
+    "minestuck:build": 18000,
+    "minestuck:sulfur": 12000,
+    "minestuck:gold": 7500,
+    "minestuck:diamond": 3000
+  },
+  "ingredient": {
+    "item": "kubejs:cathedral_cannon"
+  }
+}

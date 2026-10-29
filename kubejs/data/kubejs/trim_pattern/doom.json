@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:doom",
+  "description": {"text": "Doom"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

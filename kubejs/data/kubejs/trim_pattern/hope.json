@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:hope",
+  "description": {"text": "Hope"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

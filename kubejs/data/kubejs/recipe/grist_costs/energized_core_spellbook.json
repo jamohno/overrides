@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:mercury": 250,
+    "minestuck:amethyst": 250,
+    "minestuck:garnet": 150,
+    "minestuck:rust": 100,
+    "minestuck:chalk": 80,
+    "minestuck:uranium": 70
+  },
+  "ingredient": {
+    "item": "hazennstuff:energized_core_spellbook"
+  }
+}

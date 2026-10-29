@@ -1,0 +1,46 @@
+{
+  "title": "&#9700e4Steal the Scepter",
+  "description": [
+    "§5This is it: your ultimate test. Bring me the Scepter and I will bring you to Skaia as we destroy the world together.",
+    "",
+    "§5From the plans you gathered before, I discovered that Prospitian Rooks hold Key Fragments. Kill enough of them, gather their fragments and craft the Key needed to open the vault; which is apparently nearby below the throne, at &#FF1EEE-5 133 -362§5.",
+    "",
+    "§5Bring me the Scepter. You can call for me if you interact with my throne."
+  ],
+  "icon": "minestuck:white_kings_scepter",
+  "x": 5,
+  "y": 5.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/9700e4steal_the_ring"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:prospit_key",
+      "type": "item"
+    },
+    {
+      "match_components": "none",
+      "item": "kubejs:derse_token",
+      "components": "{\"minecraft:custom_name\":'{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Betrayal Token\"}',\"minecraft:lore\":['{\"color\":\"#F7B8FF\",\"italic\":false,\"text\":\"A token left behind by an untrustworthy Dersite.\"}']}",
+      "type": "item",
+      "title": "§dDeliver it to the Black King",
+      "icon": "minestuck:white_kings_scepter"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "t315a54ebfc1bdd5b",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

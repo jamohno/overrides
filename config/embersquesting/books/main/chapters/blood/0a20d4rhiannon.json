@@ -1,0 +1,34 @@
+{
+  "title": "&#0a20d4RHIANNON",
+  "description": [
+    "&#0a20d4GS: RHIANNON'S WAITING FOR YOU. YOU GOT THIS, FRIEND. IT'S BEEN SUPER COOL WATCHING YOU GROW.",
+    "",
+    "&#0a20d4GS: OH AND MY NAME'S PROTCA BTW. WEIRD THAT I NEVER MENTIONED THAT,,",
+    "",
+    "&#0a20d4GS: ANYWAY. DON'T FORGET TO LIKE AND SUBSCRIBE :D"
+  ],
+  "icon": "kubejs:blood_choice",
+  "x": 0.625,
+  "y": 1.325,
+  "deps": {
+    "all": [
+      "blood/0a20d4uniting_the_people"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:blood_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "cost": [ { "grist": { "minestuck:build": 4 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:cypress_log" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:cypress_planks" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:cypress_stairs" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 1 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:cypress_slab" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:cypress_fence" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:cypress_door" }
+    },
+    {
+      "cost": [ { "grist": { "minestuck:build": 2 } } ],
+      "item": { "count": 1, "id": "biomeswevegone:cypress_trapdoor" }
+    }
+  ],
+  "priority": 5
+}

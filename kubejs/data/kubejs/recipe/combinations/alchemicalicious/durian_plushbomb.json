@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "kubejs:snackshot"
+  },
+  "input2": {
+    "item": "kubejs:thresh_prince_plushie"
+  },
+  "mode": "or",
+  "output": "kubejs:durian_plushbomb"
+}

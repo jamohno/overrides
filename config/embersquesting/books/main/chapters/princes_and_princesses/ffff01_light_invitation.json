@@ -1,0 +1,48 @@
+{
+  "title": "&#ffff01 Light Invitation",
+  "description": [
+    "§eGreetings, Royalty!",
+    "",
+    "§eWe don't mind if you are Royalty of the Light or Dark Kingdom. What matters now is time; we don't have a lot of it. We must stop the Dersite forces by any means necessary and prevent the Black King from enacting the Reckoning.",
+    "",
+    "§eDo we have your support?"
+  ],
+  "icon": "minestuck:prospit_chiseled_brick",
+  "y": 0.25,
+  "tasks": [
+    {
+      "dimension": "minestuck:prospit",
+      "type": "location",
+      "title": "§6Prospit",
+      "icon": "minestuck:prospit_brick"
+    },
+    {
+      "dimension": "minestuck:derse",
+      "type": "location",
+      "title": "§5Derse",
+      "icon": "minestuck:derse_brick"
+    },
+    {
+      "item": "kubejs:lunar_transportablizer",
+      "type": "item"
+    },
+    {
+      "type": "checkmark",
+      "title": "Accept This Email Request"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "unknown",
+  "invisible_until_tasks": 3,
+  "shape": "rsquare"
+}

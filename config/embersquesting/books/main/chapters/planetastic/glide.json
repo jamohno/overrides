@@ -1,0 +1,30 @@
+{
+  "title": "§7>§r Glide",
+  "description": [
+    "§7SPRITE:§r §1Gliders§r are a great way to move around your planet. Woooooosh!!!!!"
+  ],
+  "x": 0.6,
+  "y": 6.8,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "vc_gliders:gliders",
+      "type": "item",
+      "title": "Any Glider"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "mekanism:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

@@ -1,0 +1,40 @@
+{
+  "title": "&#ffff01 Scepter Polishing",
+  "description": [
+    "§eNow! We are entrusting you with one of the King's finest possessions. Using the key we just gave you, head to the vault. It's below the area behind the Prospitian Thrones, at §6-5 133 -362§e.",
+    "",
+    "§eInside will be The Scepter. §n§6Please be careful with it.§r§e It needs polishing by one of my trusted bishops. Please take it to him."
+  ],
+  "icon": "minestuck:white_kings_scepter",
+  "x": 5,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/deliver_the_ring"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:derse_token",
+      "components": "{\"minecraft:custom_name\":'{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Betrayal Token\"}',\"minecraft:lore\":['{\"color\":\"#F7B8FF\",\"italic\":false,\"text\":\"A token left behind by an untrustworthy Dersite.\"}']}",
+      "type": "item",
+      "title": "Deliver the §6White King's Scepter§r to a Bishop",
+      "icon": "minestuck:white_kings_scepter"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "t315a54ebfc1bdd5b",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

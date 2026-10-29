@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 1500,
+    "minestuck:uranium": 1200,
+    "minestuck:diamond": 900,
+    "minestuck:gold": 800,
+    "minestuck:tar": 600
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:legendary_spell_book"
+  }
+}

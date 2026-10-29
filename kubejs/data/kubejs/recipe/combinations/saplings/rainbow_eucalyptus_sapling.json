@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "tag": "minecraft:saplings"
+  },
+  "input2": {
+    "item": "minestuck:rainbow_sapling"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:rainbow_eucalyptus_sapling"
+}

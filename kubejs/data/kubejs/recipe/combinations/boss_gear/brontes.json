@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "cataclysm:infernal_forge"
+  },
+  "input2": {
+    "item": "minestuck:shock_axe"
+  },
+  "mode": "or",
+  "output": "cataclysm:brontes"
+}

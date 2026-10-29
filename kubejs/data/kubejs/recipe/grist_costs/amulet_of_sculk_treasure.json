@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "discerning_the_eldritch:amulet_of_sculk_treasure"
+  },
+  "sources": [
+    "minecraft:echo_shard",
+    "minecraft:emerald"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:cactus"
+  },
+  "input2": {
+    "item": "minecraft:barrel"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:barrel_cactus"
+}

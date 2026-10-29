@@ -1,0 +1,6 @@
+{
+  "asset_name": "rage",
+  "description": {"text": "Rage", "color": "#442768"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.12
+}

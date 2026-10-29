@@ -1,0 +1,71 @@
+[limits]
+	#Maximum number of VerseWorks dimensions allowed in this world. Set to -1 for uncapped.
+	# Default: -1
+	# Range: > -1
+	maxDimensionsPerWorld = -1
+	#Maximum number of VerseWorks dimensions a single player may create. Set to -1 for uncapped.
+	# Default: -1
+	# Range: > -1
+	maxDimensionsPerPlayer = -1
+
+[worldgen]
+	#Chance for a mystic crystal cave placement attempt in the Overworld. Default preserves current behavior.
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	mysticCrystalOverworldPlacementChance = 0
+	#Chance for a mystic crystal cave placement attempt in VerseWorks dimensions. Default preserves current behavior.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	mysticCrystalVerseDimensionPlacementChance = 0
+	#Whether the mystic ruin structure can generate.
+	mysticRuinEnabled = false
+
+[ritual]
+	#Whether cauldron rituals are allowed to create linked or unlinked Hyper Books.
+	allowHyperBookCreation = true
+	#Chance that a verse duplication cauldron ritual fails and consumes its ingredients. Set to 0.0 to disable duplication failures.
+	# Default: 0.3333333333333333
+	# Range: 0.0 ~ 1.0
+	verseDuplicationFailureChance = 0.0
+
+[items]
+	#Whether players should receive the VerseWorks guidebook automatically the first time they join a world.
+	startWithGuidebook = false
+
+[runtime]
+	#How many VerseWorks dimensions should be preloaded and fully prepared on server startup.
+	# Default: 5
+	# Range: > 0
+	startupPreparedDimensionLimit = 5
+	#Sable compatibility for live VerseWorks dimensions: auto, pause_only, static_always_for_verseworks, or off.
+	sableCompatMode = "auto"
+	#Startup behavior for VerseWorks dimension lifecycle work: normal, safe_deferred, or disabled. safe_deferred avoids startup activation/unload churn until the server and first player login have settled.
+	startupDimensionMode = "safe_deferred"
+
+[randomization]
+	#World types the ritual may pick when verses do not explicitly define one.
+	worldTypePool = ["normal", "amplified", "sky_island", "island"]
+	#Optional biome whitelist for ritual auto-randomization. Empty allows all biomes.
+	biomeWhitelist = []
+	#Biome blacklist for ritual auto-randomization.
+	biomeBlacklist = []
+
+	[corruption.effects]
+		#Whether the endless_rain corruption may auto-apply and remain active at runtime.
+		endless_rain = false
+		#Whether the endless_storm corruption may auto-apply and remain active at runtime.
+		endless_storm = false
+		#Whether the endless_lightning corruption may auto-apply and remain active at runtime.
+		endless_lightning = false
+		#Whether the meteors corruption may auto-apply and remain active at runtime.
+		meteors = false
+		#Whether the warp corruption may auto-apply and remain active at runtime.
+		warp = false
+		#Whether the fixed_time corruption may auto-apply and remain active at runtime.
+		fixed_time = false
+		#Whether the gravity corruption may auto-apply and remain active at runtime.
+		gravity = false
+		#Whether the spheres corruption may auto-apply and remain active at runtime.
+		spheres = false
+		#Whether the hostile_hordes corruption may auto-apply and remain active at runtime.
+		hostile_hordes = false

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "tag": "c:mushrooms"
+  },
+  "input2": {
+    "item": "minecraft:milk_bucket"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:weeping_milkcap"
+}

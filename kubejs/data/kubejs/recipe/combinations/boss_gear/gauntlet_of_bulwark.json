@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "cataclysm:gauntlet_of_guard"
+  },
+  "input2": {
+    "item": "cataclysm:bulwark_of_the_flame"
+  },
+  "mode": "or",
+  "output": "cataclysm:gauntlet_of_bulwark"
+}

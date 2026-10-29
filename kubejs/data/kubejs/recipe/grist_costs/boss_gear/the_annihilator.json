@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 28000,
+    "minestuck:iodine": 11000,
+    "minestuck:cobalt": 1800,
+    "minestuck:mercury": 2000,
+    "minestuck:amethyst": 1200
+  },
+  "ingredient": {
+    "item": "cataclysm:the_annihilator"
+  }
+}

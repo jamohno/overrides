@@ -1,0 +1,22 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "type": "neoforge:difference",
+    "base": {
+      "tag": "kubejs:alchemicalicious/ranged_weapons"
+    },
+    "subtracted": [
+      {
+        "item": "minestuck:shuriken"
+      },
+      {
+        "item": "minestuck:needle_wand"
+      }
+    ]
+  },
+  "input2": {
+    "tag": "kubejs:alchemicalicious/tools"
+  },
+  "mode": "and",
+  "output": "kubejs:gunblade"
+}

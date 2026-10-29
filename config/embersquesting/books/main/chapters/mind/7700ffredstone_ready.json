@@ -1,0 +1,54 @@
+{
+  "title": "&#7700ffRedstone Ready? :)",
+  "description": [
+    "&#7700ffBJ: get a pulse repeater, a pulse extender and a pulse timer. the create ones :)",
+    "",
+    "&#7700ffBJ: everything is just signals going where theyre told. people too :)"
+  ],
+  "icon": "create:pulse_repeater",
+  "x": 1.8749999999999991,
+  "y": 0.37500000000000006,
+  "deps": {
+    "all": [
+      "mind/7700ffbeginning_your_quest"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:pulse_repeater",
+      "type": "item"
+    },
+    {
+      "item": "create:pulse_extender",
+      "type": "item"
+    },
+    {
+      "item": "create:pulse_timer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"backsideJotter\",\"color\":\"#7700FF\"},{\"text\":\" [\"},{\"text\":\"BJ\",\"color\":\"#7700FF\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

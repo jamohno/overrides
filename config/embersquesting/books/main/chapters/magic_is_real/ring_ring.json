@@ -1,0 +1,30 @@
+{
+  "title": "§dRing Ring!",
+  "x": 13,
+  "y": 5.8,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(irons_spellbooks) mod(hazennstuff) mod(aero_additions) mod(gtbcs_geomancy_plus) mod(discerning_the_eldritch)) or(item_tag(curios:artifact) item_tag(curios:belt) item_tag(curios:body) item_tag(curios:charm) item_tag(curios:crystal) item_tag(curios:feet) item_tag(curios:hands) item_tag(curios:head) item_tag(curios:necklace) item_tag(curios:ring) item_tag(curios:rings) item_tag(curios:sheath) item_tag(curios:talisman) item_tag(curios:waist) item_tag(curios:wing)) not(item(hazennstuff:angel_wings)) not(item(hazennstuff:fallen_angel_wings)))",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

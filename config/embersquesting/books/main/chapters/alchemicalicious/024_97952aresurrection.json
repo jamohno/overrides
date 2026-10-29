@@ -1,0 +1,33 @@
+{
+  "title": "[024] &#97952AResurrection",
+  "description": [
+    "§cAlchemy§r is an essential part in expressing one's freedom and allowing a universe to contain an infinite amount of possible things. Genetically modifying a &zGenesis Frog§r's genetic code using §c4LCH3M-1Z3.ska§r should ensure alchemy works in your new universe.",
+    "§7=================================§r",
+    "§7by §rbaronessBramble",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:alchemizeusb",
+  "x": 11,
+  "y": 14.2,
+  "deps": {
+    "all": [
+      "alchemicalicious/022_an_amateurs_guide_to_weaponized_minifigures",
+      "alchemicalicious/023_minecraft_but_i_survive_in_durian_civilization"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:second_coming_of_durian_with_a_gun",
+      "type": "item",
+      "title": "§6Your Final Creation",
+      "icon": "minestuck:punch_designix"
+    },
+    {
+      "item": "kubejs:alchemizeusb",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

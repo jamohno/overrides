@@ -1,0 +1,30 @@
+{
+  "title": "&#82ab70dea matrona!",
+  "description": [
+    "The Denizen of the Hero of Space"
+  ],
+  "icon": "kubejs:space_choice",
+  "x": 0.5749999999999993,
+  "y": 1.5500000000000003,
+  "deps": {
+    "all": [
+      "space/82ab70let_get_zilly"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:space_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

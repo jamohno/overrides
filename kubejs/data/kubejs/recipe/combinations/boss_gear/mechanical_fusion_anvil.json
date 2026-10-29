@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:anvil"
+  },
+  "input2": {
+    "item": "cataclysm:witherite_ingot"
+  },
+  "mode": "or",
+  "output": "cataclysm:mechanical_fusion_anvil"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:magenta_pitcher_plant"
+  },
+  "sources": [
+    "minecraft:pitcher_plant",
+    "minecraft:magenta_dye"
+  ]
+}

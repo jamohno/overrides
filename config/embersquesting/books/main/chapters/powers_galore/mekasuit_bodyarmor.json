@@ -1,0 +1,19 @@
+{
+  "title": "Mekasuit Bodyarmor",
+  "icon": "mekanism:mekasuit_bodyarmor",
+  "x": 23.5,
+  "y": 7.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:mekasuit_bodyarmor",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

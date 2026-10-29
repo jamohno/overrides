@@ -1,0 +1,26 @@
+{
+  "title": "[020] Lunchbox ASMR",
+  "description": [
+    "§7=================================§r",
+    "§7by §rfastiduousGraduate",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:snackshot",
+  "x": 11,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/015_gun_that_is_also_a_blade",
+      "alchemicalicious/016_my_inventory_is_delicious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:snackshot",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

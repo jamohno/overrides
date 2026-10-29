@@ -1,0 +1,33 @@
+[General]
+	#What Color should the overlay at the first corner be [Format: #RRGGBB]
+	first_corner_overlay_color = "#004963"
+	#What Color should the overlay at the second corner be [Format: #RRGGBB]
+	second_corner_overlay_color = "#630000"
+	#BurnTick consumption of the quarry in idle mode (per second)
+	quarry_idle_consumption = 1
+	#Default mode BurnTick consumption
+	quarry_mode_default_consumption = 50
+	#Efficient mode BurnTick consumption
+	quarry_mode_efficient_consumption = 40
+	#Fortune mode BurnTick consumption
+	quarry_mode_fortune_consumption = 100
+	#Silk Touch mode BurnTick consumption
+	quarry_mode_silktouch_consumption = 100
+	#Void mode BurnTick consumption
+	quarry_mode_void_consumption = 50
+	#Speed 1 BurnTick consumption multiplier
+	quarry_speed_one_multiplier = 1.0
+	#Speed 2 BurnTick consumption multiplier
+	quarry_speed_two_multiplier = 1.2
+	#Speed 3 BurnTick consumption multiplier
+	quarry_speed_three_multiplier = 1.5
+	#Speed 4 BurnTick consumption multiplier
+	quarry_speed_four_multiplier = 1.8
+	#Speed 5 BurnTick consumption multiplier
+	quarry_speed_five_multiplier = 2.3
+	#Speed 6 BurnTick consumption multiplier
+	quarry_speed_six_multiplier = 2.9
+	#Speed 7 BurnTick consumption multiplier
+	quarry_speed_seven_multiplier = 3.6
+	#Radius where quarry can mine around it. Radius is square, like blocks
+	quarry_mine_radius = 64

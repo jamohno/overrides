@@ -1,0 +1,639 @@
+{
+  "options": [
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:badlands\",Label:\"Badlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:badlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Badlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:bamboo_jungle\",Label:\"Bamboo Jungle\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:bamboo_jungle\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Bamboo Jungle\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:basalt_deltas\",Label:\"Basalt Deltas\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:basalt_deltas\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Basalt Deltas\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:beach\",Label:\"Beach\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:beach\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Beach\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:birch_forest\",Label:\"Birch Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:birch_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Birch Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:cherry_grove\",Label:\"Cherry Grove\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:cherry_grove\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Cherry Grove\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:cold_ocean\",Label:\"Cold Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:cold_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Cold Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:crimson_forest\",Label:\"Crimson Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:crimson_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Crimson Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:dark_forest\",Label:\"Dark Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:dark_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Dark Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:deep_cold_ocean\",Label:\"Deep Cold Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:deep_cold_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Deep Cold Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:deep_dark\",Label:\"Deep Dark\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:deep_dark\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Deep Dark\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:deep_frozen_ocean\",Label:\"Deep Frozen Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:deep_frozen_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Deep Frozen Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:deep_lukewarm_ocean\",Label:\"Deep Lukewarm Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:deep_lukewarm_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Deep Lukewarm Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:deep_ocean\",Label:\"Deep Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:deep_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Deep Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:desert\",Label:\"Desert\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:desert\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Desert\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:dripstone_caves\",Label:\"Dripstone Caves\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:dripstone_caves\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Dripstone Caves\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:end_barrens\",Label:\"End Barrens\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:end_barrens\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"End Barrens\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:end_highlands\",Label:\"End Highlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:end_highlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"End Highlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:end_midlands\",Label:\"End Midlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:end_midlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"End Midlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:eroded_badlands\",Label:\"Eroded Badlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:eroded_badlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Eroded Badlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:flower_forest\",Label:\"Flower Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:flower_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Flower Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:forest\",Label:\"Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:frozen_ocean\",Label:\"Frozen Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:frozen_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Frozen Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:frozen_peaks\",Label:\"Frozen Peaks\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:frozen_peaks\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Frozen Peaks\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:frozen_river\",Label:\"Frozen River\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:frozen_river\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Frozen River\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:grove\",Label:\"Grove\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:grove\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Grove\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:ice_spikes\",Label:\"Ice Spikes\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:ice_spikes\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Ice Spikes\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:jagged_peaks\",Label:\"Jagged Peaks\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:jagged_peaks\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Jagged Peaks\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:jungle\",Label:\"Jungle\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:jungle\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Jungle\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:lukewarm_ocean\",Label:\"Lukewarm Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:lukewarm_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Lukewarm Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:lush_caves\",Label:\"Lush Caves\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:lush_caves\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Lush Caves\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:mangrove_swamp\",Label:\"Mangrove Swamp\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:mangrove_swamp\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Mangrove Swamp\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:meadow\",Label:\"Meadow\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:meadow\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Meadow\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:mushroom_fields\",Label:\"Mushroom Fields\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:mushroom_fields\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Mushroom Fields\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:nether_wastes\",Label:\"Nether Wastes\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:nether_wastes\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Nether Wastes\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:ocean\",Label:\"Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:old_growth_birch_forest\",Label:\"Old Growth Birch Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:old_growth_birch_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Old Growth Birch Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:old_growth_pine_taiga\",Label:\"Old Growth Pine Taiga\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:old_growth_pine_taiga\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Old Growth Pine Taiga\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:old_growth_spruce_taiga\",Label:\"Old Growth Spruce Taiga\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:old_growth_spruce_taiga\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Old Growth Spruce Taiga\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:plains\",Label:\"Plains\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:plains\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Plains\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:river\",Label:\"River\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:river\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"River\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:savanna\",Label:\"Savanna\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:savanna\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Savanna\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:savanna_plateau\",Label:\"Savanna Plateau\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:savanna_plateau\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Savanna Plateau\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:small_end_islands\",Label:\"Small End Islands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:small_end_islands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Small End Islands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:snowy_beach\",Label:\"Snowy Beach\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:snowy_beach\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Snowy Beach\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:snowy_plains\",Label:\"Snowy Plains\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:snowy_plains\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Snowy Plains\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:snowy_slopes\",Label:\"Snowy Slopes\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:snowy_slopes\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Snowy Slopes\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:snowy_taiga\",Label:\"Snowy Taiga\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:snowy_taiga\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Snowy Taiga\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:soul_sand_valley\",Label:\"Soul Sand Valley\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:soul_sand_valley\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Soul Sand Valley\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:sparse_jungle\",Label:\"Sparse Jungle\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:sparse_jungle\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Sparse Jungle\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:stony_peaks\",Label:\"Stony Peaks\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:stony_peaks\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Stony Peaks\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:stony_shore\",Label:\"Stony Shore\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:stony_shore\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Stony Shore\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:sunflower_plains\",Label:\"Sunflower Plains\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:sunflower_plains\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Sunflower Plains\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:swamp\",Label:\"Swamp\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:swamp\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Swamp\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:taiga\",Label:\"Taiga\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:taiga\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Taiga\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:the_end\",Label:\"The End\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:the_end\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"The End\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:the_void\",Label:\"The Void\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:the_void\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"The Void\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:warm_ocean\",Label:\"Warm Ocean\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:warm_ocean\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Warm Ocean\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:warped_forest\",Label:\"Warped Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:warped_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Warped Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:windswept_forest\",Label:\"Windswept Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:windswept_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Windswept Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:windswept_gravelly_hills\",Label:\"Windswept Gravelly Hills\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:windswept_gravelly_hills\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Windswept Gravelly Hills\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:windswept_hills\",Label:\"Windswept Hills\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:windswept_hills\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Windswept Hills\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:windswept_savanna\",Label:\"Windswept Savanna\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:windswept_savanna\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Windswept Savanna\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"minecraft:wooded_badlands\",Label:\"Wooded Badlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"minecraft:wooded_badlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Wooded Badlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:allium_shrubland\",Label:\"Biomeswevegone Allium Shrubland\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:allium_shrubland\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Allium Shrubland\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:amaranth_grassland\",Label:\"Biomeswevegone Amaranth Grassland\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:amaranth_grassland\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Amaranth Grassland\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:araucaria_savanna\",Label:\"Biomeswevegone Araucaria Savanna\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:araucaria_savanna\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Araucaria Savanna\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:aspen_boreal\",Label:\"Biomeswevegone Aspen Boreal\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:aspen_boreal\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Aspen Boreal\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:atacama_outback\",Label:\"Biomeswevegone Atacama Outback\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:atacama_outback\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Atacama Outback\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:baobab_savanna\",Label:\"Biomeswevegone Baobab Savanna\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:baobab_savanna\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Baobab Savanna\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:basalt_barrera\",Label:\"Biomeswevegone Basalt Barrera\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:basalt_barrera\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Basalt Barrera\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:bayou\",Label:\"Biomeswevegone Bayou\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:bayou\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Bayou\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:black_forest\",Label:\"Biomeswevegone Black Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:black_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Black Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:canadian_shield\",Label:\"Biomeswevegone Canadian Shield\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:canadian_shield\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Canadian Shield\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:cika_woods\",Label:\"Biomeswevegone Cika Woods\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:cika_woods\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Cika Woods\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:coconino_meadow\",Label:\"Biomeswevegone Coconino Meadow\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:coconino_meadow\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Coconino Meadow\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:coniferous_forest\",Label:\"Biomeswevegone Coniferous Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:coniferous_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Coniferous Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:crag_gardens\",Label:\"Biomeswevegone Crag Gardens\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:crag_gardens\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Crag Gardens\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:crimson_tundra\",Label:\"Biomeswevegone Crimson Tundra\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:crimson_tundra\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Crimson Tundra\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:cypress_swamplands\",Label:\"Biomeswevegone Cypress Swamplands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:cypress_swamplands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Cypress Swamplands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:cypress_wetlands\",Label:\"Biomeswevegone Cypress Wetlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:cypress_wetlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Cypress Wetlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:dacite_ridges\",Label:\"Biomeswevegone Dacite Ridges\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:dacite_ridges\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Dacite Ridges\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:dacite_shore\",Label:\"Biomeswevegone Dacite Shore\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:dacite_shore\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Dacite Shore\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:dead_sea\",Label:\"Biomeswevegone Dead Sea\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:dead_sea\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Dead Sea\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:ebony_woods\",Label:\"Biomeswevegone Ebony Woods\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:ebony_woods\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Ebony Woods\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:enchanted_tangle\",Label:\"Biomeswevegone Enchanted Tangle\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:enchanted_tangle\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Enchanted Tangle\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:eroded_borealis\",Label:\"Biomeswevegone Eroded Borealis\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:eroded_borealis\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Eroded Borealis\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:firecracker_chaparral\",Label:\"Biomeswevegone Firecracker Chaparral\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:firecracker_chaparral\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Firecracker Chaparral\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:forgotten_forest\",Label:\"Biomeswevegone Forgotten Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:forgotten_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Forgotten Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:fragment_jungle\",Label:\"Biomeswevegone Fragment Jungle\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:fragment_jungle\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Fragment Jungle\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:frosted_coniferous_forest\",Label:\"Biomeswevegone Frosted Coniferous Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:frosted_coniferous_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Frosted Coniferous Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:frosted_taiga\",Label:\"Biomeswevegone Frosted Taiga\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:frosted_taiga\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Frosted Taiga\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:howling_peaks\",Label:\"Biomeswevegone Howling Peaks\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:howling_peaks\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Howling Peaks\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:ironwood_gour\",Label:\"Biomeswevegone Ironwood Gour\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:ironwood_gour\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Ironwood Gour\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:jacaranda_jungle\",Label:\"Biomeswevegone Jacaranda Jungle\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:jacaranda_jungle\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Jacaranda Jungle\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:lush_stacks\",Label:\"Biomeswevegone Lush Stacks\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:lush_stacks\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Lush Stacks\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:maple_taiga\",Label:\"Biomeswevegone Maple Taiga\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:maple_taiga\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Maple Taiga\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:mojave_desert\",Label:\"Biomeswevegone Mojave Desert\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:mojave_desert\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Mojave Desert\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:orchard\",Label:\"Biomeswevegone Orchard\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:orchard\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Orchard\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:overgrowth_woodlands\",Label:\"Biomeswevegone Overgrowth Woodlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:overgrowth_woodlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Overgrowth Woodlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:pale_bog\",Label:\"Biomeswevegone Pale Bog\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:pale_bog\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Pale Bog\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:prairie\",Label:\"Biomeswevegone Prairie\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:prairie\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Prairie\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:pumpkin_valley\",Label:\"Biomeswevegone Pumpkin Valley\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:pumpkin_valley\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Pumpkin Valley\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:rainbow_beach\",Label:\"Biomeswevegone Rainbow Beach\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:rainbow_beach\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Rainbow Beach\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:red_rock_peaks\",Label:\"Biomeswevegone Red Rock Peaks\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:red_rock_peaks\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Red Rock Peaks\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:red_rock_valley\",Label:\"Biomeswevegone Red Rock Valley\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:red_rock_valley\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Red Rock Valley\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:redwood_thicket\",Label:\"Biomeswevegone Redwood Thicket\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:redwood_thicket\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Redwood Thicket\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:rose_fields\",Label:\"Biomeswevegone Rose Fields\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:rose_fields\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Rose Fields\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:rugged_badlands\",Label:\"Biomeswevegone Rugged Badlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:rugged_badlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Rugged Badlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:sakura_grove\",Label:\"Biomeswevegone Sakura Grove\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:sakura_grove\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Sakura Grove\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:shattered_glacier\",Label:\"Biomeswevegone Shattered Glacier\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:shattered_glacier\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Shattered Glacier\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:sierra_badlands\",Label:\"Biomeswevegone Sierra Badlands\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:sierra_badlands\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Sierra Badlands\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:skyris_vale\",Label:\"Biomeswevegone Skyris Vale\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:skyris_vale\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Skyris Vale\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:temperate_grove\",Label:\"Biomeswevegone Temperate Grove\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:temperate_grove\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Temperate Grove\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:tropical_rainforest\",Label:\"Biomeswevegone Tropical Rainforest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:tropical_rainforest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Tropical Rainforest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:weeping_witch_forest\",Label:\"Biomeswevegone Weeping Witch Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:weeping_witch_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Weeping Witch Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:white_mangrove_marshes\",Label:\"Biomeswevegone White Mangrove Marshes\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:white_mangrove_marshes\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"White Mangrove Marshes\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:windswept_desert\",Label:\"Biomeswevegone Windswept Desert\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:windswept_desert\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Windswept Desert\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"biomeswevegone:zelkova_forest\",Label:\"Biomeswevegone Zelkova Forest\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"biomeswevegone:zelkova_forest\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Zelkova Forest\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"quark:glimmering_weald\",Label:\"Quark Glimmering Weald\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"quark:glimmering_weald\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Glimmering Weald\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"verseworks:glacial_labyrinth\",Label:\"Verseworks Glacial Labyrinth\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"verseworks:glacial_labyrinth\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Glacial Labyrinth\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"verseworks:rainbow_maze\",Label:\"Verseworks Rainbow Maze\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"verseworks:rainbow_maze\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Rainbow Maze\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"verseworks:shadow_mines\",Label:\"Verseworks Shadow Mines\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"verseworks:shadow_mines\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Shadow Mines\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"verseworks:spleef_field\",Label:\"Verseworks Spleef Field\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"verseworks:spleef_field\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Spleef Field\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"verseworks:warp_corrupted_cave\",Label:\"Verseworks Warp Corrupted Cave\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"verseworks:warp_corrupted_cave\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Warp Corrupted Cave\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"verseworks:warp_corrupted_surface\",Label:\"Verseworks Warp Corrupted Surface\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"verseworks:warp_corrupted_surface\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Warp Corrupted Surface\"}'}",
+      "type": "item"
+    },
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"verseworks:whisper_groves\",Label:\"Verseworks Whisper Groves\",Parameter:\"biomeId\",Prefix:\"Bioma\",StringValue:\"verseworks:whisper_groves\",VerseType:\"biome\"}},\"minecraft:custom_name\":'{\"italic\":false,\"text\":\"Whisper Groves\"}'}",
+      "type": "item"
+    }
+  ]
+}

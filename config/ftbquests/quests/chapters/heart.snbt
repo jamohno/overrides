@@ -1,0 +1,443 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "heart"
+	group: "299E7FAB59E52A5B"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/litavis"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "09CE77E2F608D156"
+	images: [
+		{
+			height: 20.76923076923077d
+			id: "1A650E690D2695A9"
+			image: "kubejs:item/litavisbrowser"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.456896551724138d
+			id: "20BC04414E7C6A7B"
+			image: "kubejs:item/ddpester"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.875d
+			y: 2.25d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "kubejs:dd_chat"
+			}
+			icon_scale: 1.75d
+			id: "64591BF974FF0F4A"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30E433E616903EC0"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4564865091026038"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "776663AEF2128627"
+				item: { components: { "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"heart\"}"] }, count: 1, id: "kubejs:inventory_upgrade" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -10.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2FC4997B31CF3C8A"]
+			id: "078FFD765F6AB34E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B0C2E0764404B1A"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5383A96E5A6AE15F"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6E41D6D1B63EAC8B"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "48F15BBCA7D94305"
+				item: { count: 1, id: "irons_spellbooks:brazier_soul" }
+				type: "item"
+			}]
+			x: -7.500000000000001d
+			y: 2.475d
+		}
+		{
+			dependencies: ["7C93702BF0EA4E36"]
+			icon: {
+				id: "kubejs:heart3"
+			}
+			id: "2B0523C9A892FB30"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4395900A4BD8840E"
+				table_id: 9204769792351976345L
+				type: "random"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "1AB72364012C31C4"
+					item: { count: 1, id: "kubejs:divine_note" }
+					type: "item"
+				}
+				{
+					id: "3536C6DF73FE1752"
+					item: { count: 1, id: "kubejs:eye_of_ascension" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.3d
+			y: 3.3000000000000003d
+		}
+		{
+			dependencies: ["207057B7311D8158"]
+			icon: {
+				id: "kubejs:soul_wall"
+			}
+			id: "7C93702BF0EA4E36"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "388FADAB9D02A0F5"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "3C7F4E2404A19F49"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "72A5C467D33223C3"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "2C727CC11A459183"
+					item: {
+						count: 1
+						id: "kubejs:heart_scroll"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 5"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "554D390A74A2B533"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "547BB15917B53AE9"
+					item: { count: 1, id: "minecraft:shears" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 108L
+					id: "460C77B3C364A3CD"
+					item: { count: 1, id: "kubejs:untrue_soul" }
+					type: "item"
+				}
+			]
+			x: -8.4d
+			y: 3.3000000000000003d
+		}
+		{
+			dependencies: ["7C93702BF0EA4E36"]
+			id: "0091D0D806C4C922"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "603AF6BE5AB465F6"
+				table_id: 9204769792351976345L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "14F0BE77E5B336A2"
+				item: { count: 1, id: "kubejs:heart_choice" }
+				type: "item"
+			}]
+			x: -10.275d
+			y: 3.3000000000000003d
+		}
+		{
+			dependencies: ["64591BF974FF0F4A"]
+			id: "75BBA23DE6565A67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B5E58C7827091AF"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5797F50EB4AAE416"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6263BF549EE136D3"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "22A2A4CFE00B5439"
+				item: { count: 1, id: "minestuck:heart_aspect_sapling" }
+				type: "item"
+			}]
+			x: -9.3d
+			y: 2.475d
+		}
+		{
+			dependencies: ["078FFD765F6AB34E"]
+			id: "207057B7311D8158"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53CBDB6B87739D75"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1652D67DDD23CC36"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1FB511A20BBF01FA"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "0173062E58F4664E"
+				item: { count: 1, id: "minecraft:written_book" }
+				type: "item"
+			}]
+			x: -7.500000000000001d
+			y: 3.3000000000000003d
+		}
+		{
+			dependencies: ["75BBA23DE6565A67"]
+			id: "2FC4997B31CF3C8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EDF6ECE607E96AA"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7AE35ABA7C83C409"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "521AB97B0F5E79ED"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				count: 32L
+				id: "328B454B517C8D65"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -8.4d
+			y: 2.475d
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:skeleton_skull"
+  },
+  "input2": {
+    "item": "cataclysm:ancient_metal_ingot"
+  },
+  "mode": "or",
+  "output": "cataclysm:bone_reptile_helmet"
+}

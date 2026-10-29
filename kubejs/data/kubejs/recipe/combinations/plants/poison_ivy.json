@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:vine"
+  },
+  "input2": {
+    "item": "minecraft:spider_eye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:poison_ivy"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:ender_pearl"
+  },
+  "input2": {
+    "item": "bosses_of_mass_destruction:void_thorn"
+  },
+  "mode": "or",
+  "output": "bosses_of_mass_destruction:charged_ender_pearl"
+}

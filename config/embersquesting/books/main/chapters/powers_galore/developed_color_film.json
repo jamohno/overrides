@@ -1,0 +1,20 @@
+{
+  "title": "Developed Color Film",
+  "icon": "exposure:developed_color_film",
+  "x": 0.6999999999999993,
+  "y": 4,
+  "deps": {
+    "all": [
+      "powers_galore/the_hamburger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "exposure:developed_color_film",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "lines_out": "hover",
+  "shape": "square"
+}

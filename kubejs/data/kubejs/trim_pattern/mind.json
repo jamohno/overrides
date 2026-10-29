@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:mind",
+  "description": {"text": "Mind"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

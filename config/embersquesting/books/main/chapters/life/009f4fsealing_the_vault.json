@@ -1,0 +1,52 @@
+{
+  "title": "&#009f4fSealing the Vault",
+  "description": [
+    "&#009f4fPY: Put all three stashes together and You get a Seed Vault. Craft it, and think of the rabbits.",
+    "",
+    "&#009f4fPY: I had everY single thing in mY session perfect. EverY. Single. Thing.",
+    "",
+    "&#009f4fPY: TheY all had to go and fuck it up, didn't theY."
+  ],
+  "icon": "kubejs:seed_vault",
+  "x": 2.7249999999999996,
+  "y": 0.8250000000000002,
+  "deps": {
+    "all": [
+      "life/009f4fprotected_plants"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:seed_vault",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"plasticineYpsiliform\",\"color\":\"#009F4F\"},{\"text\":\" [\"},{\"text\":\"PY\",\"color\":\"#009F4F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:life_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

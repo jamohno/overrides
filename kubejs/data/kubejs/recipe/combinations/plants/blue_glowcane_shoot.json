@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:sugar_cane"
+  },
+  "input2": {
+    "item": "minecraft:blue_dye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:blue_glowcane_shoot"
+}

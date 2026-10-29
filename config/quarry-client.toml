@@ -1,0 +1,7 @@
+[General]
+	#Should the quarry gui screen be rendered in Dark Mode.
+	enable_quarry_darkmode = true
+	#Should the quarry informations holograph be rendered?
+	enable_quarry_holograph = true
+	#Render the with Area Card selected corners in world.
+	enable_area_card_corner_rendering = true

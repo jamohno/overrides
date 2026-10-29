@@ -1,0 +1,27 @@
+{
+  "title": "&#bf9000besenclae~♪",
+  "icon": "kubejs:hope_choice",
+  "x": 0.25,
+  "y": 1.5499999999999998,
+  "deps": {
+    "all": [
+      "hope/bf9000inspiring_the_masses"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:hope_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

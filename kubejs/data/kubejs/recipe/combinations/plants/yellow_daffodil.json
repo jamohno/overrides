@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:yellow_dye"
+  },
+  "input2": {
+    "item": "biomeswevegone:daffodil"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:yellow_daffodil"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "§7[§rS§7]§r Enter",
+  "description": [
+    "The server player activates §aEDIT MODE§r to gain a view of the client player's home. While editing, the server player can break or place blocks (§7including breaking/placing multiple at once & middle clicking to gain a block§r), as well as open the inventory to §aDEPLOY§r Sburb machinery and a §bCRUXITE ARTIFACT§r punched card. To exit §aEDIT MODE§r, press §aJ§r.",
+    "",
+    "The client player must use the machinery in order to alchemize a §bCRUXITE ARTIFACT§r. It is recommended you figure this out yourself, but if you need one, there is a tutorial on the following page.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "§7=================================",
+    "§aTUTORIAL§r:",
+    "",
+    "1. Break Cruxtruder Lid and turn wheel to extract Cruxite Dowels.",
+    "",
+    "2. Place Cruxite Dowel and Pre-Punched Card into the Totem Lathe and carve the dowel using the button on the top.",
+    "",
+    "3. Use cursor on any creature or block to prototype your Kernelsprite.",
+    "",
+    "4. Place your carved Cruxite Dowel into the alchemiter, interact with it to alchemize your Cruxite Artifact.",
+    "§7================================="
+  ],
+  "icon": "kubejs:textures/item/gate.png",
+  "x": 5.5,
+  "y": 3.75,
+  "deps": {
+    "all": [
+      "planetastic/connect"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "minestuck:minestuck/entry",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "points": 100,
+      "type": "xp"
+    }
+  ],
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 3.0,
+  "shape": "none"
+}

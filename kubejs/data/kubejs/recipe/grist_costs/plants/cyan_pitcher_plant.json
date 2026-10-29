@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:cyan_pitcher_plant"
+  },
+  "sources": [
+    "minecraft:pitcher_plant",
+    "minecraft:cyan_dye"
+  ]
+}

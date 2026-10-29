@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minestuck:array_modus_card",
+    "minestuck:queuestack_modus_card",
+    "minestuck:set_modus_card",
+    "minestuck_extended:roulette_modus_card",
+    "minestuck_extended:zip_modus_card"
+  ]
+}

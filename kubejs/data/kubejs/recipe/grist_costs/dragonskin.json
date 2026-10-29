@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "irons_spellbooks:dragonskin"
+  },
+  "sources": [
+    "minecraft:dragon_head",
+    "minecraft:leather"
+  ]
+}

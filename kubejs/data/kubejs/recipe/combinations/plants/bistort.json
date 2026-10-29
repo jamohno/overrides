@@ -1,0 +1,17 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:bone"
+  },
+  "input2": {
+    "type": "neoforge:difference",
+    "base": {
+      "tag": "minecraft:flowers"
+    },
+    "subtracted": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "mode": "or",
+  "output": "biomeswevegone:bistort"
+}

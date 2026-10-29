@@ -1,0 +1,19 @@
+{
+  "title": "Spyglass",
+  "icon": "minecraft:spyglass",
+  "x": 0.6999999999999993,
+  "y": 7,
+  "deps": {
+    "all": [
+      "powers_galore/developed_color_film"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:spyglass",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

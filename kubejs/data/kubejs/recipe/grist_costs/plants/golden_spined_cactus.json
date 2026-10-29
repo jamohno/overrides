@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:golden_spined_cactus"
+  },
+  "sources": [
+    "minecraft:cactus",
+    "minecraft:gold_ingot"
+  ]
+}

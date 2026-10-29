@@ -1,0 +1,48 @@
+{
+  "title": "&#b4eb54parkour~",
+  "description": [
+    "&#b4eb54FR: somewhere in your land there is a course with tres jumping. at the end there are pieces of something special~",
+    "",
+    "&#b4eb54FR: bring me one elytric fragment and i will tell you a secret",
+    "",
+    "&#b4eb54FR: ...the secret is my name. it is niquel. niquel frette. remember it for when i am famous :}"
+  ],
+  "icon": "kubejs:elytric_fragment",
+  "x": 3.424999999999999,
+  "y": 0.9625,
+  "deps": {
+    "all": [
+      "breath/b4eb54up_up_up_and_away"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:elytric_fragment",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"flippantRockstarring\",\"color\":\"#B4EB54\"},{\"text\":\" [\"},{\"text\":\"FR\",\"color\":\"#B4EB54\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

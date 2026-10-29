@@ -1,0 +1,30 @@
+{
+  "title": "Windmill Bearing",
+  "icon": "create:windmill_bearing",
+  "x": 7.4,
+  "y": 0.8999999999999999,
+  "deps": {
+    "all": [
+      "powers_galore/shaft"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:windmill_bearing",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

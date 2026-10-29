@@ -1,0 +1,26 @@
+{
+  "title": "[014] Halberd OC do not steal",
+  "description": [
+    "§7=================================§r",
+    "§7by §rfalseLineage",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:captchalberd",
+  "x": 5,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/003_the_longaxe_and_shortaxe_the_mediumaxe_too",
+      "alchemicalicious/004_some_stuff_about_lances"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:captchalberd",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

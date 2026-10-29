@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:soul_torch"
+  },
+  "input2": {
+    "item": "mekanism:dust_coal"
+  },
+  "mode": "or",
+  "output": "discerning_the_eldritch:soul_ember"
+}

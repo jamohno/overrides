@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:pale_pumpkin"
+  },
+  "sources": [
+    "minecraft:pumpkin",
+    "minecraft:white_dye"
+  ]
+}

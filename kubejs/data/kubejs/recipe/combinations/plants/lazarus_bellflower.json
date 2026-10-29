@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "biomeswevegone:alpine_bellflower"
+  },
+  "input2": {
+    "item": "minecraft:red_dye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:lazarus_bellflower"
+}

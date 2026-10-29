@@ -1,0 +1,25 @@
+{
+  "title": "Modus",
+  "options": [
+    {
+      "item": "minestuck:stack_modus_card",
+      "components": "{\"minecraft:lore\":['{\"color\":\"white\",\"italic\":false,\"text\":\"Captchalogue cards are arranged in a stack, and the player can only use or otherwise interact with the one at the top of the stack. If an object is picked up while the Sylladex is full, the item at the bottom of the stack will be dropped.\"}']}",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:queue_modus_card",
+      "components": "{\"minecraft:lore\":['{\"color\":\"white\",\"italic\":false,\"text\":\"The opposite of the Stack, in that only the card at the bottom of the deck (the one that was added before any of the others, First In First Out) may be retrieved or used directly. \"}']}",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:tree_modus_card",
+      "components": "{\"minecraft:lore\":['{\"color\":\"white\",\"italic\":false,\"text\":\"The first item is captchalogued in the Root Card. Any more items that are picked up are Branches attached to an existing card and, like the root itself, may have up to two branches of their own (making this a binary tree). Branches with no further branches of their own are called Leaf Cards. Cards are sorted alphabetically: they join the left branch of an existing card if they come alphabetically before that card, or the right branch otherwise.\"}']}",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:hashmap_modus_card",
+      "components": "{\"minecraft:lore\":['{\"color\":\"white\",\"italic\":false,\"text\":\"Hash maps work through a key-to-value lookup structure, making the Hash Map Fetch Modus the most like a traditional inventory. Each card in the deck is given an index from zero to the number of cards in the deck minus 1 (10 cards leaves an index range of 0 to 9). When an item is captchalogued into a Hash Map Sylladex, where it is placed into the card stack depends on the current Hash Function. If an object already occupies the card with the produced index, the item in the card is ejected from the Sylladex to make room for the new item.\"}']}",
+      "type": "item"
+    }
+  ]
+}

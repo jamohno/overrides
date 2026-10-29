@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:wood_blewit"
+  },
+  "sources": [
+    "minecraft:brown_mushroom",
+    "minecraft:oak_log"
+  ]
+}

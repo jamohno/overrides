@@ -1,0 +1,29 @@
+{
+  "title": "Nether Star",
+  "description": [
+    "This is here to prevent Chapter Completion",
+    "you shouldnt be seeing this",
+    "unless you ACTUALLY got the 999 nether stars?",
+    "that would be &zcrazy§r"
+  ],
+  "icon": "minecraft:nether_star",
+  "x": 21,
+  "tasks": [
+    {
+      "item": "minecraft:nether_star",
+      "count": 999,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:frog",
+      "components": "{\"minestuck:frog_traits\":{variant:\"susan\"}}",
+      "type": "item"
+    }
+  ],
+  "invisible_until_complete": true,
+  "lines_in": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:arcane_sea_shell"
+  },
+  "sources": [
+    "minecraft:nautilus_shell",
+    "minecraft:amethyst_shard"
+  ]
+}

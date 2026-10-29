@@ -1,0 +1,70 @@
+{
+  "title": "&#0a20d4BEGINNING YOUR QUEST",
+  "description": [
+    "&#0a20d4GS: OK HERE'S THE SITCH.",
+    "",
+    "&#0a20d4GS: YOUR PLANET HAS FOUR KINDS OF CONSORTS. SALAMANDERS, TURTLES, IGUANAS AND NAKAGATORS. AND THEY DO NOT. GET. ALONG.",
+    "",
+    "&#0a20d4GS: THEIR HATRED FOR EACH OTHER IS POISONING THE LAND. THE BLOOD OCEANS AND RIVERS THAT RUN THROUGH YOUR PLANET RISE AND FALL BASED ON THE UNITY OF THE PEOPLE... AND RIGHT NOW... THE LEVEL IS RISING. IN TIME, IT'LL ALL BE UNDERWATER. OR UNDERBLOOD, RATHER.",
+    "",
+    "&#0a20d4GS: IT'S YOUR JOB TO FIX THAT. PULL IT OFF AND THERE WON'T JUST BE POGS IN THE CHAT, THERE'LL BE POGS IN THE WORLD.",
+    "",
+    "&#0a20d4GS: ALSO GATES. QUICK TUTORIAL. YOUR FIRST GATE TAKES YOU SOMEWHERE ELSE ON YOUR PLANET. NEW AREA, NEW CONTENT, YOU KNOW HOW IT IS.",
+    "",
+    "&#0a20d4GS: THE SECOND ONE GOES STRAIGHT TO §aYOUR SERVER PLAYER'S HOUSE&#0a20d4. GREAT FOR COLLABS.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/gates.png",
+      "type": "image"
+    },
+    "",
+    "&#0a20d4GS: AND IF YOU WANNA GO HOME, LOOK FOR A RETURN NODE. THEY'RE ALL OVER YOUR PLANET. JUMP IN AND BOOM, BACK AT BASE.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/return_node.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:blood_aspect_sapling",
+  "x": 1.5999999999999996,
+  "y": 0.4999999999999998,
+  "deps": {
+    "all": [
+      "blood/0a20d4thicker_than_water"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:blood_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

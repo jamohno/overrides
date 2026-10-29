@@ -1,0 +1,30 @@
+{
+  "title": "Ingot Osmium",
+  "icon": "mekanism:ingot_osmium",
+  "x": 16.9,
+  "y": 0.8999999999999999,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:ingot_osmium",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "biomeswevegone:jacaranda_bush"
+  },
+  "input2": {
+    "type": "neoforge:difference",
+    "base": {
+      "tag": "minecraft:flowers"
+    },
+    "subtracted": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "mode": "and",
+  "output": "biomeswevegone:flowering_jacaranda_bush"
+}

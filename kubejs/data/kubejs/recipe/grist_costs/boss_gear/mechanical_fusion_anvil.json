@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 30000,
+    "minestuck:tar": 8000,
+    "minestuck:rust": 2500,
+    "minestuck:mercury": 1500,
+    "minestuck:diamond": 500
+  },
+  "ingredient": {
+    "item": "cataclysm:mechanical_fusion_anvil"
+  }
+}

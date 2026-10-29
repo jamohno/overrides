@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "cataclysm:the_annihilator"
+  },
+  "input2": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "mode": "or",
+  "output": "cataclysm:the_immolator"
+}

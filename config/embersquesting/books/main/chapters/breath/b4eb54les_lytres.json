@@ -1,0 +1,52 @@
+{
+  "title": "&#b4eb54les élytres",
+  "description": [
+    "&#b4eb54FR: nine fragments makes one elytra. fill the whole crafting table, like a sold out show~",
+    "",
+    "&#b4eb54FR: and then you fly!! no more waiting for the wind, you ARE the wind",
+    "",
+    "&#b4eb54FR: i was always flying on ahead in our session... maybe i should have looqued behind me more. anyway, allez!"
+  ],
+  "icon": "minecraft:elytra",
+  "x": 2.5999999999999996,
+  "y": 0.9625,
+  "deps": {
+    "all": [
+      "breath/b4eb54parkour"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:elytra",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"flippantRockstarring\",\"color\":\"#B4EB54\"},{\"text\":\" [\"},{\"text\":\"FR\",\"color\":\"#B4EB54\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:breath_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

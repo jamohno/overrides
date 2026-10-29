@@ -1,0 +1,25 @@
+{
+  "title": "[002] So your shield is defending. Use this to live.",
+  "description": [
+    "§7====================================§r",
+    "§7by §rdeftLamiaceae",
+    "§7====================================§r"
+  ],
+  "x": 2,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) and(item_tag(c:tools/shield)))",
+      "type": "item",
+      "title": "Any Shield"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

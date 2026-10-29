@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:chalk": 60,
+    "minestuck:build": 40,
+    "minestuck:amethyst": 20
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:wimpy_spell_book"
+  }
+}

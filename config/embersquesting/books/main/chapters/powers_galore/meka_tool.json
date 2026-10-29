@@ -1,0 +1,19 @@
+{
+  "title": "Meka Tool",
+  "icon": "mekanism:meka_tool",
+  "x": 22.5,
+  "y": 6.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:meka_tool",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

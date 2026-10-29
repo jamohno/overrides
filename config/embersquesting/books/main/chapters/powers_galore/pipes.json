@@ -1,0 +1,30 @@
+{
+  "title": "Pipes",
+  "x": 15.8,
+  "y": 3.9,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(mekanism:basic_mechanical_pipe) item(mekanism:advanced_mechanical_pipe) item(mekanism:elite_mechanical_pipe) item(mekanism:ultimate_mechanical_pipe))",
+      "type": "item",
+      "title": "Pipe"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

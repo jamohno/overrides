@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "kubejs:gunblade"
+  },
+  "input2": {
+    "item": "kubejs:edible_modus"
+  },
+  "mode": "and",
+  "output": "kubejs:snackshot"
+}

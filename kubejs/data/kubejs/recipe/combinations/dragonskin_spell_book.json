@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:ruined_book"
+  },
+  "input2": {
+    "item": "irons_spellbooks:dragonskin"
+  },
+  "mode": "or",
+  "output": "irons_spellbooks:dragonskin_spell_book"
+}

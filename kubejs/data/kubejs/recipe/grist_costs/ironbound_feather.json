@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "discerning_the_eldritch:ironbound_feather"
+  },
+  "sources": [
+    "minecraft:feather",
+    "minecraft:iron_block"
+  ]
+}

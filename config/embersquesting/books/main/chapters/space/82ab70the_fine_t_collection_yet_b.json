@@ -1,0 +1,44 @@
+{
+  "title": "&#82ab70The Fineθt Collection Yet! (|:B)",
+  "description": [
+    "Enter the Medium as a Hero of Space",
+    "-- &#82ab70sultryTwostep [ST]§r has created the memo FANCY_YOURSELF_A_COLLECTOR --",
+    "&#82ab70ST: you finally entered!! that (θtatiθtically (|:B) puts u in the top 0.0001% of your groθθ θpecieθ!!! so...... congratθ!!!",
+    "",
+    "&#82ab70ST: now...... we θhare an aθpect...... soo ur gonna need My help with whatθ to come......",
+    "",
+    "&#82ab70ST: ill be in contact!!! juθt dont die for now!!!",
+    "",
+    "&#82ab70ST: oh and... good luck!!!",
+    "-- &#82ab70ST§r Closed Memo --"
+  ],
+  "icon": "kubejs:st_chat",
+  "x": 0.59375,
+  "y": 0.6875,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"space\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "size": 0.9,
+  "progression": "linear",
+  "shape": "none"
+}

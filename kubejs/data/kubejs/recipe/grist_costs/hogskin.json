@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "irons_spellbooks:hogskin"
+  },
+  "sources": [
+    "minecraft:leather",
+    "minecraft:porkchop"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "&#009f4fSowing Seeds",
+  "description": [
+    "&#009f4fPY: Soooo basicallY Your denizen, Cainte, is SUPES WORRIED about all the plants going extinct or smth. Sounds like a personal problem to me but...",
+    "",
+    "&#009f4fPY: I believe Your goal is to \"PRESERVE ALL LIFE\" on this planet bY gathering/alchemizing as manY plants as You can. I'm sure You can manage. MY quest was *much* harder.",
+    "",
+    "&#009f4fPY: Now. Let's get started. Seeds. ThirtY two of them. AnY kind, I'm not pickY.~",
+    "",
+    "&#009f4fPY: OkaY, I'm VERY pickY. Just not about this.",
+    "",
+    "&#009f4fPY: Grab whatever's lYing around in the grass. Or alchemize something. It's not hard."
+  ],
+  "x": 2.7249999999999996,
+  "y": 4.440892098500626E-16,
+  "deps": {
+    "all": [
+      "life/009f4fbeginning_your_quest"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "c:seeds",
+      "count": 32,
+      "type": "item",
+      "title": "Seeds"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"plasticineYpsiliform\",\"color\":\"#009F4F\"},{\"text\":\" [\"},{\"text\":\"PY\",\"color\":\"#009F4F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

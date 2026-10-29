@@ -1,0 +1,26 @@
+{
+  "title": "[019] Holy Weapon Codes for Pious Players",
+  "description": [
+    "§7=================================§r",
+    "§7by §riridescentPillow",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:paladins_arsenal",
+  "x": 3,
+  "y": 10.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/013_so_you_think_defense_builds_are_trash_think_again",
+      "alchemicalicious/014_halberd_oc_do_not_steal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:paladins_arsenal",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

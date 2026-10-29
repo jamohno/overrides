@@ -1,0 +1,56 @@
+{
+  "title": "&zグレイテスト・バジリスクアイドル！⋆｡♪ ₊˚",
+  "description": [
+    "by Basiliskie B",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/basilisk.png",
+      "type": "image"
+    },
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "&#8675FF1. FREELY KILLING",
+    "&#8675FF2. 殺せ殺せもう一度",
+    "&#8675FF3. ベーsilisk",
+    "&#8675FF4. ビバ壊滅",
+    "&#8675FF5. Bye Bye Innocent People",
+    "&#8675FF6. Skaia~スカイア~",
+    "&#8675FF7. イージー死",
+    "&#8675FF8. 死は噛みつかれるようなものです",
+    "&#8675FF9. すぐに怒るバジリスク",
+    "&#8675FF10. アイドルで家庭を崩壊させ",
+    "&#8675FF11. Chew [ver.HD]",
+    "&#8675FF12. スカイアンバジリスク",
+    "&#8675FF13. Murderday Song for バジリスク"
+  ],
+  "icon": "kubejs:textures/item/basilisk.png",
+  "x": 11.5,
+  "y": 12.25,
+  "deps": {
+    "all": [
+      "godtok/zwhat_are_you_listening_to"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:basilisk",
+      "count": 40,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "repeat": {},
+  "lines_in": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

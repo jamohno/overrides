@@ -1,0 +1,41 @@
+{
+  "title": "&#82ab70beginning your queθt!!",
+  "icon": "minestuck:space_aspect_sapling",
+  "x": 1.549999999999999,
+  "y": 0.7250000000000001,
+  "deps": {
+    "all": [
+      "space/82ab70the_fine_t_collection_yet_b"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:space_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"sultryTwostep\",\"color\":\"#82AB70\"},{\"text\":\" [\"},{\"text\":\"ST\",\"color\":\"#82AB70\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

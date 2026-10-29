@@ -1,0 +1,49 @@
+{
+  "title": "&#b4eb54up, up, up and away~",
+  "description": [
+    "&#b4eb54FR: sixty-four fireworques!! a whole stacque~",
+    "",
+    "&#b4eb54FR: gunpowder and paper. you will want them for later, trust me :}",
+    "",
+    "&#b4eb54FR: at my last show i wanted fireworques so bad and the venue said non. philistines }:("
+  ],
+  "icon": "minecraft:firework_rocket",
+  "x": 3.4250000000000007,
+  "y": 0.13749999999999996,
+  "deps": {
+    "all": [
+      "breath/b4eb54feeling_the_air"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:firework_rocket",
+      "count": 64,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"flippantRockstarring\",\"color\":\"#B4EB54\"},{\"text\":\" [\"},{\"text\":\"FR\",\"color\":\"#B4EB54\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

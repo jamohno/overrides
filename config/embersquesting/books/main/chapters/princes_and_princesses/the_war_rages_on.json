@@ -1,0 +1,43 @@
+{
+  "title": "§eThe War Rages On",
+  "description": [
+    "§eHead to §bSkaia§e using the §aIncipispheric Transportablizer§e and join the fight!"
+  ],
+  "x": 3,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/incipispheric_transportablizer"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:dersite_pawn",
+      "count": 20,
+      "type": "kill"
+    },
+    {
+      "entity": "minestuck:dersite_rook",
+      "count": 10,
+      "type": "kill"
+    },
+    {
+      "entity": "minestuck:dersite_bishop",
+      "count": 10,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

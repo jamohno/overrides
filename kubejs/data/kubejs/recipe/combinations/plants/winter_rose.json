@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "biomeswevegone:rose"
+  },
+  "input2": {
+    "item": "minecraft:ice"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:winter_rose"
+}

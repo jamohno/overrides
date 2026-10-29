@@ -1,0 +1,8 @@
+{
+	hide_tooltip: true
+	id: "315A54EBFC1BDD5B"
+	loot_size: 1
+	order_index: 2
+	rewards: [{ id: "76F4C35DFB876CBD", item: { count: 1, id: "kubejs:strife" } }]
+	use_title: true
+}

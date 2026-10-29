@@ -1,0 +1,31 @@
+{
+  "title": "Deployer",
+  "icon": "create:deployer",
+  "x": 13.4,
+  "y": 5.9,
+  "deps": {
+    "all": [
+      "powers_galore/electron_tube",
+      "powers_galore/brass_ingot"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:deployer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

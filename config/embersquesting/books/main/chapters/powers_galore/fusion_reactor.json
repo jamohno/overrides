@@ -1,0 +1,46 @@
+{
+  "title": "Fusion Reactor",
+  "icon": "mekanismgenerators:fusion_reactor_controller",
+  "x": 14.8,
+  "y": 7.9,
+  "deps": {
+    "all": [
+      "powers_galore/heat_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanismgenerators:fusion_reactor_controller",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:fusion_reactor_frame",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:fusion_reactor_port",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:fusion_reactor_logic_adapter",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:laser_focus_matrix",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

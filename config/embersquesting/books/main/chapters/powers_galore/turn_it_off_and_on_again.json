@@ -1,0 +1,27 @@
+{
+  "title": "§3turn it off and on again",
+  "icon": "mekanism:ultimate_tier_installer",
+  "x": 21.299999999999997,
+  "y": 9.4,
+  "deps": {
+    "all": [
+      "powers_galore/alloy_atomic"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:ultimate_tier_installer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "artifact",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "MoonMail ✉",
+  "icon": "kubejs:lunar_transportablizer",
+  "order": 4,
+  "scope": "team",
+  "group": "apps",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -6.3971434,
+      "width": 31.175972,
+      "height": 17.794287,
+      "content": {
+        "texture": "kubejs:textures/item/moonmialimage.png",
+        "type": "image"
+      },
+      "x": -8.087986
+    },
+    {
+      "y": 3.5194805,
+      "width": 6.857143,
+      "height": 6.961039,
+      "content": {
+        "texture": "kubejs:textures/item/breaking.png",
+        "type": "image"
+      },
+      "x": 9.071428
+    }
+  ]
+}

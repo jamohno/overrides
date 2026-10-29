@@ -1,0 +1,31 @@
+{
+  "title": "§dBLURPLE METAL :D",
+  "icon": "irons_spellbooks:arcane_ingot",
+  "x": 12.9,
+  "y": 1.9499999999999993,
+  "deps": {
+    "all": [
+      "magic_is_real/awesome_blurple_powder"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:arcane_ingot",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

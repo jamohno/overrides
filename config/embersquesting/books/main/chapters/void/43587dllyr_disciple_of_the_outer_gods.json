@@ -1,0 +1,34 @@
+{
+  "title": "&#43587dllyr, disciple of the outer gods.",
+  "description": [
+    "&#43587dDH: llyr wants to talk to you..",
+    "",
+    "&#43587dDH: i'd be scared. i'm scared and i'm not even there",
+    "",
+    "&#43587dDH: whatever you pick.. i won't judge. promise"
+  ],
+  "icon": "kubejs:void_choice",
+  "x": 0.25,
+  "y": 1.7750000000000004,
+  "deps": {
+    "all": [
+      "void/43587da_truth_that_shouldn_t_exist"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:void_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

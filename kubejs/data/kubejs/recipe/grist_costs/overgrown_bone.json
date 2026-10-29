@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:overgrown_bone"
+  },
+  "sources": [
+    "minecraft:bone",
+    "minecraft:red_mushroom"
+  ]
+}

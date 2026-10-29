@@ -1,0 +1,31 @@
+{
+  "title": "§dGet a Rune!",
+  "x": 11.4,
+  "y": 1.9499999999999993,
+  "deps": {
+    "all": [
+      "magic_is_real/blurple_metal_d",
+      "magic_is_real/focus_bro"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "irons_spellbooks:inscribed_rune",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "&#bf9000The World's Stage~♪",
+  "description": [
+    "-- has created the memo  --",
+    "",
+    "--  Closed Memo --"
+  ],
+  "icon": "kubejs:fx_chat",
+  "x": 0.25,
+  "y": 0.75,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"hope\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ferocious(xeriscape)\",\"color\":\"#BF9000\"},{\"text\":\" [\"},{\"text\":\"f(x)\",\"color\":\"#BF9000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

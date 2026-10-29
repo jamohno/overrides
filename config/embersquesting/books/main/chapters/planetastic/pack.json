@@ -1,0 +1,30 @@
+{
+  "title": "§7>§r Pack",
+  "description": [
+    "§7SPRITE:§r A §6backpack§r is an item that lets you store more items? Oh, you thought thats what the sylladex was for? Well this is much more convenient isn't it!!!!!!"
+  ],
+  "x": 2.6,
+  "y": 6.8,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(item_tag(curios:back) mod(sophisticatedbackpacks))",
+      "type": "item",
+      "title": "Backpack"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "mekanism:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

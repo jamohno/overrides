@@ -1,0 +1,6 @@
+{
+  "asset_name": "doom",
+  "description": {"text": "Doom", "color": "#1c381b"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.1
+}

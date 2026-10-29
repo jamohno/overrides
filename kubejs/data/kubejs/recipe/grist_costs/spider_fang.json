@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:spider_fang"
+  },
+  "sources": [
+    "minecraft:spider_eye",
+    "minecraft:flint"
+  ]
+}

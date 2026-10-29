@@ -1,0 +1,32 @@
+{
+  "title": "Aos Sí",
+  "icon": "kubejs:textures/item/aossi.png",
+  "order": 9,
+  "scope": "team",
+  "group": "browser",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -7.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/aossibrowser.png",
+        "type": "image"
+      },
+      "x": -1.3571434
+    },
+    {
+      "y": -2.820813,
+      "width": 4.285714,
+      "height": 6.391626,
+      "content": {
+        "texture": "kubejs:textures/item/frpester.png",
+        "type": "image"
+      },
+      "x": 0.48214293
+    }
+  ]
+}

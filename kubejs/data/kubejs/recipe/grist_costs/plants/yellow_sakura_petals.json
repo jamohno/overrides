@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:yellow_sakura_petals"
+  },
+  "sources": [
+    "minecraft:pink_petals",
+    "minecraft:yellow_dye"
+  ]
+}

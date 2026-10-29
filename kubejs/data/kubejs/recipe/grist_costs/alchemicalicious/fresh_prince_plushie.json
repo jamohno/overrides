@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:chalk": 1050,
+    "minestuck:iodine": 700,
+    "minestuck:ruby": 525,
+    "minestuck:amber": 375,
+    "minestuck:gold": 350
+  },
+  "ingredient": {
+    "item": "kubejs:fresh_prince_plushie"
+  }
+}

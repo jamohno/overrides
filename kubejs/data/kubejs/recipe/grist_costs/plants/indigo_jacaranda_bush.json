@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:indigo_jacaranda_bush"
+  },
+  "sources": [
+    "biomeswevegone:jacaranda_bush",
+    "minestuck_extended:equius_horns"
+  ]
+}

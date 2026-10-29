@@ -1,0 +1,47 @@
+{
+  "title": "&#b4eb54ascension~",
+  "description": [
+    "&#b4eb54FR: the god tier!! très bien~",
+    "",
+    "&#b4eb54FR: find your quest bed, get your echeladder to 'divine delegate', then you must die on the bed. i know, i know }:(",
+    "",
+    "&#b4eb54FR: it is like the bridge of a song. it is a little reprieve, and then comes the best part~"
+  ],
+  "icon": "kubejs:breath3",
+  "x": 1.8125,
+  "y": 0.9625,
+  "deps": {
+    "all": [
+      "breath/b4eb54les_lytres"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:eye_of_ascension",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "complete": "any",
+  "size": 0.75,
+  "shape": "square"
+}

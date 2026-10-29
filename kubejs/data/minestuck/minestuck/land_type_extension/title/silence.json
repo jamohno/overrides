@@ -1,0 +1,64 @@
+{
+  "structure_sets": [
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 32,
+          "separation": 16,
+          "salt": 1735000101,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:void_maze",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 200,
+          "separation": 165,
+          "salt": 1735000117,
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:void_qb",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 48,
+          "separation": 32,
+          "salt": 1735000123,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:void_lair",
+            "weight": 1
+          }
+        ]
+      }
+    }
+  ]
+}

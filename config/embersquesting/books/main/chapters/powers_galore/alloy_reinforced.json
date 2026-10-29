@@ -1,0 +1,30 @@
+{
+  "title": "Alloy Reinforced",
+  "icon": "mekanism:alloy_reinforced",
+  "x": 20.1,
+  "y": 0.8999999999999999,
+  "deps": {
+    "all": [
+      "powers_galore/alloy_infused"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:alloy_reinforced",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

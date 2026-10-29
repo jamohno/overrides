@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "biomeswevegone:dacite"
+  },
+  "input2": {
+    "item": "minecraft:white_dye"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:white_dacite"
+}

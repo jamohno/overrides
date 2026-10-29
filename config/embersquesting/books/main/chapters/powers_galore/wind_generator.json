@@ -1,0 +1,30 @@
+{
+  "title": "Wind Generator",
+  "icon": "mekanismgenerators:wind_generator",
+  "x": 14.8,
+  "y": 5.9,
+  "deps": {
+    "all": [
+      "powers_galore/heat_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanismgenerators:wind_generator",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

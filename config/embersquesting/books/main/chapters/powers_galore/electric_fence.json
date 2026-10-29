@@ -1,0 +1,30 @@
+{
+  "title": "Electric Fence",
+  "icon": "mekanism_turrets:electric_fence",
+  "x": 23.5,
+  "y": 2.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism_turrets:electric_fence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

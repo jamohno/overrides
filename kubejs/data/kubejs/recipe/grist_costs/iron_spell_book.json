@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:rust": 90,
+    "minestuck:chalk": 80,
+    "minestuck:amethyst": 60,
+    "minestuck:iodine": 20
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:iron_spell_book"
+  }
+}

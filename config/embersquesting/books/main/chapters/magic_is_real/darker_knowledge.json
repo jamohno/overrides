@@ -1,0 +1,33 @@
+{
+  "title": "§dDarker Knowledge",
+  "icon": "discerning_the_eldritch:black_book_spellbook{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:sculk_tentacles\",index:0,level:3,locked:1b},{id:\"discerning_the_eldritch:conjure_forsaken_aid\",index:1,level:3,locked:1b},{id:\"irons_spellbooks:sonic_boom\",index:2,level:3,locked:1b},{id:\"irons_spellbooks:counterspell\",index:3,level:1,locked:1b},{id:\"irons_spellbooks:abyssal_shroud\",index:4,level:2,locked:1b}],maxSpells:10,mustEquip:1b,spellWheel:1b}}",
+  "x": 12.15,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "magic_is_real/dark_knowledge"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "discerning_the_eldritch:black_book_spellbook",
+      "components": "{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:sculk_tentacles\",index:0,level:3,locked:1b},{id:\"discerning_the_eldritch:conjure_forsaken_aid\",index:1,level:3,locked:1b},{id:\"irons_spellbooks:sonic_boom\",index:2,level:3,locked:1b},{id:\"irons_spellbooks:counterspell\",index:3,level:1,locked:1b},{id:\"irons_spellbooks:abyssal_shroud\",index:4,level:2,locked:1b}],maxSpells:10,mustEquip:1b,spellWheel:1b}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

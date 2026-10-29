@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:winter_succulent"
+  },
+  "sources": [
+    "biomeswevegone:shrub",
+    "minecraft:snow_block"
+  ]
+}

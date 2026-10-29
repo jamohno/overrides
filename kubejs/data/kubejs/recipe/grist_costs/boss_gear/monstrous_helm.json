@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 16000,
+    "minestuck:shale": 6000,
+    "minestuck:sulfur": 1500,
+    "minestuck:rust": 1200,
+    "minestuck:garnet": 900
+  },
+  "ingredient": {
+    "item": "cataclysm:monstrous_helm"
+  }
+}

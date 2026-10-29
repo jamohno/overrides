@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "bosses_of_mass_destruction:blazing_eye"
+  },
+  "input2": {
+    "item": "minecraft:feather"
+  },
+  "mode": "or",
+  "output": "bosses_of_mass_destruction:levitation_block"
+}

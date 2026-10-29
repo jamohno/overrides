@@ -1,0 +1,34 @@
+{
+  "title": "&zThe Ultimate Reward",
+  "description": [
+    "             Thanks for playing!"
+  ],
+  "icon": "minestuck:frog{\"minestuck:frog_traits\":{variant:\"susan\"}}",
+  "x": 12.25,
+  "y": 8.25,
+  "deps": {
+    "all": [
+      "the_veil/birthing_the_zuniverse"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "verseworks:enter_a_new_world",
+      "type": "advancement",
+      "title": "Enter the &zGenesis Frog",
+      "icon": "kubejs:textures/item/gate.png"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck_extended:plush_genesis_frog",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "sequential": true,
+  "invisible_until_complete": true,
+  "hide_text_until_complete": true,
+  "size": 2.0,
+  "shape": "none"
+}

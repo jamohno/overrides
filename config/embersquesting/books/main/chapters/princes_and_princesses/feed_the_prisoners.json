@@ -1,0 +1,34 @@
+{
+  "title": "§6Feed the Prisoners",
+  "description": [
+    "§6§oYour Highness, we're keeping some Dersite prisoners down in the jail at §e16, 84, -246§6. Could you please go down there and feed them? There should be some bread outside."
+  ],
+  "icon": "minecraft:bread",
+  "x": 2,
+  "y": 2.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/for_the_king"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:derse_brick",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

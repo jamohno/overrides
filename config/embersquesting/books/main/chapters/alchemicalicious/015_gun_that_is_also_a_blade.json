@@ -1,0 +1,26 @@
+{
+  "title": "[015] gun that is also a blade",
+  "description": [
+    "§7=================================§r",
+    "§7by §rbiscuitBastard",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:gunblade",
+  "x": 9,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/005_appendix_5_ranged_weapons",
+      "alchemicalicious/006_other_weapons_for_dummies"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:gunblade",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

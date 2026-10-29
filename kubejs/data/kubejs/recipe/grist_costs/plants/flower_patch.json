@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:flower_patch"
+  },
+  "sources": [
+    "minecraft:grass_block",
+    "minecraft:flowering_azalea_leaves"
+  ]
+}

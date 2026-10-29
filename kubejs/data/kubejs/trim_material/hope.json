@@ -1,0 +1,6 @@
+{
+  "asset_name": "hope",
+  "description": {"text": "Hope", "color": "#fdde96"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.09
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:flowering_jacaranda_bush"
+  },
+  "sources": [
+    "biomeswevegone:jacaranda_bush",
+    "minecraft:poppy"
+  ]
+}

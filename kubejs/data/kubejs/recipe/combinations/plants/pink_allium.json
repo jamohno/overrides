@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:allium"
+  },
+  "input2": {
+    "item": "minecraft:pink_dye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:pink_allium"
+}

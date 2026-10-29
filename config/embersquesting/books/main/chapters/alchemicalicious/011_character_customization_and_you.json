@@ -1,0 +1,25 @@
+{
+  "title": "[011] Character Customization and You",
+  "description": [
+    "§7=================================§r",
+    "§7by §rgirlbossPirates",
+    "§7=================================§r"
+  ],
+  "x": 20,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) or(item(minestuck_extended:invisibility_cloak) item(minestuck_extended:cans_hat) item(minestuck_extended:cairo_overcoat) item(minestuck_extended:quarters_hat) item(minestuck_extended:biscuits_hat) item(minestuck_extended:eggs_hat) item(minestuck_extended:matchsticks_hat) item(minestuck_extended:sawbuck_hat) item(minestuck_extended:stitch_hat) item(minestuck_extended:snowman_hat) item(minestuck_extended:crowbar_hat) item(minestuck_extended:die_hat) item(minestuck_extended:fin_hat) item(minestuck_extended:clover_hat) item(minestuck_extended:trace_hat) item(minestuck_extended:doze_hat) item(minestuck_extended:itchy_hat) item(minestuck_extended:scarlet_sunglasses) item(minestuck_extended:testifipuss) item(minestuck_extended:beaglepiss) item(minestuck_extended:disguise) item(minestuck_extended:beaglepuss) item(minestuck:iron_lass_shoes) item(minestuck:iron_lass_skirt) item(minestuck:iron_lass_chestplate) item(minestuck:iron_lass_glasses) item(minestuck:prismarine_helmet) item(minestuck:prismarine_chestplate) item(minestuck:prismarine_leggings) item(minestuck:prismarine_boots)))",
+      "type": "item",
+      "title": "Any Clothing"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

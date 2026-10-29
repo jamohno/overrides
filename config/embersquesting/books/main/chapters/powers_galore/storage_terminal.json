@@ -1,0 +1,30 @@
+{
+  "title": "storage terminal",
+  "icon": "toms_storage:storage_terminal",
+  "x": 1.75,
+  "y": 4,
+  "deps": {
+    "all": [
+      "powers_galore/2_inventory_2_furious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:storage_terminal",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

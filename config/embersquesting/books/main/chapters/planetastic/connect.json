@@ -1,0 +1,86 @@
+{
+  "title": "§7>§r Connect",
+  "description": [
+    "A necessary part of §aSburb§r is connecting to another disk running the game. 1 disk is the §aserver§r, and 1 is the §aclient§r.",
+    "",
+    "Any server can open to clients, and anyone with a client disk can connect to servers that are open if they don't already have a server. Thus, you can form a §achain§r of players connecting to each other using their own Server and Client disks. You can also connect to yourself.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/1player.png",
+      "type": "image"
+    },
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/2players.png",
+      "type": "image"
+    },
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/4players.png",
+      "type": "image"
+    },
+    "",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/12players.png",
+      "type": "image"
+    },
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "§aSkin Credits§r:",
+    "John:",
+    "<click action=open_url value='https://www.planetminecraft.com/skin/john-egbert-homestuck-64x/'><u>roxichu</u></click>",
+    "Rose:",
+    "<click action=open_url value='https://www.planetminecraft.com/skin/rose-lalonde-6257322/'><u>girl_liker</u></click>",
+    "Jade:",
+    "<click action=open_url value='https://www.planetminecraft.com/skin/jade-harley-5302500/'><u>Flutterfly103</u></click>",
+    "Dave:",
+    "<click action=open_url value='https://www.planetminecraft.com/skin/dave-strider-6990033/'><u>KaiWasHere6175</u></click>",
+    "Aradia, Sollux, Karkat, Nepeta, Kanaya, Vriska:",
+    "<click action=open_url value='https://www.planetminecraft.com/member/vantas/'><u>Vantas</u></click>",
+    "Tavros, Feferi:",
+    "<click action=open_url value='https://www.planetminecraft.com/member/poproxx/'><u>PopRoxx</u></click>",
+    "Terezi:",
+    "<click action=open_url value='https://www.planetminecraft.com/skin/terezi-6301464/'><u>ZAMBA_ZOUMBA</u></click>",
+    "Equius, Eridan:",
+    "<click action=open_url value='https://www.planetminecraft.com/member/holidaygirl1226/'><u>HolidayGirl1226</u></click>",
+    "Gamzee:",
+    "<click action=open_url value='https://www.planetminecraft.com/skin/gamzee-makara---homestuck-2384701/'><u>Madoka190</u></click>"
+  ],
+  "icon": "minestuck:textures/gui/desktop_icon/sburb_client.png",
+  "x": 10.6,
+  "y": 0.6,
+  "deps": {
+    "all": [
+      "planetastic/install"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "minestuck:minestuck/connect",
+      "type": "advancement",
+      "icon": "minestuck:textures/gui/desktop_icon/sburb_client.png"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:boondollars",
+      "components": "{\"minestuck:value\":10L}",
+      "type": "item"
+    }
+  ],
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

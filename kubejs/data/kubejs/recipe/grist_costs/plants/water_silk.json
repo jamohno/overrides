@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:water_silk"
+  },
+  "sources": [
+    "minecraft:water_bucket",
+    "minecraft:vine"
+  ]
+}

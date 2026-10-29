@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:breath",
+  "description": {"text": "Breath"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

@@ -1,0 +1,30 @@
+{
+  "title": "§dImpOreTant Materials",
+  "x": 14.55,
+  "y": 6.6,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(hazennstuff:raw_zenalite) item(hazennstuff:dreadstone) item(hazennstuff:solar_core) item(hazennstuff:chlorophyte_chunk))",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

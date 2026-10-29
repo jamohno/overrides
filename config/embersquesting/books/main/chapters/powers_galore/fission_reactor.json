@@ -1,0 +1,46 @@
+{
+  "title": "Fission Reactor",
+  "icon": "mekanismgenerators:fission_reactor_casing",
+  "x": 15.8,
+  "y": 7.9,
+  "deps": {
+    "all": [
+      "powers_galore/heat_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanismgenerators:fission_reactor_casing",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:fission_reactor_port",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:fission_reactor_logic_adapter",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:fission_fuel_assembly",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:control_rod_assembly",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

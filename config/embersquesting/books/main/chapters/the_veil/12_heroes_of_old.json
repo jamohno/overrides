@@ -1,0 +1,79 @@
+{
+  "title": "§e12 Heroes of Old",
+  "description": [
+    "§7> §rInteracting with an §5Aspect Tree§r's leaves grants its §5Aspect Sapling§r.",
+    "",
+    "§7> §rYour home universe was in the process of its timely §4DEMISE§r whilst you snuck away into the medium.",
+    "",
+    "§7> §rBut one must wonder, given the cyclical nature of &zGENESIS FROGS§r, there must have been players that once created the §aOVERWORLD§r?"
+  ],
+  "icon": "minestuck:time_aspect_sapling",
+  "x": 8.2,
+  "y": 4.6,
+  "deps": {
+    "all": [
+      "the_veil/bubble_up"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:time_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:space_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:breath_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:light_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:life_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:hope_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:heart_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:void_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:doom_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:mind_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:blood_aspect_sapling",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:rage_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "size": 2.0,
+  "shape": "none"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "§7>§r Teleport",
+  "description": [
+    "§7SPRITE:§r Oh, a §7Transportalizer§r!!!!!! Give it a 4 letter code and it sends you to whichever other one has that code!!!!",
+    "",
+    "§7SPRITE:§r It works between planets too. That's the useful part!"
+  ],
+  "icon": "minestuck:transportalizer",
+  "x": 10.6,
+  "y": 6.8,
+  "deps": {
+    "all": [
+      "planetastic/connect",
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:transportalizer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

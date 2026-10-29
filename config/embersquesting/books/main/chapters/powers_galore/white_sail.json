@@ -1,0 +1,30 @@
+{
+  "title": "White Sail",
+  "icon": "create:white_sail",
+  "x": 7.4,
+  "y": 1.9,
+  "deps": {
+    "all": [
+      "powers_galore/windmill_bearing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:white_sail",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "§7>§r Decorate",
+  "description": [
+    "§7SPRITE:§r Your house is... IT COULD BE BETTER! :D",
+    "",
+    "§7SPRITE:§r Let's get some §5decorations§r going!!!!!"
+  ],
+  "x": 8.6,
+  "y": 6.8,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(mod(refurbished_furniture) mod(iden_decor) mod(whimsy_deco) mod(cluttered))",
+      "type": "item",
+      "title": "Decoration"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "mekanism:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

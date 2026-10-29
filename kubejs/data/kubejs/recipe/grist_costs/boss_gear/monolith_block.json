@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 10000,
+    "minestuck:tar": 5000,
+    "minestuck:sulfur": 1000,
+    "minestuck:diamond": 600
+  },
+  "ingredient": {
+    "item": "bosses_of_mass_destruction:monolith_block"
+  }
+}

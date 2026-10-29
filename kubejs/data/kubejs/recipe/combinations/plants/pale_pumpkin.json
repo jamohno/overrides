@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:pumpkin"
+  },
+  "input2": {
+    "item": "minecraft:white_dye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:pale_pumpkin"
+}

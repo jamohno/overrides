@@ -1,0 +1,38 @@
+{
+  "title": "&#9700e4The War Rages On",
+  "description": [
+    "&#9700e4Head to §bSkaia&#9700e4 using the §aIncipispheric Transportablizer&#9700e4 and join the fight!"
+  ],
+  "x": 3,
+  "y": 5.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/9700e4incipispheric_transportablizer"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:prospitian_pawn",
+      "count": 20,
+      "type": "kill"
+    },
+    {
+      "entity": "minestuck:prospitian_bishop",
+      "count": 10,
+      "type": "kill"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

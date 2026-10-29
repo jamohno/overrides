@@ -1,0 +1,27 @@
+{
+  "title": "&#71274flitavis.",
+  "icon": "kubejs:heart_choice",
+  "x": 0.7249999999999996,
+  "y": 1.3000000000000003,
+  "deps": {
+    "all": [
+      "heart/71274fsoul_searching"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:heart_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

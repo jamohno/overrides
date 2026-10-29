@@ -1,0 +1,30 @@
+{
+  "title": "§7>§r Delve",
+  "description": [
+    "§7SPRITE:§r §eDungeons§r are full of loot and grist blocks, and plenty of things that want you dead. Oh no!!!"
+  ],
+  "x": 0.6,
+  "y": 5.2,
+  "deps": {
+    "all": [
+      "planetastic/connect",
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "minestuck:minestuck/dungeon",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

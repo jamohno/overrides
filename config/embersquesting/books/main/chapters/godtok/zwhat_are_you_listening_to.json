@@ -1,0 +1,30 @@
+{
+  "title": "&zWhat are you listening to?",
+  "description": [
+    "Now that you've got your new §bpowers§r, let's climb the &zGod Tiers§r, shall we?",
+    "",
+    "Completing any of the tasks in the &zGodify§r app grants you 1 &zDivine Note§r, §3levelling up all your God Tier Abilities§r and permanantly increasing your §cmax health§r, §9max mana§r,§b mana regen§r, §7cooldown reduction§r,§1 cast time reduction§r and §2strength§r. "
+  ],
+  "icon": "kubejs:textures/item/godify_logo.png",
+  "y": 1,
+  "tasks": [
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "points": 100,
+      "type": "xp"
+    },
+    {
+      "item": "kubejs:transportablizer2",
+      "type": "item"
+    }
+  ],
+  "invisible_until_complete": true,
+  "lines_in": "hover",
+  "size": 3.0,
+  "shape": "none"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:peony"
+  },
+  "input2": {
+    "item": "minecraft:leather"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:peach_leather_flower"
+}

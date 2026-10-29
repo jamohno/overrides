@@ -1,0 +1,52 @@
+{
+  "title": "&#824d18controlled explosion ★★",
+  "description": [
+    "&#824d18UU: lets get explodinggggggggg",
+    "",
+    "&#824d18UU: no im not telling yo↺ what to blow ↺p.",
+    "",
+    "&#824d18UU: doom is mostly knowing when st↺ff is gonna go off and being somewhere else when it does. its a whole skill ★★ (★★★ on a good day)"
+  ],
+  "icon": "minecraft:tnt",
+  "x": 2.5249999999999986,
+  "y": 0.6000000000000001,
+  "deps": {
+    "all": [
+      "doom/824d18beginning_yo_r_q_est"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:tnt",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"unctuousUndertaking\",\"color\":\"#824D18\"},{\"text\":\" [\"},{\"text\":\"UU\",\"color\":\"#824D18\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

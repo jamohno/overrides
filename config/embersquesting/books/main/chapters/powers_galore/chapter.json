@@ -1,0 +1,22 @@
+{
+  "title": "SBAHT",
+  "icon": "mekanism:basic_smelting_factory",
+  "order": 1,
+  "scope": "team",
+  "group": "apps",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -6.151099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/sweetbro.png",
+        "type": "image"
+      },
+      "x": -0.3571434
+    }
+  ]
+}

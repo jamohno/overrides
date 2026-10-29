@@ -1,0 +1,1 @@
+{"type":"mekanism:mek_data","category":"misc","key":{"A":{"tag":"mekanism:alloys/infused"},"B":{"item":"create:brass_casing"},"C":{"tag":"c:circuits/advanced"},"P":{"item":"mekanism:enrichment_chamber"}},"pattern":["ACA","BPB","ACA"],"result":{"count":1,"id":"mekanism:purification_chamber"}}

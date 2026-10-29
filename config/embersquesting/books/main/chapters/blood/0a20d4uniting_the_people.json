@@ -1,0 +1,74 @@
+{
+  "title": "&#0a20d4UNITING THE PEOPLE",
+  "description": [
+    "&#0a20d4GS: SIX AGREEMENTS. EVERY SPECIES HAS TO SHAKE HANDS WITH EVERY OTHER SPECIES.",
+    "",
+    "&#0a20d4GS: YOUR DENIZEN IS SUPER MAD ABOUT ALL THE FIGHTING DOWN THERE. SORT IT OUT AND YOU'LL BE HIS TOP TIER SUBSCRIBER FOR SURE.",
+    "",
+    "&#0a20d4GS: HAVING A MILLION FOLLOWERS ISN'T THE SAME AS HAVING FRIENDS BY THE WAY. TOOK ME WAY TOO LONG TO FIGURE THAT ONE OUT.",
+    "",
+    "&#0a20d4GS: ANYWAY!!"
+  ],
+  "icon": "kubejs:salamander_turtle_agreement",
+  "x": 2.499999999999999,
+  "y": 1.325,
+  "deps": {
+    "all": [
+      "blood/0a20d4let_s_all_get_along"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:salamander_turtle_agreement",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:salamander_iguana_agreement",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:salamander_nakagator_agreement",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:turtle_iguana_agreement",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:turtle_nakagator_agreement",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:iguana_nakagator_agreement",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:blood_scroll",
+      "type": "item"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

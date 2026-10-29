@@ -1,0 +1,40 @@
+{
+  "title": "&#7700ffTherefore I Am",
+  "description": [
+    "-- &#7700ffbacksideJotter [BJ]§r has created the memo IVE_BEEN_WATCHING_YOU --",
+    "&#7700ffBJ: hey there :)",
+    "",
+    "&#7700ffBJ: looks like youre a mind player. i knew i liked you :)",
+    "",
+    "&#7700ffBJ: you tend to think things through. or atleast try to. :)",
+    "",
+    "&#7700ffBJ: im sure we'll do well together. follow along :)",
+    "-- &#7700ffBJ§r Closed Memo --"
+  ],
+  "icon": "kubejs:bj_chat",
+  "y": 0.375,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"mind\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"backsideJotter\",\"color\":\"#7700FF\"},{\"text\":\" [\"},{\"text\":\"BJ\",\"color\":\"#7700FF\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "input2": {
+    "item": "minecraft:blaze_powder"
+  },
+  "mode": "and",
+  "output": "hazennstuff:fireblossom_gown_chestplate"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Inventory Cable",
+  "icon": "toms_storage:inventory_cable",
+  "x": 1.75,
+  "y": 6,
+  "deps": {
+    "all": [
+      "powers_galore/2_inventory_2_furious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:inventory_cable",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

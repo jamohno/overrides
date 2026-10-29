@@ -1,0 +1,26 @@
+{
+  "title": "[021] (UNSOLVED) what's the name of that one troll show?",
+  "description": [
+    "§7=================================§r",
+    "§7by §rjadedNarcolepsy",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:thresh_prince_plushie",
+  "x": 19,
+  "y": 10.75,
+  "deps": {
+    "all": [
+      "alchemicalicious/017_solved_what_s_the_name_of_that_one_show",
+      "alchemicalicious/018_can_i_beat_the_game_with_yarn_only_glitchless"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:thresh_prince_plushie",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

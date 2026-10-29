@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck_extended:metal_gauntlet"
+  },
+  "input2": {
+    "item": "minecraft:polished_granite"
+  },
+  "mode": "or",
+  "output": "mowziesmobs:earthrend_gauntlet"
+}

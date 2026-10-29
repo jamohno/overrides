@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "kubejs:cathedral_cannon"
+  },
+  "input2": {
+    "item": "kubejs:durian_plushbomb"
+  },
+  "mode": "and",
+  "output": "kubejs:second_coming_of_durian_with_a_gun"
+}

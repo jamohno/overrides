@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:charred_bones"
+  },
+  "sources": [
+    "minecraft:bone",
+    "minecraft:flint_and_steel"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "§7>§r Modulate",
+  "description": [
+    "§7SPRITE:§r §dUpgrade§r your backpack, wahoo! Make it much better :D It's important!"
+  ],
+  "x": 4.4,
+  "y": 6.8,
+  "deps": {
+    "all": [
+      "planetastic/pack"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "sophisticatedbackpacks:upgrade",
+      "type": "item",
+      "title": "Any Upgrade"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "mekanism:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

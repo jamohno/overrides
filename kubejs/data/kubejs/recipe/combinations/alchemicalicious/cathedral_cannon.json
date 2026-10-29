@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "kubejs:paladins_arsenal"
+  },
+  "input2": {
+    "item": "kubejs:snackshot"
+  },
+  "mode": "and",
+  "output": "kubejs:cathedral_cannon"
+}

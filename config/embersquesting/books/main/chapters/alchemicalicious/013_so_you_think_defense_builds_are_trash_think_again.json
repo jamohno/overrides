@@ -1,0 +1,26 @@
+{
+  "title": "[013] so you think defense builds are TRASH? think again",
+  "description": [
+    "§7=================================§r",
+    "§7by §rversatileBookworm",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:wielded_shield",
+  "x": 1,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/001_an_examination_of_the_blade",
+      "alchemicalicious/002_so_your_shield_is_defending_use_this_to_live"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:wielded_shield",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "irons_spellbooks:scroll"
+  },
+  "range": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 1000000,
+    "min_inclusive": 500000
+  }
+}

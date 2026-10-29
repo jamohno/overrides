@@ -1,0 +1,38 @@
+{
+  "title": "§5Pick a Pocket, Go On",
+  "description": [
+    "§5§oAlright rookie. I don't care if you're royalty or what. You got no experience here on Derse. You wanna prove you can rock with me? Take some of my &#FF03FEPickpocket's Gloves§5 from the &#FF03FEEast Stairwell§5 in the castle. See if you can rustle up a couple goons."
+  ],
+  "icon": "minestuck:dersite_pawn_spawn_egg",
+  "x": 1,
+  "y": 7.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/another_coffin_clogger_bites_the_dust"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:pickpockets_glove",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:prospit_brick",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

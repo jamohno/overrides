@@ -1,0 +1,41 @@
+{
+  "title": "&#a64d9aScorched Earth",
+  "description": [
+    "-- &#a64d9aruthlessGanef [RG]§r has created the memo RINGSIDE_SEATS --",
+    "&#a64d9aRG: oh hey. you made iT in. noT bad",
+    "",
+    "&#a64d9aRG: youre a rage player. same as me. which means youre abouT To geT very very angry aT some poinT",
+    "",
+    "&#a64d9aRG: good. ThaTs The fun parT —B)",
+    "",
+    "&#a64d9aRG: sTick wiTh me. ill Tell you who To hiT",
+    "-- &#a64d9aRG§r Closed Memo --"
+  ],
+  "icon": "kubejs:rg_chat",
+  "x": 0.5,
+  "y": 0.625,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"rage\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ruthlessGanef\",\"color\":\"#A64D9A\"},{\"text\":\" [\"},{\"text\":\"RG\",\"color\":\"#A64D9A\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"tag":"c:dusts/gold"},"A":{"tag":"mekanism:alloys/infused"},"E":{"item":"create:electron_tube"},"F":{"item":"create:fluid_pipe"},"I":{"tag":"c:dusts/iron"},"O":{"tag":"c:dusts/osmium"}},"pattern":["AOA","IE#","AFA"],"result":{"count":1,"id":"mekanism:electrolytic_core"}}

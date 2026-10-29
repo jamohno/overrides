@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 260,
+    "minestuck:diamond": 160,
+    "minestuck:chalk": 140,
+    "minestuck:ruby": 80,
+    "minestuck:uranium": 60
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:diamond_spell_book"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "&#43587dbeginning your quest",
+  "description": [
+    "&#43587dDH: oh.. and the gates.. your first one goes somewhere on your land you haven't gone to.",
+    "",
+    "&#43587dDH: the second one goes to §ayour server player's house&#43587d.. if you want to visit them.. no pressure i never did lol.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/gates.png",
+      "type": "image"
+    },
+    "",
+    "&#43587dDH: um.. if you ever want to go home, step into a return node.. they're all over your planet. you'll find one.. probably",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/return_node.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:void_aspect_sapling",
+  "x": 1.2249999999999996,
+  "y": 0.9500000000000002,
+  "deps": {
+    "all": [
+      "void/43587dnothing_to_worry_about"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:void_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

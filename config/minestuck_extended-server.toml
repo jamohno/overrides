@@ -1,0 +1,10 @@
+[sylladex]
+	#If this set to true, the roulette modus can select from every card in the sylladex, not just the ones containing items.
+	useFullRoulette = false
+	#How many adjacent items get fetched when using the Zip modus.
+	# Default: 1
+	# Range: > 0
+	zipSize = 1
+	#If this is set to false, the zip bundle can only grab items by interacting with the item itself.
+	# NOTE: the zip bundle item will still need to be deleted by interacting with it.
+	pullSingleItemZipBundle = true

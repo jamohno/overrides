@@ -1,0 +1,34 @@
+{
+  "title": "&#009f4fCainte",
+  "description": [
+    "&#009f4fPY: Cainte wants to see You. Bring the vault!!",
+    "",
+    "&#009f4fPY: She's going to make You choose.",
+    "",
+    "&#009f4fPY: PrYtan saYs hi. Don't answer him, it onlY encourages him.~"
+  ],
+  "icon": "kubejs:life_choice",
+  "x": 0.9249999999999989,
+  "y": 0.8250000000000002,
+  "deps": {
+    "all": [
+      "life/009f4fsealing_the_vault"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:life_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

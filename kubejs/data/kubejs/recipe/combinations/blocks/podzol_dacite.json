@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:podzol"
+  },
+  "input2": {
+    "item": "biomeswevegone:dacite"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:podzol_dacite"
+}

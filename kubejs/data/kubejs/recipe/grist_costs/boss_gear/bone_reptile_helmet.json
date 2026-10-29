@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 12000,
+    "minestuck:chalk": 4000,
+    "minestuck:amber": 3000,
+    "minestuck:gold": 600,
+    "minestuck:quartz": 400
+  },
+  "ingredient": {
+    "item": "cataclysm:bone_reptile_helmet"
+  }
+}

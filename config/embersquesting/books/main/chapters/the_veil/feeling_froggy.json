@@ -1,0 +1,48 @@
+{
+  "title": "§aFeeling Froggy",
+  "description": [
+    "§7>§f SO BASICALLY, UH, YOUR UNIVERSE... THE OVERWORLD... IT WAS A FROG",
+    "§7> §rYou recognise that FROGS are essential animals to the process of §aSBURB§r.",
+    "",
+    "§7> §rFrogs can be found on the planets of §8Heroes of Space§r. Should your session not have a §8Hero of Space§r, you may be able to source frogs from §8Old Heroes of Space§r. See below:",
+    "",
+    "<click action=open_quest value='the_veil/bubble_up'><color value='dark_purple'><u>Dream Bubbles</u></color></click>.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "Universes, in reality immense &zGENESIS FROGS§r, require the Heroes to gather various frogs and combine their genes through a process of ectobiology until such a frog that is produced that can grow within the Battlefield into a new &zGENESIS FROG§r of its own; thus continuing the universal life cycle.",
+    "",
+    "Being associated with creation and the continuation of life, frogs are considered illegal contraband by the tyrannical authority of §dDERSE§r. To the other creatures of the Incipisphere, however, the role of the frog is absolutely sacred."
+  ],
+  "icon": "minestuck:frog{\"minestuck:frog_traits\":{variant:\"totally_normal\"}}",
+  "x": 1,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "the_veil/ecto_licious"
+    ]
+  },
+  "tasks": [
+    {
+      "entity": "minestuck:frog",
+      "type": "observe",
+      "title": "Find a Frog!",
+      "icon": "minestuck:frog{\"minestuck:frog_traits\":{variant:\"totally_normal\"}}"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:bug_net",
+      "type": "item"
+    },
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

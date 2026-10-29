@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:tall_pink_allium"
+  },
+  "sources": [
+    "biomeswevegone:pink_allium",
+    "minecraft:tall_grass"
+  ]
+}

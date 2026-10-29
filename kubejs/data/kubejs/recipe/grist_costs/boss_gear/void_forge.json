@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 45000,
+    "minestuck:shale": 20000,
+    "minestuck:amethyst": 3000,
+    "minestuck:cobalt": 2500,
+    "minestuck:sulfur": 2000,
+    "minestuck:marble": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:void_forge"
+  }
+}

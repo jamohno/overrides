@@ -1,0 +1,52 @@
+{
+  "title": "Blank Verse",
+  "icon": "verseworks:blank_verse{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"Verse Chooser\"}']}",
+  "x": 0.3000000000000007,
+  "y": 1.85,
+  "deps": {
+    "all": [
+      "space/82ab70dea_matrona"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "verseworks:blank_verse",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"Verse Chooser\"}']}",
+      "mode": "consume",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "t60dbe3e64d0ea0dd",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "t60dbe3e64d0ea0dd",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "t60dbe3e64d0ea0dd",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "t60dbe3e64d0ea0dd",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "t60dbe3e64d0ea0dd",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "invisible_until_complete": true,
+  "size": 0.5,
+  "shape": "none"
+}

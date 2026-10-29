@@ -1,0 +1,32 @@
+{
+  "title": "Litavis",
+  "icon": "kubejs:textures/item/litavis.png",
+  "order": 14,
+  "scope": "team",
+  "group": "browser",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -10.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/litavisbrowser.png",
+        "type": "image"
+      },
+      "x": -1.3571434
+    },
+    {
+      "y": -2.445813,
+      "width": 4.285714,
+      "height": 6.391626,
+      "content": {
+        "texture": "kubejs:textures/item/ddpester.png",
+        "type": "image"
+      },
+      "x": 0.48214293
+    }
+  ]
+}

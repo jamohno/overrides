@@ -1,0 +1,51 @@
+{
+  "title": "&#009f4fExpert Cultivator",
+  "description": [
+    "&#009f4fPY: If You're going to garden, at least do it properlY.",
+    "",
+    "&#009f4fPY: I don't do anYthing halfwaY, and neither should You!! Unless You want to lose. Which, for this little competition amongst mY strandees and I, is not an option~"
+  ],
+  "icon": "minecraft:netherite_hoe",
+  "x": 3.624999999999999,
+  "y": 4.440892098500626E-16,
+  "deps": {
+    "all": [
+      "life/009f4fsowing_seeds"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:netherite_hoe",
+      "type": "item"
+    },
+    {
+      "item": "farmersdelight:rich_soil",
+      "count": 32,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"plasticineYpsiliform\",\"color\":\"#009F4F\"},{\"text\":\" [\"},{\"text\":\"PY\",\"color\":\"#009F4F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

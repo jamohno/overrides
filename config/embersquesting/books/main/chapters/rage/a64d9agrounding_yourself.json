@@ -1,0 +1,54 @@
+{
+  "title": "&#a64d9aGROUNDING yourself",
+  "description": [
+    "&#a64d9aRG: dirT and sTone. a loT of iT. Two sTacks each",
+    "",
+    "&#a64d9aRG: yeah iTs boring. mosT sTuff is boring. ThaTs why you hiT Things",
+    "",
+    "&#a64d9aRG: jusT dig. TrusT me"
+  ],
+  "icon": "minecraft:dirt",
+  "x": 2.375,
+  "y": 0.6000000000000001,
+  "deps": {
+    "all": [
+      "rage/a64d9abeginning_your_quest"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:dirt",
+      "count": 128,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:stone",
+      "count": 128,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ruthlessGanef\",\"color\":\"#A64D9A\"},{\"text\":\" [\"},{\"text\":\"RG\",\"color\":\"#A64D9A\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

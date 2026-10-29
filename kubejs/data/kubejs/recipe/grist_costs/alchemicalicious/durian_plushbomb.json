@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 22000,
+    "minestuck:iodine": 19000,
+    "minestuck:amber": 15000,
+    "minestuck:uranium": 8000,
+    "minestuck:chalk": 6000
+  },
+  "ingredient": {
+    "item": "kubejs:durian_plushbomb"
+  }
+}

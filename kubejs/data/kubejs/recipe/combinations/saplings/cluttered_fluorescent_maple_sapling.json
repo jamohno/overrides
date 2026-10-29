@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "tag": "minecraft:saplings"
+  },
+  "input2": {
+    "item": "minecraft:glow_ink_sac"
+  },
+  "mode": "or",
+  "output": "cluttered:fluorescent_maple_sapling"
+}

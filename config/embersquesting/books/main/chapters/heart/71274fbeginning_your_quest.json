@@ -1,0 +1,41 @@
+{
+  "title": "&#71274fbeginning. your quest.",
+  "icon": "minestuck:heart_aspect_sapling",
+  "x": 1.6999999999999993,
+  "y": 0.4750000000000001,
+  "deps": {
+    "all": [
+      "heart/71274fto_end_all_suffering"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:heart_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

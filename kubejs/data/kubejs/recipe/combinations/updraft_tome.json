@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:chained_book"
+  },
+  "input2": {
+    "item": "minecraft:breeze_rod"
+  },
+  "mode": "or",
+  "output": "aero_additions:updraft_tome"
+}

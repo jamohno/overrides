@@ -1,0 +1,30 @@
+{
+  "title": "Inventory Configurator",
+  "icon": "toms_storage:inventory_configurator",
+  "x": 3.75,
+  "y": 8,
+  "deps": {
+    "all": [
+      "powers_galore/2_inventory_2_furious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:inventory_configurator",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

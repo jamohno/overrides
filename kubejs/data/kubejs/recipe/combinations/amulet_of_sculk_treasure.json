@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:echo_shard"
+  },
+  "input2": {
+    "item": "minecraft:emerald"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:amulet_of_sculk_treasure"
+}

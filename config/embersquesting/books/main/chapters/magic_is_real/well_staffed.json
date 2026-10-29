@@ -1,0 +1,31 @@
+{
+  "title": "§dWELL STAFFED 🎩🎩🎩🎩",
+  "x": 5.4,
+  "y": 7,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "irons_spellbooks:staff",
+      "type": "item",
+      "title": "Staff"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

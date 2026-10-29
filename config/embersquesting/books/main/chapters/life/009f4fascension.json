@@ -1,0 +1,40 @@
+{
+  "title": "&#009f4fAscension",
+  "description": [
+    "&#009f4fPY: GOD TIER!!!! Oh mY god, finallY.~",
+    "",
+    "&#009f4fPY: Find Your quest bed, climb Your echeladder all the waY to Divine Delegate, and then You have to die on the bed. Yes, reallY. It's the onlY waY.~",
+    "",
+    "&#009f4fPY: TrY to look good doing it. I did.~"
+  ],
+  "icon": "kubejs:life3",
+  "x": 1.8249999999999993,
+  "y": 0.8250000000000002,
+  "deps": {
+    "all": [
+      "life/009f4fsealing_the_vault"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:eye_of_ascension",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "complete": "any",
+  "size": 0.75,
+  "shape": "square"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 12000,
+    "minestuck:iodine": 4000,
+    "minestuck:cobalt": 900,
+    "minestuck:mercury": 600,
+    "minestuck:amethyst": 500
+  },
+  "ingredient": {
+    "item": "cataclysm:cursium_helmet"
+  }
+}

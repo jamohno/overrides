@@ -1,0 +1,12 @@
+{
+    "aspect": "space",
+    "attributes": [
+        {
+            "attribute": "attributecore:explosive_percent",
+            "id": "space_indicator",
+            "operation": "add_value",
+            "value": 0.0,
+            "change_per_rung": 0.01
+        }
+    ]
+}

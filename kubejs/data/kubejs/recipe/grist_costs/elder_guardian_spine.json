@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:elder_guardian_spine"
+  },
+  "sources": [
+    "minecraft:prismarine_shard",
+    "minecraft:bone"
+  ]
+}

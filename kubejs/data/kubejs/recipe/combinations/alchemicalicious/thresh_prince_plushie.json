@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "kubejs:fresh_prince_plushie"
+  },
+  "input2": {
+    "item": "kubejs:matriyarn"
+  },
+  "mode": "or",
+  "output": "kubejs:thresh_prince_plushie"
+}

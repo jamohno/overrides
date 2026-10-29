@@ -1,0 +1,36 @@
+{
+  "title": "§7>§r Install",
+  "description": [
+    "It is §ahighly recommended§r to place your Computer at your home.",
+    "",
+    "Using completed §2Sburb Code§r on a computer gives the data necessary to burn the game §aSburb§r onto an empty disk.",
+    "",
+    "Once you've installed the disks, you can change your &zchat color§r and §adesktop theme§r if you'd like.",
+    "",
+    "§7=================================",
+    "§aMultiplayer §7-",
+    "Using your §9Post Box§r, you can mail completed §aSburb Code§r to your friends' §6Mailbox§r so that they can burn the game onto their empty disks as well.",
+    "§7================================="
+  ],
+  "icon": "minestuck:client_disk",
+  "x": 8.6,
+  "y": 0.6,
+  "tasks": [
+    {
+      "item": "minestuck:client_disk",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:server_disk",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "refurbished_furniture:post_box",
+      "type": "item"
+    }
+  ],
+  "size": 2.0,
+  "shape": "none"
+}

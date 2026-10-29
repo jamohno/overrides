@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:pendant_of_harmony"
+  },
+  "sources": [
+    "minecraft:amethyst_shard",
+    "minecraft:chorus_fruit"
+  ]
+}

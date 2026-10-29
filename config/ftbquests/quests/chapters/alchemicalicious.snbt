@@ -1,0 +1,572 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_quest_size: 2.0d
+	filename: "alchemicalicious"
+	group: "22D4E158356BE0A6"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"minestuck:encoded_item": {
+				item: "minestuck:cruxite_apple"
+			}
+		}
+		id: "minestuck:captcha_card"
+	}
+	id: "6287BE9D6C5A5351"
+	images: [{
+		height: 20.76923076923077d
+		id: "058FA715BEFC1817"
+		image: "kubejs:item/alchemyfaqs"
+		rotation: 0.0d
+		width: 30.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minestuck:punch_designix"
+			}
+			id: "338AAFDB7CBB5131"
+			rewards: [{
+				id: "11D5FE69704F1436"
+				item: {
+					count: 1
+					id: "minestuckdungeons:shale_block"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				advancement: "minestuck:minestuck/alchemy"
+				criterion: ""
+				id: "793722B402143958"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "731DDEB512BD2824"
+			rewards: [{
+				id: "599A6732B14585DF"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E7101C35AAA0A0D"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))and(item_tag(c:tools/shield))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "1530CE235FDD6FE2"
+			rewards: [{
+				id: "3360AB004126E0C5"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21EF9ECFADAD6858"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))and(item_tag(c:tools/ranged_weapon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "1341EF944E65786F"
+			rewards: [{
+				id: "41391457A3E03D5A"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E07446A49810FBF"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))and(item_tag(minecraft:swords))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "0EC13503F2E37881"
+			rewards: [{
+				id: "0E2D1AB6F180EF2F"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FDD591E1F76A351"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))not(item_tag(c:tools/spear))not(item_tag(c:tools/shield))not(item_tag(c:tools/ranged_weapon))not(item_tag(minecraft:swords))not(item_tag(minecraft:axes))not(item_tag(c:tools/axes))not(item_tag(lodestone:enchantable/axe))item_tag(c:tools)not(or(item(minestuck:emerald_pickaxe)item(minestuck:emerald_axe)item(minestuck:emerald_shovel)item(minestuck:emerald_hoe)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "7996283258694665"
+			rewards: [{
+				id: "627C1B1FA0F72CD5"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD7C0715854EA85"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))and(item_tag(c:tools/spear))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "54A3358164D867BE"
+			rewards: [{
+				id: "534ACE5874DC784B"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A28475D11DC75B7"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))and(item_tag(minecraft:axes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "565C860F2ABE33E5"
+			rewards: [{
+				id: "61DBF46595A48084"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3299789BFF758E57"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))item_tag(minestuck:modus_card)not(or(item(minestuck:queue_modus_card)item(minestuck:stack_modus_card)item(minestuck:tree_modus_card)item(minestuck:hashmap_modus_card)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "3F8DFA175318D730"
+			rewards: [{
+				id: "3CA3DC2D70B8BC35"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "553FF57CE8C85482"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))food_value(>0)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "6BE6289F7BEC39C4"
+			rewards: [{
+				id: "0B854752D2477CD8"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A17574FD03FB5BD"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))or(item(minestuck_extended:spirograph_armor_trim_smithing_template)item(minestuck_extended:breath_armor_trim_smithing_template)item(minestuck_extended:life_armor_trim_smithing_template)item(minestuck_extended:light_armor_trim_smithing_template)item(minestuck_extended:time_armor_trim_smithing_template)item(minestuck_extended:heart_armor_trim_smithing_template)item(minestuck_extended:rage_armor_trim_smithing_template)item(minestuck_extended:blood_armor_trim_smithing_template)item(minestuck_extended:doom_armor_trim_smithing_template)item(minestuck_extended:void_armor_trim_smithing_template)item(minestuck_extended:space_armor_trim_smithing_template)item(minestuck_extended:mind_armor_trim_smithing_template)item(minestuck_extended:hope_armor_trim_smithing_template))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "37281CD21D22D4A9"
+			rewards: [{
+				id: "4698BCBC57E25D03"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "692036437A1741AC"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))or(item(minestuck:plush_salamander)item(minestuck:plush_nakagator)item(minestuck:plush_iguana)item(minestuck:plush_turtle)item(minestuck:plush_mutated_cat)item(minestuck_extended:plush_vriska)item(minestuck_extended:plush_nepeta)item(minestuck_extended:plush_spades_slick)item(minestuck_extended:plush_hearts_boxcars)item(minestuck_extended:plush_diamonds_droog)item(minestuck_extended:plush_clubs_deuce)item(minestuck_extended:plush_salamander)item(minestuck_extended:plush_nakagator)item(minestuck_extended:plush_iguana)item(minestuck_extended:plush_turtle)item(minestuck_extended:plush_mutated_cat)item(minestuck_extended:plush_genesis_frog)item(minestuck_extended:scalemate_witness)item(minestuck_extended:scalemate_pyralspite)item(minestuck_extended:scalemate_applescab)item(minestuck_extended:scalemate_berrybreath)item(minestuck_extended:scalemate_cinnamonwhiff)item(minestuck_extended:scalemate_honeytongue)item(minestuck_extended:scalemate_lemonsnout)item(minestuck_extended:scalemate_pinesnort)item(minestuck_extended:scalemate_pucefoot)item(minestuck_extended:scalemate_pumpkinsnuffle))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "4D12F1E54D117AEE"
+			rewards: [{
+				id: "1823ADD27F8B9054"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FE7F0399631C61A"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))or(item(minestuck_extended:invisibility_cloak)item(minestuck_extended:cans_hat)item(minestuck_extended:cairo_overcoat)item(minestuck_extended:quarters_hat)item(minestuck_extended:biscuits_hat)item(minestuck_extended:eggs_hat)item(minestuck_extended:matchsticks_hat)item(minestuck_extended:sawbuck_hat)item(minestuck_extended:stitch_hat)item(minestuck_extended:snowman_hat)item(minestuck_extended:crowbar_hat)item(minestuck_extended:die_hat)item(minestuck_extended:fin_hat)item(minestuck_extended:clover_hat)item(minestuck_extended:trace_hat)item(minestuck_extended:doze_hat)item(minestuck_extended:itchy_hat)item(minestuck_extended:scarlet_sunglasses)item(minestuck_extended:testifipuss)item(minestuck_extended:beaglepiss)item(minestuck_extended:disguise)item(minestuck_extended:beaglepuss)item(minestuck:iron_lass_shoes)item(minestuck:iron_lass_skirt)item(minestuck:iron_lass_chestplate)item(minestuck:iron_lass_glasses)item(minestuck:prismarine_helmet)item(minestuck:prismarine_chestplate)item(minestuck:prismarine_leggings)item(minestuck:prismarine_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["338AAFDB7CBB5131"]
+			id: "0F2BC2A0FE5D833C"
+			rewards: [{
+				id: "30DB67589514FAA3"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "786138535758C2AE"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(minestuck)mod(minestuck_extended)mod(minestuckcompat)mod(minestuckdungeons))or(item(minestuck_extended:aradia_horns)item(minestuck_extended:tavros_horns)item(minestuck_extended:sollux_horns)item(minestuck_extended:nepeta_horns)item(minestuck_extended:kanaya_horns)item(minestuck_extended:terezi_horns)item(minestuck_extended:vriska_horns)item(minestuck_extended:equius_horns)item(minestuck_extended:gamzee_horns)item(minestuck_extended:eridan_horns)item(minestuck_extended:feferi_horns)item(minestuck_extended:feferi_horns)item(minestuck_extended:horuss_horns)item(minestuck_extended:vethes_horns)item(minestuck_extended:heresa_horns)item(minestuck_extended:mettax_horns)item(minestuck_extended:nelumi_horns)item(minestuck_extended:drayth_horns)item(minestuck_extended:lorkes_horns)item(minestuck_extended:aramia_horns)item(minestuck_extended:mirala_horns)item(minestuck_extended:avriil_horns)item(minestuck_extended:piscal_horns)item(minestuck_extended:azonyp_horns)item(minestuck_extended:frelsi_horns)item(minestuck_extended:achlys_horns)item(minestuck_extended:renard_horns)item(minestuck_extended:inanis_horns)item(minestuck_extended:stybol_horns)item(minestuck_extended:jensis_horns)item(minestuck_extended:phanes_horns)item(minestuck_extended:devros_horns)item(minestuck_extended:fahrad_horns)item(minestuck_extended:neyhil_horns)item(minestuck_extended:verisi_horns)item(minestuck_extended:nerius_horns)item(minestuck_extended:magnea_horns))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1341EF944E65786F"
+				"731DDEB512BD2824"
+			]
+			id: "59243807CE8F19F5"
+			rewards: [{
+				id: "0EBBE4ACAE6468E8"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A9C70D9FB3ED63"
+				item: { count: 1, id: "kubejs:wielded_shield" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"54A3358164D867BE"
+				"7996283258694665"
+			]
+			id: "2860A3BC620FE146"
+			rewards: [{
+				id: "6A50D248B677DFBC"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "733072D8813B52B3"
+				item: { count: 1, id: "kubejs:captchalberd" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"59243807CE8F19F5"
+				"2860A3BC620FE146"
+			]
+			id: "3745723A64B8F51E"
+			rewards: [{
+				id: "63F14D7CAE4F7F4F"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38709ED186E4573C"
+				item: { count: 1, id: "kubejs:paladins_arsenal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1530CE235FDD6FE2"
+				"0EC13503F2E37881"
+			]
+			id: "7A76AF902094A146"
+			rewards: [{
+				id: "69D9DB250B165FED"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "291C8F8833412868"
+				item: { count: 1, id: "kubejs:gunblade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"565C860F2ABE33E5"
+				"3F8DFA175318D730"
+			]
+			id: "41B569604999AC26"
+			rewards: [{
+				id: "47E8BC9E50EF81B3"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B87AA937085690"
+				item: { count: 1, id: "kubejs:edible_modus" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6BE6289F7BEC39C4"
+				"37281CD21D22D4A9"
+			]
+			id: "362A953C6227E15D"
+			rewards: [{
+				id: "62C8817264478C86"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33C66E2282F837F6"
+				item: { count: 1, id: "kubejs:fresh_prince_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4D12F1E54D117AEE"
+				"0F2BC2A0FE5D833C"
+			]
+			id: "7D0D840B916AB72B"
+			rewards: [{
+				id: "3F7855F333869D6E"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "576B658F0FE25995"
+				item: { count: 1, id: "kubejs:matriyarn" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7A76AF902094A146"
+				"41B569604999AC26"
+			]
+			id: "22F5022CC46F9F49"
+			rewards: [{
+				id: "026A42B773EA8259"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13890F098B26DCA4"
+				item: { count: 1, id: "kubejs:snackshot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"362A953C6227E15D"
+				"7D0D840B916AB72B"
+			]
+			id: "20F45F94C8E60E59"
+			rewards: [{
+				id: "7B86A70DD1B4109A"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4286A7C779405D7F"
+				item: { count: 1, id: "kubejs:thresh_prince_plushie" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"3745723A64B8F51E"
+				"22F5022CC46F9F49"
+			]
+			hide_until_deps_complete: true
+			icon_scale: 1.25d
+			id: "5B3C0D5002B4EBBC"
+			rewards: [{
+				id: "3AF64F381B41D852"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A28440D30E639EF"
+				item: { count: 1, id: "kubejs:cathedral_cannon" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"22F5022CC46F9F49"
+				"20F45F94C8E60E59"
+			]
+			icon_scale: 1.25d
+			id: "3A0E4F05301DD106"
+			rewards: [{
+				id: "13E95BC04E256DB4"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E3179243C9C79AB"
+				item: { count: 1, id: "kubejs:durian_plushbomb" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5B3C0D5002B4EBBC"
+				"3A0E4F05301DD106"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "kubejs:alchemizeusb"
+			}
+			icon_scale: 1.25d
+			id: "5BB6A57F7F8D62D6"
+			rewards: [{
+				id: "0A9314259B17C35F"
+				item: {
+					count: 1
+					id: "minestuck:captcha_card"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "minestuck:punch_designix"
+					}
+					id: "70CB33CA40EBFFCE"
+					item: { count: 1, id: "kubejs:second_coming_of_durian_with_a_gun" }
+					type: "item"
+				}
+				{
+					id: "3989EEDC4DDDCC73"
+					item: { count: 1, id: "kubejs:alchemizeusb" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.2d
+		}
+	]
+}

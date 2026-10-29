@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "tag": "minecraft:saplings"
+  },
+  "input2": {
+    "item": "minecraft:magma_block"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:witch_hazel_sapling"
+}

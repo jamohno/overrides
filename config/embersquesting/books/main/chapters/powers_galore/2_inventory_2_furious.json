@@ -1,0 +1,39 @@
+{
+  "title": "§32 inventory 2 furious",
+  "description": [
+    "§3Tom's Simple Storage§r allows you to create a terminal to access all connected storage blocks. In order to craft §bT3CHN-0.ska§r, you must create an §3Advanced Wireless Terminal§r.",
+    "",
+    {
+      "width": 100,
+      "height": 400,
+      "texture": "kubejs:textures/item/sbaht3.png",
+      "type": "image"
+    }
+  ],
+  "icon": "toms_storage:inventory_connector",
+  "x": 3.25,
+  "y": 4.5,
+  "deps": {
+    "all": [
+      "planetastic/mine",
+      "powers_galore/the_hamburger"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:inventory_connector",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "artifact",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "lines_out": "hover",
+  "size": 2.0,
+  "shape": "square"
+}

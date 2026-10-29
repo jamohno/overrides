@@ -1,0 +1,41 @@
+{
+  "title": "§7>§r Find the Temple",
+  "description": [
+    "You venture out in the world, uncertain of what will happen, but sure that you will accomplish it.",
+    "A §2Frog Temple§r stands tall in the §aOVERWORLD§r. It's unclear who built it, where it came from, or when it came. Find it, and seek out its &#FF67C3goods§r.",
+    "",
+    "To inscribe §aSBURB§r code, interact with the inside walls of the §2Temple§r."
+  ],
+  "icon": "minestuck:mini_frog_statue",
+  "x": 6.6,
+  "y": 0.6,
+  "tasks": [
+    {
+      "item": "minestuck:temple_scanner",
+      "type": "item"
+    },
+    {
+      "structure": "minestuck:frog_temple",
+      "type": "location",
+      "title": "§7>§r Find the Frog Temple",
+      "icon": "minestuck:mini_frog_statue"
+    },
+    {
+      "item": "minestuck:completed_sburb_code",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "exposure:camera",
+      "type": "item"
+    },
+    {
+      "item": "exposure:color_film",
+      "type": "item"
+    }
+  ],
+  "complete": "any",
+  "size": 2.0,
+  "shape": "none"
+}

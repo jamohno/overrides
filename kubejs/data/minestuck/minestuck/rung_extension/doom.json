@@ -1,0 +1,12 @@
+{
+    "aspect": "doom",
+    "attributes": [
+        {
+            "attribute": "attributecore:aggro_force",
+            "id": "doom_indicator",
+            "operation": "add_value",
+            "value": 0.0,
+            "change_per_rung": 0.01
+        }
+    ]
+}

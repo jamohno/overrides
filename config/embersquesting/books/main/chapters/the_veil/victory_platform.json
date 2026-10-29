@@ -1,0 +1,49 @@
+{
+  "title": "§aVictory Platform",
+  "description": [
+    "§7> §rThe Victory Platform contains a cauldron suitable for Genesis Frog Spawning at it's center, as well as a lectern for placing your Hyperbook."
+  ],
+  "icon": "minestuck:dark_gray_chess_brick_smooth_slab",
+  "x": 9.5,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "the_veil/appear_ify"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": " "
+    }
+  ],
+  "rewards": [
+    {
+      "title": "Click to Transportalize!",
+      "icon": "minestuck:transportalizer",
+      "command": "/execute in minestuck:veil run tp @p 0 4 3 180 -15",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "irons_spellbooks:scroll",
+      "components": "{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:recall\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "type": "item"
+    },
+    {
+      "title": "!",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minestuck:block.transportalizer.teleport master @p",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "repeat": {},
+  "size": 2.0,
+  "shape": "none",
+  "notify": {
+    "complete": "none"
+  }
+}

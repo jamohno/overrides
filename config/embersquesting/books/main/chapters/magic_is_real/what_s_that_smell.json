@@ -1,0 +1,31 @@
+{
+  "title": "§dWhat's that smell?",
+  "icon": "irons_spellbooks:cinder_essence",
+  "x": 8.2,
+  "y": 5.2,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:cinder_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

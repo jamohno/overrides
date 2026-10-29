@@ -1,0 +1,87 @@
+{
+	id: "7FBDE95B7062BB99"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			id: "5E295B6ED8AD3206"
+			item: {
+				count: 1
+				id: "a_man_with_plushies:plush_box"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "48D86483E3032C26"
+			item: {
+				count: 1
+				id: "a_man_with_plushies:golden_plush_box"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "2C542A17A7FEBD5D"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_common"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "4C7EC5E5A0AE530B"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_uncommon"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "683A99A0C2385EBB"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_rare"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "1937A70062F21C36"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_epic"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "7E5D7289794FDD2F"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_easter"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "1971E5523C277105"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_summer"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "6890D6B9B1EE33C9"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_halloween"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "5BE9395FDD436898"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_festive"
+			}
+			weight: 0.05f
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:time",
+  "description": {"text": "Time"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

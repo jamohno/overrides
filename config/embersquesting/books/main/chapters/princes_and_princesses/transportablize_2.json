@@ -1,0 +1,35 @@
+{
+  "title": "§6Transportablize",
+  "description": [
+    "§6§oWELL DONE YOUR HIGHNESS! You have proven yourself as truly loyal to our Kingdom. The King and Queen will be in touch. Fight on!",
+    "",
+    "<click action=open_quest value='princes_and_princesses/ffff01_light_invitation'><u>Click ✉</u></click>"
+  ],
+  "icon": "kubejs:lunar_transportablizer",
+  "x": 5,
+  "y": 2.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/raise_the_banner"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:lunar_transportablizer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

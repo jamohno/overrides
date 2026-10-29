@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:light",
+  "description": {"text": "Light"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

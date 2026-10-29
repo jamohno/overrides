@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:cobalt": 200,
+    "minestuck:amethyst": 160,
+    "minestuck:chalk": 80,
+    "minestuck:mercury": 60
+  },
+  "ingredient": {
+    "item": "discerning_the_eldritch:frozen_folio"
+  }
+}

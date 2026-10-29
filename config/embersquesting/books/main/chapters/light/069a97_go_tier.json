@@ -1,0 +1,42 @@
+{
+  "title": "&#069a97¶ Goδ Tier",
+  "description": [
+    "&#069a97TK: ¶ Goδ Tier. Finally a topic worth my time.",
+    "",
+    "&#069a97TK: ¶ Finδ your quest beδ, get your echelaδδer to Divine Delegate, then murk yourself somehow.",
+    "",
+    "&#069a97TK: ¶ Brutal, for sure. The view from up here makes up for it.",
+    "",
+    "&#069a97TK: ¶ Not that you'll ever look as gooδ in the outfit as I δo. Or well... woulδ've.."
+  ],
+  "icon": "kubejs:light3",
+  "x": 1.549999999999999,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "light/069a97_ka_ching"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:eye_of_ascension",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "complete": "any",
+  "size": 0.75,
+  "shape": "square"
+}

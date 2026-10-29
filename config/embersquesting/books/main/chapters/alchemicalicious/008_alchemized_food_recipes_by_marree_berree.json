@@ -1,0 +1,25 @@
+{
+  "title": "[008] Alchemized Food Recipes by Marree Berree",
+  "description": [
+    "§7====================================§r",
+    "§7by §rgreatbritishBaker",
+    "§7====================================§r"
+  ],
+  "x": 14,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) food_value(>0))",
+      "type": "item",
+      "title": "Any Alchemized Food"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

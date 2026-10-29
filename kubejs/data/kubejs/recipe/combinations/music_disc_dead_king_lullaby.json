@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:music_disc_11"
+  },
+  "input2": {
+    "item": "minecraft:soul_lantern"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:music_disc_dead_king_lullaby"
+}

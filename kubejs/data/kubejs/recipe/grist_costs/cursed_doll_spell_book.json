@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:garnet": 250,
+    "minestuck:amethyst": 250,
+    "minestuck:rust": 100,
+    "minestuck:chalk": 100,
+    "minestuck:tar": 100
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:cursed_doll_spell_book"
+  }
+}

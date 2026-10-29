@@ -1,0 +1,32 @@
+{
+  "title": "Llyr",
+  "icon": "kubejs:textures/item/llyr.png",
+  "order": 13,
+  "scope": "team",
+  "group": "browser",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -9.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/llyrbrowser.png",
+        "type": "image"
+      },
+      "x": -2.3571434
+    },
+    {
+      "y": -1.945813,
+      "width": 4.285714,
+      "height": 6.391626,
+      "content": {
+        "texture": "kubejs:textures/item/dhpester.png",
+        "type": "image"
+      },
+      "x": -0.017857075
+    }
+  ]
+}

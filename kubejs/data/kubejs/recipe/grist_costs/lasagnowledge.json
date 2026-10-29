@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:iodine": 120,
+    "minestuck:amethyst": 120,
+    "minestuck:chalk": 80,
+    "minestuck:amber": 60,
+    "minestuck:tar": 40,
+    "minestuck:gold": 30
+  },
+  "ingredient": {
+    "item": "farmers_spell:lasagnowledge"
+  }
+}

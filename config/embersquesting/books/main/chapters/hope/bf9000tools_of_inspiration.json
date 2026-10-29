@@ -1,0 +1,117 @@
+{
+  "title": "&#bf9000tools of inspiration~♪",
+  "icon": "xercamusic:guitar",
+  "x": 2.124999999999999,
+  "y": 0.7249999999999999,
+  "deps": {
+    "all": [
+      "hope/bf9000beginning_your_quest"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "xercamusic:guitar",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:lyre",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:banjo",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:drum",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:drum_kit",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:xylophone",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:tubular_bell",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:sansula",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:violin",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:cello",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:flute",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:saxophone",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:piano",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:oboe",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:french_horn",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:redstone_guitar",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:bass_guitar",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:trumpet",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:redstone_piano",
+      "type": "item"
+    },
+    {
+      "item": "xercamusic:organ",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ferocious(xeriscape)\",\"color\":\"#BF9000\"},{\"text\":\" [\"},{\"text\":\"f(x)\",\"color\":\"#BF9000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

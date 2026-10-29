@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:cactus"
+  },
+  "input2": {
+    "item": "minecraft:gold_ingot"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:golden_spined_cactus"
+}

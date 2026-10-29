@@ -1,0 +1,30 @@
+{
+  "title": "Belt Connector",
+  "icon": "create:belt_connector",
+  "x": 9.4,
+  "y": 1.9,
+  "deps": {
+    "all": [
+      "powers_galore/1_warned_y0u_about_that_escalator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:belt_connector",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

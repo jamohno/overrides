@@ -1,0 +1,30 @@
+{
+  "title": "Cables",
+  "x": 15.8,
+  "y": 2.9,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(mekanism:basic_universal_cable) item(mekanism:advanced_universal_cable) item(mekanism:elite_universal_cable) item(mekanism:ultimate_universal_cable))",
+      "type": "item",
+      "title": "Cable"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

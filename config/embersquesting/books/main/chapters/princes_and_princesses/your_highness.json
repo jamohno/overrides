@@ -1,0 +1,46 @@
+{
+  "title": "§6Your Highness!",
+  "description": [
+    "§6§oRoyalty! Oh thank goodness you are finally awake. I had been quite worried about you. ",
+    "",
+    "§6§oMy name is §eField Marshal Five§6. I am tasked with bringing you up to speed on the war effort and guiding you through your time awake on Prospit. Please adorn your royal garbs from the §ePajama Box§6 when you can."
+  ],
+  "icon": "minestuck:prospit_shirt",
+  "y": 2.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/the_kingdom_of_light"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:prospit_circlet",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:prospit_shirt",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:prospit_pants",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:prospit_shoes",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

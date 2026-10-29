@@ -1,0 +1,74 @@
+{
+  "title": "&#069a97¶ Illuminating Illumination",
+  "description": [
+    "&#069a97TK: ¶ Light. Every kinδ you can carry.",
+    "",
+    "&#069a97TK: ¶ A Light player stanδing in the δark is a baδ look, dude. Literally."
+  ],
+  "icon": "minecraft:torch",
+  "x": 3.3499999999999996,
+  "y": 0.37500000000000006,
+  "deps": {
+    "all": [
+      "light/069a97_imperative_knowle_ge"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:torch",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:glowstone",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:glow_berries",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:shroomlight",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:sea_lantern",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:ochre_froglight",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:verdant_froglight",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:pearlescent_froglight",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"tortfeasorsKatabasis\",\"color\":\"#069A97\"},{\"text\":\" [\"},{\"text\":\"TK\",\"color\":\"#069A97\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

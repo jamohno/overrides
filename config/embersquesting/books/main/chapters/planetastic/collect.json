@@ -1,0 +1,33 @@
+{
+  "title": "§7>§r Collect",
+  "description": [
+    "§7SPRITE:§r Grist doesn't pick itself up. Well, with a §bGrist Collector§r it sort of does!!",
+    "",
+    "§7SPRITE:§r It pulls in any grist lying around nearby. Put one next to your farms!!"
+  ],
+  "icon": "minestuck:grist_collector",
+  "x": 0.6,
+  "y": 3.6,
+  "deps": {
+    "all": [
+      "planetastic/connect",
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:grist_collector",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

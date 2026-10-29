@@ -1,0 +1,69 @@
+{
+  "title": "Ores",
+  "options": [
+    {
+      "item": "minecraft:redstone",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "create:raw_zinc",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:raw_gold",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:raw_copper",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:raw_iron",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "mekanism:raw_tin",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "mekanism:raw_osmium",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "mekanism:raw_lead",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "mekanism:raw_uranium",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:diamond",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:coal",
+      "count": 3,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 3,
+      "type": "item"
+    }
+  ]
+}

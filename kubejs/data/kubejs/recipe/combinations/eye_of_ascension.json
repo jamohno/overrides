@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:ender_eye"
+  },
+  "input2": {
+    "tag": "minecraft:beds"
+  },
+  "mode": "and",
+  "output": "kubejs:eye_of_ascension"
+}

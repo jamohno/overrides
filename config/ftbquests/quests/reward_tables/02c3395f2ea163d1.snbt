@@ -1,0 +1,16 @@
+{
+	id: "02C3395F2EA163D1"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ id: "01BB0B0F4B8A279C", item: { components: { "create:package_contents": [ { item: { count: 1, id: "everycomp:rfm/quark/azalea_mail_box" }, slot: 0 }, { item: { count: 2, id: "minestuck:blank_disk" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x8" } }
+		{ id: "3F64F57DC21958E0", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:oak_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x12" } }
+		{ id: "1891B0EBAA6FB776", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:spruce_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x12" } }
+		{ id: "2B057A07EBB56820", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:birch_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_12x12" } }
+		{ id: "1DA439C56A3A2204", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:jungle_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x8" } }
+		{ id: "6668C12BF02741B8", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:acacia_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x8" } }
+		{ id: "320F578934291666", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:dark_oak_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x12" } }
+		{ id: "4DF89407CB4C1286", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:mangrove_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x12" } }
+		{ id: "47DF183D90CEC0CA", item: { components: { "create:package_contents": [ { item: { count: 2, id: "minestuck:blank_disk" }, slot: 0 }, { item: { count: 1, id: "refurbished_furniture:cherry_mail_box" }, slot: 1 } ] }, count: 1, id: "create:cardboard_package_10x12" } }
+	]
+}

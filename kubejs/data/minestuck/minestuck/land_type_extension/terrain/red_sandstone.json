@@ -1,0 +1,1311 @@
+{
+  "features": [
+    { "biome_types": [ "normal", "rough", "ocean" ], "feature": { "feature": { "type": "minecraft:ore", "config": { "discard_chance_on_air_exposure": 0.0, "size": 10, "targets": [ { "state": { "Name": "minecraft:copper_ore" }, "target": { "predicate_type": "minecraft:tag_match", "tag": "minecraft:base_stone_overworld" } } ] } }, "placement": [ { "type": "minecraft:count", "count": 16 }, { "type": "minecraft:in_square" }, { "type": "minecraft:height_range", "height": { "type": "minecraft:trapezoid", "max_inclusive": { "absolute": 88 }, "min_inclusive": { "absolute": 24 } } }, { "type": "minecraft:biome" } ] }, "step": "underground_ores" }, {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "discard_chance_on_air_exposure": 0.0,
+            "size": 12,
+            "targets": [
+              {
+                "state": {
+                  "Name": "create:zinc_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 8
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 67
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "create:config_filter"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "discard_chance_on_air_exposure": 0.0,
+            "size": 6,
+            "targets": [
+              {
+                "state": {
+                  "Name": "hazennstuff:dreadstone_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 9
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 32
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "discard_chance_on_air_exposure": 0.0,
+            "size": 6,
+            "targets": [
+              {
+                "state": {
+                  "Name": "hazennstuff:solar_core_blackstone_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 8
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 72
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "discard_chance_on_air_exposure": 0.0,
+            "size": 6,
+            "targets": [
+              {
+                "state": {
+                  "Name": "hazennstuff:zenalite_stone_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 9
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 32
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "discard_chance_on_air_exposure": 0.0,
+            "size": 12,
+            "targets": [
+              {
+                "state": {
+                  "Name": "hazennstuff:runestone_slag"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 11
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 191
+              },
+              "min_inclusive": {
+                "absolute": 32
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "discard_chance_on_air_exposure": 0.0,
+            "size": 6,
+            "targets": [
+              {
+                "state": {
+                  "Name": "hazennstuff:chlorophyte_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              },
+              {
+                "state": {
+                  "Name": "hazennstuff:chlorophyte_ore"
+                },
+                "target": {
+                  "block": "minecraft:mud",
+                  "predicate_type": "minecraft:block_match"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 8
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 191
+              },
+              "min_inclusive": {
+                "absolute": 32
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "discard_chance_on_air_exposure": 1.0,
+            "size": 3,
+            "targets": [
+              {
+                "state": {
+                  "Name": "irons_spellbooks:mithril_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 7
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 13
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "osmium",
+              "index": 0
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:osmium_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "osmium",
+              "index": 0
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "osmium",
+                "index": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:trapezoid",
+              "max_inclusive": {
+                "absolute": 203
+              },
+              "min_inclusive": {
+                "absolute": 68
+              },
+              "plateau": 4
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "osmium",
+              "index": 1
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:osmium_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "osmium",
+              "index": 1
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "osmium",
+                "index": 1
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:trapezoid",
+              "max_inclusive": {
+                "absolute": 60
+              },
+              "min_inclusive": {
+                "absolute": 16
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "osmium",
+              "index": 2
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:osmium_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "osmium",
+              "index": 2
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "osmium",
+                "index": 2
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 64
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "tin",
+              "index": 0
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:tin_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "tin",
+              "index": 0
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "tin",
+                "index": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:trapezoid",
+              "max_inclusive": {
+                "absolute": 79
+              },
+              "min_inclusive": {
+                "absolute": 22
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "tin",
+              "index": 1
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:tin_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "tin",
+              "index": 1
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "tin",
+                "index": 1
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:trapezoid",
+              "max_inclusive": {
+                "absolute": 68
+              },
+              "min_inclusive": {
+                "absolute": 16
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "lead",
+              "index": 0
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:lead_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "lead",
+              "index": 0
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "lead",
+                "index": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:trapezoid",
+              "max_inclusive": {
+                "absolute": 64
+              },
+              "min_inclusive": {
+                "absolute": -12
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "fluorite",
+              "index": 0
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:fluorite_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "fluorite",
+              "index": 0
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "fluorite",
+                "index": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 43
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:ore",
+          "config": {
+            "ore_type": {
+              "type": "fluorite",
+              "index": 1
+            },
+            "targets": [
+              {
+                "state": {
+                  "Name": "mekanism:fluorite_ore"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_overworld"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "ore_type": {
+              "type": "fluorite",
+              "index": 1
+            },
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant",
+              "ore_type": {
+                "type": "fluorite",
+                "index": 1
+              }
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:trapezoid",
+              "max_inclusive": {
+                "absolute": 34
+              },
+              "min_inclusive": {
+                "absolute": 0
+              }
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "mekanism:disk",
+          "config": {
+            "radius": {
+              "type": "mekanism:configurable_uniform"
+            },
+            "state_provider": {
+              "fallback": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "mekanism:block_salt"
+                }
+              },
+              "rules": []
+            },
+            "target": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:dirt",
+                "minecraft:clay",
+                "minecraft:sand",
+                "minecraft:red_sand",
+                "minecraft:gravel"
+              ]
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "mekanism:disableable",
+            "retro_gen": false
+          },
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "mekanism:configurable_constant"
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "OCEAN_FLOOR_WG"
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_fluids",
+              "fluids": "minecraft:water"
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough",
+        "ocean"
+      ],
+      "feature": {
+        "feature": {
+          "type": "create:layered_ore",
+          "config": {
+            "discard_chance_on_air_exposure": 0.0,
+            "layer_patterns": [
+              [
+                {
+                  "max_size": 5,
+                  "min_size": 2,
+                  "targets": [
+                    [
+                      {
+                        "state": {
+                          "Name": "create:crimsite"
+                        },
+                        "target": {
+                          "predicate_type": "minecraft:tag_match",
+                          "tag": "minecraft:base_stone_overworld"
+                        }
+                      }
+                    ]
+                  ],
+                  "weight": 2
+                },
+                {
+                  "max_size": 3,
+                  "min_size": 2,
+                  "targets": [
+                    [
+                      {
+                        "state": {
+                          "Name": "minecraft:tuff"
+                        },
+                        "target": {
+                          "predicate_type": "minecraft:tag_match",
+                          "tag": "minecraft:base_stone_overworld"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "state": {
+                          "Name": "minecraft:deepslate",
+                          "Properties": {
+                            "axis": "y"
+                          }
+                        },
+                        "target": {
+                          "predicate_type": "minecraft:tag_match",
+                          "tag": "minecraft:base_stone_overworld"
+                        }
+                      }
+                    ]
+                  ],
+                  "weight": 1
+                },
+                {
+                  "max_size": 2,
+                  "min_size": 2,
+                  "targets": [
+                    [
+                      {
+                        "state": {
+                          "Name": "minecraft:deepslate",
+                          "Properties": {
+                            "axis": "y"
+                          }
+                        },
+                        "target": {
+                          "predicate_type": "minecraft:tag_match",
+                          "tag": "minecraft:base_stone_overworld"
+                        }
+                      }
+                    ]
+                  ],
+                  "weight": 1
+                },
+                {
+                  "max_size": 2,
+                  "min_size": 1,
+                  "targets": [
+                    [
+                      {
+                        "state": {
+                          "Name": "create:limestone"
+                        },
+                        "target": {
+                          "predicate_type": "minecraft:tag_match",
+                          "tag": "minecraft:base_stone_overworld"
+                        }
+                      }
+                    ]
+                  ],
+                  "weight": 1
+                }
+              ]
+            ],
+            "size": 32
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 18
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:uniform",
+              "max_inclusive": {
+                "absolute": 67
+              },
+              "min_inclusive": {
+                "absolute": 17
+              }
+            }
+          },
+          {
+            "type": "create:config_filter"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "underground_ores"
+    }
+  ],
+  "structure_sets": [
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          },
+          "salt": 684512,
+          "separation": 61,
+          "spacing": 104,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "irons_spellbooks:evoker_fort",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          },
+          "salt": 1512684,
+          "separation": 61,
+          "spacing": 104,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "irons_spellbooks:pyromancer_tower",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          },
+          "salt": 194767080,
+          "separation": 40,
+          "spacing": 55,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "irons_spellbooks:mountain_tower",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          },
+          "salt": 169476080,
+          "separation": 22,
+          "spacing": 31,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "irons_spellbooks:mangrove_hut",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          },
+          "salt": 584606865,
+          "separation": 66,
+          "spacing": 110,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "discerning_the_eldritch:blood_cultist_hut",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          },
+          "salt": 1834073537,
+          "separation": 70,
+          "spacing": 170,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "discerning_the_eldritch:cultist_base",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          },
+          "salt": 1834874550,
+          "separation": 46,
+          "spacing": 70,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "discerning_the_eldritch:electromancer_tower",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "exclusion_zone": {
+            "chunk_count": 10,
+            "other_set": "minestuck:land_gate"
+          },
+          "frequency": 0.25,
+          "salt": 199995600,
+          "separation": 98,
+          "spacing": 122,
+          "type": "minecraft:random_spread"
+        },
+        "structures": [
+          {
+            "structure": "irons_spellbooks:citadel",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 64,
+          "separation": 24,
+          "salt": 1735000118,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:priest_house",
+            "weight": 1
+          }
+        ]
+      }
+    }
+  ]
+}

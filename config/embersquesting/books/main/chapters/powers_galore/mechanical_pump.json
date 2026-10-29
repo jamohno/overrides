@@ -1,0 +1,30 @@
+{
+  "title": "Mechanical Pump",
+  "icon": "create:mechanical_pump",
+  "x": 7.4,
+  "y": 2.9,
+  "deps": {
+    "all": [
+      "powers_galore/mechanical_press"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:mechanical_pump",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

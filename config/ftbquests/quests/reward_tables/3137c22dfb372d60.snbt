@@ -1,0 +1,24 @@
+{
+	id: "3137C22DFB372D60"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 8
+			id: "61C451314A8E1309"
+			item: {
+				count: 1
+				id: "minestuck:prospit_rough_ferrostrata"
+			}
+		}
+		{
+			count: 8
+			id: "171D9716409EEC15"
+			item: {
+				count: 1
+				id: "minestuck:prospit_rough_core"
+			}
+			weight: 0.5f
+		}
+	]
+}

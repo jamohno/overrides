@@ -1,0 +1,39 @@
+{
+  "title": "§dGreater Elixirs",
+  "icon": "irons_spellbooks:greater_oakskin_elixir",
+  "x": 10.05,
+  "y": 10.2,
+  "deps": {
+    "all": [
+      "magic_is_real/petty_elixirs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:greater_oakskin_elixir",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:greater_invisibility_elixir",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:greater_evasion_elixir",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

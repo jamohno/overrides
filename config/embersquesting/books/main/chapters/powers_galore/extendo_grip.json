@@ -1,0 +1,19 @@
+{
+  "title": "Extendo Grip",
+  "icon": "create:extendo_grip",
+  "x": 10.4,
+  "y": 7.9,
+  "deps": {
+    "all": [
+      "powers_galore/veryyyy_precise"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:extendo_grip",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

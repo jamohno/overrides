@@ -1,0 +1,31 @@
+{
+  "title": "§dLegendary Metal",
+  "icon": "irons_spellbooks:mithril_ingot",
+  "x": 9,
+  "y": 3.6,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:mithril_ingot",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

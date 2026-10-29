@@ -1,0 +1,30 @@
+{
+  "title": "Atomic Disassembler",
+  "icon": "mekanism:atomic_disassembler",
+  "x": 22.5,
+  "y": 3.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:atomic_disassembler",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

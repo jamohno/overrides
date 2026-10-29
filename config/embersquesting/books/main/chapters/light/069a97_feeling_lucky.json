@@ -1,0 +1,50 @@
+{
+  "title": "&#069a97¶ Feeling Lucky?",
+  "description": [
+    "&#069a97TK: ¶ Somewhere in your lanδ there's a slot machine. Go finδ it. Bring some δiamonds.",
+    "",
+    "&#069a97TK: ¶ By the way, consiδer your initiation to Delta Xi Delta finisheδ. Welcome. My name is Prytan of course, Prytan Harvuδ, the leaδer of... well it δoesn't exist anymore... but you get the point.",
+    "",
+    "&#069a97TK: ¶ You're welcome."
+  ],
+  "icon": "kubejs:slot_machine",
+  "x": 3.3499999999999996,
+  "y": 1.2000000000000002,
+  "deps": {
+    "all": [
+      "light/069a97_illuminating_illumination"
+    ]
+  },
+  "tasks": [
+    {
+      "block": "kubejs:slot_machine",
+      "type": "observe",
+      "title": "Find a Slot Machine!",
+      "icon": "kubejs:slot_machine"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"tortfeasorsKatabasis\",\"color\":\"#069A97\"},{\"text\":\" [\"},{\"text\":\"TK\",\"color\":\"#069A97\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

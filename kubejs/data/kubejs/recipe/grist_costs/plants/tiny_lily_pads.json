@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:tiny_lily_pads"
+  },
+  "sources": [
+    "minecraft:lily_pad",
+    "minecraft:iron_nugget"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 45000,
+    "minestuck:shale": 20000,
+    "minestuck:uranium": 3000,
+    "minestuck:mercury": 2500,
+    "minestuck:sulfur": 2000,
+    "minestuck:quartz": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:brontes"
+  }
+}

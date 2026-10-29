@@ -1,0 +1,19 @@
+{
+  "title": "Lightroom",
+  "icon": "exposure:lightroom",
+  "x": 0.6999999999999993,
+  "y": 5,
+  "deps": {
+    "all": [
+      "powers_galore/developed_color_film"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "exposure:lightroom",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

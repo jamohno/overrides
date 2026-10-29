@@ -1,0 +1,40 @@
+{
+  "title": "&#0a20d4GOD TIER",
+  "description": [
+    "&#0a20d4GS: OH, DID I FORGET TO MENTION WE'VE GOT UNAWAKENED BLOOD POWERS JUST SITTING INSIDE US? MY BAD.",
+    "",
+    "&#0a20d4GS: GET YOUR ECHELADDER UP TO §9DIVINE DELEGATE&#0a20d4 AND DIE ON TOP OF YOUR QUEST BED. THAT'S HOW YOU GO GOD TIER.",
+    "",
+    "&#0a20d4GS: I NEVER MADE IT THAT FAR. I WAS A BIT... SLOW. BUT I'M SURE YOU CAN DO IT."
+  ],
+  "icon": "kubejs:blood3",
+  "x": 1.5999999999999996,
+  "y": 1.325,
+  "deps": {
+    "all": [
+      "blood/0a20d4uniting_the_people"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:eye_of_ascension",
+      "type": "item"
+    },
+    {
+      "item": "kubejs:divine_note",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "complete": "any",
+  "size": 0.75,
+  "shape": "square"
+}

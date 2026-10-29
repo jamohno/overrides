@@ -1,0 +1,58 @@
+{
+  "title": "Punch Alchemy, a Guide",
+  "description": [
+    "Welcome to §cAlchemyFaqs§r.com !",
+    "§7==============================§r",
+    "Alchemy is the process of using §cgrist§r, an §calchemiter§r and a §ccarved cruxite dowel§r to create new items.",
+    "",
+    "This requires a §aPunch Designix§r, which your §cServer Player§r can deploy into your house.",
+    "",
+    "Items can be combined by overlapping cards, thus obscuring some holes (like a bitwise §cAND§r operation) or by punching one card with both items' codes (like a bitwise §cOR§r operation).",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "§c§n§lAND (&&) OPERATIONS",
+    "",
+    {
+      "width": 150,
+      "height": 225,
+      "texture": "kubejs:textures/item/designix2.png",
+      "type": "image"
+    },
+    "",
+    "§c§n§lOR (||) OPERATIONS",
+    "",
+    {
+      "width": 150,
+      "height": 171,
+      "texture": "kubejs:textures/item/designix.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:punch_designix",
+  "x": 14,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "minestuck:minestuck/alchemy",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuckdungeons:shale_block",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "invisible_until_complete": true,
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 3.0,
+  "shape": "none"
+}

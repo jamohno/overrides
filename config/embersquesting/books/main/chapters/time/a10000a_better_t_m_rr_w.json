@@ -1,0 +1,45 @@
+{
+  "title": "&#a10000A Better T☠m☠rr☠w",
+  "description": [
+    "-- &#a10000grimoireAcademics§r &#a10000[GA]§r has created the memo OUR_GOALS_ALIGN --",
+    "&#a10000GA: Hell☠.",
+    "",
+    "&#a10000GA: My c☠ngratulati☠ns ☠n y☠ur entering int☠ ☠ur medium.",
+    "",
+    "&#a10000GA: I will get t☠ the p☠int. We b☠th find ☠urselves guided by the same universal aspect. I imagine I need n☠t explain t☠ y☠u what this means.",
+    "",
+    "&#a10000GA: I will be in t☠uch. I believe our intenti☠ns and meth☠ds may be ☠ne in the same - and in this way - I have need of y☠u. That is all.",
+    "",
+    "&#a10000GA: Until next we speak,",
+    "",
+    "&#a10000GA: - Grymla",
+    "-- &#a10000GA§r Closed Memo --"
+  ],
+  "icon": "kubejs:ga_chat",
+  "x": 0.25,
+  "y": 0.25,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"time\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

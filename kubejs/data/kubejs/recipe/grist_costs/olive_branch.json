@@ -1,0 +1,6 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": { "item": "kubejs:mediation_stick" },
+  "sources": [ "minecraft:acacia_sapling", "minestuck:blood_aspect_sapling" ]
+}

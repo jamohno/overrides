@@ -1,0 +1,22 @@
+{
+  "title": "MAGEBRO",
+  "icon": "irons_spellbooks:wizard_hat",
+  "order": 3,
+  "scope": "team",
+  "group": "apps",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -2.4010992,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/magebro.png",
+        "type": "image"
+      },
+      "x": -6.3571434
+    }
+  ]
+}

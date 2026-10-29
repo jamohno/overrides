@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:blood_rune"
+  },
+  "input2": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "mode": "and",
+  "output": "discerning_the_eldritch:shard_of_malice"
+}

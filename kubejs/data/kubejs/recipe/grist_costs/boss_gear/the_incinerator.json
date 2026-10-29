@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 25000,
+    "minestuck:tar": 10000,
+    "minestuck:sulfur": 2000,
+    "minestuck:garnet": 1500,
+    "minestuck:ruby": 1000
+  },
+  "ingredient": {
+    "item": "cataclysm:the_incinerator"
+  }
+}

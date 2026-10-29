@@ -1,0 +1,6 @@
+{
+  "asset_name": "heart",
+  "description": {"text": "Heart", "color": "#6a0c2c"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.07
+}

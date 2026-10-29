@@ -1,0 +1,39 @@
+{
+  "title": "§aAppear-ify...?",
+  "description": [
+    "§7> §rThe §2PARADOX AUTOCLAVE§r transportalizes the nearest adult frog back to before you found it. It then stores the paradox slime of that frog and modifies it using the §aGENETIC CODE§r sequence. The machine crystallises the paradox slime and outputs it above.",
+    "",
+    "§7> §rBreaking §2PARADOX SLIME CRYSTAL§r drops &zUNIVERSAL FROG MATERIAL§r. For the purposes of ectobiology, we call these materials &zVERSES§r. As well as verses, the crystal will also drop §aGENETIC CODE§r.",
+    "",
+    "§7> §rIt is recommended you store &zVERSES§r that contain features you like. These can be anything from biomes, time of day, weather, etc."
+  ],
+  "icon": "kubejs:paradox_autoclave",
+  "x": 8,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "the_veil/zgenesis"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:paradox_autoclave",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "verseworks:verse",
+      "components": "{\"minecraft:custom_data\":{VerseWorksVerse:{Amount:\"true\",BooleanValue:1b,Label:\"Stabilized Realm\",Parameter:\"stabilizedRealm\",Prefix:\"\",VerseType:\"stability\"}}}",
+      "type": "item"
+    },
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

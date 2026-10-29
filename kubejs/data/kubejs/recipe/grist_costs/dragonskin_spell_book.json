@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 300,
+    "minestuck:amethyst": 200,
+    "minestuck:uranium": 150,
+    "minestuck:cobalt": 100,
+    "minestuck:chalk": 80
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:dragonskin_spell_book"
+  }
+}

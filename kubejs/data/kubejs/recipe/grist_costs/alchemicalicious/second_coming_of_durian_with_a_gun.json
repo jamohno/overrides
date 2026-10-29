@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 30000,
+    "minestuck:marble": 26000,
+    "minestuck:sulfur": 22000,
+    "minestuck:gold": 18000,
+    "minestuck:uranium": 13000,
+    "minestuck:diamond": 11000
+  },
+  "ingredient": {
+    "item": "kubejs:second_coming_of_durian_with_a_gun"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "&#824d18def↺sal",
+  "description": [
+    "&#824d18UU: theres bombs in yo↺r land. old ones. they havent gone off yet which is honestly kind of impressive",
+    "",
+    "&#824d18UU: yo↺re gonna need def↺sal kits to get rid of them.",
+    "",
+    "&#824d18UU: also. its shleez. shonne keeps saying i have to tell yo↺ my name at some point so. there",
+    "",
+    "&#824d18UU: dont make it a whole thing ★★★"
+  ],
+  "icon": "kubejs:defusal_kit",
+  "x": 3.424999999999999,
+  "y": 1.425,
+  "deps": {
+    "all": [
+      "doom/824d18fledgling_doombringer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:defusal_kit",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"unctuousUndertaking\",\"color\":\"#824D18\"},{\"text\":\" [\"},{\"text\":\"UU\",\"color\":\"#824D18\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

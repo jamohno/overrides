@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:poppy"
+  },
+  "input2": {
+    "item": "minestuck:time_aspect_sapling"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:rose"
+}

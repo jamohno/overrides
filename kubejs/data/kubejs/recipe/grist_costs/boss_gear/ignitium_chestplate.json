@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 16000,
+    "minestuck:tar": 6000,
+    "minestuck:sulfur": 1200,
+    "minestuck:ruby": 900,
+    "minestuck:garnet": 900
+  },
+  "ingredient": {
+    "item": "cataclysm:ignitium_chestplate"
+  }
+}

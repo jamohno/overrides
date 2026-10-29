@@ -1,0 +1,30 @@
+{
+  "title": "Enrichment Chamber",
+  "icon": "mekanism:enrichment_chamber",
+  "x": 20.1,
+  "y": 1.9,
+  "deps": {
+    "all": [
+      "powers_galore/steel_casing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:enrichment_chamber",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

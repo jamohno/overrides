@@ -1,0 +1,228 @@
+{
+  "features": [
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_carrots",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 120
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_onions",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 120
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_potatoes",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_cabbages",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 30
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_beetroots",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 30
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_tomatoes",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 100
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    },
+    {
+      "biome_types": [
+        "normal",
+        "rough"
+      ],
+      "feature": {
+        "feature": "farmersdelight:patch_wild_rice",
+        "placement": [
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 20
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      },
+      "step": "vegetal_decoration"
+    }
+  ],
+  "structure_sets": [
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 200,
+          "separation": 165,
+          "salt": 1735000112,
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:life_qb",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 48,
+          "separation": 32,
+          "salt": 1735000122,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:life_lair",
+            "weight": 1
+          }
+        ]
+      }
+    }
+  ]
+}

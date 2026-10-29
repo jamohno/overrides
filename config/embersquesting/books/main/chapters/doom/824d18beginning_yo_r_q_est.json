@@ -1,0 +1,62 @@
+{
+  "title": "&#824d18beginning yo↺r q↺est",
+  "description": [
+    "&#824d18UU: gates. first one drops yo↺ off someplace on yo↺r land yo↺ havent seen yet.",
+    "",
+    "&#824d18UU: second one goes to §ayo↺r server player's ho↺se&#824d18. no fare. yo↺r welcome ★★★★",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/gates.png",
+      "type": "image"
+    },
+    "",
+    "&#824d18UU: want to go home. find a ret↺rn node. theyre all over yo↺r planet. hop in. done ★★★★★",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/return_node.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:doom_aspect_sapling",
+  "x": 1.6999999999999993,
+  "y": 0.6000000000000001,
+  "deps": {
+    "all": [
+      "doom/824d18fate_s_chosen_sufferer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:doom_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"unctuousUndertaking\",\"color\":\"#824D18\"},{\"text\":\" [\"},{\"text\":\"UU\",\"color\":\"#824D18\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

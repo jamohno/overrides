@@ -1,0 +1,63 @@
+{
+  "title": "Godify",
+  "icon": "hazennstuff:radiance",
+  "order": 6,
+  "scope": "team",
+  "group": "apps",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -1.4010992,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/godify.png",
+        "type": "image"
+      },
+      "x": -2.3571434
+    },
+    {
+      "y": 3.6785715,
+      "width": 8.307693,
+      "height": 5.142857,
+      "content": {
+        "texture": "kubejs:textures/item/cloudapp.png",
+        "type": "image"
+      },
+      "x": -0.40384626
+    },
+    {
+      "y": 10.178572,
+      "width": 8.307693,
+      "height": 5.142857,
+      "content": {
+        "texture": "kubejs:textures/item/cloudapp.png",
+        "type": "image"
+      },
+      "x": 7.8461537
+    },
+    {
+      "y": 1.4285715,
+      "width": 8.307693,
+      "height": 5.142857,
+      "content": {
+        "texture": "kubejs:textures/item/cloudapp.png",
+        "type": "image"
+      },
+      "x": 14.096153
+    },
+    {
+      "rotation": 180.0,
+      "y": 5.392857,
+      "width": 6.0,
+      "height": 3.7142859,
+      "content": {
+        "texture": "kubejs:textures/item/cloudapp.png",
+        "type": "image"
+      },
+      "x": 9.25
+    }
+  ]
+}

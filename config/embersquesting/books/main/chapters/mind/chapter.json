@@ -1,0 +1,32 @@
+{
+  "title": "Ecne",
+  "icon": "kubejs:textures/item/ecne.png",
+  "order": 15,
+  "scope": "team",
+  "group": "browser",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -8.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/ecnebrowser.png",
+        "type": "image"
+      },
+      "x": -3.3571434
+    },
+    {
+      "y": -2.570813,
+      "width": 4.285714,
+      "height": 6.391626,
+      "content": {
+        "texture": "kubejs:textures/item/bjpester.png",
+        "type": "image"
+      },
+      "x": -0.26785707
+    }
+  ]
+}

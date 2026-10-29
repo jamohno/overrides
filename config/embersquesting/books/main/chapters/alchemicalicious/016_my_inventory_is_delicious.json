@@ -1,0 +1,26 @@
+{
+  "title": "[016] My inventory is... delicious?",
+  "description": [
+    "§7=================================§r",
+    "§7by §rsandwichMonarch",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:edible_modus",
+  "x": 13,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/007_how_2_change_modus_easy_not_clickbait",
+      "alchemicalicious/008_alchemized_food_recipes_by_marree_berree"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:edible_modus",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:green_mushroom"
+  },
+  "sources": [
+    "minecraft:brown_mushroom",
+    "minecraft:green_dye"
+  ]
+}

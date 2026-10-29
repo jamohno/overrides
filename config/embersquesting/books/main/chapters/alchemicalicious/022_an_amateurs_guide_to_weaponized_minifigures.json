@@ -1,0 +1,26 @@
+{
+  "title": "[022] An amateurs guide to Weaponized Minifigures",
+  "description": [
+    "§7=================================§r",
+    "§7by §rpomeloPetrified",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:cathedral_cannon",
+  "x": 6.5,
+  "y": 12.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/019_holy_weapon_codes_for_pious_players",
+      "alchemicalicious/020_lunchbox_asmr"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:cathedral_cannon",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

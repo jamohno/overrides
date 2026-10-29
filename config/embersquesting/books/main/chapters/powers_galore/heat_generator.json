@@ -1,0 +1,31 @@
+{
+  "title": "Heat Generator",
+  "icon": "mekanismgenerators:heat_generator",
+  "x": 14.8,
+  "y": 2.9,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanismgenerators:heat_generator",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "lines_out": "hover",
+  "shape": "square"
+}

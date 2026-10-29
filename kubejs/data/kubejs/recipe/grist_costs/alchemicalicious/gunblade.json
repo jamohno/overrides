@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:rust": 1350,
+    "minestuck:sulfur": 1000,
+    "minestuck:tar": 500,
+    "minestuck:build": 350
+  },
+  "ingredient": {
+    "item": "kubejs:gunblade"
+  }
+}

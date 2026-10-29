@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "farmers_spell:icy_egg"
+  },
+  "sources": [
+    "minecraft:egg",
+    "minecraft:packed_ice"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "&#9700e4 Dark Invitation",
+  "description": [
+    "§5Greetings.",
+    "",
+    "§5We do not care whether you are Royalty of the Light or Dark Kingdom. What we care about is strength. You must realise by now; saving this world is futile.",
+    "",
+    "§5Join us in destroying Skaia, once and for all."
+  ],
+  "icon": "minestuck:derse_chiseled_brick",
+  "y": 5.25,
+  "tasks": [
+    {
+      "dimension": "minestuck:prospit",
+      "type": "location",
+      "title": "§6Prospit",
+      "icon": "minestuck:prospit_brick"
+    },
+    {
+      "dimension": "minestuck:derse",
+      "type": "location",
+      "title": "§5Derse",
+      "icon": "minestuck:derse_brick"
+    },
+    {
+      "item": "kubejs:lunar_transportablizer",
+      "type": "item"
+    },
+    {
+      "type": "checkmark",
+      "title": "Accept This Email Request"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "unknown",
+  "invisible_until_tasks": 3,
+  "shape": "rsquare"
+}

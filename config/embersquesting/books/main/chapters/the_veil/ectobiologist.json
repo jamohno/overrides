@@ -1,0 +1,41 @@
+{
+  "title": "§aectoBiologist",
+  "description": [
+    "§7>§r Messing around in the §aEctobiology Lab§r marked by a §aGreen Light§r,",
+    "<click action=open_url value='https://youtu.be/7YqiHDf-agA?si=Debb4QNxoZv8qHOh'><u>you manage to clone yourself.</u></click>",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/ecto4.png",
+      "type": "image"
+    },
+    "",
+    "§7>§8 WHAT ARE WE WATCHING",
+    "§7>§r GROSS"
+  ],
+  "icon": "kubejs:ectobiology_certificate",
+  "x": 5.8,
+  "y": 3.8,
+  "deps": {
+    "all": [
+      "the_veil/ecto_licious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:ectobiology_certificate",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

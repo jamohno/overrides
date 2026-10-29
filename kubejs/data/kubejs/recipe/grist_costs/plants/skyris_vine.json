@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:skyris_vine"
+  },
+  "sources": [
+    "minecraft:vine",
+    "minecraft:white_wool"
+  ]
+}

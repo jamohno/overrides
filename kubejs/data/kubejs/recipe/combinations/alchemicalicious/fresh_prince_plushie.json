@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "tag": "kubejs:alchemicalicious/armor_trims"
+  },
+  "input2": {
+    "tag": "kubejs:alchemicalicious/plushies"
+  },
+  "mode": "or",
+  "output": "kubejs:fresh_prince_plushie"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "§dSo La ♫",
+  "icon": "irons_spellbooks:epic_ink",
+  "x": 2.9999999999999996,
+  "y": 10.2,
+  "deps": {
+    "all": [
+      "magic_is_real/mi_fa"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:epic_ink",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

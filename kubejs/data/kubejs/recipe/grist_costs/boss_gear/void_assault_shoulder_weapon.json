@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 42000,
+    "minestuck:tar": 18000,
+    "minestuck:uranium": 3000,
+    "minestuck:rust": 2500,
+    "minestuck:amethyst": 2000,
+    "minestuck:cobalt": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:void_assault_shoulder_weapon"
+  }
+}

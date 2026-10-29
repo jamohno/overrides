@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 24000,
+    "minestuck:amber": 10000,
+    "minestuck:gold": 1500,
+    "minestuck:quartz": 1200,
+    "minestuck:rust": 800
+  },
+  "ingredient": {
+    "item": "cataclysm:ancient_spear"
+  }
+}

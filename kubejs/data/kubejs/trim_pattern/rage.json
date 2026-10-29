@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:rage",
+  "description": {"text": "Rage"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

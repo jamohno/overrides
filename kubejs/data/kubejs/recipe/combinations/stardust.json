@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:firework_star"
+  },
+  "input2": {
+    "item": "irons_spellbooks:arcane_essence"
+  },
+  "mode": "and",
+  "output": "hazennstuff:stardust"
+}

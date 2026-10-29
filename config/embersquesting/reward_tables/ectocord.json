@@ -1,0 +1,38 @@
+{
+  "title": "Ectocord",
+  "options": [
+    {
+      "item": "minestuck:meteoric_stone",
+      "count": 8,
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "minestuck:frog",
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "minestuck:music_disc_retro_battle",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:ochre_froglight",
+      "count": 8,
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "minecraft:verdant_froglight",
+      "count": 8,
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "minecraft:pearlescent_froglight",
+      "count": 8,
+      "type": "item",
+      "weight": 10
+    }
+  ]
+}

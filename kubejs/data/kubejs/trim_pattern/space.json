@@ -1,0 +1,6 @@
+{
+  "asset_id": "kubejs:space",
+  "description": {"text": "Space"},
+  "template_item": "minecraft:barrier",
+  "decal": false
+}

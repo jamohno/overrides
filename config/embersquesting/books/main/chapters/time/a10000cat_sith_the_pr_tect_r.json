@@ -1,0 +1,27 @@
+{
+  "title": "&#a10000Cat-Sith, the Pr☠tect☠r",
+  "icon": "kubejs:time_choice",
+  "x": 0.25,
+  "y": 1.0999999999999999,
+  "deps": {
+    "all": [
+      "time/a10000t_mes_f_l_st_her_es"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:time_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

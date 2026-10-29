@@ -1,0 +1,50 @@
+{
+  "title": "&#a64d9aThe beasT wiThin you",
+  "description": [
+    "&#a64d9aRG: geT a scroll of devour. iT biTes Things and you heal off iT. my kind of spell",
+    "",
+    "&#a64d9aRG: also im marlyn. marlyn isTiof. if you ever wenT To my underground fighTs youd already know ThaT",
+    "",
+    "&#a64d9aRG: you didnT. iTs fine. lol"
+  ],
+  "icon": "minecraft:ravager_spawn_egg",
+  "x": 3.1999999999999993,
+  "y": 1.425,
+  "deps": {
+    "all": [
+      "rage/a64d9awrath"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "irons_spellbooks:scroll",
+      "components": "{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:devour\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ruthlessGanef\",\"color\":\"#A64D9A\"},{\"text\":\" [\"},{\"text\":\"RG\",\"color\":\"#A64D9A\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

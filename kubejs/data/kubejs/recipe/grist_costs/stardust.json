@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 8
+  },
+  "ingredient": {
+    "item": "hazennstuff:stardust"
+  },
+  "sources": [
+    "minecraft:firework_star"
+  ]
+}

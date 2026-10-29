@@ -1,0 +1,23 @@
+{
+  "title": "Prospit",
+  "options": [
+    {
+      "item": "minestuck:prospit_rough_ferrostrata",
+      "count": 32,
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "minestuck:prospit_refined_core",
+      "count": 32,
+      "type": "item",
+      "weight": 5
+    },
+    {
+      "item": "minestuck:prospit_rough_core",
+      "count": 32,
+      "type": "item",
+      "weight": 5
+    }
+  ]
+}

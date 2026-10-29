@@ -1,0 +1,54 @@
+{
+  "title": "§eRoyal Reconnaissance",
+  "description": [
+    "§eDersite Forces have been mobilising on Skaia more and more. We need to get eyes on Derse to see what's been going on."
+  ],
+  "icon": "minecraft:soul_lantern",
+  "x": 1,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/ffff01_light_invitation"
+    ]
+  },
+  "tasks": [
+    {
+      "block": "minestuck:derse_chiseled_brick",
+      "type": "observe",
+      "icon": "minestuck:derse_chiseled_brick"
+    },
+    {
+      "block": "minecraft:soul_lantern",
+      "type": "observe",
+      "icon": "minecraft:soul_lantern"
+    },
+    {
+      "block": "minestuck:derse_pillar",
+      "type": "observe",
+      "icon": "minestuck:derse_pillar"
+    },
+    {
+      "block": "minecraft:blue_wool",
+      "type": "observe",
+      "icon": "minecraft:blue_wool"
+    },
+    {
+      "block": "minecraft:soul_torch",
+      "type": "observe",
+      "icon": "minecraft:soul_torch"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

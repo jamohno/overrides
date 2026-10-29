@@ -1,0 +1,22 @@
+{
+  "title": "AlchemyFAQs",
+  "icon": "minestuck:captcha_card{\"minestuck:encoded_item\":{item:\"minestuck:cruxite_apple\"}}",
+  "order": 2,
+  "scope": "team",
+  "group": "apps",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -1.4010992,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/alchemyfaqs.png",
+        "type": "image"
+      },
+      "x": -1.3571434
+    }
+  ]
+}

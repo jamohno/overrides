@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck:transportalizer"
+  },
+  "input2": {
+    "item": "kubejs:paradox_slime_bucket"
+  },
+  "mode": "and",
+  "output": "kubejs:meteoric_transportablizer"
+}

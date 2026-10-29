@@ -1,0 +1,42 @@
+{
+  "title": "§6Raise the Banner",
+  "description": [
+    "§o§6Hello, Your Royal Highness! As we approach battle, we will need iconography to show ourselves as the proud citizens and royalty of the Kingdom of Light. Please find the §eRoyal Textile Mill§6, located somewhere around §e-9, 132, -239§6. It is there that we construct our banners. please create one of your own to prove your loyalty. Then, I will give you a necessary component for your Lunar Transportablizer."
+  ],
+  "icon": "minecraft:orange_banner{\"minecraft:banner_patterns\":[{color:\"yellow\",pattern:\"minecraft:gradient\"},{color:\"yellow\",pattern:\"minecraft:flower\"},{color:\"yellow\",pattern:\"minecraft:circle\"}]}",
+  "x": 4,
+  "y": 2.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/train_the_army"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "minecraft:orange_banner",
+      "components": "{\"minecraft:banner_patterns\":[{color:\"yellow\",pattern:\"minecraft:gradient\"},{color:\"yellow\",pattern:\"minecraft:flower\"},{color:\"yellow\",pattern:\"minecraft:circle\"}]}",
+      "mode": "consume",
+      "type": "item",
+      "title": "Prospitian Banner"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:transportalizer",
+      "type": "item"
+    },
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "repeat": {},
+  "shape": "rsquare"
+}

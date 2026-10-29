@@ -1,0 +1,94 @@
+{
+  "title": "Magic Rewards",
+  "options": [
+    {
+      "item": "hazennstuff:charred_bones",
+      "type": "item"
+    },
+    {
+      "item": "hazennstuff:overgrown_bone",
+      "type": "item"
+    },
+    {
+      "item": "mowziesmobs:bluff_rod",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:echo_shard",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:emerald",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:breeze_rod",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "type": "item"
+    },
+    {
+      "item": "hazennstuff:glowing_mushroom",
+      "type": "item"
+    },
+    {
+      "item": "hazennstuff:shadow_scale",
+      "type": "item"
+    },
+    {
+      "item": "hazennstuff:stardust",
+      "type": "item"
+    },
+    {
+      "item": "hazennstuff:arcane_sea_shell",
+      "type": "item"
+    },
+    {
+      "item": "hazennstuff:nightmare_fuel",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:frozen_bone",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:blood_vial",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:divine_pearl",
+      "type": "item"
+    },
+    {
+      "item": "farmers_spell:foodgeist_seasoning",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:raw_mithril",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:common_ink",
+      "count": 3,
+      "type": "item"
+    }
+  ]
+}

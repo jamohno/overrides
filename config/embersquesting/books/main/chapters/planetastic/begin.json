@@ -1,0 +1,35 @@
+{
+  "title": "§7>§r Begin",
+  "description": [
+    "A young player stands in the §aOVERWORLD",
+    "§amySBURB§r has been installed! This app is designed to help you through the installation process of the game §aSBURB§r. Please follow the quests listed at your §lown pace§r.",
+    "",
+    "[ §cERROR§r: §cEMPTY DISK§r ]",
+    "",
+    "§aSBURB.ska§r not detected on disks. Running backup §amySBURB§r protocol '§2T3MPL3§r'.",
+    "",
+    "§7=================================",
+    "§aMultiplayer §7-",
+    "To set up a party, click the '§cMy Team§r' button at the top left of your inventory. This will allow you to complete quests together.§r",
+    "§7================================="
+  ],
+  "icon": "kubejs:textures/item/arrow.png",
+  "x": 0.6,
+  "y": 0.6,
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Click Me!"
+    }
+  ],
+  "rewards": [
+    {
+      "title": "SBURB Disks",
+      "table": "packages",
+      "type": "table",
+      "auto": "silent"
+    }
+  ],
+  "size": 2.0,
+  "shape": "none"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minestuck_extended:mechanical_chainsaw"
+  },
+  "input2": {
+    "item": "cataclysm:witherite_ingot"
+  },
+  "mode": "or",
+  "output": "cataclysm:meat_shredder"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "§5Transportablize",
+  "description": [
+    "§o§5You've done well. I'm almost proud. The King and Queen will be in touch.",
+    "",
+    "<click action=open_quest value='princes_and_princesses/9700e4_dark_invitation'><u>Click ✉</u></click>"
+  ],
+  "icon": "kubejs:lunar_transportablizer",
+  "x": 5,
+  "y": 7.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/gather_their_support"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:lunar_transportablizer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

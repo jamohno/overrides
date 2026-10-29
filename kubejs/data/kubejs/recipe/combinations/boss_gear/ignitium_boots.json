@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:netherite_boots"
+  },
+  "input2": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "mode": "or",
+  "output": "cataclysm:ignitium_boots"
+}

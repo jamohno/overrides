@@ -1,0 +1,89 @@
+#Whether or not to check for overlapping punch designix and totem lathe (combination) recipes.
+checkConflictingCombinationRecipes = false
+#Whether or not to add "Mysterious Conversions" for Minestuck's transforming weapons to JEI when Create is installed.
+#Mods and resource packs can add their own such weapons by adding a mymod:minestuckcompat/swapping_weapons.json file.
+mysteriousConversionRecipes = true
+
+#Settings related to grist costs.
+[grist]
+	#By default, when ExtraStuck is installed Minestuck Compat disables their interpreters in favor of its own.
+	#Turning this config option on will make Minestuck Compat disable its overlapping interpreters and allow
+	#ExtraStuck's interpreters to load.
+	useExtraStuckInterpreters = false
+	#Whether or not to print a list of all items that lack grist costs to the log.
+	#This can be useful when building compatibility data packs.
+	#
+	#Unlike Minestuck's config option, this lists *all* items, not just those which are ingredients.
+	dumpGristlessItems = false
+	#Whether or not to print a list of all recipe types that lack interpreters to the log.
+	#This can be useful when building compatibility data packs.
+	dumpUnhandledRecipeTypes = false
+	#Whether or not to filter some (intentionally unsupported) recipe types out of the recipe type dump.
+	#Certain recipe types, like Mekanism's chemical-only recipe types, will always be filtered out,
+	#as they cannot realistically be supported due to limitations of Minestuck's grist cost system.
+	dumpUnhandledRecipeTypesFiltering = true
+	#Whether or not to print information about unhandled recipes that go through the 'minestuck:default'
+	#interpreter.
+	#
+	#These usually indicate recipe serializers that need special handling.
+	#For example because they report that they're special (i.e., hidden from the recipe book),
+	#or because they report no ingredients or results via the vanilla codepath (which means the
+	#recipe's internal representation may be considerably more advanced or abstracted).
+	#
+	#For the former (isSpecial() == true), see Create's recipes as an example.
+	#For the latter (ingredients and results are empty), see Mekanism's recipes as an example.
+	#
+	#In the case that the recipe is "special" but otherwise eligible, Minestuck Compat provides
+	#the "minestuckcompat:simple" interpreter, which can be instructed to allow "special"
+	#recipes by adding `"ignore_simple": false` to its definition. The interpreter is otherwise
+	#a one-to-one clone of Minestuck's default interpreter (besides allowing an added cost).
+	debugDefaultInterpreterRecipeEligibility = false
+	#In an effort to add grist costs for every obtainable item, Minestuck Compat adds some grist costs for some 'dangerous' items.
+	#These costs are disabled by default, but when enabled define costs for:
+	#- Action Claws
+	#- Allweddol
+	#- Magic Cueball
+	enableDangerousGristCosts = false
+
+	#Settings for turning on/off grist cost integration for supported mods.
+	[grist.integration]
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Applied Energistics 2.
+		"Applied Energistics 2" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Biomes O' Plenty.
+		"Biomes O' Plenty" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Create.
+		Create = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for ExtraDelight.
+		ExtraDelight = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Farmer's Delight.
+		"Farmer's Delight" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Immersive Engineering.
+		"Immersive Engineering" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Mekanism.
+		Mekanism = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Minestuck.
+		Minestuck = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Minecraft.
+		Minecraft = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Applied Mekanistics.
+		"Applied Mekanistics" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Builders Crafts & Additions 2.
+		"Builders Crafts & Additions 2" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Create Ore Excavation.
+		"Create Ore Excavation" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Dank Storage.
+		"Dank Storage" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Expanded Storage.
+		"Expanded Storage" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for FramedBlocks.
+		FramedBlocks = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for GraveStone Mod.
+		"GraveStone Mod" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Hostile Neural Networks.
+		"Hostile Neural Networks" = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Lootr.
+		Lootr = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Supplementaries.
+		Supplementaries = true
+		#Whether or not to enable Minestuck Compat's grist cost and combination recipes for Quark.
+		Quark = true

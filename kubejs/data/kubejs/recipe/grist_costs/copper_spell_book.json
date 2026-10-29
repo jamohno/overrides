@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:shale": 60,
+    "minestuck:chalk": 50,
+    "minestuck:amethyst": 40
+  },
+  "ingredient": {
+    "item": "irons_spellbooks:copper_spell_book"
+  }
+}

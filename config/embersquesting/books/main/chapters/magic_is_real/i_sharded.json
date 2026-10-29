@@ -1,0 +1,31 @@
+{
+  "title": "§dI Sharded.",
+  "icon": "irons_spellbooks:divine_soulshard",
+  "x": 15.9,
+  "y": 7.5,
+  "deps": {
+    "all": [
+      "magic_is_real/citadel"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:divine_soulshard",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

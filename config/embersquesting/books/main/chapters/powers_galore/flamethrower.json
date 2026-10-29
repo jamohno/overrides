@@ -1,0 +1,19 @@
+{
+  "title": "Flamethrower",
+  "icon": "mekanism:flamethrower",
+  "x": 23.5,
+  "y": 5.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanism:flamethrower",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

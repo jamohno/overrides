@@ -1,0 +1,25 @@
+{
+  "title": "[010] ULTIMATE GUIDE TO PLUSHES IN SBURB",
+  "description": [
+    "§7=================================§r",
+    "§7by §rtheatricallyChaotic",
+    "§7=================================§r"
+  ],
+  "x": 18,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) or(item(minestuck:plush_salamander) item(minestuck:plush_nakagator) item(minestuck:plush_iguana) item(minestuck:plush_turtle) item(minestuck:plush_mutated_cat) item(minestuck_extended:plush_vriska) item(minestuck_extended:plush_nepeta) item(minestuck_extended:plush_spades_slick) item(minestuck_extended:plush_hearts_boxcars) item(minestuck_extended:plush_diamonds_droog) item(minestuck_extended:plush_clubs_deuce) item(minestuck_extended:plush_salamander) item(minestuck_extended:plush_nakagator) item(minestuck_extended:plush_iguana) item(minestuck_extended:plush_turtle) item(minestuck_extended:plush_mutated_cat) item(minestuck_extended:plush_genesis_frog) item(minestuck_extended:scalemate_witness) item(minestuck_extended:scalemate_pyralspite) item(minestuck_extended:scalemate_applescab) item(minestuck_extended:scalemate_berrybreath) item(minestuck_extended:scalemate_cinnamonwhiff) item(minestuck_extended:scalemate_honeytongue) item(minestuck_extended:scalemate_lemonsnout) item(minestuck_extended:scalemate_pinesnort) item(minestuck_extended:scalemate_pucefoot) item(minestuck_extended:scalemate_pumpkinsnuffle)))",
+      "type": "item",
+      "title": "Any Plush"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

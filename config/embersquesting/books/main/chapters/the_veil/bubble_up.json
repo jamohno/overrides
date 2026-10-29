@@ -1,0 +1,41 @@
+{
+  "title": "§1Bubble Up!",
+  "description": [
+    "§7> §rIn the furthest §5WESTERN§r reaches of the veil lie §5DREAM BUBBLES§r glubbed up by the §1OUTER GODS§r. Visiting these can net you important resources, like §3ASPECT SAPLINGS§r or §aFROGS§r. ",
+    "",
+    "§7> §rIt is imperative for sessions without a §8Hero of Space§r to travel to §5Dream Bubbles§r and retrieve frogs.",
+    "",
+    "§7> §rHow you travel to these bubbles is up to you, keeping in mind your §4inability to place or break blocks§r whilst in the §8Veil§r.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "The bubbles allow the players of Sburb who have lost a life to continue dreaming. The reality constructed in the bubbles is a combination of the memories of everyone inside the bubble accessible to any who has learned the bubble's nature. ",
+    "",
+    "Additionally, living players, who have lost or become their dream selves, appear in the dream bubbles when they are asleep. It is in this fashion that the bubbles can be used as meeting places between the dead and the living; even those from alternate universes, such as the one that created yours, and doomed timelines can be found in a bubble."
+  ],
+  "icon": "betteradvancedtooltips:textures/font/icons/bubble.png",
+  "x": 5.6,
+  "y": 7,
+  "deps": {
+    "all": [
+      "the_veil/ecto_licious"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "size": 2.0,
+  "shape": "none"
+}

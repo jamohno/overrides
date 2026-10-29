@@ -1,0 +1,104 @@
+{
+	id: "45D8A384A6F06E62"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 3
+			id: "4DE47C92E7A77D60"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 3
+			id: "57A439D5A5686FF4"
+			item: {
+				count: 1
+				id: "create:raw_zinc"
+			}
+		}
+		{
+			count: 3
+			id: "791DCA4C5AB196FB"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+		}
+		{
+			count: 3
+			id: "4EDFD6B4FAAA17B6"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 3
+			id: "4D2AD49FC7C2C2A6"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 3
+			id: "0794941547A34947"
+			item: {
+				count: 1
+				id: "mekanism:raw_tin"
+			}
+		}
+		{
+			count: 3
+			id: "494CE09EB305E645"
+			item: {
+				count: 1
+				id: "mekanism:raw_osmium"
+			}
+		}
+		{
+			count: 3
+			id: "741FBFB7128E7A7F"
+			item: {
+				count: 1
+				id: "mekanism:raw_lead"
+			}
+		}
+		{
+			count: 3
+			id: "7124137B32F08D7D"
+			item: {
+				count: 1
+				id: "mekanism:raw_uranium"
+			}
+		}
+		{
+			count: 3
+			id: "653B05B0239D3ABB"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+		}
+		{ id: "03E4A464F7D82795", item: { count: 1, id: "minecraft:diamond" } }
+		{
+			count: 3
+			id: "64329C4243316BB7"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 3
+			id: "2FF52F1D5A4063BB"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+	]
+}

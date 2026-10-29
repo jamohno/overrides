@@ -1,0 +1,29 @@
+{
+  "title": "Computer",
+  "options": [
+    {
+      "item": "minestuck:computer",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:old_computer",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:laptop",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:crockertop",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:hubtop",
+      "type": "item"
+    },
+    {
+      "item": "minestuck:lunchtop",
+      "type": "item"
+    }
+  ]
+}

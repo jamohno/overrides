@@ -1,0 +1,6 @@
+{
+  "asset_name": "breath",
+  "description": {"text": "Breath", "color": "#0385e8"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.01
+}

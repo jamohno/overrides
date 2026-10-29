@@ -1,0 +1,55 @@
+[general]
+	#Keep the equipped hat when the player dies.
+	keepHatOnDeath = true
+	#Chance (percent) for a standard bag to become a seasonal bag.
+	# Default: 20
+	# Range: 0 ~ 100
+	seasonalBagChance = 20
+	#Allow SimpleHats Lite hats in the vanilla helmet slot.
+	allowHatInHelmetSlot = true
+
+[client]
+	#Hide hats while in first-person view.
+	forceFirstPersonNoRender = false
+	#Vertical offset applied when rendering worn hats.
+	# Default: 0.0
+	# Range: -2.0 ~ 2.0
+	hatYOffset = 0.0
+
+[chestLoot]
+	#Add hat bags to supported chest loot tables.
+	enabled = true
+	# Default: 20
+	# Range: 0 ~ 10000
+	commonWeight = 20
+	# Default: 15
+	# Range: 0 ~ 10000
+	uncommonWeight = 15
+	# Default: 10
+	# Range: 0 ~ 10000
+	rareWeight = 10
+	# Default: 5
+	# Range: 0 ~ 10000
+	epicWeight = 5
+	# Default: 150
+	# Range: 0 ~ 10000
+	noneWeight = 150
+
+[entityLoot]
+	#Allow eligible mobs to drop hat bags.
+	enabled = true
+	# Default: 20
+	# Range: 0 ~ 10000
+	commonWeight = 20
+	# Default: 15
+	# Range: 0 ~ 10000
+	uncommonWeight = 15
+	# Default: 10
+	# Range: 0 ~ 10000
+	rareWeight = 10
+	# Default: 5
+	# Range: 0 ~ 10000
+	epicWeight = 5
+	# Default: 200
+	# Range: 0 ~ 10000
+	noneWeight = 200

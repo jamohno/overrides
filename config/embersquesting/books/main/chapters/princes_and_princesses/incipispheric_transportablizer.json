@@ -1,0 +1,33 @@
+{
+  "title": "§eIncipispheric Transportablizer",
+  "description": [
+    "§eThe war on Skaia is gearing up. Plenty of troops are on the Battlefield already. You must head there."
+  ],
+  "icon": "kubejs:transportablizer2",
+  "x": 2,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "princes_and_princesses/royal_reconnaissance"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:transportablizer2",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

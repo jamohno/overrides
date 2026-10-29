@@ -1,0 +1,38 @@
+{
+  "title": "&#009f4fThe SanctitY of Life",
+  "description": [
+    "-- &#009f4fplasticineYpsiliform [PY]§r has created the memo GET_IN_LOSER_WERE_SAVING_THE_PLANET --",
+    "&#009f4fPY: Hahahahaha oh mY GOD You actuallY made it in!!~",
+    "",
+    "&#009f4fPY:I was beginning to wonder if I was going to let You be mY friend or not.",
+    "",
+    "&#009f4fPY:Now are You gonna keep standing around or are we getting a move on? You got places to beeeeeeee!~",
+    "-- &#009f4fPY§r Closed Memo --"
+  ],
+  "icon": "kubejs:py_chat",
+  "x": 0.875,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"life\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"plasticineYpsiliform\",\"color\":\"#009F4F\"},{\"text\":\" [\"},{\"text\":\"PY\",\"color\":\"#009F4F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

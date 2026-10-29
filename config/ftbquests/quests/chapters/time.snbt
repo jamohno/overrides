@@ -1,0 +1,536 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_quest_size: 0.75d
+	filename: "time"
+	group: "299E7FAB59E52A5B"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/catsith"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4C8880870E2839B4"
+	images: [
+		{
+			height: 20.76923076923077d
+			id: "4BA638675664E837"
+			image: "kubejs:item/cat-sithbrowser"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.456896551724138d
+			id: "51B8D83D7AC4E4F1"
+			image: "kubejs:item/gapester"
+			rotation: 0.0d
+			width: 5.0d
+			x: -9.375d
+			y: -2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "kubejs:ga_chat"
+			}
+			icon_scale: 1.75d
+			id: "054DB864B2170498"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D7BBCA63C6BA0C1"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "49E891363192E7CA"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "47866FC2D04171AB"
+				item: { components: { "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"time\"}"] }, count: 1, id: "kubejs:inventory_upgrade" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["054DB864B2170498"]
+			id: "00577572C8BBF051"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "627D13C4F0926DEE"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0BCC3B69F98CBC2F"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "31EB77396A377FF7"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "6524A3C75ECFE072"
+				item: { count: 1, id: "minestuck:time_aspect_sapling" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["00577572C8BBF051"]
+			icon: {
+				id: "create:cuckoo_clock"
+			}
+			id: "7FB825B517FCD319"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57752708A4D422A2"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1F4B2984F284A02F"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2243C0281BC9636D"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "0565A27667164452"
+					item: { count: 1, id: "minecraft:clock" }
+					type: "item"
+				}
+				{
+					id: "548F6005FF94983D"
+					item: { count: 1, id: "minestuck:redstone_clock" }
+					type: "item"
+				}
+				{
+					id: "6BD3FF60C0125F0B"
+					item: { count: 1, id: "minestuck:horse_clock" }
+					type: "item"
+				}
+				{
+					id: "0994F7BFC9973A33"
+					item: { count: 1, id: "create:cuckoo_clock" }
+					type: "item"
+				}
+			]
+			x: -8.9d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7FB825B517FCD319"]
+			icon: {
+				id: "create:large_cogwheel"
+			}
+			id: "76962145EAE9BC0D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06B61C923D674CF0"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2A58DC64552AFBC0"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2CA583B617250910"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "2310E6C46343E022"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "61EE3B65E9A5C1A6"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "212033079E8C551D"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+				{
+					advancement: "create:shifting_gears"
+					criterion: ""
+					id: "3E26C1ADE3529BB7"
+					type: "advancement"
+				}
+				{
+					advancement: "create:crusher_maxed_0000"
+					criterion: ""
+					id: "28606A29FC4F68D0"
+					type: "advancement"
+				}
+			]
+			x: -8.05d
+			y: -1.75d
+		}
+		{
+			dependencies: ["76962145EAE9BC0D"]
+			id: "131585E7BF75B0B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FF6AC815D640ACC"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1B22F809CD695847"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "48B9A2A71A6A4C5E"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "28A7C87A4608CD85"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minestuck:time_flayer)item(minestuck:no_time_for_flies))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.05d
+			y: -0.9d
+		}
+		{
+			dependencies: ["131585E7BF75B0B0"]
+			id: "3782F529E0BBE336"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B3AFD2D74584A66"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "70584E7EA815CBCE"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7E7A6E620FEE1AFC"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "0FB20D0266951B4B"
+					item: {
+						count: 1
+						id: "kubejs:time_scroll"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 5"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7D8CF811B16B2E45"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "25A0745256219AC2"
+					item: { count: 1, id: "kubejs:lore_tome_1" }
+					type: "item"
+				}
+				{
+					id: "4792881EE835FB10"
+					item: { count: 1, id: "kubejs:lore_tome_2" }
+					type: "item"
+				}
+				{
+					id: "2AE833B83F10FECD"
+					item: { count: 1, id: "kubejs:lore_tome_3" }
+					type: "item"
+				}
+				{
+					id: "6B73DD13764ED8B1"
+					item: { count: 1, id: "kubejs:lore_tome_4" }
+					type: "item"
+				}
+				{
+					id: "141BC6F0523C4204"
+					item: { count: 1, id: "kubejs:lore_tome_5" }
+					type: "item"
+				}
+				{
+					id: "180AE2948615FC05"
+					item: { count: 1, id: "kubejs:lore_tome_6" }
+					type: "item"
+				}
+				{
+					id: "28F37FCD123FF49A"
+					item: { count: 1, id: "kubejs:lore_tome_7" }
+					type: "item"
+				}
+				{
+					id: "50A1BE980DD08E4C"
+					item: { count: 1, id: "kubejs:lore_tome_8" }
+					type: "item"
+				}
+				{
+					id: "2325F467021F34C9"
+					item: { count: 1, id: "kubejs:lore_tome_9" }
+					type: "item"
+				}
+				{
+					id: "1837A80DBD06415B"
+					item: { count: 1, id: "kubejs:lore_tome_10" }
+					type: "item"
+				}
+				{
+					id: "745C3E92C18AE042"
+					item: { count: 1, id: "kubejs:lore_tome_11" }
+					type: "item"
+				}
+				{
+					id: "21DA5360D7E1BFD5"
+					item: { count: 1, id: "kubejs:lore_tome_12" }
+					type: "item"
+				}
+			]
+			x: -8.9d
+			y: -0.9d
+		}
+		{
+			dependencies: ["3782F529E0BBE336"]
+			icon: {
+				id: "kubejs:time3"
+			}
+			id: "6131DA533D637434"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39E99C07865B8F49"
+				table_id: 9204769792351976345L
+				type: "random"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "1942C3601FF79362"
+					item: { count: 1, id: "kubejs:eye_of_ascension" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FCF80E57E8971A2"
+					item: { count: 1, id: "kubejs:divine_note" }
+					type: "item"
+				}
+			]
+			x: -9.75d
+			y: -0.9000000000000001d
+		}
+		{
+			dependencies: ["3782F529E0BBE336"]
+			id: "1A893098F06D0015"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3004D1524200094A"
+				table_id: 9204769792351976345L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "696774D615410FE3"
+				item: { count: 1, id: "kubejs:time_choice" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: -0.9000000000000001d
+		}
+	]
+}

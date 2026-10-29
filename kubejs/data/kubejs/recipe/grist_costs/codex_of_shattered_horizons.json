@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 250,
+    "minestuck:amethyst": 250,
+    "minestuck:shale": 150,
+    "minestuck:diamond": 100,
+    "minestuck:chalk": 100,
+    "minestuck:tar": 50
+  },
+  "ingredient": {
+    "item": "gtbcs_geomancy_plus:codex_of_shattered_horizons"
+  }
+}

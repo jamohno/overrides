@@ -1,0 +1,30 @@
+{
+  "title": "Energy Cube",
+  "x": 22.5,
+  "y": 5.7,
+  "deps": {
+    "all": [
+      "powers_galore/factorial_family"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item(mekanism:basic_energy_cube) item(mekanism:advanced_energy_cube) item(mekanism:elite_energy_cube) item(mekanism:ultimate_energy_cube))",
+      "type": "item",
+      "title": "Energy Cube"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "&#43587da truth that shouldn't exist.",
+  "description": [
+    "&#43587dDH: there's a labyrinth.. at the very end of it... well... you can see for yourself. or not see.",
+    "",
+    "&#43587dDH: take it, so these consorts can stop looking for answers.",
+    "",
+    "&#43587dDH: its like getting to the end of an arc and realising that you'll never get those hours of your life back. that happens to me a lot. there are a lot of arcs..."
+  ],
+  "icon": "kubejs:obscured_truth",
+  "x": 2.124999999999999,
+  "y": 1.7750000000000004,
+  "deps": {
+    "all": [
+      "void/43587dforbidden"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:obscured_truth",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:void_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 5000,
+    "minestuck:rust": 3500,
+    "minestuck:marble": 2000,
+    "minestuck:gold": 1500
+  },
+  "ingredient": {
+    "item": "kubejs:paladins_arsenal"
+  }
+}

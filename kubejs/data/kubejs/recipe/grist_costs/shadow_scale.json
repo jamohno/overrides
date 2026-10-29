@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:shadow_scale"
+  },
+  "sources": [
+    "minecraft:phantom_membrane",
+    "minecraft:black_dye"
+  ]
+}

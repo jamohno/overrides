@@ -1,0 +1,43 @@
+{
+  "title": "§cBREAKING: War on Skaia Continues!",
+  "description": [
+    "More at 4",
+    "This just in! The §8Black King§r was spotted descending onto §bSkaia§r. It looks like §8The Reckoning§r is just moments away!",
+    "",
+    "§7[Interact holding §cStrife!§7 on Skaia to start the battle.]§r"
+  ],
+  "icon": "minestuck:chessboard",
+  "x": 9.5,
+  "y": 5.85,
+  "tasks": [
+    {
+      "dimension": "minestuck:skaia",
+      "type": "location",
+      "title": "Go to Skaia",
+      "icon": "minestuck:chessboard"
+    },
+    {
+      "item": "kubejs:strife",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "unknown",
+  "invisible_until_complete": true,
+  "shape": "rsquare"
+}

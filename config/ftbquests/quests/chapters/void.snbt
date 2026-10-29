@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "void"
+	group: "299E7FAB59E52A5B"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/llyr"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "1051729112F05EEE"
+	images: [
+		{
+			height: 20.76923076923077d
+			id: "1749EB3D54967936"
+			image: "kubejs:item/llyrbrowser"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.456896551724138d
+			id: "237D6B412469910E"
+			image: "kubejs:item/dhpester"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.375d
+			y: 1.75d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "kubejs:dh_chat"
+			}
+			icon_scale: 1.75d
+			id: "79BA961E64FF0210"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DD7DBF165F2FFF4"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7DD647DE59450348"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "6D55628E3BF8571D"
+				item: { components: { "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"void\"}"] }, count: 1, id: "kubejs:inventory_upgrade" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79BA961E64FF0210"]
+			id: "1C249FD3D95126DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29BD927149BF0196"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "45EDFDDE0EC3308F"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "268B4F3A0640A90D"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "5EF5DECEDC228415"
+				item: { count: 1, id: "minestuck:void_aspect_sapling" }
+				type: "item"
+			}]
+			x: -8.775d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["149954EB83298F94"]
+			id: "232738148E4617DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EA9AA562410F128"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "77FCB931C2002C16"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "781F752EF313F3F5"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "16082E66D96E3B51"
+					item: {
+						count: 1
+						id: "kubejs:void_scroll"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 5"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0A7BE275835E1BF4"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "7676EEBF821FE0E8"
+				item: { count: 1, id: "kubejs:obscured_truth" }
+				type: "item"
+			}]
+			x: -7.875000000000001d
+			y: 2.7750000000000004d
+		}
+		{
+			dependencies: ["019A6EE167F7BB18"]
+			id: "149954EB83298F94"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B9CE53C365BAD1E"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6853DAD54AD280C2"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "706074F7E8B18AA2"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "5A3D018E87FB2065"
+				item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
+				type: "item"
+			}]
+			x: -6.9750000000000005d
+			y: 2.7750000000000004d
+		}
+		{
+			dependencies: ["232738148E4617DD"]
+			id: "6DA6DAA62FBFC23A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1862AEE425E7B189"
+				table_id: 9204769792351976345L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "788F9BBCD5B4D90E"
+				item: { count: 1, id: "kubejs:void_choice" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: 2.7750000000000004d
+		}
+		{
+			dependencies: ["232738148E4617DD"]
+			icon: {
+				id: "kubejs:void3"
+			}
+			id: "7BD2D9C82D277C08"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77734A56A34B169E"
+				table_id: 9204769792351976345L
+				type: "random"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "0653F339A3F88C40"
+					item: { count: 1, id: "kubejs:eye_of_ascension" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AFDDB07B80ADBFA"
+					item: { count: 1, id: "kubejs:divine_note" }
+					type: "item"
+				}
+			]
+			x: -8.775d
+			y: 2.7750000000000004d
+		}
+		{
+			dependencies: ["58CDCD0C740C860D"]
+			id: "019A6EE167F7BB18"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "504B637CE6920A51"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "50F759712B3BC6DC"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0067895694CF7642"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "737BD2A1E8708E01"
+				item: { count: 1, id: "irons_spellbooks:ancient_knowledge_fragment" }
+				type: "item"
+			}]
+			x: -6.9750000000000005d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["1C249FD3D95126DA"]
+			id: "58CDCD0C740C860D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3640533C8CCF2299"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "26EE123A8DB7DF03"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"dredgedHermit\",\"color\":\"#43587D\"},{\"text\":\" [\"},{\"text\":\"DH\",\"color\":\"#43587D\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "66DD1EC8679F82D8"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				count: 3L
+				id: "6E45F461D4B201AE"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:long_water_breathing" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: -7.875000000000001d
+			y: 1.9500000000000002d
+		}
+	]
+}

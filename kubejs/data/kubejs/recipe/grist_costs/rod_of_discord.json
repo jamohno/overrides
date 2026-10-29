@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:rod_of_discord"
+  },
+  "sources": [
+    "minecraft:end_rod",
+    "minecraft:ender_pearl"
+  ]
+}

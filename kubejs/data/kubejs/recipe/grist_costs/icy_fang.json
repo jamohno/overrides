@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "irons_spellbooks:icy_fang"
+  },
+  "sources": [
+    "minecraft:packed_ice",
+    "minecraft:bone"
+  ]
+}

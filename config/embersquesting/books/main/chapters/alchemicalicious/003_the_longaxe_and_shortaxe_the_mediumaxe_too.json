@@ -1,0 +1,25 @@
+{
+  "title": "[003] The Longaxe and Shortaxe. The Mediumaxe too.",
+  "description": [
+    "§7====================================§r",
+    "§7by §rleotiaceaeDescension",
+    "§7====================================§r"
+  ],
+  "x": 4,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) and(item_tag(minecraft:axes)))",
+      "type": "item",
+      "title": "Any Axe"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

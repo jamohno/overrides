@@ -1,0 +1,50 @@
+{
+  "title": "§7>§r Captchalogue",
+  "description": [
+    "You can use a §aFETCH MODUS§r to store items beyond your pockets. You can press §aX§r to captchalogue an item, and §aG§r to access your sylladex.",
+    "",
+    "To change your modus or add more captchalogue cards, place it in the card slot in the §aG§r menu and press §aUse Item§r.",
+    "",
+    "You have a feeling you will be able to §aUPGRADE YOUR NORMAL INVENTORY§r two different ways.",
+    "1. §aGaining Advancements§r",
+    "2. <click action=open_quest value='planetastic/s_enter'><color value='green'><u>Entering the Medium</u></color></click>",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "&#FF0AB0STACK MODUS§r:",
+    "Captchalogue cards are arranged in a stack, and the player can only retrieve or otherwise interact with the one at the top of the stack (First In Last Out, FILO). If an object is picked up while the Sylladex is full, the item at the bottom of the stack will be dropped.",
+    "",
+    "§6QUEUE MODUS:§r",
+    "The opposite of the Stack, in that only the card at the bottom of the deck (the one that was added before any of the others, First In First Out) may be retrieved or used directly.",
+    "",
+    "§aTREE MODUS:§r",
+    "The first item is captchalogued in the Root Card. Any more items that are picked up are Branches attached to an existing card and, like the root itself, may have up to two branches of their own (making this a binary tree). Branches with no further branches of their own are called Leaf Cards. Cards are sorted alphabetically: they join the left branch of an existing card if they come alphabetically before that card, or the right branch otherwise.",
+    "",
+    "§eHASHMAP MODUS:§r",
+    "Hash maps work through a key-to-value lookup structure, making the Hash Map Fetch Modus the most like a traditional inventory. Each card in the deck is given an index from zero to the number of cards in the deck minus 1 (10 cards leaves an index range of 0 to 9). When an item is captchalogued into a Hash Map Sylladex, where it is placed into the card stack depends on the current Hash Function. If an object already occupies the card with the produced index, the item in the card is ejected from the Sylladex to make room for the new item."
+  ],
+  "icon": "minestuck:queuestack_modus_card",
+  "x": 2.6,
+  "y": 0.6,
+  "tasks": [
+    {
+      "advancement": "minecraft:story/upgrade_tools",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "modus",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "table": "computer",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "size": 2.0,
+  "shape": "none"
+}

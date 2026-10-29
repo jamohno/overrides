@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 500,
+    "minestuck:tar": 267,
+    "minestuck:gold": 267,
+    "minestuck:diamond": 200,
+    "minestuck:uranium": 100
+  },
+  "ingredient": {
+    "item": "kubejs:obsidian_rings"
+  }
+}

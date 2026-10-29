@@ -1,0 +1,64 @@
+{
+  "structure_sets": [
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 16,
+          "separation": 6,
+          "salt": 1735000105,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:gambling_chairs",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 200,
+          "separation": 165,
+          "salt": 1735000106,
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:light_qb",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 48,
+          "separation": 32,
+          "salt": 1735000119,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:light_lair",
+            "weight": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "§dRoar",
+  "icon": "irons_spellbooks:dragonskin",
+  "x": 14.55,
+  "y": 5.1,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:dragonskin",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

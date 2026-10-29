@@ -1,0 +1,41 @@
+{
+  "title": "&#a10000Beginning Y☠ur Quest",
+  "icon": "minestuck:time_aspect_sapling",
+  "x": 1.25,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "time/a10000a_better_t_m_rr_w"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:time_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

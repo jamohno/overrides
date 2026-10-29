@@ -1,0 +1,1166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "princes_and_princesses"
+	group: "22D4E158356BE0A6"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "kubejs:lunar_transportablizer"
+	}
+	id: "37658874E19B75FE"
+	images: [
+		{
+			height: 20.76d
+			id: "739C9A35ED96F4CC"
+			image: "kubejs:item/moonmialimage"
+			rotation: 0.0d
+			width: 36.37196765498653d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "45455B7B427345BE"
+			height: 8.121212121212121d
+			id: "067AF12B6C2C8A11"
+			image: "kubejs:item/breaking"
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+	order_index: 4
+	quest_links: [{
+		id: "74E63459B45FA29E"
+		linked_quest: "6458E254AE0374C7"
+		shape: "rsquare"
+		size: 2.0d
+		x: -5.4d
+		y: 7.6d
+	}]
+	quests: [
+		{
+			dependencies: ["5043ABFFA12AD42E"]
+			id: "02C3723C115AC88D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05F70C14AA8FBECF"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "523918065BE10704"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "minestuck:prospitian_pawn"
+				id: "0937467780A0BA3A"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minestuck:textures/environment/prospit.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "73A6CDEDD168488F"
+			optional: true
+			rewards: [{
+				id: "51E1317F225C2724"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				dimension: "minestuck:prospit"
+				icon: {
+					id: "minestuck:prospit_shirt"
+				}
+				id: "0CA8DB929F9A477A"
+				type: "dimension"
+			}]
+			x: 5.6d
+			y: -1.2d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minestuck:textures/environment/derse.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "13B0C99C35E70882"
+			optional: true
+			rewards: [{
+				id: "699261F361CDE4A7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				dimension: "minestuck:derse"
+				icon: {
+					id: "minestuck:derse_shirt"
+				}
+				id: "671AB5BE7853BA3F"
+				type: "dimension"
+			}]
+			x: 12.2d
+			y: 4.4d
+		}
+		{
+			dependencies: ["3FE067FB26131F28"]
+			icon: {
+				id: "minestuck:dersite_rook_spawn_egg"
+			}
+			id: "5043ABFFA12AD42E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6626F74D890D65AA"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "4A7CE122FE1F9308"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "7389338099D90C0B"
+				item: { count: 1, id: "kubejs:derse_token" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["659C813A386F1EBC"]
+			icon: {
+				id: "minestuck:dersite_pawn_spawn_egg"
+			}
+			id: "3FE067FB26131F28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37078B80E96D31AA"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "3307583C0F336BA6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "22C27928A8DCB3CC"
+					item: { count: 1, id: "kubejs:pickpockets_glove" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4C96FF02E03F0577"
+					item: { count: 1, id: "kubejs:prospit_brick" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["02C3723C115AC88D"]
+			id: "79B18F4F1BC5017E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F49ECD93985543C"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "77BBFA3A17CF0C7A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "133ACA38B00CA3FA"
+				item: { count: 1, id: "kubejs:derse_signature" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["79B18F4F1BC5017E"]
+			id: "1C1D1E13429D4601"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6004B63704B657E6"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "41D75270841EC0A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 1"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5090D7DE50A530DC"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "128028121DEB0C69"
+				item: { count: 1, id: "kubejs:lunar_transportablizer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["00E5ED71B12AC2A1"]
+			id: "7ECE66B2E1897EAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D1E21A8416C9C1C"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "654F36BBB1E4AD1D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "59479363844A0B36"
+				item: { count: 1, id: "minestuck:moon_cake" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7ECE66B2E1897EAC"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "2BA7C0FEF7528CF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12583EED5CEBEB86"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "42F0473ED47DD040"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "5DF20D1A70F66221"
+				item: { count: 1, id: "kubejs:derse_brick" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2BA7C0FEF7528CF2"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "782791612467890E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08111E6CF3447300"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "46787F261C430882"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "05683DA552362835"
+				item: { count: 1, id: "kubejs:prospit_token" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["782791612467890E"]
+			id: "088CB919C2D27008"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B6C2AE48BA41273"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "46637D273DE41AE8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3A9321D749EBDD83"
+				item: { components: { "minecraft:banner_patterns": [ { color: "yellow", pattern: "minecraft:gradient" }, { color: "yellow", pattern: "minecraft:flower" }, { color: "yellow", pattern: "minecraft:circle" } ] }, count: 1, id: "minecraft:orange_banner" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["088CB919C2D27008"]
+			id: "59F7D7310766B56C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C0ACA3DFC1FFC3F"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "05F670739D0DAB62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 1"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "795269A5C67CEA69"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "72D3FED153D18780"
+				item: { count: 1, id: "kubejs:lunar_transportablizer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.75d
+		}
+		{
+			icon: {
+				id: "minestuck:derse_chiseled_brick"
+			}
+			id: "19354664DE7CB0A2"
+			invisible: true
+			invisible_until_tasks: 3
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "452E4350D4AED491"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "42373016DBB5E38E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					dimension: "minestuck:prospit"
+					disable_toast: true
+					icon: {
+						id: "minestuck:prospit_brick"
+					}
+					id: "67B9354CFBB7F62D"
+					type: "dimension"
+				}
+				{
+					dimension: "minestuck:derse"
+					disable_toast: true
+					icon: {
+						id: "minestuck:derse_brick"
+					}
+					id: "5E4A71422C530A42"
+					type: "dimension"
+				}
+				{
+					disable_toast: true
+					id: "6BB20E402AC0049D"
+					item: { count: 1, id: "kubejs:lunar_transportablizer" }
+					type: "item"
+				}
+				{
+					id: "3DCE42A74A7C2F01"
+					type: "checkmark"
+				}
+			]
+			x: -7.0d
+			y: 3.25d
+		}
+		{
+			icon: {
+				id: "minestuck:prospit_chiseled_brick"
+			}
+			id: "70CC655C8F9A40D4"
+			invisible: true
+			invisible_until_tasks: 3
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36DD5AE66BFB188E"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "6994F610AC5040F4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					dimension: "minestuck:prospit"
+					disable_toast: true
+					icon: {
+						id: "minestuck:prospit_brick"
+					}
+					id: "684334E289D463B3"
+					type: "dimension"
+				}
+				{
+					dimension: "minestuck:derse"
+					disable_toast: true
+					icon: {
+						id: "minestuck:derse_brick"
+					}
+					id: "256F24A2C063EFAB"
+					type: "dimension"
+				}
+				{
+					disable_toast: true
+					id: "2D48D09EF754E823"
+					item: { count: 1, id: "kubejs:lunar_transportablizer" }
+					type: "item"
+				}
+				{
+					id: "526DB5CAD71761F1"
+					type: "checkmark"
+				}
+			]
+			x: -7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["13B0C99C35E70882"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minestuck:derse_shirt"
+			}
+			id: "659C813A386F1EBC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4422641872F6725E"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "089731E877E59B70"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "66670AE06746A8A6"
+					item: { count: 1, id: "minestuck:derse_circlet" }
+					type: "item"
+				}
+				{
+					id: "166E74B79F6DF23D"
+					item: { count: 1, id: "minestuck:derse_shirt" }
+					type: "item"
+				}
+				{
+					id: "3BA60817A0F8D9BD"
+					item: { count: 1, id: "minestuck:derse_pants" }
+					type: "item"
+				}
+				{
+					id: "65BA874D181E08D9"
+					item: { count: 1, id: "minestuck:derse_shoes" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["73A6CDEDD168488F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minestuck:prospit_shirt"
+			}
+			id: "00E5ED71B12AC2A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D69D0EB74404C81"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "4B9720AD6F45CAA1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1CD703AE56C15808"
+					item: { count: 1, id: "minestuck:prospit_circlet" }
+					type: "item"
+				}
+				{
+					id: "59E1D5A2EF189173"
+					item: { count: 1, id: "minestuck:prospit_shirt" }
+					type: "item"
+				}
+				{
+					id: "698B0CAFC74822E0"
+					item: { count: 1, id: "minestuck:prospit_pants" }
+					type: "item"
+				}
+				{
+					id: "6D86E17CD8208B33"
+					item: { count: 1, id: "minestuck:prospit_shoes" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["279B30B5CE401F4D"]
+			icon: {
+				id: "minestuck:white_kings_scepter"
+			}
+			id: "6D629BB7C520629E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BD7A8CFBF70B9DB"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "7419E46675884F0B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 1"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "07FAC64C0876A865"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minestuck:white_kings_scepter"
+				}
+				id: "0B2D6A9917D96DCC"
+				item: { count: 1, id: "kubejs:strife" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7193FFC0FF9ED658"]
+			icon: {
+				id: "minestuck:white_kings_scepter"
+			}
+			id: "2290B5A8656BF01E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C74597C401E6F1D"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "510D4B2C262DB73C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 1"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1E0ED7763D76AF3E"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "01453400F294B3AA"
+					item: { count: 1, id: "kubejs:prospit_key" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minestuck:white_kings_scepter"
+					}
+					id: "2317B5F865EBF6CD"
+					item: { count: 1, id: "kubejs:strife" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["19354664DE7CB0A2"]
+			id: "1CF020D85C5E4718"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66F067BFD4893C2B"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "7443260DF1A4B9A6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "139C08D7EB2189EC"
+				item: { count: 1, id: "kubejs:prospit_plans" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6F43601EA781AE4B"]
+			icon: {
+				id: "minestuck:white_queens_ring"
+			}
+			id: "7193FFC0FF9ED658"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BC5E049A785AAAE"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "45822EFC7A8F7AC9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "33C0183356306685"
+				item: { components: { "minecraft:custom_name": "{\"italic\":false,\"text\":\"Mailing Receipt\"}" }, count: 1, id: "minecraft:paper" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["72DD28538A0B3558"]
+			icon: {
+				id: "minestuck:white_queens_ring"
+			}
+			id: "279B30B5CE401F4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A8A79B2E8C27974"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "7C6FB9CCB6F9CD5F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "724FB7B8EAF98840"
+				item: { components: { "minecraft:custom_name": "{\"italic\":false,\"text\":\"Mailing Receipt\"}" }, count: 1, id: "minecraft:paper" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["70CC655C8F9A40D4"]
+			icon: {
+				id: "minecraft:soul_lantern"
+			}
+			id: "6DA0C25AC360ABD0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47187D268FA68ECF"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "5789765A9D7ECECA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minestuck:derse_chiseled_brick"
+					}
+					id: "70157055122E5C2F"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minestuck:derse_chiseled_brick"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "minecraft:soul_lantern"
+					}
+					id: "500AAB5390AF56B0"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:soul_lantern"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "minestuck:derse_pillar"
+					}
+					id: "188BC40C3C5B98BA"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minestuck:derse_pillar"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "minecraft:blue_wool"
+					}
+					id: "189DAA3420490C14"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:blue_wool"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "minecraft:soul_torch"
+					}
+					id: "1116B09020FB5C5D"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:soul_torch"
+					type: "observation"
+				}
+			]
+			x: -6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1CF020D85C5E4718"]
+			id: "49D686DFC39B3C94"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1644DFC4B62D3238"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "2B5098DD3E22B34E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "735275CADA2A8B31"
+				item: { count: 1, id: "kubejs:transportablizer2" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6DA0C25AC360ABD0"]
+			id: "51905BD7B159575E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57896B61807115A4"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "09A4CD7847E86C2E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "0261C6D2105BF71E"
+				item: { count: 1, id: "kubejs:transportablizer2" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["49D686DFC39B3C94"]
+			id: "6F43601EA781AE4B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AD9059F46C9E227"
+					table_id: 1449291502881156160L
+					type: "random"
+				}
+				{
+					id: "2533535D432FE7DD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					entity: "minestuck:prospitian_pawn"
+					id: "702D425F4DA98E62"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minestuck:prospitian_bishop"
+					id: "29F1E774AA0FFF1F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -4.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["51905BD7B159575E"]
+			id: "72DD28538A0B3558"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50829326CE25DDF8"
+					table_id: 3546516734321569120L
+					type: "random"
+				}
+				{
+					id: "56D6389A4F630F97"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					entity: "minestuck:dersite_pawn"
+					id: "7C2AC1B81D88F889"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minestuck:dersite_rook"
+					id: "3390E624DA3AFF97"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minestuck:dersite_bishop"
+					id: "5CEF782C10322AEF"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -4.0d
+			y: -1.75d
+		}
+		{
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			icon: {
+				id: "minestuck:chessboard"
+			}
+			id: "45455B7B427345BE"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FE18CF99508F9EE"
+					table_id: 3546516734321569120L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A52B1B265654668"
+					table_id: 1449291502881156160L
+					type: "choice"
+				}
+				{
+					id: "73BDD01EC84CCC05"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					dimension: "minestuck:skaia"
+					disable_toast: true
+					icon: {
+						id: "minestuck:chessboard"
+					}
+					id: "50E1CA8DF1B8637E"
+					type: "dimension"
+				}
+				{
+					id: "3652A0A925C143AC"
+					item: { count: 1, id: "kubejs:strife" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.85d
+		}
+		{
+			dependencies: ["45455B7B427345BE"]
+			id: "525450B986787C31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B0853D6B6E64A11"
+					table_id: 3546516734321569120L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50FA5F62109BB24E"
+					table_id: 1449291502881156160L
+					type: "choice"
+				}
+				{
+					id: "3DE106F21362C7AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "67ABEE686B49A74E"
+				item: { count: 1, id: "minestuck:black_kings_scepter" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 4.3d
+		}
+		{
+			dependencies: ["525450B986787C31"]
+			id: "5AC0F6E3C02DE964"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03D36364AB852778"
+					table_id: 3546516734321569120L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77CE08CD3BDDC3C7"
+					table_id: 1449291502881156160L
+					type: "choice"
+				}
+				{
+					id: "3AE8EB05047C52C4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "12727976789BAA1A"
+					item: { count: 1, id: "minestuck:black_queens_ring" }
+					type: "item"
+				}
+				{
+					id: "0A920FEE146CA055"
+					item: { count: 1, id: "minestuck:white_queens_ring" }
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5AC0F6E3C02DE964"]
+			id: "5BD524AB703124C5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "241BBC77214FB8D9"
+					table_id: 3546516734321569120L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4977DB298A872817"
+					table_id: 1449291502881156160L
+					type: "choice"
+				}
+				{
+					id: "14CDB04C548C26F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 5"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4A53611DD8B57488"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4D578638143A6178"
+				item: { count: 1, id: "kubejs:obsidian_rings" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BD524AB703124C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "768DAEA89304494C"
+			optional: true
+			rewards: [{
+				id: "6D950E1E09C19B66"
+				item: {
+					count: 1
+					id: "kubejs:strife"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				id: "3544356A03E27C10"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.4d
+		}
+	]
+}

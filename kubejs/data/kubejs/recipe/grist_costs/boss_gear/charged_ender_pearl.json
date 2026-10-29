@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 5000,
+    "minestuck:amethyst": 800,
+    "minestuck:cobalt": 500
+  },
+  "ingredient": {
+    "item": "bosses_of_mass_destruction:charged_ender_pearl"
+  }
+}

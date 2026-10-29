@@ -1,0 +1,32 @@
+{
+  "title": "Brass Ingot",
+  "icon": "create:brass_ingot",
+  "x": 11.4,
+  "y": 5.9,
+  "deps": {
+    "all": [
+      "powers_galore/blaze_burner",
+      "powers_galore/basin",
+      "powers_galore/mechanical_mixer"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:brass_ingot",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Potato Cannon",
+  "icon": "create:potato_cannon",
+  "x": 9.4,
+  "y": 7.9,
+  "deps": {
+    "all": [
+      "powers_galore/veryyyy_precise"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:potato_cannon",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

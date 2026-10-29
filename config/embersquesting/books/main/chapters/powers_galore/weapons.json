@@ -1,0 +1,19 @@
+{
+  "title": "Weapons",
+  "x": 9.4,
+  "y": 6.9,
+  "deps": {
+    "all": [
+      "powers_galore/plane"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "or(item_tag(immersive_aircraft:weapons) item(civilian_aviation:gunm1919) item(civilian_aviation:gunobserver) item(civilian_aviation:basicbomb_hardpoint))",
+      "type": "item",
+      "title": "Weapons"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

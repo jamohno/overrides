@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "mca:male_villager_spawn_egg"
+  },
+  "sources": [
+    "minecraft:egg",
+    "minecraft:glowstone"
+  ]
+}

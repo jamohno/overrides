@@ -1,0 +1,24 @@
+{
+	id: "141CEAF175392C40"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 8
+			id: "21D220664B5A0D66"
+			item: {
+				count: 1
+				id: "minestuck:derse_rough_metallith"
+			}
+		}
+		{
+			count: 8
+			id: "4DCA4270F522700C"
+			item: {
+				count: 1
+				id: "minestuck:derse_rough_core"
+			}
+			weight: 0.5f
+		}
+	]
+}

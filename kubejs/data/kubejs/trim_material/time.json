@@ -1,0 +1,6 @@
+{
+  "asset_name": "time",
+  "description": {"text": "Time", "color": "#b60c0c"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.03
+}

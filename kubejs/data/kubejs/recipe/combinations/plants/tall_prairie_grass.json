@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:wheat"
+  },
+  "input2": {
+    "item": "minecraft:tall_grass"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:tall_prairie_grass"
+}

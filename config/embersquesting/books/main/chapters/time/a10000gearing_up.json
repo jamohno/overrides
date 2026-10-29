@@ -1,0 +1,57 @@
+{
+  "title": "&#a10000Gearing Up",
+  "icon": "create:large_cogwheel",
+  "x": 2.9499999999999993,
+  "y": 0.25,
+  "deps": {
+    "all": [
+      "time/a10000sense_of_time"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:cogwheel",
+      "type": "item"
+    },
+    {
+      "item": "create:large_cogwheel",
+      "type": "item"
+    },
+    {
+      "item": "create:crushing_wheel",
+      "type": "item"
+    },
+    {
+      "advancement": "create:shifting_gears",
+      "type": "advancement"
+    },
+    {
+      "advancement": "create:crusher_maxed_0000",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"grimoireAcademics\",\"color\":\"#A10000\"},{\"text\":\" [\"},{\"text\":\"GA\",\"color\":\"#A10000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

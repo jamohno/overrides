@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:calcite"
+  },
+  "input2": {
+    "item": "minecraft:red_dye"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:red_rock"
+}

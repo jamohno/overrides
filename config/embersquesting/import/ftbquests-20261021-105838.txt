@@ -1,0 +1,1159 @@
+planetastic (506B24C64982664B): imported from chapters/planetastic.snbt
+planetastic (506B24C64982664B): quest sizes clamped to 0.5 to 3 (1 quests)
+powers_galore (0D714A0A49503F9A): imported from chapters/powers_galore.snbt
+alchemicalicious (6287BE9D6C5A5351): imported from chapters/alchemicalicious.snbt
+alchemicalicious (6287BE9D6C5A5351): quest sizes clamped to 0.5 to 3 (1 quests)
+magic_is_real (182060AE579F6C73): imported from chapters/magic_is_real.snbt
+princes_and_princesses (37658874E19B75FE): imported from chapters/princes_and_princesses.snbt
+the_veil (042CC64B10DD3C3C): imported from chapters/the_veil.snbt
+godtok (69A34B2C4D30D173): imported from chapters/godtok.snbt
+godtok (69A34B2C4D30D173): quest sizes clamped to 0.5 to 3 (1 quests)
+space (35931C3DF4BF915B): imported from chapters/space.snbt
+space (35931C3DF4BF915B): dropped fields: autofocus_id
+time (4C8880870E2839B4): imported from chapters/time.snbt
+breath (01BDD3B4195FA0C4): imported from chapters/breath.snbt
+light (7780BA7E0521CFF7): imported from chapters/light.snbt
+life (7B50B85EEE61DAD7): imported from chapters/life.snbt
+hope (6536D9168CFDB056): imported from chapters/hope.snbt
+void (1051729112F05EEE): imported from chapters/void.snbt
+heart (09CE77E2F608D156): imported from chapters/heart.snbt
+mind (53CEB12BB19E2A02): imported from chapters/mind.snbt
+rage (06560FB687A16AD3): imported from chapters/rage.snbt
+blood (17B4B1162A6DB216): imported from chapters/blood.snbt
+doom (1B21CCF706BE4AC8): imported from chapters/doom.snbt
+planetastic/find_the_temple (37D911A1B5B47617): imported
+planetastic/find_the_temple (37D911A1B5B47617): optional_task (2 tasks): the quest completes after any 1 of its 3 tasks
+planetastic/mine (41F0817FECFB5587): imported
+planetastic/captchalogue (3C04CBB80B046B98): imported
+planetastic/connect (7013E9C78DEE3133): imported
+planetastic/install (7E2458E13D350BB2): imported
+planetastic/install (7E2458E13D350BB2): dropped fields: optional_task (2 tasks)
+planetastic/s_enter (10CA2B2110E5EBDE): imported
+planetastic/s_enter (10CA2B2110E5EBDE): dropped fields: icon_scale
+planetastic/teleport (67A8E4BDB118787F): imported
+planetastic/grist_ify (2437319C96C5129B): imported
+planetastic/collect (09C7ABFF957EEAB3): imported
+planetastic/repair (0A3E6B6AA58CC534): imported
+planetastic/cook (77E9B9A1EA0AA578): imported
+planetastic/delve (063C40CFF9EABD97): imported
+planetastic/begin (32CD77B8C78ACD4A): imported
+planetastic/capture (116FAE48942F114C): imported
+planetastic/glide (15EFCDAE1325DB62): imported
+planetastic/pack (3EBC68E52711C503): imported
+planetastic/modulate (145F8EAD906F847D): imported
+planetastic/decorate (1836FD71453224C0): imported
+planetastic/powerize (558A1A8D4D0EA340): imported
+powers_galore/1_warned_y0u_about_that_escalator (412294E0412E3119): imported
+powers_galore/1_warned_y0u_about_that_escalator (412294E0412E3119): dropped fields: icon_scale
+powers_galore/2_inventory_2_furious (0752B404310C0815): imported
+powers_galore/2_inventory_2_furious (0752B404310C0815): dropped fields: icon_scale
+powers_galore/factorial_family (729F2C7F1E2DA477): imported
+powers_galore/factorial_family (729F2C7F1E2DA477): dropped fields: icon_scale
+powers_galore/factorial_family (729F2C7F1E2DA477): optional_task (3 tasks): the quest completes after any 1 of its 4 tasks
+powers_galore/storage_terminal (5273A4FF138F4D0C): imported
+powers_galore/storage_terminal (5273A4FF138F4D0C): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/crafting_terminal (042974AD837BC957): imported
+powers_galore/crafting_terminal (042974AD837BC957): no title, named after its first task item
+powers_galore/crafting_terminal (042974AD837BC957): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/trim (727D47CD871AF781): imported
+powers_galore/trim (727D47CD871AF781): no title, named after its first task item
+powers_galore/trim (727D47CD871AF781): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/inventory_cable (071C4D4AB3220103): imported
+powers_galore/inventory_cable (071C4D4AB3220103): no title, named after its first task item
+powers_galore/inventory_cable (071C4D4AB3220103): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/inventory_interface (0A2488C96A2B095E): imported
+powers_galore/inventory_interface (0A2488C96A2B095E): no title, named after its first task item
+powers_galore/inventory_interface (0A2488C96A2B095E): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/inventory_cable_connector (5246F64CEB274FAB): imported
+powers_galore/inventory_cable_connector (5246F64CEB274FAB): no title, named after its first task item
+powers_galore/inventory_cable_connector (5246F64CEB274FAB): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/inventory_proxy (37F25464875B3976): imported
+powers_galore/inventory_proxy (37F25464875B3976): no title, named after its first task item
+powers_galore/inventory_proxy (37F25464875B3976): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/paint_kit (205A2712543DCA6F): imported
+powers_galore/paint_kit (205A2712543DCA6F): no title, named after its first task item
+powers_galore/paint_kit (205A2712543DCA6F): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/wireless_terminal (006792162B3ACF68): imported
+powers_galore/wireless_terminal (006792162B3ACF68): no title, named after its first task item
+powers_galore/wireless_terminal (006792162B3ACF68): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/basic_inventory_hopper (595810A1A499AFA3): imported
+powers_galore/basic_inventory_hopper (595810A1A499AFA3): no title, named after its first task item
+powers_galore/basic_inventory_hopper (595810A1A499AFA3): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/super_duper_device (3AB176D6110AAC06): imported
+powers_galore/super_duper_device (3AB176D6110AAC06): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/item_filter (742A2839EEAFB5E5): imported
+powers_galore/item_filter (742A2839EEAFB5E5): no title, named after its first task item
+powers_galore/item_filter (742A2839EEAFB5E5): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/open_crate (4FB3529A26D28D58): imported
+powers_galore/open_crate (4FB3529A26D28D58): no title, named after its first task item
+powers_galore/open_crate (4FB3529A26D28D58): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/filing_cabinet (79BE5F2B2D522015): imported
+powers_galore/filing_cabinet (79BE5F2B2D522015): no title, named after its first task item
+powers_galore/filing_cabinet (79BE5F2B2D522015): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/level_emitter (61A1D1898789E6BB): imported
+powers_galore/level_emitter (61A1D1898789E6BB): no title, named after its first task item
+powers_galore/level_emitter (61A1D1898789E6BB): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/inventory_configurator (19BFDCD218DC777B): imported
+powers_galore/inventory_configurator (19BFDCD218DC777B): no title, named after its first task item
+powers_galore/inventory_configurator (19BFDCD218DC777B): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/inventory_configurator_2 (67C9B06CE85EA4CC): imported
+powers_galore/inventory_configurator_2 (67C9B06CE85EA4CC): no title, named after its first task item
+powers_galore/inventory_configurator_2 (67C9B06CE85EA4CC): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/techusb (67AF3065866DB9CD): imported
+powers_galore/techusb (67AF3065866DB9CD): no title, named after its first task item
+powers_galore/shaft (68849CEA122C36BF): imported
+powers_galore/shaft (68849CEA122C36BF): no title, named after its first task item
+powers_galore/shaft (68849CEA122C36BF): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/cogwheel (4DFE75AE4228370F): imported
+powers_galore/cogwheel (4DFE75AE4228370F): no title, named after its first task item
+powers_galore/cogwheel (4DFE75AE4228370F): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/veryyyy_precise (7625224F74754C9D): imported
+powers_galore/veryyyy_precise (7625224F74754C9D): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/deployer (62F1D029DCF3CB3F): imported
+powers_galore/deployer (62F1D029DCF3CB3F): no title, named after its first task item
+powers_galore/deployer (62F1D029DCF3CB3F): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/mechanical_press (656418F6556BCD0A): imported
+powers_galore/mechanical_press (656418F6556BCD0A): no title, named after its first task item
+powers_galore/mechanical_press (656418F6556BCD0A): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/turn_it_off_and_on_again (7BB2F67F9FE6B417): imported
+powers_galore/turn_it_off_and_on_again (7BB2F67F9FE6B417): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/alloy_atomic (34D84514DBE04BCB): imported
+powers_galore/alloy_atomic (34D84514DBE04BCB): no title, named after its first task item
+powers_galore/alloy_atomic (34D84514DBE04BCB): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/alloy_infused (32F4302E6F62860B): imported
+powers_galore/alloy_infused (32F4302E6F62860B): no title, named after its first task item
+powers_galore/alloy_infused (32F4302E6F62860B): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/alloy_reinforced (03F620A4AB92FCB5): imported
+powers_galore/alloy_reinforced (03F620A4AB92FCB5): no title, named after its first task item
+powers_galore/alloy_reinforced (03F620A4AB92FCB5): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/crusher (3DD2D919100E700D): imported
+powers_galore/crusher (3DD2D919100E700D): no title, named after its first task item
+powers_galore/crusher (3DD2D919100E700D): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/enrichment_chamber (311F77C7993E27E8): imported
+powers_galore/enrichment_chamber (311F77C7993E27E8): no title, named after its first task item
+powers_galore/enrichment_chamber (311F77C7993E27E8): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/metallurgic_infuser (5977DA9D48E98D67): imported
+powers_galore/metallurgic_infuser (5977DA9D48E98D67): no title, named after its first task item
+powers_galore/metallurgic_infuser (5977DA9D48E98D67): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/steel_casing (368FC9FE7D864EC7): imported
+powers_galore/steel_casing (368FC9FE7D864EC7): no title, named after its first task item
+powers_galore/steel_casing (368FC9FE7D864EC7): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/ingot_steel (32F4DA3D57482F2F): imported
+powers_galore/ingot_steel (32F4DA3D57482F2F): no title, named after its first task item
+powers_galore/ingot_steel (32F4DA3D57482F2F): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/dust_steel (69166B16C7C0370E): imported
+powers_galore/dust_steel (69166B16C7C0370E): no title, named after its first task item
+powers_galore/dust_steel (69166B16C7C0370E): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/enriched_iron (6C90924196B93159): imported
+powers_galore/enriched_iron (6C90924196B93159): no title, named after its first task item
+powers_galore/enriched_iron (6C90924196B93159): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/ingot_osmium (5945AF13BD635EDB): imported
+powers_galore/ingot_osmium (5945AF13BD635EDB): no title, named after its first task item
+powers_galore/ingot_osmium (5945AF13BD635EDB): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/andesite_casing (35FD534768BCEFA5): imported
+powers_galore/andesite_casing (35FD534768BCEFA5): no title, named after its first task item
+powers_galore/andesite_casing (35FD534768BCEFA5): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/electron_tube (49DC13F4B59D88F5): imported
+powers_galore/electron_tube (49DC13F4B59D88F5): no title, named after its first task item
+powers_galore/electron_tube (49DC13F4B59D88F5): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/polished_rose_quartz (213399E511945F13): imported
+powers_galore/polished_rose_quartz (213399E511945F13): no title, named after its first task item
+powers_galore/polished_rose_quartz (213399E511945F13): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/iron_sheet (3B71C98A60396FD0): imported
+powers_galore/iron_sheet (3B71C98A60396FD0): no title, named after its first task item
+powers_galore/iron_sheet (3B71C98A60396FD0): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/brass_ingot (3FF858D5B14D3363): imported
+powers_galore/brass_ingot (3FF858D5B14D3363): no title, named after its first task item
+powers_galore/brass_ingot (3FF858D5B14D3363): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/mechanical_mixer (5779F4A62CD90129): imported
+powers_galore/mechanical_mixer (5779F4A62CD90129): no title, named after its first task item
+powers_galore/mechanical_mixer (5779F4A62CD90129): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/basin (2B7F1A91BA13ADC7): imported
+powers_galore/basin (2B7F1A91BA13ADC7): no title, named after its first task item
+powers_galore/basin (2B7F1A91BA13ADC7): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/blaze_burner (2B6AD8A2F1B1A1FD): imported
+powers_galore/blaze_burner (2B6AD8A2F1B1A1FD): no title, named after its first task item
+powers_galore/blaze_burner (2B6AD8A2F1B1A1FD): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/andesite_alloy (6234B9B8DC68655C): imported
+powers_galore/andesite_alloy (6234B9B8DC68655C): no title, named after its first task item
+powers_galore/andesite_alloy (6234B9B8DC68655C): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/water_wheel (7BBA18CC592778D5): imported
+powers_galore/water_wheel (7BBA18CC592778D5): no title, named after its first task item
+powers_galore/water_wheel (7BBA18CC592778D5): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/large_water_wheel (278806C9FAF12A4C): imported
+powers_galore/large_water_wheel (278806C9FAF12A4C): no title, named after its first task item
+powers_galore/large_water_wheel (278806C9FAF12A4C): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/crank_it (1DFA112E30551BC1): imported
+powers_galore/crank_it (1DFA112E30551BC1): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/windmill_bearing (2A901CDB89BB8D2A): imported
+powers_galore/windmill_bearing (2A901CDB89BB8D2A): no title, named after its first task item
+powers_galore/windmill_bearing (2A901CDB89BB8D2A): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/steam_engine (16E9B77F64AC46A7): imported
+powers_galore/steam_engine (16E9B77F64AC46A7): no title, named after its first task item
+powers_galore/steam_engine (16E9B77F64AC46A7): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/white_sail (2E6D679926E5BE25): imported
+powers_galore/white_sail (2E6D679926E5BE25): no title, named after its first task item
+powers_galore/white_sail (2E6D679926E5BE25): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/fluid_tank (272CAAA718B94082): imported
+powers_galore/fluid_tank (272CAAA718B94082): no title, named after its first task item
+powers_galore/fluid_tank (272CAAA718B94082): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/mechanical_pump (495CEE2F807C583E): imported
+powers_galore/mechanical_pump (495CEE2F807C583E): no title, named after its first task item
+powers_galore/mechanical_pump (495CEE2F807C583E): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/fluid_pipe (1DE8F2B7AB78E6B2): imported
+powers_galore/fluid_pipe (1DE8F2B7AB78E6B2): no title, named after its first task item
+powers_galore/fluid_pipe (1DE8F2B7AB78E6B2): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/now_you_can_mine_but_not_you_mine_the_machine_mine_wow (75B1AF425EA0F65F): imported
+powers_galore/heat_generator (7428C498C2B54360): imported
+powers_galore/heat_generator (7428C498C2B54360): no title, named after its first task item
+powers_galore/heat_generator (7428C498C2B54360): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/industrial_turbine (6D6BA8F5B5C9A81B): imported
+powers_galore/industrial_turbine (6D6BA8F5B5C9A81B): dropped fields: icon_scale
+powers_galore/industrial_turbine (6D6BA8F5B5C9A81B): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/reactor_glass (3C2DB24EAC77360E): imported
+powers_galore/reactor_glass (3C2DB24EAC77360E): no title, named after its first task item
+powers_galore/reactor_glass (3C2DB24EAC77360E): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/fission_reactor (495D34999A784658): imported
+powers_galore/fission_reactor (495D34999A784658): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/fusion_reactor (57744F90052BCF73): imported
+powers_galore/fusion_reactor (57744F90052BCF73): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/solar_generator (68BCA72DBB86F755): imported
+powers_galore/solar_generator (68BCA72DBB86F755): no title, named after its first task item
+powers_galore/solar_generator (68BCA72DBB86F755): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/advanced_solar_generator (61600B8005EDC334): imported
+powers_galore/advanced_solar_generator (61600B8005EDC334): no title, named after its first task item
+powers_galore/advanced_solar_generator (61600B8005EDC334): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/wind_generator (4B0CE0BE9BE0E177): imported
+powers_galore/wind_generator (4B0CE0BE9BE0E177): no title, named after its first task item
+powers_galore/wind_generator (4B0CE0BE9BE0E177): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/gas_burning_generator (14503F5ABA5C02F6): imported
+powers_galore/gas_burning_generator (14503F5ABA5C02F6): no title, named after its first task item
+powers_galore/gas_burning_generator (14503F5ABA5C02F6): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/bio_generator (5F6AFBA8EA2DE613): imported
+powers_galore/bio_generator (5F6AFBA8EA2DE613): no title, named after its first task item
+powers_galore/bio_generator (5F6AFBA8EA2DE613): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/turrets (23C60D367D50BAF0): imported
+powers_galore/turrets (23C60D367D50BAF0): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/electric_fence (12CADC30E5A4E7D9): imported
+powers_galore/electric_fence (12CADC30E5A4E7D9): no title, named after its first task item
+powers_galore/electric_fence (12CADC30E5A4E7D9): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/robit (6507499F0CBDF484): imported
+powers_galore/robit (6507499F0CBDF484): no title, named after its first task item
+powers_galore/robit (6507499F0CBDF484): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/energy_tablet (58244404A95AB328): imported
+powers_galore/energy_tablet (58244404A95AB328): no title, named after its first task item
+powers_galore/energy_tablet (58244404A95AB328): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/atomic_disassembler (312ADB0907D2F56C): imported
+powers_galore/atomic_disassembler (312ADB0907D2F56C): no title, named after its first task item
+powers_galore/atomic_disassembler (312ADB0907D2F56C): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/chargepad (6FBF3831275B7253): imported
+powers_galore/chargepad (6FBF3831275B7253): no title, named after its first task item
+powers_galore/chargepad (6FBF3831275B7253): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/digital_miner (2AB18ED88B2E52DB): imported
+powers_galore/digital_miner (2AB18ED88B2E52DB): no title, named after its first task item
+powers_galore/digital_miner (2AB18ED88B2E52DB): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/belt_connector (658419CFC106EEEF): imported
+powers_galore/belt_connector (658419CFC106EEEF): no title, named after its first task item
+powers_galore/belt_connector (658419CFC106EEEF): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/wrench (1EAE071A010846C9): imported
+powers_galore/wrench (1EAE071A010846C9): no title, named after its first task item
+powers_galore/wrench (1EAE071A010846C9): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/cables (6A8E516A43E8F8DA): imported
+powers_galore/cables (6A8E516A43E8F8DA): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/pipes (790AA63288035ACF): imported
+powers_galore/pipes (790AA63288035ACF): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/energy_cube (73D15BA10F281D0C): imported
+powers_galore/energy_cube (73D15BA10F281D0C): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/flamethrower (11A757F4329ABC2D): imported
+powers_galore/flamethrower (11A757F4329ABC2D): no title, named after its first task item
+powers_galore/flamethrower (11A757F4329ABC2D): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/meka_tool (11823B771C0F19ED): imported
+powers_galore/meka_tool (11823B771C0F19ED): no title, named after its first task item
+powers_galore/meka_tool (11823B771C0F19ED): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/free_runners (48F1BCAFDDB3F9C6): imported
+powers_galore/free_runners (48F1BCAFDDB3F9C6): no title, named after its first task item
+powers_galore/free_runners (48F1BCAFDDB3F9C6): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/mekasuit_helmet (21A5DA903CEBF447): imported
+powers_galore/mekasuit_helmet (21A5DA903CEBF447): no title, named after its first task item
+powers_galore/mekasuit_helmet (21A5DA903CEBF447): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/mekasuit_bodyarmor (68EEEEE06C891016): imported
+powers_galore/mekasuit_bodyarmor (68EEEEE06C891016): no title, named after its first task item
+powers_galore/mekasuit_bodyarmor (68EEEEE06C891016): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/mekasuit_pants (72EBC2C639032028): imported
+powers_galore/mekasuit_pants (72EBC2C639032028): no title, named after its first task item
+powers_galore/mekasuit_pants (72EBC2C639032028): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/mekasuit_boots (2A051E40448C36B4): imported
+powers_galore/mekasuit_boots (2A051E40448C36B4): no title, named after its first task item
+powers_galore/mekasuit_boots (2A051E40448C36B4): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/config (32375A16623191FB): imported
+powers_galore/config (32375A16623191FB): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/basic_control (6922460ECCC9045E): imported
+powers_galore/basic_control (6922460ECCC9045E): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/advanced_control (1D96178AA3BE5C1D): imported
+powers_galore/advanced_control (1D96178AA3BE5C1D): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/elite_control (1DDB1A3EA5DB7665): imported
+powers_galore/elite_control (1DDB1A3EA5DB7665): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/ultimate_control (08AB7415FFE21D80): imported
+powers_galore/ultimate_control (08AB7415FFE21D80): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/the_hamburger (27EEEC86FC4A7306): imported
+powers_galore/developed_color_film (1B9D045EC1E9AF12): imported
+powers_galore/developed_color_film (1B9D045EC1E9AF12): no title, named after its first task item
+powers_galore/lightroom (20F13187A7FA505D): imported
+powers_galore/lightroom (20F13187A7FA505D): no title, named after its first task item
+powers_galore/lightroom (20F13187A7FA505D): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/camera_stand (10EADC8FCB7CA34C): imported
+powers_galore/camera_stand (10EADC8FCB7CA34C): no title, named after its first task item
+powers_galore/camera_stand (10EADC8FCB7CA34C): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/redstone_lamp (40B149AAF3D284CF): imported
+powers_galore/redstone_lamp (40B149AAF3D284CF): no title, named after its first task item
+powers_galore/redstone_lamp (40B149AAF3D284CF): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/spyglass (274A9F3C8F1215B3): imported
+powers_galore/spyglass (274A9F3C8F1215B3): no title, named after its first task item
+powers_galore/spyglass (274A9F3C8F1215B3): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/bro_is_going_up (18E7460AC24CD85C): imported
+powers_galore/plane (39AEDB3E8B29E764): imported
+powers_galore/paint_spray (2674D825386B78EC): imported
+powers_galore/paint_spray (2674D825386B78EC): no title, named after its first task item
+powers_galore/paint_spray (2674D825386B78EC): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/weapons (6EC7ECF7223C2269): imported
+powers_galore/weapons (6EC7ECF7223C2269): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/upgrade (737D89A9DD01AC7B): imported
+powers_galore/upgrade (737D89A9DD01AC7B): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/potato_cannon (3E78B69FBC8114BF): imported
+powers_galore/potato_cannon (3E78B69FBC8114BF): no title, named after its first task item
+powers_galore/potato_cannon (3E78B69FBC8114BF): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/extendo_grip (0DB214A3D86B6A1A): imported
+powers_galore/extendo_grip (0DB214A3D86B6A1A): no title, named after its first task item
+powers_galore/extendo_grip (0DB214A3D86B6A1A): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/wand_of_symmetry (1BD1321C2D128F23): imported
+powers_galore/wand_of_symmetry (1BD1321C2D128F23): no title, named after its first task item
+powers_galore/wand_of_symmetry (1BD1321C2D128F23): hidden until unlocked, its dependencies are hidden in FTB Quests
+powers_galore/copper_backtank (7937764A6B8E9DC3): imported
+powers_galore/copper_backtank (7937764A6B8E9DC3): no title, named after its first task item
+powers_galore/copper_backtank (7937764A6B8E9DC3): hidden until unlocked, its dependencies are hidden in FTB Quests
+alchemicalicious/punch_alchemy_a_guide (338AAFDB7CBB5131): imported
+alchemicalicious/002_so_your_shield_is_defending_use_this_to_live (731DDEB512BD2824): imported
+alchemicalicious/005_appendix_5_ranged_weapons (1530CE235FDD6FE2): imported
+alchemicalicious/001_an_examination_of_the_blade (1341EF944E65786F): imported
+alchemicalicious/006_other_weapons_for_dummies (0EC13503F2E37881): imported
+alchemicalicious/004_some_stuff_about_lances (7996283258694665): imported
+alchemicalicious/003_the_longaxe_and_shortaxe_the_mediumaxe_too (54A3358164D867BE): imported
+alchemicalicious/007_how_2_change_modus_easy_not_clickbait (565C860F2ABE33E5): imported
+alchemicalicious/008_alchemized_food_recipes_by_marree_berree (3F8DFA175318D730): imported
+alchemicalicious/009_smithing_exploit_patched (6BE6289F7BEC39C4): imported
+alchemicalicious/010_ultimate_guide_to_plushes_in_sburb (37281CD21D22D4A9): imported
+alchemicalicious/011_character_customization_and_you (4D12F1E54D117AEE): imported
+alchemicalicious/012_stuck_on_hornband_recipe_need_advice_spoilers (0F2BC2A0FE5D833C): imported
+alchemicalicious/013_so_you_think_defense_builds_are_trash_think_again (59243807CE8F19F5): imported
+alchemicalicious/014_halberd_oc_do_not_steal (2860A3BC620FE146): imported
+alchemicalicious/019_holy_weapon_codes_for_pious_players (3745723A64B8F51E): imported
+alchemicalicious/015_gun_that_is_also_a_blade (7A76AF902094A146): imported
+alchemicalicious/016_my_inventory_is_delicious (41B569604999AC26): imported
+alchemicalicious/017_solved_what_s_the_name_of_that_one_show (362A953C6227E15D): imported
+alchemicalicious/018_can_i_beat_the_game_with_yarn_only_glitchless (7D0D840B916AB72B): imported
+alchemicalicious/020_lunchbox_asmr (22F5022CC46F9F49): imported
+alchemicalicious/021_unsolved_what_s_the_name_of_that_one_troll_show (20F45F94C8E60E59): imported
+alchemicalicious/022_an_amateurs_guide_to_weaponized_minifigures (5B3C0D5002B4EBBC): imported
+alchemicalicious/022_an_amateurs_guide_to_weaponized_minifigures (5B3C0D5002B4EBBC): dropped fields: icon_scale
+alchemicalicious/023_minecraft_but_i_survive_in_durian_civilization (3A0E4F05301DD106): imported
+alchemicalicious/023_minecraft_but_i_survive_in_durian_civilization (3A0E4F05301DD106): dropped fields: icon_scale
+alchemicalicious/024_97952aresurrection (5BB6A57F7F8D62D6): imported
+alchemicalicious/024_97952aresurrection (5BB6A57F7F8D62D6): dropped fields: icon_scale
+magic_is_real/what_the_frick_is_a_fraymotif (14460BF761A7F0D0): imported
+magic_is_real/building_your_fraymotif_rolodex (13E9077ECAB66389): imported
+magic_is_real/enhance (7C50161ADBDBE11B): imported
+magic_is_real/enhance (7C50161ADBDBE11B): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/witch_s_brew (37B74EC9E676A6E9): imported
+magic_is_real/drafting_new_tunes (3E080461172FBDB7): imported
+magic_is_real/drafting_new_tunes (3E080461172FBDB7): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/bro_is_a_songwriter (7EE5BE85AAE29DEB): imported
+magic_is_real/do_re (4426EFB0A019890E): imported
+magic_is_real/do_re (4426EFB0A019890E): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/mi_fa (13952C78D4D5C837): imported
+magic_is_real/mi_fa (13952C78D4D5C837): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/so_la (7089283CB02AAADF): imported
+magic_is_real/so_la (7089283CB02AAADF): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/ti_do (56352F00D98FCFDD): imported
+magic_is_real/ti_do (56352F00D98FCFDD): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/awesome_blurple_powder (20EFB5C268234495): imported
+magic_is_real/blurple_metal_d (4B89149A5F2EEADE): imported
+magic_is_real/blurple_metal_d (4B89149A5F2EEADE): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/magebro_fit_ideas (2D22B96853992E4C): imported
+magic_is_real/magebro_fit_ideas (2D22B96853992E4C): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/ability_books_for_ability_bros_d (26844B5D5E84ECA2): imported
+magic_is_real/well_staffed (1C6E798A36BEAA13): imported
+magic_is_real/get_a_rune (677C387CDCED0781): imported
+magic_is_real/get_a_rune (677C387CDCED0781): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/petty_elixirs (7BED7FCA1B883E3D): imported
+magic_is_real/petty_elixirs (7BED7FCA1B883E3D): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/greater_elixirs (4C2D44CFDFF97A7C): imported
+magic_is_real/greater_elixirs (4C2D44CFDFF97A7C): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/focus_bro (3CB55DC9661D6A90): imported
+magic_is_real/legendary_metal (4FC0F1F9EC013661): imported
+magic_is_real/what_s_that_smell (1EF45E7DA24994F7): imported
+magic_is_real/upgrade (5819A9472D29EFB2): imported
+magic_is_real/upgrade (5819A9472D29EFB2): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/upgrade_2 (1C1D1DAE00F18641): imported
+magic_is_real/upgrade_2 (1C1D1DAE00F18641): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/dark_knowledge (054639A1339EFD62): imported
+magic_is_real/epic_weaponry (74C33DFC881E730E): imported
+magic_is_real/bromazon_basics (1A1ECF77ECA7F6BB): imported
+magic_is_real/bromazon_basics (1A1ECF77ECA7F6BB): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/supreme (6074B98C4B93596D): imported
+magic_is_real/supreme (6074B98C4B93596D): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/imporetant_materials (31BE93A7FED26146): imported
+magic_is_real/ultimate_rune (586AB5012A27BEE5): imported
+magic_is_real/ultimate_rune (586AB5012A27BEE5): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/roar (7FDF07411020CBB7): imported
+magic_is_real/the_citadel_is_pretty_metal (716424EE38F34684): imported
+magic_is_real/the_citadel_is_pretty_metal (716424EE38F34684): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/i_sharded (46BF57106B989027): imported
+magic_is_real/i_sharded (46BF57106B989027): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/hold_on_reset (1CBCC48C5DA10342): imported
+magic_is_real/citadel (7B4156910AFCE365): imported
+magic_is_real/cultists (339323D53C5D65B0): imported
+magic_is_real/cultists (339323D53C5D65B0): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+magic_is_real/the_ascended_one (672CE36558D2BBD7): imported
+magic_is_real/ring_ring (248E90D3179E6C44): imported
+magic_is_real/secret_wizard_society (6AAD757D96F15F74): imported
+magic_is_real/secret_wizard_society (6AAD757D96F15F74): dropped fields: optional_task (8 tasks)
+magic_is_real/d419ffm4g_1c_ska (1ABAF16B93EA0C43): imported
+magic_is_real/darker_knowledge (4B25AAF530DD9EF1): imported
+magic_is_real/darker_knowledge (4B25AAF530DD9EF1): hidden until unlocked, its dependencies are hidden in FTB Quests
+magic_is_real/calm_down_bro (6F5C0D5AC6937001): imported
+magic_is_real/calm_down_bro (6F5C0D5AC6937001): hidden until unlocked, its dependencies are hidden in FTB Quests
+princes_and_princesses/got_guts (02C3723C115AC88D): imported
+princes_and_princesses/the_kingdom_of_light (73A6CDEDD168488F): imported
+princes_and_princesses/the_kingdom_of_darkness (13B0C99C35E70882): imported
+princes_and_princesses/shady_transaction (5043ABFFA12AD42E): imported
+princes_and_princesses/pick_a_pocket_go_on (3FE067FB26131F28): imported
+princes_and_princesses/gather_their_support (79B18F4F1BC5017E): imported
+princes_and_princesses/transportablize (1C1D1E13429D4601): imported
+princes_and_princesses/for_the_king (7ECE66B2E1897EAC): imported
+princes_and_princesses/feed_the_prisoners (2BA7C0FEF7528CF2): imported
+princes_and_princesses/train_the_army (782791612467890E): imported
+princes_and_princesses/raise_the_banner (088CB919C2D27008): imported
+princes_and_princesses/transportablize_2 (59F7D7310766B56C): imported
+princes_and_princesses/9700e4_dark_invitation (19354664DE7CB0A2): imported
+princes_and_princesses/ffff01_light_invitation (70CC655C8F9A40D4): imported
+princes_and_princesses/another_coffin_clogger_bites_the_dust (659C813A386F1EBC): imported
+princes_and_princesses/your_highness (00E5ED71B12AC2A1): imported
+princes_and_princesses/ffff01_scepter_polishing (6D629BB7C520629E): imported
+princes_and_princesses/9700e4steal_the_scepter (2290B5A8656BF01E): imported
+princes_and_princesses/9700e4royal_spy (1CF020D85C5E4718): imported
+princes_and_princesses/9700e4steal_the_ring (7193FFC0FF9ED658): imported
+princes_and_princesses/deliver_the_ring (279B30B5CE401F4D): imported
+princes_and_princesses/royal_reconnaissance (6DA0C25AC360ABD0): imported
+princes_and_princesses/9700e4incipispheric_transportablizer (49D686DFC39B3C94): imported
+princes_and_princesses/incipispheric_transportablizer (51905BD7B159575E): imported
+princes_and_princesses/9700e4the_war_rages_on (6F43601EA781AE4B): imported
+princes_and_princesses/the_war_rages_on (72DD28538A0B3558): imported
+princes_and_princesses/breaking_war_on_skaia_continues (45455B7B427345BE): imported
+princes_and_princesses/the_reckoning (525450B986787C31): imported
+princes_and_princesses/b5e61dattack_of_the_killer_queen (5AC0F6E3C02DE964): imported
+princes_and_princesses/end_it_for_good (5BD524AB703124C5): imported
+princes_and_princesses/x3_fight_combo (768DAEA89304494C): imported
+the_veil/ecto_licious (781E5D12F401E63E): imported
+the_veil/ecto_licious (781E5D12F401E63E): dropped fields: icon_scale
+the_veil/bubble_up (362D1C59144B8E23): imported
+the_veil/bubble_up (362D1C59144B8E23): dropped fields: icon_scale
+the_veil/feeling_froggy (54005E4C6B40E19A): imported
+the_veil/feeling_froggy (54005E4C6B40E19A): dropped fields: icon_scale
+the_veil/12_heroes_of_old (0057EC65780E7982): imported
+the_veil/12_heroes_of_old (0057EC65780E7982): dropped fields: icon_scale
+the_veil/appear_ify (6C64BAFEEB766350): imported
+the_veil/appear_ify (6C64BAFEEB766350): dropped fields: icon_scale
+the_veil/can_you_spell_dna (7FEDFCB0BC3A8590): imported
+the_veil/can_you_spell_dna (7FEDFCB0BC3A8590): dropped fields: icon_scale
+the_veil/zgenesis (2F46ED169CD92FDE): imported
+the_veil/zgenesis (2F46ED169CD92FDE): dropped fields: icon_scale
+the_veil/birthing_the_zuniverse (372FCB957A5EBCA1): imported
+the_veil/birthing_the_zuniverse (372FCB957A5EBCA1): dropped fields: icon_scale
+the_veil/birthing_the_zuniverse (372FCB957A5EBCA1): optional_task (2 tasks): the quest completes after any 4 of its 6 tasks
+the_veil/victory_platform (5EFFDF796D73FB28): imported
+the_veil/victory_platform (5EFFDF796D73FB28): dropped fields: icon_scale
+the_veil/victory_platform (5EFFDF796D73FB28): command reward ran with player permissions in FTB Quests, it now runs at permission level 2
+the_veil/zthe_ultimate_reward (206C2B38723FCAE0): imported
+the_veil/zthe_ultimate_reward (206C2B38723FCAE0): dropped fields: icon_scale
+the_veil/pass_the_parcel (75B716B17DBF27C6): imported
+the_veil/pass_the_parcel (75B716B17DBF27C6): dropped fields: icon_scale
+the_veil/ectobiologist (68221D2DEA5407DC): imported
+the_veil/ectobiologist (68221D2DEA5407DC): dropped fields: icon_scale
+the_veil/z3xpl_0r3_ska (6458E254AE0374C7): imported
+the_veil/z3xpl_0r3_ska (6458E254AE0374C7): dropped fields: icon_scale
+godtok/z_lo_fi_beats_to_eat_people_to (5B921D600FFFC78B): imported
+godtok/z_lo_fi_beats_to_eat_people_to (5B921D600FFFC78B): dropped fields: icon_scale
+godtok/z_lo_fi_beats_to_eat_people_to (5B921D600FFFC78B): hidden until unlocked, its dependencies are hidden in FTB Quests
+godtok/z (15A359E9F11D936E): imported
+godtok/z (15A359E9F11D936E): dropped fields: icon_scale
+godtok/z (15A359E9F11D936E): hidden until unlocked, its dependencies are hidden in FTB Quests
+godtok/z_brawl (541B21F04B21FA4B): imported
+godtok/z_brawl (541B21F04B21FA4B): dropped fields: icon_scale
+godtok/z_brawl (541B21F04B21FA4B): hidden until unlocked, its dependencies are hidden in FTB Quests
+godtok/zwhat_are_you_listening_to (5B4312FCCAEB5CE9): imported
+godtok/zwhat_are_you_listening_to (5B4312FCCAEB5CE9): dropped fields: icon_scale
+godtok/z_lichy_road (44CECD069A6C707E): imported
+godtok/z_lichy_road (44CECD069A6C707E): dropped fields: icon_scale
+godtok/z_lichy_road (44CECD069A6C707E): hidden until unlocked, its dependencies are hidden in FTB Quests
+godtok/nether_star (6EE240B7CA32A06E): imported
+godtok/nether_star (6EE240B7CA32A06E): no title, named after its first task item
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): imported
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): dropped fields: icon_scale
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): command placeholder {"text":"-- "} kept as is
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): command placeholder {"text":"sultryTwostep","color":"#82AB70"} kept as is
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): command placeholder {"text":" ["} kept as is
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): command placeholder {"text":"ST","color":"#82AB70"} kept as is
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): command placeholder {"text":"] sent you a message on your "} kept as is
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): command placeholder {"text":"Smartphone","color":"green"} kept as is
+space/82ab70the_fine_t_collection_yet_b (532FEB7789B1D84A): command placeholder {"text":"! --"} kept as is
+space/82ab70beginning_your_que_t (7501C829A46A8915): imported
+space/82ab70beginning_your_que_t (7501C829A46A8915): command placeholder {"text":"-- "} kept as is
+space/82ab70beginning_your_que_t (7501C829A46A8915): command placeholder {"text":"sultryTwostep","color":"#82AB70"} kept as is
+space/82ab70beginning_your_que_t (7501C829A46A8915): command placeholder {"text":" ["} kept as is
+space/82ab70beginning_your_que_t (7501C829A46A8915): command placeholder {"text":"ST","color":"#82AB70"} kept as is
+space/82ab70beginning_your_que_t (7501C829A46A8915): command placeholder {"text":"] sent you a message on your "} kept as is
+space/82ab70beginning_your_que_t (7501C829A46A8915): command placeholder {"text":"Smartphone","color":"green"} kept as is
+space/82ab70beginning_your_que_t (7501C829A46A8915): command placeholder {"text":"! --"} kept as is
+space/82ab70the_e_ence_of_creation (4085F5992470344A): imported
+space/82ab70the_e_ence_of_creation (4085F5992470344A): command placeholder {"text":"-- "} kept as is
+space/82ab70the_e_ence_of_creation (4085F5992470344A): command placeholder {"text":"sultryTwostep","color":"#82AB70"} kept as is
+space/82ab70the_e_ence_of_creation (4085F5992470344A): command placeholder {"text":" ["} kept as is
+space/82ab70the_e_ence_of_creation (4085F5992470344A): command placeholder {"text":"ST","color":"#82AB70"} kept as is
+space/82ab70the_e_ence_of_creation (4085F5992470344A): command placeholder {"text":"] sent you a message on your "} kept as is
+space/82ab70the_e_ence_of_creation (4085F5992470344A): command placeholder {"text":"Smartphone","color":"green"} kept as is
+space/82ab70the_e_ence_of_creation (4085F5992470344A): command placeholder {"text":"! --"} kept as is
+space/82ab70froggie (37B646A65537DADC): imported
+space/82ab70froggie (37B646A65537DADC): command placeholder {"text":"-- "} kept as is
+space/82ab70froggie (37B646A65537DADC): command placeholder {"text":"sultryTwostep","color":"#82AB70"} kept as is
+space/82ab70froggie (37B646A65537DADC): command placeholder {"text":" ["} kept as is
+space/82ab70froggie (37B646A65537DADC): command placeholder {"text":"ST","color":"#82AB70"} kept as is
+space/82ab70froggie (37B646A65537DADC): command placeholder {"text":"] sent you a message on your "} kept as is
+space/82ab70froggie (37B646A65537DADC): command placeholder {"text":"Smartphone","color":"green"} kept as is
+space/82ab70froggie (37B646A65537DADC): command placeholder {"text":"! --"} kept as is
+space/82ab70tran_po_ition (0639DB5C8202061C): imported
+space/82ab70tran_po_ition (0639DB5C8202061C): command placeholder {"text":"-- "} kept as is
+space/82ab70tran_po_ition (0639DB5C8202061C): command placeholder {"text":"sultryTwostep","color":"#82AB70"} kept as is
+space/82ab70tran_po_ition (0639DB5C8202061C): command placeholder {"text":" ["} kept as is
+space/82ab70tran_po_ition (0639DB5C8202061C): command placeholder {"text":"ST","color":"#82AB70"} kept as is
+space/82ab70tran_po_ition (0639DB5C8202061C): command placeholder {"text":"] sent you a message on your "} kept as is
+space/82ab70tran_po_ition (0639DB5C8202061C): command placeholder {"text":"Smartphone","color":"green"} kept as is
+space/82ab70tran_po_ition (0639DB5C8202061C): command placeholder {"text":"! --"} kept as is
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): imported
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): command placeholder {"text":"-- "} kept as is
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): command placeholder {"text":"sultryTwostep","color":"#82AB70"} kept as is
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): command placeholder {"text":" ["} kept as is
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): command placeholder {"text":"ST","color":"#82AB70"} kept as is
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): command placeholder {"text":"] sent you a message on your "} kept as is
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): command placeholder {"text":"Smartphone","color":"green"} kept as is
+space/82ab70let_get_zilly (7DD63E991CEE6EA2): command placeholder {"text":"! --"} kept as is
+space/82ab70a_comfy_place_to_leep (5648B2A0051F8D51): imported
+space/82ab70a_comfy_place_to_leep (5648B2A0051F8D51): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+space/82ab70dea_matrona (7775CDFF698A3CD8): imported
+space/blank_verse (5FFA4471251A0BEF): imported
+space/blank_verse (5FFA4471251A0BEF): no title, named after its first task item
+time/a10000a_better_t_m_rr_w (054DB864B2170498): imported
+time/a10000a_better_t_m_rr_w (054DB864B2170498): dropped fields: icon_scale
+time/a10000a_better_t_m_rr_w (054DB864B2170498): command placeholder {"text":"-- "} kept as is
+time/a10000a_better_t_m_rr_w (054DB864B2170498): command placeholder {"text":"grimoireAcademics","color":"#A10000"} kept as is
+time/a10000a_better_t_m_rr_w (054DB864B2170498): command placeholder {"text":" ["} kept as is
+time/a10000a_better_t_m_rr_w (054DB864B2170498): command placeholder {"text":"GA","color":"#A10000"} kept as is
+time/a10000a_better_t_m_rr_w (054DB864B2170498): command placeholder {"text":"] sent you a message on your "} kept as is
+time/a10000a_better_t_m_rr_w (054DB864B2170498): command placeholder {"text":"Smartphone","color":"green"} kept as is
+time/a10000a_better_t_m_rr_w (054DB864B2170498): command placeholder {"text":"! --"} kept as is
+time/a10000beginning_y_ur_quest (00577572C8BBF051): imported
+time/a10000beginning_y_ur_quest (00577572C8BBF051): command placeholder {"text":"-- "} kept as is
+time/a10000beginning_y_ur_quest (00577572C8BBF051): command placeholder {"text":"grimoireAcademics","color":"#A10000"} kept as is
+time/a10000beginning_y_ur_quest (00577572C8BBF051): command placeholder {"text":" ["} kept as is
+time/a10000beginning_y_ur_quest (00577572C8BBF051): command placeholder {"text":"GA","color":"#A10000"} kept as is
+time/a10000beginning_y_ur_quest (00577572C8BBF051): command placeholder {"text":"] sent you a message on your "} kept as is
+time/a10000beginning_y_ur_quest (00577572C8BBF051): command placeholder {"text":"Smartphone","color":"green"} kept as is
+time/a10000beginning_y_ur_quest (00577572C8BBF051): command placeholder {"text":"! --"} kept as is
+time/a10000sense_of_time (7FB825B517FCD319): imported
+time/a10000sense_of_time (7FB825B517FCD319): command placeholder {"text":"-- "} kept as is
+time/a10000sense_of_time (7FB825B517FCD319): command placeholder {"text":"grimoireAcademics","color":"#A10000"} kept as is
+time/a10000sense_of_time (7FB825B517FCD319): command placeholder {"text":" ["} kept as is
+time/a10000sense_of_time (7FB825B517FCD319): command placeholder {"text":"GA","color":"#A10000"} kept as is
+time/a10000sense_of_time (7FB825B517FCD319): command placeholder {"text":"] sent you a message on your "} kept as is
+time/a10000sense_of_time (7FB825B517FCD319): command placeholder {"text":"Smartphone","color":"green"} kept as is
+time/a10000sense_of_time (7FB825B517FCD319): command placeholder {"text":"! --"} kept as is
+time/a10000gearing_up (76962145EAE9BC0D): imported
+time/a10000gearing_up (76962145EAE9BC0D): command placeholder {"text":"-- "} kept as is
+time/a10000gearing_up (76962145EAE9BC0D): command placeholder {"text":"grimoireAcademics","color":"#A10000"} kept as is
+time/a10000gearing_up (76962145EAE9BC0D): command placeholder {"text":" ["} kept as is
+time/a10000gearing_up (76962145EAE9BC0D): command placeholder {"text":"GA","color":"#A10000"} kept as is
+time/a10000gearing_up (76962145EAE9BC0D): command placeholder {"text":"] sent you a message on your "} kept as is
+time/a10000gearing_up (76962145EAE9BC0D): command placeholder {"text":"Smartphone","color":"green"} kept as is
+time/a10000gearing_up (76962145EAE9BC0D): command placeholder {"text":"! --"} kept as is
+time/a10000shattering_time (131585E7BF75B0B0): imported
+time/a10000shattering_time (131585E7BF75B0B0): command placeholder {"text":"-- "} kept as is
+time/a10000shattering_time (131585E7BF75B0B0): command placeholder {"text":"grimoireAcademics","color":"#A10000"} kept as is
+time/a10000shattering_time (131585E7BF75B0B0): command placeholder {"text":" ["} kept as is
+time/a10000shattering_time (131585E7BF75B0B0): command placeholder {"text":"GA","color":"#A10000"} kept as is
+time/a10000shattering_time (131585E7BF75B0B0): command placeholder {"text":"] sent you a message on your "} kept as is
+time/a10000shattering_time (131585E7BF75B0B0): command placeholder {"text":"Smartphone","color":"green"} kept as is
+time/a10000shattering_time (131585E7BF75B0B0): command placeholder {"text":"! --"} kept as is
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): imported
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): command placeholder {"text":"-- "} kept as is
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): command placeholder {"text":"grimoireAcademics","color":"#A10000"} kept as is
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): command placeholder {"text":" ["} kept as is
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): command placeholder {"text":"GA","color":"#A10000"} kept as is
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): command placeholder {"text":"] sent you a message on your "} kept as is
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): command placeholder {"text":"Smartphone","color":"green"} kept as is
+time/a10000t_mes_f_l_st_her_es (3782F529E0BBE336): command placeholder {"text":"! --"} kept as is
+time/a10000ascensi_n (6131DA533D637434): imported
+time/a10000ascensi_n (6131DA533D637434): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+time/a10000cat_sith_the_pr_tect_r (1A893098F06D0015): imported
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): imported
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): dropped fields: icon_scale
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): command placeholder {"text":"-- "} kept as is
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): command placeholder {"text":"flippantRockstarring","color":"#B4EB54"} kept as is
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): command placeholder {"text":" ["} kept as is
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): command placeholder {"text":"FR","color":"#B4EB54"} kept as is
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): command placeholder {"text":"] sent you a message on your "} kept as is
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): command placeholder {"text":"Smartphone","color":"green"} kept as is
+breath/b4eb54libert_above_all (6AAB15693FCD6F98): command placeholder {"text":"! --"} kept as is
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): imported
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): command placeholder {"text":"-- "} kept as is
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): command placeholder {"text":"flippantRockstarring","color":"#B4EB54"} kept as is
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): command placeholder {"text":" ["} kept as is
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): command placeholder {"text":"FR","color":"#B4EB54"} kept as is
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): command placeholder {"text":"] sent you a message on your "} kept as is
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): command placeholder {"text":"Smartphone","color":"green"} kept as is
+breath/b4eb54commence_your_quest (340E53A11C89F0D4): command placeholder {"text":"! --"} kept as is
+breath/b4eb54feeling_the_air (25C33A712C553833): imported
+breath/b4eb54feeling_the_air (25C33A712C553833): command placeholder {"text":"-- "} kept as is
+breath/b4eb54feeling_the_air (25C33A712C553833): command placeholder {"text":"flippantRockstarring","color":"#B4EB54"} kept as is
+breath/b4eb54feeling_the_air (25C33A712C553833): command placeholder {"text":" ["} kept as is
+breath/b4eb54feeling_the_air (25C33A712C553833): command placeholder {"text":"FR","color":"#B4EB54"} kept as is
+breath/b4eb54feeling_the_air (25C33A712C553833): command placeholder {"text":"] sent you a message on your "} kept as is
+breath/b4eb54feeling_the_air (25C33A712C553833): command placeholder {"text":"Smartphone","color":"green"} kept as is
+breath/b4eb54feeling_the_air (25C33A712C553833): command placeholder {"text":"! --"} kept as is
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): imported
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): command placeholder {"text":"-- "} kept as is
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): command placeholder {"text":"flippantRockstarring","color":"#B4EB54"} kept as is
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): command placeholder {"text":" ["} kept as is
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): command placeholder {"text":"FR","color":"#B4EB54"} kept as is
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): command placeholder {"text":"] sent you a message on your "} kept as is
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): command placeholder {"text":"Smartphone","color":"green"} kept as is
+breath/b4eb54up_up_up_and_away (2B9472B0FA628373): command placeholder {"text":"! --"} kept as is
+breath/b4eb54parkour (766C654288FAF33F): imported
+breath/b4eb54parkour (766C654288FAF33F): command placeholder {"text":"-- "} kept as is
+breath/b4eb54parkour (766C654288FAF33F): command placeholder {"text":"flippantRockstarring","color":"#B4EB54"} kept as is
+breath/b4eb54parkour (766C654288FAF33F): command placeholder {"text":" ["} kept as is
+breath/b4eb54parkour (766C654288FAF33F): command placeholder {"text":"FR","color":"#B4EB54"} kept as is
+breath/b4eb54parkour (766C654288FAF33F): command placeholder {"text":"] sent you a message on your "} kept as is
+breath/b4eb54parkour (766C654288FAF33F): command placeholder {"text":"Smartphone","color":"green"} kept as is
+breath/b4eb54parkour (766C654288FAF33F): command placeholder {"text":"! --"} kept as is
+breath/b4eb54les_lytres (723A734CC5C78952): imported
+breath/b4eb54les_lytres (723A734CC5C78952): command placeholder {"text":"-- "} kept as is
+breath/b4eb54les_lytres (723A734CC5C78952): command placeholder {"text":"flippantRockstarring","color":"#B4EB54"} kept as is
+breath/b4eb54les_lytres (723A734CC5C78952): command placeholder {"text":" ["} kept as is
+breath/b4eb54les_lytres (723A734CC5C78952): command placeholder {"text":"FR","color":"#B4EB54"} kept as is
+breath/b4eb54les_lytres (723A734CC5C78952): command placeholder {"text":"] sent you a message on your "} kept as is
+breath/b4eb54les_lytres (723A734CC5C78952): command placeholder {"text":"Smartphone","color":"green"} kept as is
+breath/b4eb54les_lytres (723A734CC5C78952): command placeholder {"text":"! --"} kept as is
+breath/b4eb54ascension (0156DC1FD20C0B72): imported
+breath/b4eb54ascension (0156DC1FD20C0B72): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+breath/b4eb54aos_s (0E51BC96E37CB62A): imported
+light/069a97_fortune_s_favor (612429FF6E98B61B): imported
+light/069a97_fortune_s_favor (612429FF6E98B61B): dropped fields: icon_scale
+light/069a97_fortune_s_favor (612429FF6E98B61B): command placeholder {"text":"-- "} kept as is
+light/069a97_fortune_s_favor (612429FF6E98B61B): command placeholder {"text":"tortfeasorsKatabasis","color":"#069A97"} kept as is
+light/069a97_fortune_s_favor (612429FF6E98B61B): command placeholder {"text":" ["} kept as is
+light/069a97_fortune_s_favor (612429FF6E98B61B): command placeholder {"text":"TK","color":"#069A97"} kept as is
+light/069a97_fortune_s_favor (612429FF6E98B61B): command placeholder {"text":"] sent you a message on your "} kept as is
+light/069a97_fortune_s_favor (612429FF6E98B61B): command placeholder {"text":"Smartphone","color":"green"} kept as is
+light/069a97_fortune_s_favor (612429FF6E98B61B): command placeholder {"text":"! --"} kept as is
+light/069a97_beginning_your_quest (791F2F35D58DC34E): imported
+light/069a97_beginning_your_quest (791F2F35D58DC34E): command placeholder {"text":"-- "} kept as is
+light/069a97_beginning_your_quest (791F2F35D58DC34E): command placeholder {"text":"tortfeasorsKatabasis","color":"#069A97"} kept as is
+light/069a97_beginning_your_quest (791F2F35D58DC34E): command placeholder {"text":" ["} kept as is
+light/069a97_beginning_your_quest (791F2F35D58DC34E): command placeholder {"text":"TK","color":"#069A97"} kept as is
+light/069a97_beginning_your_quest (791F2F35D58DC34E): command placeholder {"text":"] sent you a message on your "} kept as is
+light/069a97_beginning_your_quest (791F2F35D58DC34E): command placeholder {"text":"Smartphone","color":"green"} kept as is
+light/069a97_beginning_your_quest (791F2F35D58DC34E): command placeholder {"text":"! --"} kept as is
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): imported
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): command placeholder {"text":"-- "} kept as is
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): command placeholder {"text":"tortfeasorsKatabasis","color":"#069A97"} kept as is
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): command placeholder {"text":" ["} kept as is
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): command placeholder {"text":"TK","color":"#069A97"} kept as is
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): command placeholder {"text":"] sent you a message on your "} kept as is
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): command placeholder {"text":"Smartphone","color":"green"} kept as is
+light/069a97_illuminating_illumination (5248F5A1EE5311AA): command placeholder {"text":"! --"} kept as is
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): imported
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): command placeholder {"text":"-- "} kept as is
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): command placeholder {"text":"tortfeasorsKatabasis","color":"#069A97"} kept as is
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): command placeholder {"text":" ["} kept as is
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): command placeholder {"text":"TK","color":"#069A97"} kept as is
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): command placeholder {"text":"] sent you a message on your "} kept as is
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): command placeholder {"text":"Smartphone","color":"green"} kept as is
+light/069a97_imperative_knowle_ge (27ACE8AB8E1229D8): command placeholder {"text":"! --"} kept as is
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): imported
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): command placeholder {"text":"-- "} kept as is
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): command placeholder {"text":"tortfeasorsKatabasis","color":"#069A97"} kept as is
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): command placeholder {"text":" ["} kept as is
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): command placeholder {"text":"TK","color":"#069A97"} kept as is
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): command placeholder {"text":"] sent you a message on your "} kept as is
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): command placeholder {"text":"Smartphone","color":"green"} kept as is
+light/069a97_feeling_lucky (5F9AD24D26B5A87D): command placeholder {"text":"! --"} kept as is
+light/069a97_ka_ching (32A48EE8445B82B8): imported
+light/069a97_ka_ching (32A48EE8445B82B8): command placeholder {"text":"-- "} kept as is
+light/069a97_ka_ching (32A48EE8445B82B8): command placeholder {"text":"tortfeasorsKatabasis","color":"#069A97"} kept as is
+light/069a97_ka_ching (32A48EE8445B82B8): command placeholder {"text":" ["} kept as is
+light/069a97_ka_ching (32A48EE8445B82B8): command placeholder {"text":"TK","color":"#069A97"} kept as is
+light/069a97_ka_ching (32A48EE8445B82B8): command placeholder {"text":"] sent you a message on your "} kept as is
+light/069a97_ka_ching (32A48EE8445B82B8): command placeholder {"text":"Smartphone","color":"green"} kept as is
+light/069a97_ka_ching (32A48EE8445B82B8): command placeholder {"text":"! --"} kept as is
+light/069a97_go_tier (3129BA6A875243B8): imported
+light/069a97_go_tier (3129BA6A875243B8): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+light/069a97_lugh_denizen_of_light (066FD9F0CCEF6342): imported
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): imported
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): dropped fields: icon_scale
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): command placeholder {"text":"-- "} kept as is
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): command placeholder {"text":"plasticineYpsiliform","color":"#009F4F"} kept as is
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): command placeholder {"text":" ["} kept as is
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): command placeholder {"text":"PY","color":"#009F4F"} kept as is
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): command placeholder {"text":"] sent you a message on your "} kept as is
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): command placeholder {"text":"Smartphone","color":"green"} kept as is
+life/009f4fthe_sanctity_of_life (100CAD145FDECD26): command placeholder {"text":"! --"} kept as is
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): imported
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): command placeholder {"text":"-- "} kept as is
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): command placeholder {"text":"plasticineYpsiliform","color":"#009F4F"} kept as is
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): command placeholder {"text":" ["} kept as is
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): command placeholder {"text":"PY","color":"#009F4F"} kept as is
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): command placeholder {"text":"] sent you a message on your "} kept as is
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): command placeholder {"text":"Smartphone","color":"green"} kept as is
+life/009f4fbeginning_your_quest (60A6FBAAF34FCED7): command placeholder {"text":"! --"} kept as is
+life/009f4fsowing_seeds (2901CD0EFE47811F): imported
+life/009f4fsowing_seeds (2901CD0EFE47811F): command placeholder {"text":"-- "} kept as is
+life/009f4fsowing_seeds (2901CD0EFE47811F): command placeholder {"text":"plasticineYpsiliform","color":"#009F4F"} kept as is
+life/009f4fsowing_seeds (2901CD0EFE47811F): command placeholder {"text":" ["} kept as is
+life/009f4fsowing_seeds (2901CD0EFE47811F): command placeholder {"text":"PY","color":"#009F4F"} kept as is
+life/009f4fsowing_seeds (2901CD0EFE47811F): command placeholder {"text":"] sent you a message on your "} kept as is
+life/009f4fsowing_seeds (2901CD0EFE47811F): command placeholder {"text":"Smartphone","color":"green"} kept as is
+life/009f4fsowing_seeds (2901CD0EFE47811F): command placeholder {"text":"! --"} kept as is
+life/009f4fexpert_cultivator (4A2BD927028E7718): imported
+life/009f4fexpert_cultivator (4A2BD927028E7718): command placeholder {"text":"-- "} kept as is
+life/009f4fexpert_cultivator (4A2BD927028E7718): command placeholder {"text":"plasticineYpsiliform","color":"#009F4F"} kept as is
+life/009f4fexpert_cultivator (4A2BD927028E7718): command placeholder {"text":" ["} kept as is
+life/009f4fexpert_cultivator (4A2BD927028E7718): command placeholder {"text":"PY","color":"#009F4F"} kept as is
+life/009f4fexpert_cultivator (4A2BD927028E7718): command placeholder {"text":"] sent you a message on your "} kept as is
+life/009f4fexpert_cultivator (4A2BD927028E7718): command placeholder {"text":"Smartphone","color":"green"} kept as is
+life/009f4fexpert_cultivator (4A2BD927028E7718): command placeholder {"text":"! --"} kept as is
+life/009f4fprotected_plants (04180D30B01F56AB): imported
+life/009f4fprotected_plants (04180D30B01F56AB): command placeholder {"text":"-- "} kept as is
+life/009f4fprotected_plants (04180D30B01F56AB): command placeholder {"text":"plasticineYpsiliform","color":"#009F4F"} kept as is
+life/009f4fprotected_plants (04180D30B01F56AB): command placeholder {"text":" ["} kept as is
+life/009f4fprotected_plants (04180D30B01F56AB): command placeholder {"text":"PY","color":"#009F4F"} kept as is
+life/009f4fprotected_plants (04180D30B01F56AB): command placeholder {"text":"] sent you a message on your "} kept as is
+life/009f4fprotected_plants (04180D30B01F56AB): command placeholder {"text":"Smartphone","color":"green"} kept as is
+life/009f4fprotected_plants (04180D30B01F56AB): command placeholder {"text":"! --"} kept as is
+life/009f4fsealing_the_vault (0590D934397E0540): imported
+life/009f4fsealing_the_vault (0590D934397E0540): command placeholder {"text":"-- "} kept as is
+life/009f4fsealing_the_vault (0590D934397E0540): command placeholder {"text":"plasticineYpsiliform","color":"#009F4F"} kept as is
+life/009f4fsealing_the_vault (0590D934397E0540): command placeholder {"text":" ["} kept as is
+life/009f4fsealing_the_vault (0590D934397E0540): command placeholder {"text":"PY","color":"#009F4F"} kept as is
+life/009f4fsealing_the_vault (0590D934397E0540): command placeholder {"text":"] sent you a message on your "} kept as is
+life/009f4fsealing_the_vault (0590D934397E0540): command placeholder {"text":"Smartphone","color":"green"} kept as is
+life/009f4fsealing_the_vault (0590D934397E0540): command placeholder {"text":"! --"} kept as is
+life/009f4fascension (5856FDF9842C7209): imported
+life/009f4fascension (5856FDF9842C7209): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+life/009f4fcainte (4C065F4C49F61386): imported
+hope/bf9000the_world_s_stage (5F7D17F500856E92): imported
+hope/bf9000the_world_s_stage (5F7D17F500856E92): dropped fields: icon_scale
+hope/bf9000the_world_s_stage (5F7D17F500856E92): command placeholder {"text":"-- "} kept as is
+hope/bf9000the_world_s_stage (5F7D17F500856E92): command placeholder {"text":"ferocious(xeriscape)","color":"#BF9000"} kept as is
+hope/bf9000the_world_s_stage (5F7D17F500856E92): command placeholder {"text":" ["} kept as is
+hope/bf9000the_world_s_stage (5F7D17F500856E92): command placeholder {"text":"f(x)","color":"#BF9000"} kept as is
+hope/bf9000the_world_s_stage (5F7D17F500856E92): command placeholder {"text":"] sent you a message on your "} kept as is
+hope/bf9000the_world_s_stage (5F7D17F500856E92): command placeholder {"text":"Smartphone","color":"green"} kept as is
+hope/bf9000the_world_s_stage (5F7D17F500856E92): command placeholder {"text":"! --"} kept as is
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): imported
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): command placeholder {"text":"-- "} kept as is
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): command placeholder {"text":"ferocious(xeriscape)","color":"#BF9000"} kept as is
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): command placeholder {"text":" ["} kept as is
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): command placeholder {"text":"f(x)","color":"#BF9000"} kept as is
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): command placeholder {"text":"] sent you a message on your "} kept as is
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): command placeholder {"text":"Smartphone","color":"green"} kept as is
+hope/bf9000tools_of_inspiration (6B05D6307338EB4E): command placeholder {"text":"! --"} kept as is
+hope/bf9000stage_ready (5A6B59E0091EEC88): imported
+hope/bf9000stage_ready (5A6B59E0091EEC88): command placeholder {"text":"-- "} kept as is
+hope/bf9000stage_ready (5A6B59E0091EEC88): command placeholder {"text":"ferocious(xeriscape)","color":"#BF9000"} kept as is
+hope/bf9000stage_ready (5A6B59E0091EEC88): command placeholder {"text":" ["} kept as is
+hope/bf9000stage_ready (5A6B59E0091EEC88): command placeholder {"text":"f(x)","color":"#BF9000"} kept as is
+hope/bf9000stage_ready (5A6B59E0091EEC88): command placeholder {"text":"] sent you a message on your "} kept as is
+hope/bf9000stage_ready (5A6B59E0091EEC88): command placeholder {"text":"Smartphone","color":"green"} kept as is
+hope/bf9000stage_ready (5A6B59E0091EEC88): command placeholder {"text":"! --"} kept as is
+hope/bf9000ascension (4784D8DD6E018EA8): imported
+hope/bf9000ascension (4784D8DD6E018EA8): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+hope/bf9000besenclae (78E58C7957627219): imported
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): imported
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): command placeholder {"text":"-- "} kept as is
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): command placeholder {"text":"ferocious(xeriscape)","color":"#BF9000"} kept as is
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): command placeholder {"text":" ["} kept as is
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): command placeholder {"text":"f(x)","color":"#BF9000"} kept as is
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): command placeholder {"text":"] sent you a message on your "} kept as is
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): command placeholder {"text":"Smartphone","color":"green"} kept as is
+hope/bf9000inspiring_the_masses (0B9EFB89CD166AC9): command placeholder {"text":"! --"} kept as is
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): imported
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): command placeholder {"text":"-- "} kept as is
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): command placeholder {"text":"ferocious(xeriscape)","color":"#BF9000"} kept as is
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): command placeholder {"text":" ["} kept as is
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): command placeholder {"text":"f(x)","color":"#BF9000"} kept as is
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): command placeholder {"text":"] sent you a message on your "} kept as is
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): command placeholder {"text":"Smartphone","color":"green"} kept as is
+hope/bf9000musicians_of_the_land (7F1F654B3201E0D5): command placeholder {"text":"! --"} kept as is
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): imported
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): command placeholder {"text":"-- "} kept as is
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): command placeholder {"text":"ferocious(xeriscape)","color":"#BF9000"} kept as is
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): command placeholder {"text":" ["} kept as is
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): command placeholder {"text":"f(x)","color":"#BF9000"} kept as is
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): command placeholder {"text":"] sent you a message on your "} kept as is
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): command placeholder {"text":"Smartphone","color":"green"} kept as is
+hope/bf9000beginning_your_quest (4E657B5EEBEE9C3E): command placeholder {"text":"! --"} kept as is
+void/43587dnothing_to_worry_about (79BA961E64FF0210): imported
+void/43587dnothing_to_worry_about (79BA961E64FF0210): dropped fields: icon_scale
+void/43587dnothing_to_worry_about (79BA961E64FF0210): command placeholder {"text":"-- "} kept as is
+void/43587dnothing_to_worry_about (79BA961E64FF0210): command placeholder {"text":"dredgedHermit","color":"#43587D"} kept as is
+void/43587dnothing_to_worry_about (79BA961E64FF0210): command placeholder {"text":" ["} kept as is
+void/43587dnothing_to_worry_about (79BA961E64FF0210): command placeholder {"text":"DH","color":"#43587D"} kept as is
+void/43587dnothing_to_worry_about (79BA961E64FF0210): command placeholder {"text":"] sent you a message on your "} kept as is
+void/43587dnothing_to_worry_about (79BA961E64FF0210): command placeholder {"text":"Smartphone","color":"green"} kept as is
+void/43587dnothing_to_worry_about (79BA961E64FF0210): command placeholder {"text":"! --"} kept as is
+void/43587dbeginning_your_quest (1C249FD3D95126DA): imported
+void/43587dbeginning_your_quest (1C249FD3D95126DA): command placeholder {"text":"-- "} kept as is
+void/43587dbeginning_your_quest (1C249FD3D95126DA): command placeholder {"text":"dredgedHermit","color":"#43587D"} kept as is
+void/43587dbeginning_your_quest (1C249FD3D95126DA): command placeholder {"text":" ["} kept as is
+void/43587dbeginning_your_quest (1C249FD3D95126DA): command placeholder {"text":"DH","color":"#43587D"} kept as is
+void/43587dbeginning_your_quest (1C249FD3D95126DA): command placeholder {"text":"] sent you a message on your "} kept as is
+void/43587dbeginning_your_quest (1C249FD3D95126DA): command placeholder {"text":"Smartphone","color":"green"} kept as is
+void/43587dbeginning_your_quest (1C249FD3D95126DA): command placeholder {"text":"! --"} kept as is
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): imported
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): command placeholder {"text":"-- "} kept as is
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): command placeholder {"text":"dredgedHermit","color":"#43587D"} kept as is
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): command placeholder {"text":" ["} kept as is
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): command placeholder {"text":"DH","color":"#43587D"} kept as is
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): command placeholder {"text":"] sent you a message on your "} kept as is
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): command placeholder {"text":"Smartphone","color":"green"} kept as is
+void/43587da_truth_that_shouldn_t_exist (232738148E4617DD): command placeholder {"text":"! --"} kept as is
+void/43587dforbidden (149954EB83298F94): imported
+void/43587dforbidden (149954EB83298F94): command placeholder {"text":"-- "} kept as is
+void/43587dforbidden (149954EB83298F94): command placeholder {"text":"dredgedHermit","color":"#43587D"} kept as is
+void/43587dforbidden (149954EB83298F94): command placeholder {"text":" ["} kept as is
+void/43587dforbidden (149954EB83298F94): command placeholder {"text":"DH","color":"#43587D"} kept as is
+void/43587dforbidden (149954EB83298F94): command placeholder {"text":"] sent you a message on your "} kept as is
+void/43587dforbidden (149954EB83298F94): command placeholder {"text":"Smartphone","color":"green"} kept as is
+void/43587dforbidden (149954EB83298F94): command placeholder {"text":"! --"} kept as is
+void/43587dllyr_disciple_of_the_outer_gods (6DA6DAA62FBFC23A): imported
+void/43587dgod_tier (7BD2D9C82D277C08): imported
+void/43587dgod_tier (7BD2D9C82D277C08): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+void/43587dgaze_into_nothing (019A6EE167F7BB18): imported
+void/43587dgaze_into_nothing (019A6EE167F7BB18): command placeholder {"text":"-- "} kept as is
+void/43587dgaze_into_nothing (019A6EE167F7BB18): command placeholder {"text":"dredgedHermit","color":"#43587D"} kept as is
+void/43587dgaze_into_nothing (019A6EE167F7BB18): command placeholder {"text":" ["} kept as is
+void/43587dgaze_into_nothing (019A6EE167F7BB18): command placeholder {"text":"DH","color":"#43587D"} kept as is
+void/43587dgaze_into_nothing (019A6EE167F7BB18): command placeholder {"text":"] sent you a message on your "} kept as is
+void/43587dgaze_into_nothing (019A6EE167F7BB18): command placeholder {"text":"Smartphone","color":"green"} kept as is
+void/43587dgaze_into_nothing (019A6EE167F7BB18): command placeholder {"text":"! --"} kept as is
+void/43587dhold_your_breath (58CDCD0C740C860D): imported
+void/43587dhold_your_breath (58CDCD0C740C860D): command placeholder {"text":"-- "} kept as is
+void/43587dhold_your_breath (58CDCD0C740C860D): command placeholder {"text":"dredgedHermit","color":"#43587D"} kept as is
+void/43587dhold_your_breath (58CDCD0C740C860D): command placeholder {"text":" ["} kept as is
+void/43587dhold_your_breath (58CDCD0C740C860D): command placeholder {"text":"DH","color":"#43587D"} kept as is
+void/43587dhold_your_breath (58CDCD0C740C860D): command placeholder {"text":"] sent you a message on your "} kept as is
+void/43587dhold_your_breath (58CDCD0C740C860D): command placeholder {"text":"Smartphone","color":"green"} kept as is
+void/43587dhold_your_breath (58CDCD0C740C860D): command placeholder {"text":"! --"} kept as is
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): imported
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): dropped fields: icon_scale
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): command placeholder {"text":"-- "} kept as is
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): command placeholder {"text":"devouringDevotion","color":"#71274F"} kept as is
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): command placeholder {"text":" ["} kept as is
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): command placeholder {"text":"DD","color":"#71274F"} kept as is
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): command placeholder {"text":"] sent you a message on your "} kept as is
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): command placeholder {"text":"Smartphone","color":"green"} kept as is
+heart/71274fto_end_all_suffering (64591BF974FF0F4A): command placeholder {"text":"! --"} kept as is
+heart/71274fsoul_in_flame (078FFD765F6AB34E): imported
+heart/71274fsoul_in_flame (078FFD765F6AB34E): command placeholder {"text":"-- "} kept as is
+heart/71274fsoul_in_flame (078FFD765F6AB34E): command placeholder {"text":"devouringDevotion","color":"#71274F"} kept as is
+heart/71274fsoul_in_flame (078FFD765F6AB34E): command placeholder {"text":" ["} kept as is
+heart/71274fsoul_in_flame (078FFD765F6AB34E): command placeholder {"text":"DD","color":"#71274F"} kept as is
+heart/71274fsoul_in_flame (078FFD765F6AB34E): command placeholder {"text":"] sent you a message on your "} kept as is
+heart/71274fsoul_in_flame (078FFD765F6AB34E): command placeholder {"text":"Smartphone","color":"green"} kept as is
+heart/71274fsoul_in_flame (078FFD765F6AB34E): command placeholder {"text":"! --"} kept as is
+heart/71274fgod_tier (2B0523C9A892FB30): imported
+heart/71274fgod_tier (2B0523C9A892FB30): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+heart/71274fsoul_searching (7C93702BF0EA4E36): imported
+heart/71274fsoul_searching (7C93702BF0EA4E36): command placeholder {"text":"-- "} kept as is
+heart/71274fsoul_searching (7C93702BF0EA4E36): command placeholder {"text":"devouringDevotion","color":"#71274F"} kept as is
+heart/71274fsoul_searching (7C93702BF0EA4E36): command placeholder {"text":" ["} kept as is
+heart/71274fsoul_searching (7C93702BF0EA4E36): command placeholder {"text":"DD","color":"#71274F"} kept as is
+heart/71274fsoul_searching (7C93702BF0EA4E36): command placeholder {"text":"] sent you a message on your "} kept as is
+heart/71274fsoul_searching (7C93702BF0EA4E36): command placeholder {"text":"Smartphone","color":"green"} kept as is
+heart/71274fsoul_searching (7C93702BF0EA4E36): command placeholder {"text":"! --"} kept as is
+heart/71274fsoul_searching (7C93702BF0EA4E36): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+heart/71274flitavis (0091D0D806C4C922): imported
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): imported
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): command placeholder {"text":"-- "} kept as is
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): command placeholder {"text":"devouringDevotion","color":"#71274F"} kept as is
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): command placeholder {"text":" ["} kept as is
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): command placeholder {"text":"DD","color":"#71274F"} kept as is
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): command placeholder {"text":"] sent you a message on your "} kept as is
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): command placeholder {"text":"Smartphone","color":"green"} kept as is
+heart/71274fbeginning_your_quest (75BBA23DE6565A67): command placeholder {"text":"! --"} kept as is
+heart/71274funderstanding_yourself (207057B7311D8158): imported
+heart/71274funderstanding_yourself (207057B7311D8158): command placeholder {"text":"-- "} kept as is
+heart/71274funderstanding_yourself (207057B7311D8158): command placeholder {"text":"devouringDevotion","color":"#71274F"} kept as is
+heart/71274funderstanding_yourself (207057B7311D8158): command placeholder {"text":" ["} kept as is
+heart/71274funderstanding_yourself (207057B7311D8158): command placeholder {"text":"DD","color":"#71274F"} kept as is
+heart/71274funderstanding_yourself (207057B7311D8158): command placeholder {"text":"] sent you a message on your "} kept as is
+heart/71274funderstanding_yourself (207057B7311D8158): command placeholder {"text":"Smartphone","color":"green"} kept as is
+heart/71274funderstanding_yourself (207057B7311D8158): command placeholder {"text":"! --"} kept as is
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): imported
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): command placeholder {"text":"-- "} kept as is
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): command placeholder {"text":"devouringDevotion","color":"#71274F"} kept as is
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): command placeholder {"text":" ["} kept as is
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): command placeholder {"text":"DD","color":"#71274F"} kept as is
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): command placeholder {"text":"] sent you a message on your "} kept as is
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): command placeholder {"text":"Smartphone","color":"green"} kept as is
+heart/71274funderstanding_the_soul (2FC4997B31CF3C8A): command placeholder {"text":"! --"} kept as is
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): imported
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): dropped fields: icon_scale
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): command placeholder {"text":"-- "} kept as is
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): command placeholder {"text":"backsideJotter","color":"#7700FF"} kept as is
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): command placeholder {"text":" ["} kept as is
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): command placeholder {"text":"BJ","color":"#7700FF"} kept as is
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): command placeholder {"text":"] sent you a message on your "} kept as is
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): command placeholder {"text":"Smartphone","color":"green"} kept as is
+mind/7700fftherefore_i_am (42CBA5713E40A4FE): command placeholder {"text":"! --"} kept as is
+mind/7700ffdata_computing (0BDA53D06219ADA4): imported
+mind/7700ffdata_computing (0BDA53D06219ADA4): command placeholder {"text":"-- "} kept as is
+mind/7700ffdata_computing (0BDA53D06219ADA4): command placeholder {"text":"backsideJotter","color":"#7700FF"} kept as is
+mind/7700ffdata_computing (0BDA53D06219ADA4): command placeholder {"text":" ["} kept as is
+mind/7700ffdata_computing (0BDA53D06219ADA4): command placeholder {"text":"BJ","color":"#7700FF"} kept as is
+mind/7700ffdata_computing (0BDA53D06219ADA4): command placeholder {"text":"] sent you a message on your "} kept as is
+mind/7700ffdata_computing (0BDA53D06219ADA4): command placeholder {"text":"Smartphone","color":"green"} kept as is
+mind/7700ffdata_computing (0BDA53D06219ADA4): command placeholder {"text":"! --"} kept as is
+mind/7700ffredstone_ready (355E648ECAFAAA7B): imported
+mind/7700ffredstone_ready (355E648ECAFAAA7B): command placeholder {"text":"-- "} kept as is
+mind/7700ffredstone_ready (355E648ECAFAAA7B): command placeholder {"text":"backsideJotter","color":"#7700FF"} kept as is
+mind/7700ffredstone_ready (355E648ECAFAAA7B): command placeholder {"text":" ["} kept as is
+mind/7700ffredstone_ready (355E648ECAFAAA7B): command placeholder {"text":"BJ","color":"#7700FF"} kept as is
+mind/7700ffredstone_ready (355E648ECAFAAA7B): command placeholder {"text":"] sent you a message on your "} kept as is
+mind/7700ffredstone_ready (355E648ECAFAAA7B): command placeholder {"text":"Smartphone","color":"green"} kept as is
+mind/7700ffredstone_ready (355E648ECAFAAA7B): command placeholder {"text":"! --"} kept as is
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): imported
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): command placeholder {"text":"-- "} kept as is
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): command placeholder {"text":"backsideJotter","color":"#7700FF"} kept as is
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): command placeholder {"text":" ["} kept as is
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): command placeholder {"text":"BJ","color":"#7700FF"} kept as is
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): command placeholder {"text":"] sent you a message on your "} kept as is
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): command placeholder {"text":"Smartphone","color":"green"} kept as is
+mind/7700ffbeginning_your_quest (7CB4D6D9490C1722): command placeholder {"text":"! --"} kept as is
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): imported
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): command placeholder {"text":"-- "} kept as is
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): command placeholder {"text":"backsideJotter","color":"#7700FF"} kept as is
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): command placeholder {"text":" ["} kept as is
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): command placeholder {"text":"BJ","color":"#7700FF"} kept as is
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): command placeholder {"text":"] sent you a message on your "} kept as is
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): command placeholder {"text":"Smartphone","color":"green"} kept as is
+mind/7700ffdestroying_your_enemies (54C4EBC564DD74BD): command placeholder {"text":"! --"} kept as is
+mind/7700ffecne (5F481D0B2AD41974): imported
+mind/7700fflet_s_go_god_tier (6AAA7578BC69DF5E): imported
+mind/7700fflet_s_go_god_tier (6AAA7578BC69DF5E): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): imported
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): command placeholder {"text":"-- "} kept as is
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): command placeholder {"text":"backsideJotter","color":"#7700FF"} kept as is
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): command placeholder {"text":" ["} kept as is
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): command placeholder {"text":"BJ","color":"#7700FF"} kept as is
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): command placeholder {"text":"] sent you a message on your "} kept as is
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): command placeholder {"text":"Smartphone","color":"green"} kept as is
+mind/7700ffpuzzled_you_will_be (21510994A4563DBF): command placeholder {"text":"! --"} kept as is
+rage/a64d9ascorched_earth (57108D375DF89DF3): imported
+rage/a64d9ascorched_earth (57108D375DF89DF3): dropped fields: icon_scale
+rage/a64d9ascorched_earth (57108D375DF89DF3): command placeholder {"text":"-- "} kept as is
+rage/a64d9ascorched_earth (57108D375DF89DF3): command placeholder {"text":"ruthlessGanef","color":"#A64D9A"} kept as is
+rage/a64d9ascorched_earth (57108D375DF89DF3): command placeholder {"text":" ["} kept as is
+rage/a64d9ascorched_earth (57108D375DF89DF3): command placeholder {"text":"RG","color":"#A64D9A"} kept as is
+rage/a64d9ascorched_earth (57108D375DF89DF3): command placeholder {"text":"] sent you a message on your "} kept as is
+rage/a64d9ascorched_earth (57108D375DF89DF3): command placeholder {"text":"Smartphone","color":"green"} kept as is
+rage/a64d9ascorched_earth (57108D375DF89DF3): command placeholder {"text":"! --"} kept as is
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): imported
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): command placeholder {"text":"-- "} kept as is
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): command placeholder {"text":"ruthlessGanef","color":"#A64D9A"} kept as is
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): command placeholder {"text":" ["} kept as is
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): command placeholder {"text":"RG","color":"#A64D9A"} kept as is
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): command placeholder {"text":"] sent you a message on your "} kept as is
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): command placeholder {"text":"Smartphone","color":"green"} kept as is
+rage/a64d9agrounding_yourself (0F1D243BB0009CAE): command placeholder {"text":"! --"} kept as is
+rage/a64d9abeginning_your_quest (0A53590A60150E29): imported
+rage/a64d9abeginning_your_quest (0A53590A60150E29): command placeholder {"text":"-- "} kept as is
+rage/a64d9abeginning_your_quest (0A53590A60150E29): command placeholder {"text":"ruthlessGanef","color":"#A64D9A"} kept as is
+rage/a64d9abeginning_your_quest (0A53590A60150E29): command placeholder {"text":" ["} kept as is
+rage/a64d9abeginning_your_quest (0A53590A60150E29): command placeholder {"text":"RG","color":"#A64D9A"} kept as is
+rage/a64d9abeginning_your_quest (0A53590A60150E29): command placeholder {"text":"] sent you a message on your "} kept as is
+rage/a64d9abeginning_your_quest (0A53590A60150E29): command placeholder {"text":"Smartphone","color":"green"} kept as is
+rage/a64d9abeginning_your_quest (0A53590A60150E29): command placeholder {"text":"! --"} kept as is
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): imported
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): command placeholder {"text":"-- "} kept as is
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): command placeholder {"text":"ruthlessGanef","color":"#A64D9A"} kept as is
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): command placeholder {"text":" ["} kept as is
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): command placeholder {"text":"RG","color":"#A64D9A"} kept as is
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): command placeholder {"text":"] sent you a message on your "} kept as is
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): command placeholder {"text":"Smartphone","color":"green"} kept as is
+rage/a64d9athe_beast_within_you (110AD8BC65CE9555): command placeholder {"text":"! --"} kept as is
+rage/a64d9awrath (0EA2177114C7310A): imported
+rage/a64d9awrath (0EA2177114C7310A): command placeholder {"text":"-- "} kept as is
+rage/a64d9awrath (0EA2177114C7310A): command placeholder {"text":"ruthlessGanef","color":"#A64D9A"} kept as is
+rage/a64d9awrath (0EA2177114C7310A): command placeholder {"text":" ["} kept as is
+rage/a64d9awrath (0EA2177114C7310A): command placeholder {"text":"RG","color":"#A64D9A"} kept as is
+rage/a64d9awrath (0EA2177114C7310A): command placeholder {"text":"] sent you a message on your "} kept as is
+rage/a64d9awrath (0EA2177114C7310A): command placeholder {"text":"Smartphone","color":"green"} kept as is
+rage/a64d9awrath (0EA2177114C7310A): command placeholder {"text":"! --"} kept as is
+rage/a64d9aascension (347BDE5C29692A9E): imported
+rage/a64d9aascension (347BDE5C29692A9E): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+rage/a64d9athe_hit_list (36E88C5CB0024F28): imported
+rage/a64d9athe_hit_list (36E88C5CB0024F28): command placeholder {"text":"-- "} kept as is
+rage/a64d9athe_hit_list (36E88C5CB0024F28): command placeholder {"text":"ruthlessGanef","color":"#A64D9A"} kept as is
+rage/a64d9athe_hit_list (36E88C5CB0024F28): command placeholder {"text":" ["} kept as is
+rage/a64d9athe_hit_list (36E88C5CB0024F28): command placeholder {"text":"RG","color":"#A64D9A"} kept as is
+rage/a64d9athe_hit_list (36E88C5CB0024F28): command placeholder {"text":"] sent you a message on your "} kept as is
+rage/a64d9athe_hit_list (36E88C5CB0024F28): command placeholder {"text":"Smartphone","color":"green"} kept as is
+rage/a64d9athe_hit_list (36E88C5CB0024F28): command placeholder {"text":"! --"} kept as is
+rage/a64d9aour_denizen_nuada (7C49F7889F2299AB): imported
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): imported
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): dropped fields: icon_scale
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): command placeholder {"text":"-- "} kept as is
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): command placeholder {"text":"growingSocialite","color":"#0A20D4"} kept as is
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): command placeholder {"text":" ["} kept as is
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): command placeholder {"text":"GS","color":"#0A20D4"} kept as is
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): command placeholder {"text":"] sent you a message on your "} kept as is
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): command placeholder {"text":"Smartphone","color":"green"} kept as is
+blood/0a20d4thicker_than_water (24991B071E5DD0EA): command placeholder {"text":"! --"} kept as is
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): imported
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): command placeholder {"text":"-- "} kept as is
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): command placeholder {"text":"growingSocialite","color":"#0A20D4"} kept as is
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): command placeholder {"text":" ["} kept as is
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): command placeholder {"text":"GS","color":"#0A20D4"} kept as is
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): command placeholder {"text":"] sent you a message on your "} kept as is
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): command placeholder {"text":"Smartphone","color":"green"} kept as is
+blood/0a20d4sincerest_form_of_flattery (120FE5016091D9C8): command placeholder {"text":"! --"} kept as is
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): imported
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): command placeholder {"text":"-- "} kept as is
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): command placeholder {"text":"growingSocialite","color":"#0A20D4"} kept as is
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): command placeholder {"text":" ["} kept as is
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): command placeholder {"text":"GS","color":"#0A20D4"} kept as is
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): command placeholder {"text":"] sent you a message on your "} kept as is
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): command placeholder {"text":"Smartphone","color":"green"} kept as is
+blood/0a20d4beginning_your_quest (7BF0317A628DFED1): command placeholder {"text":"! --"} kept as is
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): imported
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): command placeholder {"text":"-- "} kept as is
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): command placeholder {"text":"growingSocialite","color":"#0A20D4"} kept as is
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): command placeholder {"text":" ["} kept as is
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): command placeholder {"text":"GS","color":"#0A20D4"} kept as is
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): command placeholder {"text":"] sent you a message on your "} kept as is
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): command placeholder {"text":"Smartphone","color":"green"} kept as is
+blood/0a20d4heal_the_people_s_wounds (1E346C2D252E742C): command placeholder {"text":"! --"} kept as is
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): imported
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): command placeholder {"text":"-- "} kept as is
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): command placeholder {"text":"growingSocialite","color":"#0A20D4"} kept as is
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): command placeholder {"text":" ["} kept as is
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): command placeholder {"text":"GS","color":"#0A20D4"} kept as is
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): command placeholder {"text":"] sent you a message on your "} kept as is
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): command placeholder {"text":"Smartphone","color":"green"} kept as is
+blood/0a20d4let_s_all_get_along (312DA9AA7F9D4DFB): command placeholder {"text":"! --"} kept as is
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): imported
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): command placeholder {"text":"-- "} kept as is
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): command placeholder {"text":"growingSocialite","color":"#0A20D4"} kept as is
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): command placeholder {"text":" ["} kept as is
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): command placeholder {"text":"GS","color":"#0A20D4"} kept as is
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): command placeholder {"text":"] sent you a message on your "} kept as is
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): command placeholder {"text":"Smartphone","color":"green"} kept as is
+blood/0a20d4uniting_the_people (4211A3AB98B3006E): command placeholder {"text":"! --"} kept as is
+blood/0a20d4god_tier (1BD72C2998B2314D): imported
+blood/0a20d4god_tier (1BD72C2998B2314D): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+blood/0a20d4rhiannon (73FA4C491513C1C2): imported
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): imported
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): dropped fields: icon_scale
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): command placeholder {"text":"-- "} kept as is
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): command placeholder {"text":"unctuousUndertaking","color":"#824D18"} kept as is
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): command placeholder {"text":" ["} kept as is
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): command placeholder {"text":"UU","color":"#824D18"} kept as is
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): command placeholder {"text":"] sent you a message on your "} kept as is
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): command placeholder {"text":"Smartphone","color":"green"} kept as is
+doom/824d18fate_s_chosen_sufferer (36D09CCBDF8910E2): command placeholder {"text":"! --"} kept as is
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): imported
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): command placeholder {"text":"-- "} kept as is
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): command placeholder {"text":"unctuousUndertaking","color":"#824D18"} kept as is
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): command placeholder {"text":" ["} kept as is
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): command placeholder {"text":"UU","color":"#824D18"} kept as is
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): command placeholder {"text":"] sent you a message on your "} kept as is
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): command placeholder {"text":"Smartphone","color":"green"} kept as is
+doom/824d18controlled_explosion (2A8CBACF6B81F9BD): command placeholder {"text":"! --"} kept as is
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): imported
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): command placeholder {"text":"-- "} kept as is
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): command placeholder {"text":"unctuousUndertaking","color":"#824D18"} kept as is
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): command placeholder {"text":" ["} kept as is
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): command placeholder {"text":"UU","color":"#824D18"} kept as is
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): command placeholder {"text":"] sent you a message on your "} kept as is
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): command placeholder {"text":"Smartphone","color":"green"} kept as is
+doom/824d18beginning_yo_r_q_est (662024B40EBD2635): command placeholder {"text":"! --"} kept as is
+doom/824d18fledgling_doombringer (02C65457CA11DE50): imported
+doom/824d18fledgling_doombringer (02C65457CA11DE50): command placeholder {"text":"-- "} kept as is
+doom/824d18fledgling_doombringer (02C65457CA11DE50): command placeholder {"text":"unctuousUndertaking","color":"#824D18"} kept as is
+doom/824d18fledgling_doombringer (02C65457CA11DE50): command placeholder {"text":" ["} kept as is
+doom/824d18fledgling_doombringer (02C65457CA11DE50): command placeholder {"text":"UU","color":"#824D18"} kept as is
+doom/824d18fledgling_doombringer (02C65457CA11DE50): command placeholder {"text":"] sent you a message on your "} kept as is
+doom/824d18fledgling_doombringer (02C65457CA11DE50): command placeholder {"text":"Smartphone","color":"green"} kept as is
+doom/824d18fledgling_doombringer (02C65457CA11DE50): command placeholder {"text":"! --"} kept as is
+doom/824d18def_sal (3B7E4F4956B7EF13): imported
+doom/824d18def_sal (3B7E4F4956B7EF13): command placeholder {"text":"-- "} kept as is
+doom/824d18def_sal (3B7E4F4956B7EF13): command placeholder {"text":"unctuousUndertaking","color":"#824D18"} kept as is
+doom/824d18def_sal (3B7E4F4956B7EF13): command placeholder {"text":" ["} kept as is
+doom/824d18def_sal (3B7E4F4956B7EF13): command placeholder {"text":"UU","color":"#824D18"} kept as is
+doom/824d18def_sal (3B7E4F4956B7EF13): command placeholder {"text":"] sent you a message on your "} kept as is
+doom/824d18def_sal (3B7E4F4956B7EF13): command placeholder {"text":"Smartphone","color":"green"} kept as is
+doom/824d18def_sal (3B7E4F4956B7EF13): command placeholder {"text":"! --"} kept as is
+doom/824d18ascension (45A11D512CFA9909): imported
+doom/824d18ascension (45A11D512CFA9909): optional_task (1 tasks): the quest completes after any 1 of its 2 tasks
+doom/824d18def_se_the_land (095E0354401A4244): imported
+doom/824d18def_se_the_land (095E0354401A4244): command placeholder {"text":"-- "} kept as is
+doom/824d18def_se_the_land (095E0354401A4244): command placeholder {"text":"unctuousUndertaking","color":"#824D18"} kept as is
+doom/824d18def_se_the_land (095E0354401A4244): command placeholder {"text":" ["} kept as is
+doom/824d18def_se_the_land (095E0354401A4244): command placeholder {"text":"UU","color":"#824D18"} kept as is
+doom/824d18def_se_the_land (095E0354401A4244): command placeholder {"text":"] sent you a message on your "} kept as is
+doom/824d18def_se_the_land (095E0354401A4244): command placeholder {"text":"Smartphone","color":"green"} kept as is
+doom/824d18def_se_the_land (095E0354401A4244): command placeholder {"text":"! --"} kept as is
+doom/824d18donn (5A5E12F448525796): imported
+princes_and_princesses: image kubejs:item/breaking shown without its dependency
+planetastic: wrote 19 quests
+powers_galore: wrote 106 quests
+alchemicalicious: wrote 25 quests
+magic_is_real: wrote 41 quests
+princes_and_princesses: wrote 31 quests
+the_veil: wrote 13 quests
+godtok: wrote 6 quests
+space: wrote 9 quests
+time: wrote 8 quests
+breath: wrote 8 quests
+light: wrote 8 quests
+life: wrote 8 quests
+hope: wrote 8 quests
+void: wrote 8 quests
+heart: wrote 8 quests
+mind: wrote 8 quests
+rage: wrote 8 quests
+blood: wrote 8 quests
+doom: wrote 8 quests
+reward_tables/magic_rewards: wrote
+reward_tables/packages: wrote
+reward_tables/derse: wrote
+reward_tables/modus: wrote
+reward_tables/prospit: wrote
+reward_tables/t315a54ebfc1bdd5b: wrote
+reward_tables/artifact: wrote
+reward_tables/ectocord: wrote
+reward_tables/ores: wrote
+reward_tables/computer: wrote
+reward_tables/t60dbe3e64d0ea0dd: wrote
+reward_tables/fun_rewards: wrote
+book.json: wrote 2 chapter groups

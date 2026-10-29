@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:amethyst": 450,
+    "minestuck:tar": 400,
+    "minestuck:diamond": 250,
+    "minestuck:garnet": 200,
+    "minestuck:quartz": 100,
+    "minestuck:chalk": 100
+  },
+  "ingredient": {
+    "item": "discerning_the_eldritch:the_apocrypha_spellbook"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	id: "5F0D5CC7E97C7658"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "490B0D9FFC9B2259", item: { count: 1, id: "minestuck:computer" } }
+		{ id: "6536BFB5BFF52E62", item: { count: 1, id: "minestuck:old_computer" } }
+		{ id: "1CD826FC6405C9FB", item: { count: 1, id: "minestuck:laptop" } }
+		{ id: "2AA5DB6CA4DC30E1", item: { count: 1, id: "minestuck:crockertop" } }
+		{ id: "78995CA951110792", item: { count: 1, id: "minestuck:hubtop" } }
+		{ id: "51F361E1B587300F", item: { count: 1, id: "minestuck:lunchtop" } }
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Wand Of Symmetry",
+  "icon": "create:wand_of_symmetry{\"create:symmetry_wand\":{enable:1b,orientation_index:0,position:[0.0d,0.0d,0.0d],type:\"empty\"},\"create:symmetry_wand_enable\":0b}",
+  "x": 11.4,
+  "y": 7.9,
+  "deps": {
+    "all": [
+      "powers_galore/veryyyy_precise"
+    ]
+  },
+  "tasks": [
+    {
+      "match_components": "none",
+      "item": "create:wand_of_symmetry",
+      "components": "{\"create:symmetry_wand\":{enable:1b,orientation_index:0,position:[0.0d,0.0d,0.0d],type:\"empty\"},\"create:symmetry_wand_enable\":0b}",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

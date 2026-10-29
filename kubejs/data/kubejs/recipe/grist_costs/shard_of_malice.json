@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {
+    "minestuck:build": 8,
+    "minestuck:garnet": 20,
+    "minestuck:ruby": 8
+  },
+  "ingredient": {
+    "item": "discerning_the_eldritch:shard_of_malice"
+  },
+  "sources": [
+    "minecraft:amethyst_shard"
+  ]
+}

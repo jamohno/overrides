@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 28000,
+    "minestuck:tar": 12000,
+    "minestuck:uranium": 2000,
+    "minestuck:rust": 2000,
+    "minestuck:sulfur": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:wither_assault_shoulder_weapon"
+  }
+}

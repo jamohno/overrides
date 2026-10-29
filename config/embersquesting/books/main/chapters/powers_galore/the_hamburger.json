@@ -1,0 +1,35 @@
+{
+  "title": "§3the hamburger",
+  "description": [
+    {
+      "width": 100,
+      "height": 300,
+      "texture": "kubejs:textures/item/sbaht1.png",
+      "type": "image"
+    }
+  ],
+  "x": 3.8999999999999986,
+  "y": 1.1999999999999997,
+  "deps": {
+    "all": [
+      "planetastic/mine"
+    ]
+  },
+  "tasks": [
+    {
+      "advancement": "minecraft:story/iron_tools",
+      "type": "advancement"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "farmersdelight:hamburger",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 1.5,
+  "shape": "none"
+}

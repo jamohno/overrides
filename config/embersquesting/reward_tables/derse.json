@@ -1,0 +1,23 @@
+{
+  "title": "Derse",
+  "options": [
+    {
+      "item": "minestuck:derse_rough_metallith",
+      "count": 32,
+      "type": "item",
+      "weight": 10
+    },
+    {
+      "item": "minestuck:derse_rough_core",
+      "count": 32,
+      "type": "item",
+      "weight": 5
+    },
+    {
+      "item": "minestuck:derse_refined_core",
+      "count": 32,
+      "type": "item",
+      "weight": 5
+    }
+  ]
+}

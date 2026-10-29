@@ -1,0 +1,32 @@
+{
+  "title": "Donn",
+  "icon": "kubejs:textures/item/donn.png",
+  "order": 18,
+  "scope": "team",
+  "group": "browser",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -8.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/donnbrowser.png",
+        "type": "image"
+      },
+      "x": -1.3571434
+    },
+    {
+      "y": -2.320813,
+      "width": 4.285714,
+      "height": 6.391626,
+      "content": {
+        "texture": "kubejs:textures/item/uupester.png",
+        "type": "image"
+      },
+      "x": 0.48214293
+    }
+  ]
+}

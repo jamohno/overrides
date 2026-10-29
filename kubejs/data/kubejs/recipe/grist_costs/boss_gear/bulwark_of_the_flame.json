@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 20000,
+    "minestuck:tar": 8000,
+    "minestuck:sulfur": 1500,
+    "minestuck:garnet": 1200,
+    "minestuck:ruby": 800
+  },
+  "ingredient": {
+    "item": "cataclysm:bulwark_of_the_flame"
+  }
+}

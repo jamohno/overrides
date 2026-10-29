@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:tall_beach_grass"
+  },
+  "sources": [
+    "minecraft:sand",
+    "minecraft:tall_grass"
+  ]
+}

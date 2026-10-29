@@ -1,0 +1,48 @@
+{
+  "title": "&#824d18fledgling doombringer",
+  "description": [
+    "&#824d18UU: those spellbooks everyone carries aro↺nd. theres orbs that make the fire ones hit harder. get one",
+    "",
+    "&#824d18UU: fire is good for doom. things b↺rn and then theyre gone. no small talk",
+    "",
+    "&#824d18UU: i respect that ★★★★"
+  ],
+  "icon": "irons_spellbooks:fire_upgrade_orb",
+  "x": 3.424999999999999,
+  "y": 0.6000000000000001,
+  "deps": {
+    "all": [
+      "doom/824d18controlled_explosion"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:fire_upgrade_orb",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"unctuousUndertaking\",\"color\":\"#824D18\"},{\"text\":\" [\"},{\"text\":\"UU\",\"color\":\"#824D18\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:backpack"
+    }
+  ],
+  "type": "sophisticatedbackpacks:basic_backpack",
+  "category": "misc",
+  "key": {
+    "P": { "tag": "minestuck:planks/aspect" },
+    "L": { "tag": "c:leathers" },
+    "S": { "tag": "c:strings" }
+  },
+  "pattern": [
+    "SLS",
+    "SPS",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:backpack"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "irons_spellbooks:divine_soulshard"
+  },
+  "sources": [
+    "irons_spellbooks:divine_pearl",
+    "minecraft:echo_shard"
+  ]
+}

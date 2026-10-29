@@ -1,0 +1,42 @@
+{
+  "title": "mySBURB",
+  "icon": "minestuck:textures/gui/desktop_icon/sburb_server.png",
+  "scope": "team",
+  "group": "apps",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -7.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "opacity": 0.98039216,
+        "texture": "kubejs:textures/item/mysburb.png",
+        "type": "image"
+      },
+      "x": -11.357143
+    },
+    {
+      "y": 0.24285716,
+      "width": 1.7142857,
+      "height": 1.7142857,
+      "content": {
+        "texture": "kubejs:textures/item/gate.png",
+        "type": "image"
+      },
+      "x": 0.24285716
+    },
+    {
+      "y": 0.34285712,
+      "width": 1.7142857,
+      "height": 1.7142857,
+      "content": {
+        "texture": "kubejs:textures/item/gate.png",
+        "type": "image"
+      },
+      "x": 10.242858
+    }
+  ]
+}

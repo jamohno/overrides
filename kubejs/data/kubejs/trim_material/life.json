@@ -1,0 +1,6 @@
+{
+  "asset_name": "life",
+  "description": {"text": "Life", "color": "#cbc3b5"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.05
+}

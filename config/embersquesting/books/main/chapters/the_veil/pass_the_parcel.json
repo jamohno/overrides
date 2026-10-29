@@ -1,0 +1,57 @@
+{
+  "title": "§2Pass the Parcel",
+  "description": [
+    "§7>§r In the §aOverworld§r, thousands of years ago, a Frog Temple lands through a §bSKAIAN DEFENSE PORTAL§r. Thousands of years later, a player opens it.",
+    "",
+    "§7>§r §aFind this Frog Temple§r in §8the Veil§r and place §aSburb Code§r and §cComputer Parts§r inside the &#8D5419base§r of the &#FF09DBLotus Time Capsule§r.",
+    "",
+    "§7>§r It is said that when the §8Reckoning§r starts, Skaia will activate it's defense portals and send the Frog Temple back in time to the §aOverworld§r.",
+    "",
+    {
+      "width": 50,
+      "height": 50,
+      "texture": "kubejs:textures/item/ecto1.png",
+      "type": "image"
+    },
+    {
+      "width": 50,
+      "height": 50,
+      "texture": "kubejs:textures/item/ecto2.png",
+      "type": "image"
+    },
+    "",
+    "§7> §8THIS CAMERA HAS A SELFIE MODE.§r",
+    "§7> §fWOW. WHAT AN INVENTION.§r",
+    "§7> §8PLAYER I SEE YOU HAVE A CAMERA TOO WOULD YOU LIKE SOME EXTRA FILM AND DYE.§r",
+    "§7> §fI WILL PUT IT IN SOME CARDBOARD.§r"
+  ],
+  "icon": "minestuck:green_stone_brick_lotus",
+  "x": 9.2,
+  "y": 1.4000000000000004,
+  "deps": {
+    "all": [
+      "the_veil/ecto_licious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:floral_receipt",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "create:cardboard_package_10x8",
+      "components": "{\"create:package_contents\":[{item:{count:2,id:\"exposure:color_film\"},slot:0},{item:{count:32,id:\"minecraft:cyan_dye\"},slot:1},{item:{count:32,id:\"minecraft:magenta_dye\"},slot:2},{item:{count:32,id:\"minecraft:yellow_dye\"},slot:3},{item:{count:32,id:\"minecraft:black_dye\"},slot:4}]}",
+      "type": "item"
+    },
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

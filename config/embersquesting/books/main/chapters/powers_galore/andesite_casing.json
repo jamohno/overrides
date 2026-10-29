@@ -1,0 +1,30 @@
+{
+  "title": "Andesite Casing",
+  "icon": "create:andesite_casing",
+  "x": 11.4,
+  "y": 1.9,
+  "deps": {
+    "all": [
+      "powers_galore/andesite_alloy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:andesite_casing",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "§7>§r Cook",
+  "description": [
+    "§7SPRITE:§r The §6Cookalyzer§r cooks food using uranium!!!! WOW!!!!!"
+  ],
+  "icon": "minestuck:uranium_cooker",
+  "x": 10.6,
+  "y": 3.8,
+  "deps": {
+    "all": [
+      "planetastic/connect",
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:uranium_cooker",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Industrial Turbine",
+  "icon": "mekanismgenerators:turbine_blade",
+  "x": 14.8,
+  "y": 6.9,
+  "deps": {
+    "all": [
+      "powers_galore/heat_generator"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "mekanismgenerators:turbine_blade",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:rotational_complex",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:electromagnetic_coil",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:turbine_rotor",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:turbine_casing",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:turbine_valve",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:turbine_vent",
+      "type": "item"
+    },
+    {
+      "item": "mekanismgenerators:saturating_condenser",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

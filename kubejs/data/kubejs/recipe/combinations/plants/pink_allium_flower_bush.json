@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "biomeswevegone:pink_allium"
+  },
+  "input2": {
+    "item": "biomeswevegone:shrub"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:pink_allium_flower_bush"
+}

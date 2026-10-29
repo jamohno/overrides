@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:cattail_sprout"
+  },
+  "sources": [
+    "minecraft:water_bucket",
+    "minecraft:short_grass"
+  ]
+}

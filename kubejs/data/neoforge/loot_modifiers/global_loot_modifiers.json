@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "entries": [
+    "kubejs:artifacts_medium_basic",
+    "kubejs:artifacts_medium_supply",
+    "kubejs:artifacts_medium_vault",
+    "kubejs:artifacts_medium_ominous_vault",
+    "kubejs:artifacts_lich_table"
+  ]
+}

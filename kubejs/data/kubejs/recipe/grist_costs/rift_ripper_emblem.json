@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "discerning_the_eldritch:rift_ripper_emblem"
+  },
+  "sources": [
+    "minecraft:ender_eye",
+    "minecraft:shulker_shell"
+  ]
+}

@@ -1,0 +1,80 @@
+[taming]
+	# Default: 30.0
+	# Range: 0.0 ~ 100.0
+	maxHealthPercentage = 30.0
+	hostileMobsOnly = true
+	# Default: 33.3
+	# Range: 0.0 ~ 100.0
+	unsuccessfulTamingChance = 33.3
+	untameableEntities = []
+	# Default: -1
+	# Range: > -1
+	maxPetCount = -1
+
+[friendlyFire]
+	ownerCanAttackPets = true
+	petsCanAttackPets = false
+
+[behavior]
+	disableBuiltInHostility = true
+	enablePetInventory = true
+	enableCollarSlot = true
+	enablePetSitting = true
+	forgiveAttacksOnSit = true
+	flyingPetsHoverWhenSitting = true
+	swimmingPetsStayStillWhenSitting = true
+	hideTamedBossBars = true
+	tamedMonstersPreventSleep = false
+	enablePetDeathMessages = true
+	enableEggConvertedFeedback = false
+
+[riding]
+	enablePetRiding = true
+	useWhitelist = false
+	whitelist = []
+	blacklist = []
+	allowRidingWithoutSaddle = true
+	riddenPetsAttackOnClick = true
+	# Default: 0.35
+	# Range: 0.05 ~ 2.0
+	flyingPetAscentSpeed = 0.35
+	# Default: 0.35
+	# Range: 0.05 ~ 2.0
+	flyingPetDescentSpeed = 0.35
+	# Default: 1.0
+	# Range: 0.1 ~ 5.0
+	flyingPetSpeedMultiplier = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 5.0
+	swimmingPetSpeedMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 60
+	riddenAttackCooldownTicks = 10
+
+[collar]
+	#Allowed Values: DEFENSIVE, AGGRESSIVE, PASSIVE, WANDER, GUARD
+	defaultCombatMode = "AGGRESSIVE"
+	# Default: 4
+	# Range: 1 ~ 32
+	defaultFollowDistance = 4
+	# Default: 2
+	# Range: 1 ~ 16
+	minFollowDistance = 2
+	# Default: 32
+	# Range: 4 ~ 64
+	maxFollowDistance = 32
+	# Default: 20
+	# Range: 5 ~ 128
+	defaultTeleportDistance = 20
+	# Default: 8
+	# Range: 5 ~ 32
+	minTeleportDistance = 8
+	# Default: 64
+	# Range: 16 ~ 200
+	maxTeleportDistance = 64
+	defaultTeleportEnabled = true
+	defaultPreferRangedAttack = true
+	defaultDefendOtherPets = true
+	defaultRetaliateWhenHurt = true
+	enableCollarRespawn = true
+	enableCollarModels = true

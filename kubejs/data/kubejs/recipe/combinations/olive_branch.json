@@ -1,0 +1,7 @@
+{
+  "type": "minestuck:combination",
+  "input1": { "item": "minecraft:acacia_sapling" },
+  "input2": { "item": "minestuck:blood_aspect_sapling" },
+  "mode": "and",
+  "output": "kubejs:mediation_stick"
+}

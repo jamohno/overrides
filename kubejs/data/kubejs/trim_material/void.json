@@ -1,0 +1,6 @@
+{
+  "asset_name": "void",
+  "description": {"text": "Void", "color": "#032365"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.06
+}

@@ -1,0 +1,63 @@
+{
+	id: "43F8ABA66A0D25FE"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			id: "2F61595C1403E821"
+			item: {
+				count: 1
+				id: "minestuck:frog"
+			}
+			weight: 7.0f
+		}
+		{
+			id: "4BD583BD1BEAC275"
+			item: {
+				count: 1
+				id: "minestuck:music_disc_retro_battle"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "6CB71779ED4FB202"
+			item: {
+				count: 1
+				id: "crockercorpdelight:dark_sapling"
+			}
+			weight: 0.5f
+		}
+		{ id: "1D97F675D876BF58", item: { count: 1, id: "whimsy_deco:froggy_chair" } }
+		{ id: "7ECF08419D7FF4A2", item: { count: 1, id: "whimsy_deco:orange_froggy_chair" } }
+		{ id: "0C8F0CC9A45D4B43", item: { count: 1, id: "whimsy_deco:yellow_froggy_chair" } }
+		{ id: "3294F17D8C9FDFBE", item: { count: 1, id: "whimsy_deco:blue_froggy_chair" } }
+		{ id: "751F062C5F8D372E", item: { count: 1, id: "whimsy_deco:pink_froggy_chair" } }
+		{ id: "76280BDC0C437DEA", item: { count: 1, id: "minestuck:mini_frog_statue" } }
+		{
+			id: "3E26418BBBE1818A"
+			item: {
+				components: {
+					"minestuck:frog_traits": {
+						variant: "susan"
+					}
+				}
+				count: 1
+				id: "minestuck:frog"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "263EE33FD9B2BA3A"
+			item: {
+				components: {
+					"minestuck:frog_traits": {
+						variant: "totally_normal"
+					}
+				}
+				count: 1
+				id: "minestuck:frog"
+			}
+			weight: 0.3f
+		}
+	]
+}

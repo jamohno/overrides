@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:poison_ivy"
+  },
+  "sources": [
+    "minecraft:vine",
+    "minecraft:spider_eye"
+  ]
+}

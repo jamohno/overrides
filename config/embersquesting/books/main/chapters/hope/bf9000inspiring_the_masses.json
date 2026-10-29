@@ -1,0 +1,45 @@
+{
+  "title": "&#bf9000inspiring the masses~♪",
+  "icon": "kubejs:rose_bouquet",
+  "x": 2.124999999999999,
+  "y": 1.5499999999999998,
+  "deps": {
+    "all": [
+      "hope/bf9000stage_ready"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:rose_bouquet",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"ferocious(xeriscape)\",\"color\":\"#BF9000\"},{\"text\":\" [\"},{\"text\":\"f(x)\",\"color\":\"#BF9000\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:hope_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

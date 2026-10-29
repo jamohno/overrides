@@ -1,0 +1,31 @@
+{
+  "title": "§5𝄞 BRO IS A SONGWRITER",
+  "icon": "irons_spellbooks:common_ink",
+  "x": 2.4,
+  "y": 6.4,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:common_ink",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

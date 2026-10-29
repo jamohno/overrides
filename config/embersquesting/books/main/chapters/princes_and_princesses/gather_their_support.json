@@ -1,0 +1,40 @@
+{
+  "title": "§5Gather Their \"Support\"",
+  "description": [
+    "§5§oNow listen kid, I need some contigency. If things with the Black King & Queen go haywire, I need numbers on my side so I can rise up and take the throne. Some pledges of loyalty, in the form of signatures, would be great.",
+    "",
+    "§5§oIf you can head to the &#FF03FEBarracks§5, theres some knives and paper. &#FF03FEHolding a flint knife, with some paper in your other hand§5, should be enough to intimidate a &#FF03FEpawn§5 into giving you a signature. "
+  ],
+  "icon": "kubejs:derse_signature",
+  "x": 4,
+  "y": 7.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/got_guts"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:derse_signature",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:transportalizer",
+      "type": "item"
+    },
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

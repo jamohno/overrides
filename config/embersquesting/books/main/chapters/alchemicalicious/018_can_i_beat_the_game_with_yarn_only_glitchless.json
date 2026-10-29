@@ -1,0 +1,26 @@
+{
+  "title": "[018] can i beat the game with yarn only? (glitchless)",
+  "description": [
+    "§7=================================§r",
+    "§7by §rjesterJudge",
+    "§7=================================§r"
+  ],
+  "icon": "kubejs:matriyarn",
+  "x": 21,
+  "y": 8.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/011_character_customization_and_you",
+      "alchemicalicious/012_stuck_on_hornband_recipe_need_advice_spoilers"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:matriyarn",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

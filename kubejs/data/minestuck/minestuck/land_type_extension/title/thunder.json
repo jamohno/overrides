@@ -1,0 +1,64 @@
+{
+  "structure_sets": [
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 16,
+          "separation": 6,
+          "salt": 1735000103,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:bomb",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 200,
+          "separation": 165,
+          "salt": 1735000109,
+          "exclusion_zone": {
+            "chunk_count": 8,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:doom_qb",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "structure_set": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "spacing": 48,
+          "separation": 32,
+          "salt": 1735000126,
+          "exclusion_zone": {
+            "chunk_count": 4,
+            "other_set": "minestuck:land_gate"
+          }
+        },
+        "structures": [
+          {
+            "structure": "kubejs:doom_lair",
+            "weight": 1
+          }
+        ]
+      }
+    }
+  ]
+}

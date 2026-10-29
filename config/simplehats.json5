@@ -1,0 +1,27 @@
+{
+	"COMMON": {
+		"keepHatOnDeath": true,
+		"seasonalBagChance": 5,
+		"allowHatInHelmetSlot": false,
+		"entityLoot": {
+			"enableMobLoot": true,
+			"entityNoneWeight": 190,
+			"entityCommonWeight": 4,
+			"entityUncommonWeight": 3,
+			"entityRareWeight": 2,
+			"entityEpicWeight": 1
+		},
+		"chestLoot": {
+			"enableChestLoot": true,
+			"chestNoneWeight": 150,
+			"chestCommonWeight": 20,
+			"chestUncommonWeight": 15,
+			"chestRareWeight": 10,
+			"chestEpicWeight": 5
+		}
+	},
+	"CLIENT": {
+		"forceFirstPersonNoRender": false,
+		"hatYOffset": 0.0
+	}
+}

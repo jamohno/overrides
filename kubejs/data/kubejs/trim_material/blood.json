@@ -1,0 +1,6 @@
+{
+  "asset_name": "blood",
+  "description": {"text": "Blood", "color": "#3b1709"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.11
+}

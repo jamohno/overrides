@@ -1,0 +1,36 @@
+{
+  "title": "&#71274fTo End All Suffering",
+  "description": [
+    "Enter the Medium as a Hero of Heart",
+    "-- has created the memo  --",
+    "",
+    "--  Closed Memo --"
+  ],
+  "icon": "kubejs:dd_chat",
+  "x": 0.75,
+  "y": 0.5,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"heart\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"devouringDevotion\",\"color\":\"#71274F\"},{\"text\":\" [\"},{\"text\":\"DD\",\"color\":\"#71274F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

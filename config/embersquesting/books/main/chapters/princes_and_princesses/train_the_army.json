@@ -1,0 +1,34 @@
+{
+  "title": "§6Train the Army",
+  "description": [
+    "§o§6Your Highness! The war effort continues; I've left an array of iron sword making materials in the §eRoyal Barracks at 83, 12, -340§6. If you're at all able to, could you please §ecraft the necessary weapons§6 and §egive them to citizens§6 you deem you worthy of joining our army? Oh how you always seem to have such a knack for the thing."
+  ],
+  "icon": "minecraft:iron_sword",
+  "x": 3,
+  "y": 2.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/feed_the_prisoners"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:prospit_token",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "prospit",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

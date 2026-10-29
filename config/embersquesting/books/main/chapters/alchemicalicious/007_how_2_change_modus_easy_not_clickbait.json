@@ -1,0 +1,25 @@
+{
+  "title": "[007] how 2 change modus (easy) (not clickbait)",
+  "description": [
+    "§7=================================§r",
+    "§7by §rgraphicTopiarist",
+    "§7=================================§r"
+  ],
+  "x": 12,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) item_tag(minestuck:modus_card) not(or(item(minestuck:queue_modus_card) item(minestuck:stack_modus_card) item(minestuck:tree_modus_card) item(minestuck:hashmap_modus_card))))",
+      "type": "item",
+      "title": "Any Non-Starter Modus"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

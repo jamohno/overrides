@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "multiplier": 0.5,
+  "ingredient": {
+    "item": "kubejs:meteoric_transportablizer"
+  },
+  "sources": [
+    "minestuck:transportalizer",
+    "kubejs:paradox_slime_bucket"
+  ]
+}

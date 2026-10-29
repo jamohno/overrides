@@ -1,0 +1,41 @@
+{
+  "title": "&#0a20d4Thicker Than Water",
+  "description": [
+    "-- &#0a20d4growingSocialite [GS]§r has created the memo KINDA_LIKE_A_COLLAB --",
+    "&#0a20d4GS: WOAHHHHHHHHHHHHHHHHH",
+    "",
+    "&#0a20d4GS: YOU'RE A BLOOD PLAYER??",
+    "",
+    "&#0a20d4GS: I SHOULD'VE KNOWN. NOBODY THAT AWESOME GETS ANY OTHER ASPECT. I'M ONE TOO!!",
+    "",
+    "&#0a20d4GS: YOUR PLANET'S IN SOME SERIOUS TROUBLE THOUGH MY FRIEND. LET'S GET THIS STARTEEEEEEDDDDD",
+    "-- &#0a20d4GS§r Closed Memo --"
+  ],
+  "icon": "kubejs:gs_chat",
+  "x": 0.625,
+  "y": 0.5,
+  "tasks": [
+    {
+      "match_components": "strict",
+      "item": "kubejs:inventory_upgrade",
+      "components": "{\"minecraft:lore\":['{\"color\":\"gray\",\"italic\":false,\"text\":\"blood\"}']}",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "invisible_until_complete": true,
+  "shape": "none"
+}

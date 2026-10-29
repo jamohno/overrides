@@ -1,0 +1,19 @@
+{
+  "title": "Paint Spray",
+  "icon": "civilian_aviation:paint_spray",
+  "x": 8.4,
+  "y": 6.9,
+  "deps": {
+    "all": [
+      "powers_galore/plane"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "civilian_aviation:paint_spray",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

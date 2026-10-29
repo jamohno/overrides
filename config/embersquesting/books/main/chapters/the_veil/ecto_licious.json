@@ -1,0 +1,53 @@
+{
+  "title": "§aEcto-licious",
+  "description": [
+    "> §8YOU THERE. §fPLAYER.",
+    "§7> §rYou strive to remember your first moments in the §aOVERWORLD§r. You were stranded on a strange meteor that had crash landed in the §aOVERWORLD§r, with a mysterious §2ECTOBIOLOGY LAB§r inside.",
+    "",
+    "§7> §rYou must find this meteor once more and create a §aPARADOX CLONE§r of yourself to be sent back to the Overworld, ready to start your journey.",
+    "",
+    "§7> §rTo do this, you must travel to the §8VEIL§r, a belt of asteroids on the outer edge of the &zINCIPISPHERE§r.",
+    "",
+    "---------------------------------",
+    "§7In the §aOVERWORLD§7, years in the future, but not many...§r",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/ecto3.png",
+      "type": "image"
+    },
+    "",
+    "§7A §rWistful Provisioner§7 and §8Bashful Patroller§7 encounter a mysterious egg shaped capsule.",
+    "---------------------------------"
+  ],
+  "icon": "kubejs:paradox_slime_bucket",
+  "y": 3.5,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:meteoric_transportablizer",
+      "type": "item"
+    },
+    {
+      "dimension": "minestuck:veil",
+      "type": "location",
+      "title": "§7>§r Enter",
+      "icon": "kubejs:space1"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

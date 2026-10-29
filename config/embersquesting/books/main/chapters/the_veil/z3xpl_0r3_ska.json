@@ -1,0 +1,37 @@
+{
+  "title": "&z3XPL-0R3.ska",
+  "description": [
+    "§7> §r&zAdventure§r is an essential ingredient in the fabric of a universe. Gathering experiences, making memories and encoding this into the Genetic Code of your &zGenesis Frog§r will be essential.",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/ecto5.png",
+      "type": "image"
+    }
+  ],
+  "icon": "kubejs:explorationusb",
+  "x": 5.8,
+  "y": 0.5999999999999996,
+  "deps": {
+    "all": [
+      "the_veil/ecto_licious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:explorationusb",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ectocord",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

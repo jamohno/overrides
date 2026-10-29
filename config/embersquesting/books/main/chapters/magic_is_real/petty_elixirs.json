@@ -1,0 +1,39 @@
+{
+  "title": "§dPetty Elixirs",
+  "icon": "irons_spellbooks:oakskin_elixir",
+  "x": 8.55,
+  "y": 9.75,
+  "deps": {
+    "all": [
+      "magic_is_real/witch_s_brew"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:oakskin_elixir",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:invisibility_elixir",
+      "type": "item"
+    },
+    {
+      "item": "irons_spellbooks:evasion_elixir",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

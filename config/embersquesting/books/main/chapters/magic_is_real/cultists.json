@@ -1,0 +1,36 @@
+{
+  "title": "§dCULTISTS!?",
+  "icon": "kubejs:eye_of_malice",
+  "x": 12.600000000000001,
+  "y": 9.600000000000001,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:eye_of_malice",
+      "type": "item"
+    },
+    {
+      "structure": "discerning_the_eldritch:cultist_base",
+      "type": "location"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "complete": "any",
+  "size": 1.5,
+  "shape": "hexagon"
+}

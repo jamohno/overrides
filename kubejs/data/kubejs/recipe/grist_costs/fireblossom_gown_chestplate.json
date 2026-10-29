@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "hazennstuff:fireblossom_gown_chestplate"
+  },
+  "sources": [
+    "minecraft:leather_chestplate",
+    "minecraft:blaze_powder"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:bone_block"
+  },
+  "input2": {
+    "item": "minecraft:soul_lantern"
+  },
+  "mode": "and",
+  "output": "irons_spellbooks:dead_king_phylactery_shard"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:bread"
+  },
+  "input2": {
+    "item": "minecraft:egg"
+  },
+  "mode": "or",
+  "output": "farmers_spell:foodgeist_spawn_egg"
+}

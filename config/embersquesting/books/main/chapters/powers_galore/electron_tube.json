@@ -1,0 +1,31 @@
+{
+  "title": "Electron Tube",
+  "icon": "create:electron_tube",
+  "x": 13.4,
+  "y": 3.9,
+  "deps": {
+    "all": [
+      "powers_galore/polished_rose_quartz",
+      "powers_galore/iron_sheet"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:electron_tube",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

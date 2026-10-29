@@ -1,0 +1,23 @@
+[feedback]
+	enableTamedSuccessFeedback = false
+	enablePetHealedFeedback = false
+	enablePetSittingFeedback = false
+	enablePetStandingFeedback = false
+	enableCollarBoundFeedback = false
+	enableMountControlledFeedback = false
+	enableTamingFailedFeedback = false
+	enableTooHealthyFeedback = false
+	enableAlreadyVanillaTamedFeedback = false
+	enableAlreadyTamedOtherFeedback = false
+	enablePetFullHealthFeedback = false
+	enablePetLimitReachedFeedback = false
+	enableSaddleRequiredFeedback = false
+	enableMountUncontrolledFeedback = false
+	enablePetDeathMessages = false
+	enablePetDiedFeedback = false
+	enablePetRespawnedFeedback = false
+	enablePetRespawnFailedFeedback = false
+	enableEggConvertedFeedback = false
+
+[visuals]
+	enableCollarModels = true

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:chained_book"
+  },
+  "input2": {
+    "item": "mowziesmobs:bluff_rod"
+  },
+  "mode": "or",
+  "output": "gtbcs_geomancy_plus:bluff_instruction_manual"
+}

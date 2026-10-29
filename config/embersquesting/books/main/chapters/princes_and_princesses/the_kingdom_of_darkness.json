@@ -1,0 +1,50 @@
+{
+  "title": "§5The Kingdom of Darkness",
+  "description": [
+    "§7Crouch + Interacting§r with a Bed prompts you to select your Lunar Sway and begin §5DREAMING§r.",
+    "",
+    "While dreaming, you can not break or place blocks directly, but can interact with the world around you.",
+    "",
+    "To stop dreaming, you can §7Crouch for 5 seconds§r, or §7Crouch + Interact§r with a Bed.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "§5Derse§r, also known as the §5Kingdom of Darkness§r, is one of the two kingdoms in the Incipisphere. Derse wages an unending war against the §6Light Kingdom§r, §6Prospit§r, striving for the destruction of Skaia, to which Derse seeks to activate §8The Reckoning§r and destroy it. This battle is one that Prospit is always destined to lose.",
+    {
+      "style": "page",
+      "type": "divider"
+    },
+    "Lunar Sway: §5Derse§r ",
+    "",
+    "Derse Dreamers have personalities marked by a distinct and restless skepticism. Whatever their waking circumstances, chances are they will live in a state of dissatisfaction. Rebellion is in their blood, manifesting whether they are fighting back against a fascist dictatorship, or the most recent trend in casual footwear. Derse Dreamers are cerebral and self-aware; they have a far better grasp on the landscape of their own minds than on the world around them, which they can find alienating and confusing. But as so much of their identity is built on control, they will do their utmost to hide any insecurities, often with false humility or self-deprecating humor. They may be inflexible and pessimistic, but they are also great problem solvers, facing conflicts head-on with shrewd, calculating minds. They see one true path among an infinite snarl of wrong ones. They tend to be introverted, but if you win their trust Derse Dreamers are extremely powerful allies. However, they find sincere vulnerability difficult and will often keep people at arm's length. Letting go and living in the moment is hard for a Derse Dreamer; they constantly look toward the future and analyze the past."
+  ],
+  "icon": "minestuck:textures/environment/derse.png",
+  "x": 18.75,
+  "y": 6.25,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "dimension": "minestuck:derse",
+      "type": "location",
+      "title": "§7>§r Sleep",
+      "icon": "minestuck:derse_shirt"
+    }
+  ],
+  "rewards": [
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "optional": true,
+  "lines_in": "hover",
+  "lines_out": "hover",
+  "size": 2.0,
+  "shape": "none"
+}

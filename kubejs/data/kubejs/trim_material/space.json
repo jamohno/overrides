@@ -1,0 +1,6 @@
+{
+  "asset_name": "space",
+  "description": {"text": "Space", "color": "#181818"},
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.04
+}

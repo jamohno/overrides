@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:lazarus_bellflower"
+  },
+  "sources": [
+    "biomeswevegone:alpine_bellflower",
+    "minecraft:red_dye"
+  ]
+}

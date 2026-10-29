@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 25000,
+    "minestuck:iodine": 10000,
+    "minestuck:cobalt": 2000,
+    "minestuck:mercury": 1500,
+    "minestuck:amethyst": 1000
+  },
+  "ingredient": {
+    "item": "cataclysm:soul_render"
+  }
+}

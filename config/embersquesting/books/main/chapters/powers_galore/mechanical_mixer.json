@@ -1,0 +1,30 @@
+{
+  "title": "Mechanical Mixer",
+  "icon": "create:mechanical_mixer",
+  "x": 11.4,
+  "y": 4.9,
+  "deps": {
+    "all": [
+      "powers_galore/mechanical_press"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:mechanical_mixer",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

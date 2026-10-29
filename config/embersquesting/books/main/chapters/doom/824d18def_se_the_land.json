@@ -1,0 +1,51 @@
+{
+  "title": "&#824d18def↺se the land ★",
+  "description": [
+    "&#824d18UU: right click a bomb with the kit in yo↺r hand. ONLY with the kit. no kit and it goes off in yo↺r face ★",
+    "",
+    "&#824d18UU: one kit per bomb. sixteen of them. ok?"
+  ],
+  "icon": "kubejs:defused_bomb",
+  "x": 2.5249999999999986,
+  "y": 1.425,
+  "deps": {
+    "all": [
+      "doom/824d18def_sal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:defused_bomb",
+      "count": 16,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"unctuousUndertaking\",\"color\":\"#824D18\"},{\"text\":\" [\"},{\"text\":\"UU\",\"color\":\"#824D18\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "item": "kubejs:doom_scroll",
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

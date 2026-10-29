@@ -1,0 +1,25 @@
+{
+  "title": "[012] stuck on hornband recipe, need advice (Spoilers)",
+  "description": [
+    "§7=================================§r",
+    "§7by §rmrneilCS",
+    "§7=================================§r"
+  ],
+  "x": 22,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) or(item(minestuck_extended:aradia_horns) item(minestuck_extended:tavros_horns) item(minestuck_extended:sollux_horns) item(minestuck_extended:nepeta_horns) item(minestuck_extended:kanaya_horns) item(minestuck_extended:terezi_horns) item(minestuck_extended:vriska_horns) item(minestuck_extended:equius_horns) item(minestuck_extended:gamzee_horns) item(minestuck_extended:eridan_horns) item(minestuck_extended:feferi_horns) item(minestuck_extended:feferi_horns) item(minestuck_extended:horuss_horns) item(minestuck_extended:vethes_horns) item(minestuck_extended:heresa_horns) item(minestuck_extended:mettax_horns) item(minestuck_extended:nelumi_horns) item(minestuck_extended:drayth_horns) item(minestuck_extended:lorkes_horns) item(minestuck_extended:aramia_horns) item(minestuck_extended:mirala_horns) item(minestuck_extended:avriil_horns) item(minestuck_extended:piscal_horns) item(minestuck_extended:azonyp_horns) item(minestuck_extended:frelsi_horns) item(minestuck_extended:achlys_horns) item(minestuck_extended:renard_horns) item(minestuck_extended:inanis_horns) item(minestuck_extended:stybol_horns) item(minestuck_extended:jensis_horns) item(minestuck_extended:phanes_horns) item(minestuck_extended:devros_horns) item(minestuck_extended:fahrad_horns) item(minestuck_extended:neyhil_horns) item(minestuck_extended:verisi_horns) item(minestuck_extended:nerius_horns) item(minestuck_extended:magnea_horns)))",
+      "type": "item",
+      "title": "Any Hornband"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

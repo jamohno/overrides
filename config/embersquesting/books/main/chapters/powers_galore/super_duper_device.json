@@ -1,0 +1,27 @@
+{
+  "title": "§3super duper device",
+  "icon": "toms_storage:adv_wireless_terminal",
+  "x": 3.1999999999999993,
+  "y": 9.4,
+  "deps": {
+    "all": [
+      "powers_galore/wireless_terminal"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:adv_wireless_terminal",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "artifact",
+      "type": "table",
+      "claim_all": false
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

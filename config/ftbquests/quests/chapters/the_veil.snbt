@@ -1,0 +1,718 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	filename: "the_veil"
+	group: "22D4E158356BE0A6"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "kubejs:paradox_slime_bucket"
+	}
+	id: "042CC64B10DD3C3C"
+	images: [{
+		height: 20.76923076923077d
+		id: "43173AA4DAB0C12C"
+		image: "kubejs:item/ectocord"
+		order: -2
+		rotation: 0.0d
+		width: 30.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:paradox_slime_bucket"
+			}
+			icon_scale: 1.75d
+			id: "781E5D12F401E63E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1243677E2FEE1CF6"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "3200EB845EAEBE43"
+					item: { count: 1, id: "kubejs:meteoric_transportablizer" }
+					type: "item"
+				}
+				{
+					dimension: "minestuck:veil"
+					icon: {
+						id: "kubejs:space1"
+					}
+					id: "2A90845F8240F322"
+					type: "dimension"
+				}
+			]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["781E5D12F401E63E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "betteradvancedtooltips:textures/font/icons/bubble.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.75d
+			id: "362D1C59144B8E23"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2202AE300CF8C9F4"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "47618C138C2317AB"
+				type: "checkmark"
+			}]
+			x: -0.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["781E5D12F401E63E"]
+			icon: {
+				components: {
+					"minestuck:frog_traits": {
+						variant: "totally_normal"
+					}
+				}
+				id: "minestuck:frog"
+			}
+			icon_scale: 1.75d
+			id: "54005E4C6B40E19A"
+			rewards: [
+				{
+					id: "5D41BC1AE06634DC"
+					item: {
+						count: 1
+						id: "minestuck:bug_net"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C2BDCB8982BC80F"
+					table_id: 4897853325997581822L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						components: {
+							"minestuck:frog_traits": {
+								variant: "totally_normal"
+							}
+						}
+						id: "minestuck:frog"
+					}
+					id: "669C736B8B8D6804"
+					observation_type: "entity_type"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minestuck:frog"
+					type: "observation"
+				}
+				{
+					count: 16L
+					id: "22BB94F4AC2FBFAF"
+					item: { count: 1, id: "minestuck:frog" }
+					type: "item"
+				}
+			]
+			x: -3.8d
+			y: 0.4d
+		}
+		{
+			dependencies: ["362D1C59144B8E23"]
+			icon_scale: 1.75d
+			id: "0057EC65780E7982"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59F8A9151D35719E"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7DA833A9B341A74A"
+					item: { count: 1, id: "minestuck:time_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "12C8EFBBC9677CD8"
+					item: { count: 1, id: "minestuck:space_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "5FCFC0F8035938AE"
+					item: { count: 1, id: "minestuck:breath_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "245717FA55A3DF48"
+					item: { count: 1, id: "minestuck:light_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "0122202C7C357AD6"
+					item: { count: 1, id: "minestuck:life_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "69C43DD6EC1B5C94"
+					item: { count: 1, id: "minestuck:hope_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "5AF25F61A3D86AC4"
+					item: { count: 1, id: "minestuck:heart_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "663337684BE98FB3"
+					item: { count: 1, id: "minestuck:void_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "00F6E740E0A12A06"
+					item: { count: 1, id: "minestuck:doom_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "5A93D73B6B412326"
+					item: { count: 1, id: "minestuck:mind_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "460A4EC93E9F8CEE"
+					item: { count: 1, id: "minestuck:blood_aspect_sapling" }
+					type: "item"
+				}
+				{
+					id: "16B10A6288E44EAB"
+					item: { count: 1, id: "minestuck:rage_aspect_sapling" }
+					type: "item"
+				}
+			]
+			x: 2.2d
+			y: -1.4d
+		}
+		{
+			dependencies: ["2F46ED169CD92FDE"]
+			icon_scale: 1.75d
+			id: "6C64BAFEEB766350"
+			rewards: [
+				{
+					id: "325350BEE8DA064D"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								VerseWorksVerse: {
+									Amount: "true"
+									BooleanValue: 1b
+									Label: "Stabilized Realm"
+									Parameter: "stabilizedRealm"
+									Prefix: ""
+									VerseType: "stability"
+								}
+							}
+						}
+						count: 1
+						id: "verseworks:verse"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ED75AEF007A139C"
+					table_id: 4897853325997581822L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "6D33DA726ED20473"
+				item: { count: 1, id: "kubejs:paradox_autoclave" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54005E4C6B40E19A"]
+			icon_scale: 1.75d
+			id: "7FEDFCB0BC3A8590"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B2FF30348339A5"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2F5566B9799BBF8F"
+				item: { count: 1, id: "kubejs:dna_sequencer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.6d
+		}
+		{
+			dependencies: ["7FEDFCB0BC3A8590"]
+			icon: {
+				id: "verseworks:hyper_dust"
+			}
+			icon_scale: 1.75d
+			id: "2F46ED169CD92FDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3380C6406BFDD363"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6A28992D811DCA1A"
+				item: { count: 1, id: "verseworks:hyper_dust" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C64BAFEEB766350"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						VerseWorksHyperBook: {
+							Creator: [I;
+								-1404992425
+								-2146941024
+								-1243301080
+								-384174967
+							]
+							DimensionId: "minecraft:overworld"
+							DimensionName: "Overworld"
+							TargetX: -31.723311839290087d
+							TargetXRot: 54.599968f
+							TargetY: -57.99623109202509d
+							TargetYRot: -20.54956f
+							TargetZ: 86.32845006059615d
+						}
+					}
+					"minecraft:custom_name": "{\"color\":\"light_purple\",\"text\":\"Hyperbook - Overworld\"}"
+					"minecraft:written_book_content": {
+						author: "VerseWorks"
+						pages: [{
+							raw: "\"Bound to Overworld at -32, -58, 86\""
+						}]
+						resolved: 1b
+						title: {
+							raw: "Overworld"
+						}
+					}
+				}
+				id: "verseworks:hyper_book"
+			}
+			icon_scale: 1.75d
+			id: "372FCB957A5EBCA1"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/execute in minestuck:veil run tp @p 0 4 3 180 -15"
+					icon: {
+						id: "minestuck:transportalizer"
+					}
+					id: "2580D55E21E073CB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "12F335D38AA20AC5"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:recall"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "124FF8D056BC58F3"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+				{
+					id: "5A39AFE8DAED94F6"
+					item: { count: 1, id: "verseworks:verse" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "15AF1CCE3F171EEF"
+					item: { count: 1, id: "verseworks:hyper_dust" }
+					type: "item"
+				}
+				{
+					id: "3B3591BCF5C7D199"
+					item: { count: 1, id: "minecraft:writable_book" }
+					type: "item"
+				}
+				{
+					id: "0EE3A9CCB7117344"
+					item: { count: 1, id: "minecraft:cauldron" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4EEAD5D21471502E"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C64BAFEEB766350"]
+			disable_toast: true
+			icon: {
+				id: "minestuck:dark_gray_chess_brick_smooth_slab"
+			}
+			icon_scale: 1.75d
+			id: "5EFFDF796D73FB28"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute in minestuck:veil run tp @p 0 4 3 180 -15"
+					icon: {
+						id: "minestuck:transportalizer"
+					}
+					id: "76D8CD9CA56EB5A9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "279DE3728E8C7DEA"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:recall"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minestuck:block.transportalizer.teleport master @p"
+					disable_reward_screen_blur: true
+					feedback_message: "Transportalized!"
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "03D4C875111DEA9B"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "44C69E2D5CE2BC2D"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["372FCB957A5EBCA1"]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			icon: {
+				id: "kubejs:genesis_tadpole"
+			}
+			icon_scale: 1.75d
+			id: "206C2B38723FCAE0"
+			invisible: true
+			require_sequential_tasks: true
+			rewards: [{
+				auto: "disabled"
+				id: "1753E45F3C441E22"
+				item: {
+					count: 1
+					id: "minestuck_extended:plush_genesis_frog"
+				}
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				advancement: "verseworks:enter_a_new_world"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "kubejs:item/gate"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "179F3436EA6D85F9"
+				type: "advancement"
+			}]
+			x: 7.6d
+			y: 2.0d
+		}
+		{
+			dependencies: ["781E5D12F401E63E"]
+			icon: {
+				id: "minestuck:green_stone_brick_lotus"
+			}
+			icon_scale: 1.75d
+			id: "75B716B17DBF27C6"
+			rewards: [
+				{
+					id: "32DD39B5A964FA28"
+					item: {
+						components: {
+							"create:package_contents": [
+								{
+									item: {
+										count: 2
+										id: "exposure:color_film"
+									}
+									slot: 0
+								}
+								{
+									item: {
+										count: 32
+										id: "minecraft:cyan_dye"
+									}
+									slot: 1
+								}
+								{
+									item: {
+										count: 32
+										id: "minecraft:magenta_dye"
+									}
+									slot: 2
+								}
+								{
+									item: {
+										count: 32
+										id: "minecraft:yellow_dye"
+									}
+									slot: 3
+								}
+								{
+									item: {
+										count: 32
+										id: "minecraft:black_dye"
+									}
+									slot: 4
+								}
+							]
+						}
+						count: 1
+						id: "create:cardboard_package_10x8"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "239F81ABEE8A2988"
+					table_id: 4897853325997581822L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "10AD4EA54CEADD9E"
+				item: { count: 1, id: "kubejs:floral_receipt" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: -4.6d
+		}
+		{
+			dependencies: ["781E5D12F401E63E"]
+			icon: {
+				id: "kubejs:ectobiology_certificate"
+			}
+			icon_scale: 1.75d
+			id: "68221D2DEA5407DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CA5E919AC002DEE"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "27907281522884D4"
+				item: { count: 1, id: "kubejs:ectobiology_certificate" }
+				type: "item"
+			}]
+			x: -0.2d
+			y: -2.2d
+		}
+		{
+			dependencies: ["10CA2B2110E5EBDE"]
+			hide_text_until_complete: true
+			icon_scale: 1.25d
+			id: "6458E254AE0374C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CBCF9A027858D12"
+					table_id: 4897853325997581822L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 5"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "625E8D3B0800A684"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "461372663831380A"
+				item: { count: 1, id: "kubejs:explorationusb" }
+				type: "item"
+			}]
+			x: -9.9d
+			y: 0.6000000000000001d
+		}
+		{
+			dependencies: ["6C64BAFEEB766350"]
+			icon_scale: 1.75d
+			id: "1793EF274F734BAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AE5A4D34AF421E9"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					count: 10L
+					id: "497346550C22CCAA"
+					item: { count: 1, id: "mca:male_villager_spawn_egg" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1CA034CD33716DB6"
+					item: { count: 1, id: "mca:female_villager_spawn_egg" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["781E5D12F401E63E"]
+			icon: {
+				components: {
+					"minestuck:frog_traits": {
+						variant: "susan"
+					}
+				}
+				id: "minestuck:frog"
+			}
+			icon_scale: 1.75d
+			id: "30EB4866AA0E03FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D4231D138B1B653"
+				table_id: 4897853325997581822L
+				type: "random"
+			}]
+			size: 4.0d
+			tasks: [
+				{
+					id: "758A6FDE7D5FD7E0"
+					item: { count: 1, id: "kubejs:techusb" }
+					type: "item"
+				}
+				{
+					id: "2DF8514EC68F218F"
+					item: { count: 1, id: "kubejs:magicusb" }
+					type: "item"
+				}
+				{
+					id: "503441BF206E7377"
+					item: { count: 1, id: "kubejs:alchemizeusb" }
+					type: "item"
+				}
+				{
+					id: "3557C5963A3400E4"
+					item: { count: 1, id: "kubejs:explorationusb" }
+					type: "item"
+				}
+			]
+			x: -5.2d
+			y: 4.2d
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "biomeswevegone:flowering_jacaranda_bush"
+  },
+  "input2": {
+    "item": "minestuck_extended:equius_horns"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:flowering_indigo_jacaranda_bush"
+}

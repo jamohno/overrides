@@ -1,0 +1,15 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 45000,
+    "minestuck:tar": 20000,
+    "minestuck:sulfur": 3000,
+    "minestuck:garnet": 2500,
+    "minestuck:ruby": 2500,
+    "minestuck:cobalt": 1500,
+    "minestuck:mercury": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:the_immolator"
+  }
+}

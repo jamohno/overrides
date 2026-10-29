@@ -1,0 +1,34 @@
+{
+  "title": "Cogwheel",
+  "icon": "create:cogwheel",
+  "x": 10.4,
+  "y": 1.9,
+  "deps": {
+    "all": [
+      "powers_galore/andesite_alloy"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "create:cogwheel",
+      "type": "item"
+    },
+    {
+      "item": "create:large_cogwheel",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

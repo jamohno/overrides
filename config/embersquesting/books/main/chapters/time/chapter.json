@@ -1,0 +1,32 @@
+{
+  "title": "Cat-Sith",
+  "icon": "kubejs:textures/item/catsith.png",
+  "order": 8,
+  "scope": "team",
+  "group": "browser",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "y": -6.401099,
+      "width": 25.714287,
+      "height": 17.802198,
+      "content": {
+        "texture": "kubejs:textures/item/cat-sithbrowser.png",
+        "type": "image"
+      },
+      "x": -1.3571434
+    },
+    {
+      "y": -2.695813,
+      "width": 4.285714,
+      "height": 6.391626,
+      "content": {
+        "texture": "kubejs:textures/item/gapester.png",
+        "type": "image"
+      },
+      "x": -0.017857075
+    }
+  ]
+}

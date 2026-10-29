@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:ruined_book"
+  },
+  "input2": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "mode": "or",
+  "output": "irons_spellbooks:rotten_spell_book"
+}

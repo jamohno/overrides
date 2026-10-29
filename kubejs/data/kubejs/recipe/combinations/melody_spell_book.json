@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "irons_spellbooks:chained_book"
+  },
+  "input2": {
+    "tag": "c:music_discs"
+  },
+  "mode": "or",
+  "output": "tunes_n_tomes:melody_spell_book"
+}

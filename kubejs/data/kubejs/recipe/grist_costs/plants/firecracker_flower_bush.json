@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {},
+  "ingredient": {
+    "item": "biomeswevegone:firecracker_flower_bush"
+  },
+  "sources": [
+    "minecraft:firework_rocket",
+    "minecraft:poppy"
+  ]
+}

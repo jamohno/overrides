@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 120,
+    "minestuck:amethyst": 80,
+    "minestuck:shale": 60,
+    "minestuck:chalk": 40
+  },
+  "ingredient": {
+    "item": "gtbcs_geomancy_plus:bluff_instruction_manual"
+  }
+}

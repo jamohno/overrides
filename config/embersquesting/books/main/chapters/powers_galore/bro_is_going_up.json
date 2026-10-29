@@ -1,0 +1,19 @@
+{
+  "title": "§3bro is going §lup",
+  "x": 23.5,
+  "y": 0.7000000000000002,
+  "deps": {
+    "all": [
+      "powers_galore/the_hamburger"
+    ]
+  },
+  "tasks": [
+    {
+      "tag": "elevatorid:elevators",
+      "type": "item",
+      "title": "Any Elevator"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

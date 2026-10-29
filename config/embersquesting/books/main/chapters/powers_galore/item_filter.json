@@ -1,0 +1,38 @@
+{
+  "title": "Item Filter",
+  "icon": "toms_storage:item_filter",
+  "x": 4.75,
+  "y": 7,
+  "deps": {
+    "all": [
+      "powers_galore/2_inventory_2_furious"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "toms_storage:item_filter",
+      "type": "item"
+    },
+    {
+      "item": "toms_storage:polymorphic_item_filter",
+      "type": "item"
+    },
+    {
+      "item": "toms_storage:tag_item_filter",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "ores",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "square"
+}

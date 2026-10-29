@@ -1,0 +1,474 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood"
+	group: "299E7FAB59E52A5B"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/rhiannon"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "17B4B1162A6DB216"
+	images: [
+		{
+			height: 20.76923076923077d
+			id: "66CFA664199F11DD"
+			image: "kubejs:item/rhiannonbrowser"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.456896551724138d
+			id: "42591C1E71491E20"
+			image: "kubejs:item/gspester"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.0d
+			y: -1.75d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "kubejs:gs_chat"
+			}
+			icon_scale: 1.75d
+			id: "24991B071E5DD0EA"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "140AFB60DAC66069"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1534AFDD0DBBF0C2"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "2809F1A30F5C3E77"
+				item: { components: { "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"blood\"}"] }, count: 1, id: "kubejs:inventory_upgrade" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -9.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E346C2D252E742C"]
+			id: "120FE5016091D9C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CA5E914B3D3CAA6"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "70C8817BFC2215C3"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5E60E2546CC89041"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "3E93B13E26C31B40"
+					item: { count: 1, id: "minestuck:plush_salamander" }
+					type: "item"
+				}
+				{
+					id: "2A467A3E0AA5C99B"
+					item: { count: 1, id: "minestuck:plush_nakagator" }
+					type: "item"
+				}
+				{
+					id: "15F23184ADE65B2F"
+					item: { count: 1, id: "minestuck:plush_iguana" }
+					type: "item"
+				}
+				{
+					id: "7AEDEA7E45609B8F"
+					item: { count: 1, id: "minestuck:plush_turtle" }
+					type: "item"
+				}
+			]
+			x: -6.6000000000000005d
+			y: -1.5000000000000002d
+		}
+		{
+			dependencies: ["24991B071E5DD0EA"]
+			id: "7BF0317A628DFED1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EA187BF4CFA5528"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "383AC7995E22AAC4"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "3D1704A571A8A07C"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "6ED9BDBDE5E4D053"
+				item: { count: 1, id: "minestuck:blood_aspect_sapling" }
+				type: "item"
+			}]
+			x: -8.4d
+			y: -1.5000000000000002d
+		}
+		{
+			dependencies: ["7BF0317A628DFED1"]
+			id: "1E346C2D252E742C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30B54AC2CCF24A16"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "08B766735A56C6D6"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "17ABA539F552297C"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "095A1E36C945CD16"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:healing" } }, count: 1, id: "minecraft:splash_potion" }
+				type: "item"
+			}]
+			x: -7.500000000000001d
+			y: -1.5000000000000002d
+		}
+		{
+			dependencies: ["120FE5016091D9C8"]
+			id: "312DA9AA7F9D4DFB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DC3AA59CB3542E3"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7E8ABA2ECE959D67"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "3362873E9EF8F9E5"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "40F367B561D54DC3"
+				item: { count: 1, id: "kubejs:mediation_stick" }
+				type: "item"
+			}]
+			x: -6.6000000000000005d
+			y: -0.675d
+		}
+		{
+			dependencies: ["312DA9AA7F9D4DFB"]
+			id: "4211A3AB98B3006E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61EEFF29D75B56C4"
+					table_id: 9204769792351976345L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/playsound minecraft:custom.pesteropen master @p"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/warning_20x20.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1665B929AB56927D"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "07955FC74C6B9762"
+					item: {
+						count: 1
+						id: "kubejs:blood_scroll"
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"growingSocialite\",\"color\":\"#0A20D4\"},{\"text\":\" [\"},{\"text\":\"GS\",\"color\":\"#0A20D4\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/chat"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "3A2461BB827CF3C9"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/rung add @p 5"
+					disable_reward_screen_blur: true
+					icon: {
+						components: {
+							"ftbquests:icon": "fancymenu:textures/contextmenu/icons/arrow_up.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5E2920501BB5D5A0"
+					ignore_reward_blocking: true
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "66E292995A1C59D1"
+					item: { count: 1, id: "kubejs:salamander_turtle_agreement" }
+					type: "item"
+				}
+				{
+					id: "1D7050AB7AF9E4B8"
+					item: { count: 1, id: "kubejs:salamander_iguana_agreement" }
+					type: "item"
+				}
+				{
+					id: "0A21F7DDFB9336DD"
+					item: { count: 1, id: "kubejs:salamander_nakagator_agreement" }
+					type: "item"
+				}
+				{
+					id: "3FEE25471D56B9CA"
+					item: { count: 1, id: "kubejs:turtle_iguana_agreement" }
+					type: "item"
+				}
+				{
+					id: "6697FC1C0CB9E241"
+					item: { count: 1, id: "kubejs:turtle_nakagator_agreement" }
+					type: "item"
+				}
+				{
+					id: "44974A2E9089D162"
+					item: { count: 1, id: "kubejs:iguana_nakagator_agreement" }
+					type: "item"
+				}
+			]
+			x: -7.500000000000001d
+			y: -0.675d
+		}
+		{
+			dependencies: ["4211A3AB98B3006E"]
+			icon: {
+				id: "kubejs:blood3"
+			}
+			id: "1BD72C2998B2314D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7739CF38013EAA8C"
+				table_id: 9204769792351976345L
+				type: "random"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "31EBE4D495DBC2C5"
+					item: { count: 1, id: "kubejs:eye_of_ascension" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F8C86AFD4769AB6"
+					item: { count: 1, id: "kubejs:divine_note" }
+					type: "item"
+				}
+			]
+			x: -8.4d
+			y: -0.675d
+		}
+		{
+			dependencies: ["4211A3AB98B3006E"]
+			id: "73FA4C491513C1C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CECB543C34B885C"
+				table_id: 9204769792351976345L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "252D8C8211A82A26"
+				item: { count: 1, id: "kubejs:blood_choice" }
+				type: "item"
+			}]
+			x: -9.375d
+			y: -0.675d
+		}
+	]
+}

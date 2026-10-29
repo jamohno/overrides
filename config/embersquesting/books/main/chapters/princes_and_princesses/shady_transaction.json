@@ -1,0 +1,36 @@
+{
+  "title": "§5Shady Transaction",
+  "description": [
+    "§5§oI got plenty of guys on the inside. See if you can meet up with one of the &#FF03FERooks§5. They're everywhere on Derse, but usually at the dining area around &#FF03FE63, 123, 340§5.",
+    "",
+    "§o§5If you have something to &#FF03FEtrade§5 him, like a &#FF03FEhamburger§5, he'll usually give something back. Should be some in your &#FF03FEkitchen§5. The most important thing on Derse is knowing who you can trust and who's gonna stab you in the back, so make sure you get these guys' trust."
+  ],
+  "icon": "minestuck:dersite_rook_spawn_egg",
+  "x": 2,
+  "y": 7.75,
+  "deps": {
+    "all": [
+      "princes_and_princesses/pick_a_pocket_go_on"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:derse_token",
+      "count": 5,
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "derse",
+      "mode": "choice",
+      "type": "table"
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "shape": "rsquare"
+}

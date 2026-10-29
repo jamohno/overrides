@@ -1,0 +1,30 @@
+{
+  "title": "§dSUPREME",
+  "x": 15,
+  "y": 3.4499999999999997,
+  "deps": {
+    "all": [
+      "magic_is_real/bromazon_basics"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(not(item_tag(hazentouvelib:armors/school/school_boots)) not(item_tag(hazentouvelib:armors/school/school_chestplate)) not(item_tag(hazentouvelib:armors/school/school_helmet)) not(item_tag(hazentouvelib:armors/school/school_leggings)) or(item_tag(hazennstuff:armors/hns_boots) item_tag(hazennstuff:armors/hns_chestplate) item_tag(hazennstuff:armors/hns_helmet) item_tag(hazennstuff:armors/hns_leggings)))",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

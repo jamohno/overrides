@@ -1,0 +1,32 @@
+{
+  "title": "§7>§r Powerize",
+  "description": [
+    "§7SPRITE:§r Appliances from MrCrayfish's Furniture Company: Refurbished aren't powered by default, yep yep!",
+    "",
+    "§7SPRITE:§r You have to power them using a §aUranium Power Block§r!!!"
+  ],
+  "icon": "refurbished_furniture:light_electricity_generator",
+  "x": 6.6,
+  "y": 6.8,
+  "deps": {
+    "all": [
+      "planetastic/decorate"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "refurbished_furniture:light_electricity_generator",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "mekanism:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

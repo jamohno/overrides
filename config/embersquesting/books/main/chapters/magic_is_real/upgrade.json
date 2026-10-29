@@ -1,0 +1,32 @@
+{
+  "title": "§dUpgrade...?",
+  "icon": "irons_spellbooks:upgrade_orb",
+  "x": 9.9,
+  "y": 5.1,
+  "deps": {
+    "all": [
+      "magic_is_real/legendary_metal",
+      "magic_is_real/what_s_that_smell"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:upgrade_orb",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

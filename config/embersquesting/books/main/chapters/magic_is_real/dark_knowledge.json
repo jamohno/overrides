@@ -1,0 +1,31 @@
+{
+  "title": "§dDARK KNOWLEDGE?",
+  "icon": "minestuck:grimoire",
+  "x": 13.65,
+  "y": 7.800000000000001,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:grimoire",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 1.5,
+  "shape": "hexagon"
+}

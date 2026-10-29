@@ -1,0 +1,31 @@
+{
+  "title": "§7>§r Repair",
+  "description": [
+    "§7SPRITE:§r Broken tools? An §2Anthvil§r fixes anything that has a grist cost, and it takes grist for the repair instead of materials! Super awesome!"
+  ],
+  "icon": "minestuck:anthvil",
+  "x": 10.6,
+  "y": 2.4,
+  "deps": {
+    "all": [
+      "planetastic/connect",
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:anthvil",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "minestuck:raw_uranium",
+      "count": 3,
+      "type": "item"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "none"
+}

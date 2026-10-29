@@ -1,0 +1,14 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 40000,
+    "minestuck:iodine": 15000,
+    "minestuck:amber": 10000,
+    "minestuck:cobalt": 2500,
+    "minestuck:mercury": 2000,
+    "minestuck:quartz": 1500
+  },
+  "ingredient": {
+    "item": "cataclysm:wrath_of_the_desert"
+  }
+}

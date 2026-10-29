@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:tnt"
+  },
+  "input2": {
+    "item": "cataclysm:witherite_ingot"
+  },
+  "mode": "or",
+  "output": "cataclysm:wither_assault_shoulder_weapon"
+}

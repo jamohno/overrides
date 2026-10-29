@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "cataclysm:wither_assault_shoulder_weapon"
+  },
+  "input2": {
+    "item": "minecraft:ender_eye"
+  },
+  "mode": "or",
+  "output": "cataclysm:void_assault_shoulder_weapon"
+}

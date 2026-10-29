@@ -1,0 +1,31 @@
+{
+  "title": "§dAWESOME BLURPLE POWDER",
+  "icon": "irons_spellbooks:arcane_essence",
+  "x": 12.2,
+  "y": 0.20000000000000018,
+  "deps": {
+    "all": [
+      "planetastic/s_enter"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "irons_spellbooks:arcane_essence",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "magic_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "points": 10,
+      "type": "xp"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "hexagon"
+}

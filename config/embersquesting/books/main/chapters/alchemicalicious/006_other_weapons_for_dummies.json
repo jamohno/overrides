@@ -1,0 +1,25 @@
+{
+  "title": "[006] Other Weapons for Dummies",
+  "description": [
+    "§7=================================§r",
+    "§7by §rarsonRamblerouser§7,§r vermillionRadiance",
+    "§7=================================§r"
+  ],
+  "x": 10,
+  "y": 6.5,
+  "deps": {
+    "all": [
+      "alchemicalicious/punch_alchemy_a_guide"
+    ]
+  },
+  "tasks": [
+    {
+      "filter": "and(or(mod(minestuck) mod(minestuck_extended) mod(minestuckcompat) mod(minestuckdungeons)) not(item_tag(c:tools/spear)) not(item_tag(c:tools/shield)) not(item_tag(c:tools/ranged_weapon)) not(item_tag(minecraft:swords)) not(item_tag(minecraft:axes)) not(item_tag(c:tools/axes)) not(item_tag(lodestone:enchantable/axe)) item_tag(c:tools) not(or(item(minestuck:emerald_pickaxe) item(minestuck:emerald_axe) item(minestuck:emerald_shovel) item(minestuck:emerald_hoe))))",
+      "type": "item",
+      "title": "Any Other Weapon"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 2.0,
+  "shape": "square"
+}

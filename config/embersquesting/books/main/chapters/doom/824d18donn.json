@@ -1,0 +1,34 @@
+{
+  "title": "&#824d18donn",
+  "description": [
+    "&#824d18UU: ok yo↺ve done eno↺gh that donn will act↺ally talk to yo↺. go find the lair",
+    "",
+    "&#824d18UU: hes gonna give yo↺ a choice. im not telling yo↺ which one to pick. both of them cost something. thats doom for yo↺",
+    "",
+    "&#824d18UU: ill be here. not like i have anywhere to be ★ (★★★★★ for yo↺ tho↺gh ig)"
+  ],
+  "icon": "kubejs:doom_choice",
+  "x": 0.7999999999999989,
+  "y": 1.425,
+  "deps": {
+    "all": [
+      "doom/824d18def_se_the_land"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "kubejs:doom_choice",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "mode": "choice",
+      "type": "table"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}

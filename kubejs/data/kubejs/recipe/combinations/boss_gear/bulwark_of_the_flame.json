@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:shield"
+  },
+  "input2": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "mode": "or",
+  "output": "cataclysm:bulwark_of_the_flame"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "minecraft:poppy"
+  },
+  "input2": {
+    "item": "minecraft:lava_bucket"
+  },
+  "mode": "or",
+  "output": "biomeswevegone:california_poppy"
+}

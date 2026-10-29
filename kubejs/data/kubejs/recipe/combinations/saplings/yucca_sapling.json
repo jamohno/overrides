@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "tag": "minecraft:saplings"
+  },
+  "input2": {
+    "item": "minecraft:terracotta"
+  },
+  "mode": "and",
+  "output": "biomeswevegone:yucca_sapling"
+}

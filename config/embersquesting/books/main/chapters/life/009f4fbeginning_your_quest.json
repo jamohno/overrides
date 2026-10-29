@@ -1,0 +1,64 @@
+{
+  "title": "&#009f4fBeginning Your Quest",
+  "description": [
+    "&#009f4fPY: I've been looking over your planet and learned what's wrong right awaY! You're welcome <3. I'll tell You soon.",
+    "",
+    "&#009f4fPY: Now, gates. Your first gate leads off to some part of Your land You haven't seen. TrY to look presentable.~",
+    "",
+    "&#009f4fPY: The second one goes to §aYour server plaYer's house&#009f4f. Do knock first, it's onlY polite.~",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/gates.png",
+      "type": "image"
+    },
+    "",
+    "&#009f4fPY: And whenever You'd like to go home, use a return node. TheY're scattered all over Your planet, so even You can't miss them.~",
+    "",
+    {
+      "width": 100,
+      "height": 100,
+      "texture": "kubejs:textures/item/return_node.png",
+      "type": "image"
+    }
+  ],
+  "icon": "minestuck:life_aspect_sapling",
+  "x": 1.8249999999999993,
+  "y": 4.440892098500626E-16,
+  "deps": {
+    "all": [
+      "life/009f4fthe_sanctity_of_life"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minestuck:life_aspect_sapling",
+      "type": "item"
+    }
+  ],
+  "rewards": [
+    {
+      "table": "fun_rewards",
+      "type": "table",
+      "claim_all": false
+    },
+    {
+      "title": " ",
+      "icon": "fancymenu:textures/warning_20x20.png",
+      "command": "/playsound minecraft:custom.pesteropen master @p",
+      "type": "command",
+      "auto": "silent"
+    },
+    {
+      "title": "...",
+      "icon": "ftblibrary:textures/icons/chat.png",
+      "command": "/tellraw @p [\"\",{\"text\":\"-- \"},{\"text\":\"plasticineYpsiliform\",\"color\":\"#009F4F\"},{\"text\":\" [\"},{\"text\":\"PY\",\"color\":\"#009F4F\"},{\"text\":\"] sent you a message on your \"},{\"text\":\"Smartphone\",\"color\":\"green\"},{\"text\":\"! --\"}]",
+      "type": "command",
+      "auto": "silent"
+    }
+  ],
+  "visibility": "hidden",
+  "size": 0.75,
+  "shape": "square"
+}
